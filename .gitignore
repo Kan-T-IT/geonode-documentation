@@ -5,3 +5,7 @@
 .vscode/
 .idea
 venv
+
+#temporal file
+.DS_Store
+

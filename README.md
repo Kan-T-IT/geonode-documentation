@@ -26,7 +26,7 @@ Below we detail the two options according to your operating system:
 1. python3 
 2. pip3
 
-<br><br>
+
 ### Linux or Mac
 
 The steps are: 
@@ -91,13 +91,14 @@ make.bat html
 
 5. Then, in your local directory look for: \geonode-documentation\_build\html\index.html 
 
-<br></br>
+
 
 ## Update translations
 To update the current translations, use `make Makefile gettext`
+
 ## Configure transiflex library to make your own translations
 To configure your own transifex, you will need to install the last library specified in the file requirements_docs.txt (transifex-client) and create your own .tx/config file 
-<br></br>
+
 ### Create your own config file
 
 1. It is needed to delete (or move) the original .tx/config file in order to point the translations to your own transifex project
@@ -127,6 +128,7 @@ Updating .transifexrc file...
 4. Now with all sections mapped. We can push all the messages to our transifex
    - Execute `tx push -f -s -t --no-interactive --skip`
 5. Once finished, the platform is ready to accept new translations in new languajes.
+
 ###  Translate
 6. Now you will be able to star translating.
 7. When finished, you can take the changes executing `tx pull -a` and build again the help with the new lenguajes and translations

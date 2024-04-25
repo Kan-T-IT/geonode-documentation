@@ -91,6 +91,8 @@ make.bat html
 
 5. Then, in your local directory look for: \geonode-documentation\_build\html\index.html 
 
+### Docker
+
 
 
 ## Update translations

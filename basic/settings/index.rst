@@ -275,6 +275,14 @@ AUTH_EXEMPT_URLS
     ``AUTH_EXEMPT_URLS = ('/maps',)`` will allow unauthenticated users to
     browse maps.
 
+AUTO_ASSIGN_REGISTERED_MEMBERS_TO_CONTRIBUTORS
+---------------------------------------------------------------
+
+    | Default: ``True``
+    | Env: ``AUTO_ASSIGN_REGISTERED_MEMBERS_TO_CONTRIBUTORS``
+
+    Assign **new** registered users to the contributors group. If set to `False` new registered members will not obtain automatic permissions to create and edit resources.
+
 AUTO_ASSIGN_REGISTERED_MEMBERS_TO_REGISTERED_MEMBERS_GROUP_NAME
 ---------------------------------------------------------------
 
@@ -698,6 +706,14 @@ DATA_UPLOAD_MAX_NUMBER_FIELDS
 
     Maximum value of parsed attributes.
 
+
+DATASET_DOWNLOAD_HANDLERS
+-------------------------
+
+    Default: ``[]``
+
+    Additional download handlers that provides a link to download the resource
+
 DEBUG
 -----
 
@@ -723,12 +739,12 @@ DEFAULT_ANONYMOUS_DOWNLOAD_PERMISSION
 
     Whether the uploaded resources should downloadable by default.
 
-    DEFAULT_ANONYMOUS_VIEW_PERMISSION
-    ---------------------------------
+DEFAULT_ANONYMOUS_VIEW_PERMISSION
+---------------------------------
     
-        Default: ``True``
-    
-        Whether the uploaded resources should be public by default.
+    Default: ``True``
+
+    Whether the uploaded resources should be public by default.
 
 DEFAULT_AUTO_FIELD
 ------------------
@@ -737,6 +753,15 @@ DEFAULT_AUTO_FIELD
 
     Default primary key field type to use for models that don’t have a field with primary_key=True.
     Django documentation https://docs.djangoproject.com/it/3.2/ref/settings/#std:setting-DEFAULT_AUTO_FIELD
+
+DEFAULT_DATASET_DOWNLOAD_HANDLER
+--------------------------------
+
+    Default: ``geonode.layers.download_handler.DatasetDownloadHandler``
+
+    from GeoNode 4.2.x has bee introduced with this issue #11296 and later improved with this issue #11421 
+    the concept of Download Handler and ofc GeoNode provides a default implementation of it
+    which process the download via WPS
 
 DEFAULT_EXTRA_METADATA_SCHEMA
 -----------------------------
@@ -1051,6 +1076,18 @@ FREETEXT_KEYWORDS_READONLY
 
     Make Free-Text Keywords writable from users. Or read-only when set to False.
 
+
+FACET_PROVIDERS
+---------------
+
+    | Default: ``pre filled list of providers``
+    | Env: ``FACET_PROVIDERS``
+
+    Contains the list of the providers available to perform an serve the facets. 
+    In case the user wants remove a facets, is enough to remove the path 
+    of the proider from the list
+
+
 G
 =
 
@@ -1107,6 +1144,29 @@ GEONODE_EXCHANGE
 
     The definition of Exchanges published by geonode. Find more about Exchanges at `celery docs <https://docs.celeryproject.org/en/latest/userguide/routing.html#exchanges-queues-and-routing-keys>`__.
 
+GEOSERVER_ADMIN_USER
+---------------------------
+
+    | Default: ``admin``
+    | Env: ``GEOSERVER_ADMIN_PASSWORD``
+
+    The geoserver admin username.
+
+GEOSERVER_ADMIN_PASSWORD
+-----------------------
+
+    | Default: ``geoserver``
+    | Env: ``GEOSERVER_ADMIN_USER``
+
+    The GeoServer admin password.
+
+GEOSERVER_FACTORY_PASSWORD
+-----------------------
+
+    | Default: ``geoserver``
+    | Env: ``GEOSERVER_FACTORY_PASSWORD``
+
+    The GeoServer admin factory password, required for the first time configuration fo Geoserver (Docker setup).
 
 GEOSERVER_EXCHANGE
 ------------------
@@ -1164,25 +1224,18 @@ GROUP_PRIVATE_RESOURCES
 
     If this option is enabled, Resources belonging to a Group won't be visible by others
 
-H
+I
 =
 
-HAYSTACK_FACET_COUNTS
----------------------
+IMPORTER HANDLERS
+-----------------
 
-    | Default: ``True``
-    | Env: ``HAYSTACK_FACET_COUNTS``
+    | Default: ``pre filled list of handlers``
+    | Env: ``IMPORTER_HANDLERS``
 
-    If set to True users will be presented with feedback about the number of resources which matches terms they may be interested in.
-
-HAYSTACK_SEARCH
----------------
-
-    | Default: ``False``
-    | Env: ``HAYSTACK_SEARCH``
-
-    Enable/disable haystack Search Backend Configuration.
-
+    Contains the list of the handlers available to perform an import of a resource. 
+    In case the user wants to drop the support during the import phase, is enough to
+    remove the path of the Handler from the list
 
 L
 =
@@ -1624,22 +1677,6 @@ OAUTH2_PROVIDER_REFRESH_TOKEN_MODEL
     | Default: ``oauth2_provider.RefreshToken``
 
     Ref.: `OAuth Toolkit settings <https://django-oauth-toolkit.readthedocs.io/en/latest/settings.html>`__
-
-OGC_SERVER_DEFAULT_PASSWORD
----------------------------
-
-    | Default: ``geoserver``
-    | Env: ``GEOSERVER_ADMIN_PASSWORD``
-
-    The geoserver password.
-
-OGC_SERVER_DEFAULT_USER
------------------------
-
-    | Default: ``admin``
-    | Env: ``GEOSERVER_ADMIN_USER``
-
-    The GeoServer user.
 
 OGC_SERVER
 ----------
@@ -2569,6 +2606,18 @@ USER_MESSAGES_ALLOW_MULTIPLE_RECIPIENTS
     | Env: ``USER_MESSAGES_ALLOW_MULTIPLE_RECIPIENTS``
 
     Set to true to have multiple recipients in /message/create/
+
+.. _user-deletion-rules:
+
+USER_DELETION_RULES
+----------------------
+    | Default: ``["geonode.people.utils.user_has_resources"]``
+    | Env: ``USER_DELETION_RULES``
+
+    List of callables that will be called the deletion of a user account is requested.
+    The deletion will fail if any of the callables return ``False``. 
+    New rules can be added, as a string path to the callable, as long as they take as parameter
+    the user object and return a boolean.
 
 .. _user-analytics:
 

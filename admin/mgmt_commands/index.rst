@@ -266,7 +266,7 @@ This will produce output that looks like the following
 
         DJANGO_SETTINGS_MODULE=geonode.settings python manage.py sync_geonode_maps --updatethumbnails -f 'This is a test Map'
 
-Management Command ``set_all_layers_metadata``
+Management Command ``set_all_datasets_metadata``
 ----------------------------------------------
 
 This command allows to reset **Metadata Attributes** and **Catalogue Schema** on Datasets. The command will also update the :guilabel:`CSW Catalogue` XML and Links of GeoNode.
@@ -287,26 +287,26 @@ The options are:
 * 
 * **set_links**; If set will refresh the links of the resource. (Default True).
 
-First of all let's take a look at the :guilabel:`--help` option of the ``set_all_layers_metadata``
+First of all let's take a look at the :guilabel:`--help` option of the ``set_all_datasets_metadata``
 management command in order to inspect all the command options and features.
 
 Run
 
 .. code-block:: shell
 
-    DJANGO_SETTINGS_MODULE=geonode.settings python manage.py set_all_layers_metadata --help
+    DJANGO_SETTINGS_MODULE=geonode.settings python manage.py set_all_datasets_metadata --help
 
 .. note:: If you enabled ``local_settings.py`` the command will change as following:
 
     .. code-block:: shell
 
-        DJANGO_SETTINGS_MODULE=geonode.local_settings python manage.py set_all_layers_metadata --help
+        DJANGO_SETTINGS_MODULE=geonode.local_settings python manage.py set_all_datasets_metadata --help
 
 This will produce output that looks like the following
 
 .. code-block:: shell
 
-    usage: manage.py set_all_layers_metadata [-h] [--version] [-v {0,1,2,3}]
+    usage: manage.py set_all_datasets_metadata [-h] [--version] [-v {0,1,2,3}]
                                             [--settings SETTINGS]
                                             [--pythonpath PYTHONPATH]
                                             [--traceback] [--no-color] [-i] [-d]
@@ -346,7 +346,7 @@ This will produce output that looks like the following
 
     .. code-block:: shell
 
-        DJANGO_SETTINGS_MODULE=geonode.settings python manage.py set_all_layers_metadata -d
+        DJANGO_SETTINGS_MODULE=geonode.settings python manage.py set_all_datasets_metadata -d
 
 .. _load_data_into_geonode:
 
@@ -1786,64 +1786,76 @@ GeoNode provides a very useful management command ``set_layers_permisions`` allo
 
 The ``set_layers_permisions`` command arguments are:
 
-- **permissions** to set/unset --> read (r), write (w), download (d), owner (o)
+- **permissions** to set/unset --> read, download, edit, manage
 
     .. code-block:: python
 
         READ_PERMISSIONS = [
             'view_resourcebase'
         ]
-        WRITE_PERMISSIONS = [
-            'change_layer_data',
-            'change_layer_style',
-            'change_resourcebase_metadata'
-        ]
         DOWNLOAD_PERMISSIONS = [
+            'view_resourcebase',
             'download_resourcebase'
         ]
-        OWNER_PERMISSIONS = [
-            'change_resourcebase',
+        EDIT_PERMISSIONS = [
+            'view_resourcebase',
+            'change_dataset_style',
+            'download_resourcebase',
+            'change_resourcebase_metadata',
+            'change_dataset_data',
+            'change_resourcebase'
+        ]
+        MANAGE_PERMISSIONS = [
             'delete_resourcebase',
+            'change_resourcebase',
+            'view_resourcebase',
             'change_resourcebase_permissions',
-            'publish_resourcebase'
+            'change_dataset_style',
+            'change_resourcebase_metadata',
+            'publish_resourcebase',
+            'change_dataset_data',
+            'download_resourcebase'
         ]
 
-- **resources** (Datasets) which permissions will be assigned on --> type the Dataset title (use quotation mark for titles with white space), multiple choices can be typed with white space separator, if no titles are provided all the Datasets will be considered
-- **users** who permissions will be assigned to, multiple choices can be typed with a white space separator
-- **groups** who permissions will be assigned to, multiple choices can be typed with a white space separator
+NB: the above permissions list may change with the ADVANCED_WORKFLOW enabled. For additional info: https://docs.geonode.org/en/master/admin/admin_panel/index.html#how-to-enable-the-advanced-workflow
+
+- **resources** (Datasets) which permissions will be assigned on --> type the Dataset id, multiple choices can be typed with comma separator, if no ids are provided all the Datasets will be considered
+- **users** who permissions will be assigned to, multiple choices can be typed with a comma separator
+- **groups** who permissions will be assigned to, multiple choices can be typed with a comma separator
 - **delete** flag (optional) which means the permissions will be unset
 
 Usage examples:
 ---------------
 
-1. Assign **write** permissions on the Datasets **layer_X** and **Dataset Y** to the users **user_A** and **user_B** and to the group **group_C**.
+1. Assign **edit** permissions on the Datasets with id **1** and **2** to the users **username1** and **username2** and to the group **group_name1**.
 
     .. code-block:: shell
 
-        python manage.py set_layers-permissions -p write -u user_A user_B -g group_C -r layer_X 'Dataset Y'
+        python manage.py set_layers-permissions -p edit -u username1,username2 -g group_name1 -r 1,2
 
-2. Assign **owner** permissions on all the Datasets to the group **group_C**.
-
-    .. code-block:: shell
-
-        python manage.py set_layers-permissions -p owner -g group_C
-
-3. Unset **download** permissions on the Dataset **layer_X** for the user **user_A**.
+2. Assign **manage** permissions on all the Datasets to the group **group_name1**.
 
     .. code-block:: shell
 
-        python manage.py set_layers-permissions -p download -u user_A -r layer_X -d
+        python manage.py set_layers-permissions -p manage -g group_C
 
-The same functionalities, with some limitations, are available also from the :guilabel:`Admin Dashboard >> Datasets`.
+3. Unset **download** permissions on the Dataset with id **1** for the user **username1**.
+
+    .. code-block:: shell
+
+        python manage.py set_layers-permissions -p download -u username1 -r 1 -d
+
+The same functionalities, with some limitations, are available also from the :guilabel:`Admin Dashboard >> Users` or :guilabel:`Admin Dashboard >> Groups >> Group profiles`.
 
 .. figure:: img/layer_batch_perms_admin.png
    :align: center
 
-An action named :guilabel:`Set Datasets permissions` is available from the list, redirecting the administrator to a form to set / unset read, write, download and ownership permissions on the selected Datasets.
+An action named :guilabel:`Set layer permissions` is available from the list, redirecting the administrator to a form to set / unset read, edit, download permissions on the selected Users/group profile.
 
 .. figure:: img/layer_batch_perms_form.png
    :align: center
 
+Is enough to select the dataset and press "Submit". If the async mode is activated, the permission assign is asyncronous
 
 .. _delete_resources:
 

@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 12:43-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../install/advanced/upgrade/index.rst:5
+#: 8c8e6c96124f4cff998f05a52d57b73f
+msgid "Upgrade Process from GeoNode 3.x to 4.x"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:7
+#: db38f362a5614233b52538ec63ebfef3
+msgid "The purpose of this document is to detail the process that we will implement to upgrade GeoNode from version 3.x to version 4.x. This document is proposed to ensure that the upgrade process is efficient and understandable for everyone."
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:9
+#: 7679e1ba5e6546d280387dbe7a11572e
+msgid "The objective of this document is for everyone to understand the processes and steps necessary to carry out the migration."
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:11
+#: 9cb770120f0e476eaaad1dc7b5a7ea9e
+msgid "Table of Contents"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:13
+#: fff48263d5e34a1e929803ddcc314d8f
+msgid "Migration Procedure"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:14
+#: ../../install/advanced/upgrade/index.rst:74
+#: 62430e3147fb466e983c0169b9e5cd2f
+#: 889abb0227de4387b935ad688b569496
+msgid "Possible Issues"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:17
+#: cc079bda6be14ae4bf8b1a4296169808
+msgid "Version Migration Procedure"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:20
+#: 47a676b4cd444cdb95f1ac9d09479c0a
+msgid "1. Download the New Version"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:22
+#: 07672fa22d8a4091924d3c6c7aafc214
+msgid "With the following command, we will download the new version of GeoNode from the official source or the corresponding repository:"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:28
+#: aae2ba8010e64d3e85929d9083d3ba55
+msgid "It is recommended to do this in a separate directory to keep the previous version intact in case of need."
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:30
+#: 1087731aa50a41cfa295a38ef05b26db
+msgid "Directory of the previous version:"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:36
+#: 6e9c2161be0f492296b641e8936af1b2
+msgid "Directory of the new version:"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:43
+#: f7803db0da8d44af8abcf8d9414963db
+msgid "2. Stop the Current GeoNode"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:45
+#: 79108fc33b2c4125a565d8d4c9bf752c
+msgid "Run the following command in the directory where the current GeoNode is deployed to stop the associated Docker containers:"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:52
+#: 937b4617372b4d73b0cbd6ddf00bb5b2
+msgid "3. Modify the GeoNode .env File"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:54
+#: 0c458860d58b432da3c3ec87f912233b
+msgid "Open the ``.env`` file of the new GeoNode in a text editor:"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:60
+#: 6667f3f6dec94645999f3f377e0d244a
+msgid "Adjust the environment variables to match the configuration of the previous GeoNode version. This may include variables related to the database, URLs, ports, etc."
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:65
+#: 211eab7a2a33412494faeeeeeb9c8a0c
+msgid "4. Start the GeoNode Containers"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:67
+#: 46df22e5df3743d49c030bf4b7911e1d
+msgid "Once you have made the necessary changes to the ``.env`` file, run the following command to start the GeoNode containers in the new version:"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:76
+#: bcc1083bfa3c4ceb8318372fae0a693e
+msgid "The version upgrade of GeoNode also involves changes in some of its components, which can generate various issues. Below, we list some common problems and their possible solutions:"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:79
+#: fd8628e55529406eb8dea52f269685e2
+msgid "PostgreSQL Container in Constant Restart"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:81
+#: ../../install/advanced/upgrade/index.rst:96
+#: c686dd7e0de749a78b5ed52abe7d1795
+#: a9ab4828e0ed4c6c87cf55a71cc0cad5
+msgid "**Logs:**"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:89
+#: 6767fc9a19e64c79962b1642de427197
+msgid "**Cause:** The PostgreSQL version of the original GeoNode was lower than the current one."
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:91
+#: ff246e8cf44d456ebe22068497190f1e
+msgid "**Solution:** Downgrade the PostgreSQL version to match the previously installed version in the GeoNode ``docker-compose.yml`` file."
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:94
+#: 6b2139b368664939adde781c35d64ce8
+msgid "Nginx Container in Constant Restart"
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:104
+#: b17a4573f1de431c8e053a65bdacffa6
+msgid "**Cause:** Nginx is having issues replacing the port variables from the ``nginx.conf.envsubst`` file."
+msgstr ""
+
+#: ../../install/advanced/upgrade/index.rst:106
+#: 100b477f20ec4bda91168d55046be5e7
+msgid "**Solution:** Manually replace those variables with the corresponding ports once in the ``nginx.conf.envsubst`` file. After this, Nginx should work correctly and replace the variables normally in the future."
+msgstr ""

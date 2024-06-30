@@ -1,0 +1,397 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 12:43-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../install/advanced/production_enhancements/index.rst:4
+#: 09933ff80b6348f18f8d39c4f1aed573
+msgid "Further Production Enhancements"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:7
+#: 35cb419f4ad54d14ae7f1f60e40dba49
+msgid "GeoServer Production Settings"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:10
+#: 2ca8209a4188472990b4fab94ec0ccbe
+msgid "JVM Settings: Memory And GeoServer Options"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:12
+#: 3e930384a7b1442fbcb5a2b9ab25e019
+msgid "The :guilabel:`.env` file provides a way to customize GeoServer JVM Options."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:14
+#: 0772598f6fe54af588c0eb87bd6439c8
+msgid "The variable ``GEOSERVER_JAVA_OPTS`` allows you to tune-up the GeoServer container and to enable specific GeoServer options."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:25
+#: e951aed508864f619841c95d0dcf7c02
+msgid "``-Djava.awt.headless (true)``"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:27
+#: ec6db8c9cd524483bde8a1a5d9861ae1
+msgid "Work with graphics-based applications in Java without an actual display, keyboard, or mouse A typical use case of UI components running in a headless environment could be an image converter app. Though it needs graphics data for image processing, a display is not really necessary. The app could be run on a server and converted files saved or sent over the network to another machine for display."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:30
+#: 9428f6f2b9784c2b91eec624cb93e90e
+msgid "``-Xms4G -Xmx4G``"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:32
+#: fa350b51c0864729b2f0f6a751946cb7
+msgid "This means that your JVM will be started with Xms amount of memory and will be able to use a maximum of Xmx amount of memory. Above will start a JVM like with 2 GB of memory and will allow the process to use up to 4 GB of memory. You need to adjust this value depening on your availabnle RAM."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:34
+#: 613d66e0d5a348e7a40069adf7761199
+msgid "``-DGEOSERVER_CSRF_DISABLED (True)``"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:36
+#: 7246fa70bef346129b8436ce3bf5c786
+msgid "The GeoServer web admin employs a CSRF (Cross-Site Request Forgery) protection filter that will block any form submissions that didn’t appear to originate from GeoServer. This can sometimes cause problems for certain proxy configurations. You can disable the CSRF filter by setting the GEOSERVER_CSRF_DISABLED property to true. https://docs.geoserver.org/stable/en/user/security/webadmin/csrf.html"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:40
+#: a1028d4c62264929842588934ad15ece
+msgid "Whenever you need to change one or more of the JVM options, you will need to restart the GeoServer Docker container."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:47
+#: 4e039c72fb0f4a6dbb522089e8d78334
+msgid "This command will **preserve** all the GeoServer configuration and data, since the ``GEOSERVER_DATA_DIR`` is stored on a Docker static volume."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:49
+#: 611c1bfc75694967ac7f4203cbe5f54e
+msgid "Nevertheless, any change you have made manually to the container, e.g. added a new plugin to GeoServer or updated some JARs into the ``WEB-INF/lib`` library folder, will be lost."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:51
+#: 4fb3f8f4f6e4497bb0d8443fef4356ad
+msgid "You will need to add the JARs again and restart GeoServer *softly*"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:60
+#: 4206e70f37d84b998695780be34e9777
+msgid "Global And Services Settings"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:62
+#: f984f2f4f1c14f6faad99b6d934c608f
+msgid "Check the GeoServer Memory usage and status; ensure the ``GEOSERVER_DATA_DIR`` path points to the static volume"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:68
+#: 4045879a03d94f58bb614cbf80f1ad2f
+msgid "*GeoServer Status*"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:70
+#: 15cea4f59ed040fbb4434f002285c3cc
+msgid "GeoServer :guilabel:`Global Settings`; make sure the ``Proxy Base Url`` points to the publlc URL and the ``LOGGING`` levels are set to :guilabel:`Production Mode`"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:76
+#: 3ca80d221df44600948a6f644c0fce39
+msgid "*Global Settings*"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:78
+#: c729e781ee5b4271843cf09baf2b2942
+msgid "GeoServer :guilabel:`Image Processing Settings`; unless you are using some specific renderer or GeoServer plugin, use the following recommended options"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:80
+#: 6ef342a3d66e4a8485c0e331b9922667
+msgid "Further details at https://docs.geoserver.org/stable/en/user/configuration/image_processing/index.html#image-processing"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:86
+#: 4ac8b2c5ebfa42a98edb01191023bf47
+msgid "*Image Processing Settings*"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:88
+#: d2d97c3ca1b548a08c144e60696d8acb
+msgid "Tune up :guilabel:`GeoServer Services Configuration`; :guilabel:`WCS`, :guilabel:`WFS`, :guilabel:`WMS` and :guilabel:`WPS`;"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:90
+#: dde057110cc345d9afe094c467846814
+msgid "**WCS**: Update the limits accordingly to your needs. Do not use very high values, this will set GeoServer prone to DoS Attacks."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:96
+#: 60b035033a034321ac12197c8be2a3e8
+msgid "*WCS Resource Consuption Limits*"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:98
+#: ae74becf36ea4117ab9420065d3a0d4c
+msgid "**WMS**: Specify here the SRS List you are going to use. Empty means all the ones supported by GeoServer, but be carefull since the ``GetCapabilities`` output will become huge."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:104
+#: 9f13672126f04ac299656bda3a3ccf16
+msgid "*WMS Supported SRS List*"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:106
+#: f54b13cb94464e8187aceece29716a76
+msgid "**WMS**: :guilabel:`Raster Rendering Options` allows you to tune up the WMS output for better performance or quality. Best Performance: ``Nearest Neighbour`` - Best Quality: ``Bicubic``"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:108
+#: 5920c99a964746e78fef4c0385d9061e
+msgid "Raster Images should be always optimized before ingested into GeoNode. The general recommendation is to **never** upload a non-processed GeoTIFF image to GeoNode."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:110
+#: b5b374328296438ab2d7ee95a4a3789d
+msgid "Further details at:"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:112
+#: 9d608336c05f488898662cc8cf21c35c
+msgid "https://geoserver.geo-solutions.it/edu/en/enterprise/raster.html"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:113
+#: 3d5620eeedb1420ba63c722a01997fc3
+msgid "https://geoserver.geo-solutions.it/edu/en/raster_data/advanced_gdal/index.html"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:119
+#: badd0c3a2b5a423982cc171cd046d121
+msgid "*WMS Raster Rendering Options*"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:121
+#: 284719b608f440fea54e4c8e0ffa40ae
+msgid "**WMS**: Update the limits accordingly to your needs. Do not use very high values, this will set GeoServer prone to DoS Attacks."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:127
+#: ec217f4a75474c49870d524396f6c694
+msgid "*WMS Resource Consuption Limits*"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:130
+#: a4cbde7f284a439eb77ddd0126387b42
+msgid "GeoWebCache DiskQuota On Postgis"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:132
+#: 01178c2f3a4c4f42aa75e46d5c66d3a6
+msgid "By default GeoWebCache DiskQuota is disabled. That means that the layers cache might potentially grow up indefinitely."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:134
+#: 670298fb70094814b83d17144329e3af
+msgid "GeoWebCache DiskQuota should be always enabled on a production system. In the case it is enabled, this **must** be configured to make use of a DB engine like Postgis to store its indexes."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:136
+#: 425d90d3e082443f90af81d004fb3f53
+msgid "First of all ensure :guilabel:`Tile Caching` is enabled on all available layers"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:138
+#: b3f07dca14754dc28a4a3db49abe6e61
+msgid "GeoNode tipically does this automatically for you. It is worth to double check anyway."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:144
+#: a086bdf7f4c94ed1ac93f0aab7a2d23b
+msgid "*Tile Caching: Tiled Datasets*"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:146
+#: 730bc535cd184356b879b40c1cf7f904
+msgid "Configure :guilabel:`Disk Quota` by providing the connection string to the DB Docker Container as specified in the :guilabel:`.env` file"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:152
+#: d33dc0a501fe41508ae491c5358630a5
+msgid "*Tile Caching: Disk Quota Configuration*"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:155
+#: 3f4b62633e7b4da2bd3920de2c2dc389
+msgid "GeoFence Security Rules On Postgis"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:157
+#: df35650776424ba3bc5b4c00e13dba43
+msgid "By default GeoFence stores the security rules on an :guilabel:`H2` db."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:159
+#: 0d683fb41a7a4068966b1949dd28f18a
+msgid "On a production system, this is not really recommended. You will need to update the GeoServer Docker container in order to enable GeoFence storing the rules into the DB Docker Container instead."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:161
+#: 4fb199f4678c4a3eb3e0eed54e8245dd
+msgid "In order to do that, follow the procedure below:"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:175
+#: d552adfc1d204e098004bdf5037a4696
+msgid "Make sure to provide the same connection parameters specified in the :guilabel:`.env` file"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:195
+#: 3df95990d68b424b9793f9ef6aeeb944
+msgid "The container is ready to be restarted now."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:197
+#: 57088be15c514b38bc03c7320a6cd816
+msgid "Remember to do a **soft restart** otherwise the WEB-INF/lib JARs will be reset to the original state"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:207
+#: f192278b63ee4d1f9d359baa0a5e24f7
+msgid "**IMPORTANT**: The first time you perform this procedure, GeoFence won't be able to retrieve the old security rules anymore."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:209
+#: a77dfa1c3eac4cdca8807cd3d4b1d9b2
+msgid "You will need to :ref:`fixup_geonode_layers_permissions` in order to regenerate the security rules."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:214
+#: 3c9e289109744b66ba7651d229addce8
+msgid "Fixup GeoNode Datasets Permissions"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:216
+#: 36fbc503aa414dc4b062090c648f2fe0
+msgid "The list of the GeoFence Security Rules is available from the :guilabel:`GeoFence Data Rules` section."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:218
+#: c7c246444a84476588702a7fc0a56f98
+msgid "Always double check the list is accessible and the data rules are there. If empty, no layer will be accessible by standard users other than admin."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:224
+#: dc030689f7d94cbe8378609d3189fb76
+msgid "*GeoFence Data Rules*"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:226
+#: 88ae169b90a449cbad94c668d6451616
+msgid "In order to re-sync the GeoFence security rules, follow the procedure below:"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:237
+#: d52c2d669e374c2db6b3a244b15eda1a
+msgid "Regenerate GeoNode Datasets Thumbnails"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:239
+#: 37a25903065c47cfba8404e3454b4914
+msgid "The following procedure allows you to *batch* regenerate all Datasets Thumbnails:"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:250
+#: 6f3dabba66e1492d9365904e8b500cff
+msgid "Regenerate GeoNode Datasets BBOXES"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:252
+#: 9a8ebc3790cd400ba9ceb3855616ae89
+msgid "The following procedure allows you to *batch* regenerate all Datasets BBOXES:"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:263
+#: 1742eee287d843f18e2b876400cde43b
+msgid "Fixup GeoNode Datasets Metadata And Download Links"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:265
+#: 0f139ca56e8e47b79ab01dea91f04117
+msgid "The following procedure allows you to fix-up broken or incorrect Metadata Links:"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:275
+#: d79f2cffcff84746a2c31c9bf6a5398d
+msgid "It is also possible to *force* purging the links before regenerating:"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:286
+#: 291556b49cb8442fa50c6b595ef43e1b
+msgid "Migrate GeoNode To A New Hostname"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:288
+#: 2a385800a7fc4f9facfb337cb7ed5535
+msgid "In the case you will need to move your instance to another domain, as an example from ``https://my_geonode.geonode.org/`` to ``https://prod_geonode.geonode.org/``, follow the procedure below:"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:290
+#: 211e9d996c144d5381e34dd402ce89ce
+msgid "Update the :guilabel:`.env` file by specifyig the new name accordingly."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:292
+#: eaf2b1cd5b394aa2b2e1a5bf62088b94
+msgid "Restart the GeoNode Docker Container."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:298
+#: 68169d2d8b314d7f888fcf28501cc3a6
+msgid "Run the following management commands from inside the GeoNode Docker Container."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:313
+#: 32b2a0d899cf485eb722c19fe6fddbe1
+msgid "Add Huge Or DB Datasets To Your Instance"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:315
+#: f106ad479b054e9c84d275357f662b43
+msgid "Uploaing huge datasets, or DB tables, to GeoNode from the :guilabel:`Web Upload Interface` is not really possible sometimes."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:317
+#: 36a4d5e30b984a63b41f76fa00cb1b2d
+msgid "The suggested procedure in such cases is the following one:"
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:319
+#: c8d09b8d4b7f49ce9c6212a9d09f1660
+msgid "Add the dataset to :guilabel:`GeoServer` first directly."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:321
+#: 115f811d2f3947c09a3baf431b334aa7
+msgid "You must upload the data into the GeoServer Docker Container Static Volume first and then adding manually the layer throught the :guilabel:`GeoServer Admin GUI`."
+msgstr ""
+
+#: ../../install/advanced/production_enhancements/index.rst:323
+#: 4b4faa8be79c4261878b920163ee25f7
+msgid "Once the dataset is correctly configured on GeoServer, run the following management command from inside the GeoNode Docker Container"
+msgstr ""

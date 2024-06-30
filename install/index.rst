@@ -1,3 +1,5 @@
+Install Geonode
+===============
 
 .. toctree::
     :maxdepth: 3

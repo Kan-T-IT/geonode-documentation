@@ -13,7 +13,7 @@ Connecting GeoNode Docker to an External Database
 
 -  ``@docker-compose.yml`` comment out the ``db`` section
 
-   .. code:: yml
+   .. code-block:: console
 
        # # PostGIS database.
        # db:
@@ -32,8 +32,7 @@ Connecting GeoNode Docker to an External Database
 
 -  ``@docker-compose.yml`` comment out the related ``volumes`` section
 
-   .. code:: yml
-
+   .. code-block:: console
        # dbdata:
        #   name: ${COMPOSE_PROJECT_NAME}-dbdata
        # dbbackups:
@@ -129,7 +128,7 @@ Connecting GeoNode Docker to an External Database
 -  Now, Having the IP address, Add two rules for both databases at
    ``/etc/postgres/<postgres_version_number>/pg_hba.conf``
 
-   .. code:: conf
+   .. code-block:: console
 
        # Syntax 
        # host DATABASE        USER         ADDRESS             METHOD
@@ -151,7 +150,7 @@ Connecting GeoNode Docker to an External Database
       ``port``
    -  Replace database names if changed than ``geonode & geonode_data``
 
-      .. code:: conf
+      .. code-block:: console
 
           POSTGRES_USER=<username>
           POSTGRES_PASSWORD=<password>

@@ -184,9 +184,7 @@ Edit ``/opt/geonode/uwsgi.ini``.
 3. Postgis database Setup
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. warning::
-
-Be sure you have successfully completed all the steps of the section :ref:`install_dep`.
+.. warning:: Be sure you have successfully completed all the steps of the section :ref:`install_dep`.
 
 In this section, we are going to setup users and databases for GeoNode in PostgreSQL.
 
@@ -1230,7 +1228,7 @@ For example, to fully reset the server, use these commands::
 After reset, you'll need to recreate the ``admin`` user (see above).
 
 Daemonize and configure Celery
-............................
+..............................
 
 **Create the Systemd unit**
 

@@ -1,4 +1,4 @@
-.. _contrib_docu:
+.. _participate_docu:
 
 ===============================================
 Join the community, ask for help or report bugs

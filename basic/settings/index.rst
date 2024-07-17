@@ -770,10 +770,10 @@ DEFAULT_EXTRA_METADATA_SCHEMA
 
     Default
 
-    .. code-block:: json
+    .. code-block:: console
 
         {
-            Optional("id"): int,
+            "id": int,
             "filter_header": object,
             "field_name": object,
             "field_label": object,
@@ -2132,20 +2132,24 @@ It's possible to define multiple Service Types Modules for custom service type w
 
 The variable should be declared in this way in `settings.py`:
 
-`SERVICES_TYPE_MODULES = [ 'path.to.module1','path.to.module2', ... ]`
+.. code-block::
+
+    SERVICES_TYPE_MODULES = [ 'path.to.module1','path.to.module2', ... ]
 
 Default service types are already included
 
 Inside each module in the list we need to define a variable:
 
-    `services_type = {
+.. code-block::
+
+    services_type = {
         "<key_of_service_type>": {
             "OWS": True/False,
             "handler": "<path.to.Handler>",
             "label": "<label to show in remote service page>",
             "management_view": "<path.to.view>"
         }
-    }`
+    }
 
 the key_of_service_type is just an identifier to assign at the service type.
 OWS is True if the service type is an OGC Service Compliant.
@@ -2546,6 +2550,7 @@ TINYMCE_DEFAULT_CONFIG
 
         -   https://django-tinymce.readthedocs.io/en/latest/installation.html#configuration
         -   :ref:`getfetureinfo-templates`
+
 U
 =
 

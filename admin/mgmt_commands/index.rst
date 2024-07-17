@@ -135,7 +135,7 @@ Run
 
 This will produce output that looks like the following
 
-.. code-block:: shell
+.. code-block:: console
 
     usage: manage.py sync_geonode_datasets [-h] [--version] [-v {0,1,2,3}]
                                         [--settings SETTINGS]
@@ -224,7 +224,7 @@ Run
 
 This will produce output that looks like the following
 
-.. code-block:: shell
+.. code-block:: console
 
     usage: manage.py sync_geonode_maps [-h] [--version] [-v {0,1,2,3}]
                                     [--settings SETTINGS]
@@ -304,7 +304,7 @@ Run
 
 This will produce output that looks like the following
 
-.. code-block:: shell
+.. code-block:: console
 
     usage: manage.py set_all_datasets_metadata [-h] [--version] [-v {0,1,2,3}]
                                             [--settings SETTINGS]
@@ -570,21 +570,21 @@ First visit the GeoServer administration interface on your server. This is usual
 
 8. The next step is to configure these Datasets in GeoNode. The ``updatelayers`` management command can be used for this purpose. As with ``importlayers``, it's useful to look at the command line options for this command by passing the :guilabel:`--help` option
 
-    Run
+Run
 
-    .. code-block:: shell
+.. code-block:: shell
 
         DJANGO_SETTINGS_MODULE=geonode.settings python manage.py updatelayers --help
 
-    .. note:: If you enabled ``local_settings.py`` the command will change as following:
+.. note:: If you enabled ``local_settings.py`` the command will change as following:
 
-        .. code-block:: shell
+.. code-block:: shell
 
             DJANGO_SETTINGS_MODULE=geonode.local_settings python manage.py updatelayers --help
 
-    This will produce output that looks like the following
+This will produce output that looks like the following
 
-    .. code-block:: shell
+.. code-block:: console
 
         usage: manage.py updatelayers [-h] [--version] [-v {0,1,2,3}]
                                     [--settings SETTINGS] [--pythonpath PYTHONPATH]
@@ -1055,7 +1055,7 @@ following command:
 
 The output should look like the following:
 
-.. code-block:: shell
+.. code-block:: console
 
     Driver: AAIGrid/Arc/Info ASCII Grid
     Files: batemans_elevation.asc
@@ -1080,7 +1080,7 @@ You can then inspect the batemans_ele files by executing the following command:
 
 And this should be the corresponding output:
 
-.. code-block:: shell
+.. code-block:: console
 
     Driver: AIG/Arc/Info Binary Grid
     Files: batemans_ele
@@ -1143,7 +1143,7 @@ You can inspect this file with the gdalinfo command:
 
 Which will produce the following output:
 
-.. code-block:: shell
+.. code-block:: console
 
     Driver: GTiff/GeoTIFF
     Files: batemans_ele.tif
@@ -1195,7 +1195,7 @@ Calling the gdalinfo command to see detailed information:
 
 It will produce the following results:
 
-.. code-block:: shell
+.. code-block:: console
 
     Driver: GTiff/GeoTIFF
     Files: chiangMai_ortho.tif
@@ -1279,7 +1279,7 @@ Once the process ended, call the gdalinfo command on the resulting tif file:
 
 The following should be the results:
 
-.. code-block:: shell
+.. code-block:: console
 
     Driver: GTiff/GeoTIFF
     Files: chiangMai_ortho_optimized.tif
@@ -1355,7 +1355,7 @@ Calling the gdalinfo command again:
 
 It results in:
 
-.. code-block:: shell
+.. code-block:: console
 
     Driver: GTiff/GeoTIFF
     Files: chiangMai_ortho_optimized.tif
@@ -1433,7 +1433,7 @@ Calling the gdalinfo command on it:
 
 The following information will be displayed:
 
-.. code-block:: shell
+.. code-block:: console
 
     Driver: GTiff/GeoTIFF
     Files: chiangMai_dtm.tif
@@ -1496,7 +1496,7 @@ Calling the gdalinfo command again:
 
 We can observe the following results:
 
-.. code-block:: shell
+.. code-block:: console
 
     Driver: GTiff/GeoTIFF
     Files: chiangMai_dtm_optimized.tif
@@ -1557,7 +1557,7 @@ Calling the gdalinfo command again:
 
 We can see the following information:
 
-.. code-block:: shell
+.. code-block:: console
 
     Driver: GTiff/GeoTIFF
     Files: chiangMai_dtm_optimized.tif
@@ -1884,7 +1884,7 @@ Run
 
 This will produce output the following output:
 
-.. code-block:: shell
+.. code-block:: console
 
     usage: manage.py delete_resources [-h] [-c CONFIG_PATH]
                                       [-l LAYER_FILTERS [LAYER_FILTERS ...]]

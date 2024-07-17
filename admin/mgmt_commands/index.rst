@@ -20,7 +20,7 @@ Run
 
 This will produce output that looks like the following
 
-.. code-block:: shell
+.. code-block:: console
 
     usage: manage.py migrate_baseurl [-h] [--version] [-v {0,1,2,3}]
                                  [--settings SETTINGS]
@@ -267,7 +267,7 @@ This will produce output that looks like the following
         DJANGO_SETTINGS_MODULE=geonode.settings python manage.py sync_geonode_maps --updatethumbnails -f 'This is a test Map'
 
 Management Command ``set_all_datasets_metadata``
-----------------------------------------------
+------------------------------------------------
 
 This command allows to reset **Metadata Attributes** and **Catalogue Schema** on Datasets. The command will also update the :guilabel:`CSW Catalogue` XML and Links of GeoNode.
 
@@ -443,6 +443,7 @@ above and specifying the path to a directory that contains multiple files. For p
 You can replace this path with a directory to your own shapefiles.
 
 .. code-block:: shell
+
     First let's run the GeoNode server:
     DJANGO_SETTINGS_MODULE=geonode.settings python manage.py runserver
 
@@ -481,6 +482,7 @@ This command will produce the following output to your terminal
 As output the command will print:
 
 .. code-block:: shell
+
     layer_name: status code for each Layer
     
     upload_time spent of each Dataset

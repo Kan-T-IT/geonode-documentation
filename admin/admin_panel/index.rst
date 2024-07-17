@@ -598,7 +598,7 @@ Is important that this last section is not modified here unless the administrato
     :align: center
 
 Manage datasets using the admin panel
-===================================
+=====================================
 
 Some of the datasets information can be edited directly through the admin interface although the best place is in the :guilabel:`Dataset -> Metadata Edit` in GeoNode.
 
@@ -932,7 +932,7 @@ OAuth2 Access Tokens
 ====================
 
 This small section won't cover entirely the GeoNode OAuth2 security integration, this is explained in detail in other sections of the documentation
-(refer to :ref:`oauth2_fixtures_and_migration` and :ref:`oauth2_tokens_and_sessions`).
+(refer to :ref:`geoserver_geonode_aa`).
 
 Here we will focus mainly on the :guilabel:`Admin > DJANGO/GEONODE OAUTH TOOLKIT` panel items with a specific attention to the ``Access tokens`` management.
 
@@ -948,7 +948,7 @@ As better explained in other sections of the documentation, this is needed to co
 
 Specifically from this panel an admin can create, delete or extend OAuth2 ``Access tokens``.
 
-The section :ref:`oauth2_tokens_and_sessions` better explains the concepts behind OAuth2 sessions; we want just to refresh the mind here
+The section :ref:`geoserver_geonode_aa` better explains the concepts behind OAuth2 sessions; we want just to refresh the mind here
 about the basic concepts:
 
 * If the `SESSION_EXPIRED_CONTROL_ENABLED <../../basic/settings/index.html#session-expired-control-enabled>`_ setting is set to `True` (by default it is set to `True`)

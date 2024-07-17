@@ -16,6 +16,7 @@ Single Resource permissions
 ---------------------------
 
 | Resource permissions can be generally set from the *resource detail* page. The detail page has a menu item *Share* which is visible to people who are permitted to set permissions on a resource.
+
 The share link opens a page on the right with a provision to edit user and group permissions on the resource. see picture below
 
 .. figure:: img/change_dataset_permissions.png

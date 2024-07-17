@@ -114,7 +114,9 @@ ACCOUNT_SIGNUP_FORM_CLASS
 ACTSTREAM_SETTINGS
 ------------------
 
-    Default::
+    | Default:
+
+    .. code::
 
         {
         'FETCH_RELATIONS': True,
@@ -133,8 +135,8 @@ External application can define additional supported file type other than the de
 
 The variable should be declared in this way in `settings.py` (or via application hook):
 
-
     .. code::
+
         ADDITIONAL_DATASET_FILE_TYPES=[
             {
                 "id": "dummy_type",
@@ -332,10 +334,10 @@ AVATAR_PROVIDERS
 ----------------
 
   | Default:
-  .. code-block::
+
+    .. code-block::
 
     'avatar.providers.PrimaryAvatarProvider','avatar.providers.GravatarAvatarProvider','avatar.providers.DefaultAvatarProvider'
-
 
   | Env: ``AVATAR_PROVIDERS``
   | Options: ``Avatar provider object``
@@ -344,7 +346,7 @@ AVATAR_PROVIDERS
   This setting configures in which order gravatar images are loaded. A common use case is the use of a local image over a fallback image loaded from gravatar.com.
   To do so you would change the order like:
 
-  .. code-block::
+    .. code-block::
 
     'avatar.providers.PrimaryAvatarProvider','avatar.providers.DefaultAvatarProvider','avatar.providers.GravatarAvatarProvider'
 
@@ -775,7 +777,7 @@ DEFAULT_EXTRA_METADATA_SCHEMA
             "filter_header": object,
             "field_name": object,
             "field_label": object,
-            "field_value": object,
+            "field_value": object
         }
 
     Define the default metadata schema used for add to the resource extra metadata without modify the actual model.
@@ -844,7 +846,7 @@ DEFAULT_MAP_ZOOM
     the viewport in half in each direction.
 
 DEFAULT_MAX_PARALLEL_UPLOADS_PER_USER
------------------------
+-------------------------------------
 
 Default: ``5``
 
@@ -1153,7 +1155,7 @@ GEOSERVER_ADMIN_USER
     The geoserver admin username.
 
 GEOSERVER_ADMIN_PASSWORD
------------------------
+------------------------
 
     | Default: ``geoserver``
     | Env: ``GEOSERVER_ADMIN_USER``
@@ -1161,7 +1163,7 @@ GEOSERVER_ADMIN_PASSWORD
     The GeoServer admin password.
 
 GEOSERVER_FACTORY_PASSWORD
------------------------
+--------------------------
 
     | Default: ``geoserver``
     | Env: ``GEOSERVER_FACTORY_PASSWORD``
@@ -1441,6 +1443,7 @@ If you want to use your parser after the default one, here is how the variable a
 NOTE: the keywords must be in a specific format, since later this dict, will be ingested by the `KeywordHandler` which will assign the keywords/thesaurus to the layer.
 
     .. code::
+
         {
             "keywords": [list_of_keyword_extracted],
             "thesaurus": {"date": None, "datetype": None, "title": None}, # thesaurus informations
@@ -1450,6 +1453,7 @@ NOTE: the keywords must be in a specific format, since later this dict, will be 
 Here is an example of expected parser function
 
     .. code::
+
         def custom_parsing_function(exml, uuid, vals, regions, keywords, custom):
             # Place here your code
             return uuid, vals, regions, keywords, custom
@@ -1481,6 +1485,7 @@ Here is how the variable are populated by default:
 Here is an example of expected storer function
 
     .. code::
+
         def custom_storer_function(layer, custom):
             # do something here
             pass
@@ -1921,10 +1926,13 @@ PYCSW
     By default CSW will filter only for `layer` resource_type
 
     Example of PYCSW configuration.
-    PYCSW: {
-        'CONFIGURATION': {...},
-        'FILTER': {'resource_type__in':['layer'] }
-    }
+
+    PYCSW::
+
+        {
+            'CONFIGURATION': {...},
+            'FILTER': {'resource_type__in':['layer'] }
+        }
     
 R
 =
@@ -2130,14 +2138,14 @@ Default service types are already included
 
 Inside each module in the list we need to define a variable:
 
-`services_type = {
-    "<key_of_service_type>": {
-        "OWS": True/False,
-        "handler": "<path.to.Handler>",
-        "label": "<label to show in remote service page>",
-        "management_view": "<path.to.view>"
-    }
-}`
+    `services_type = {
+        "<key_of_service_type>": {
+            "OWS": True/False,
+            "handler": "<path.to.Handler>",
+            "label": "<label to show in remote service page>",
+            "management_view": "<path.to.view>"
+        }
+    }`
 
 the key_of_service_type is just an identifier to assign at the service type.
 OWS is True if the service type is an OGC Service Compliant.
@@ -2362,6 +2370,7 @@ SUPPORTED_DATASET_FILE_TYPES
 ----------------------------
     
     Default::
+
         SUPPORTED_DATASET_FILE_TYPES = [
         {
             "id": "shp",
@@ -2411,13 +2420,14 @@ SUPPORTED_DATASET_FILE_TYPES
             "mimeType": ["application/json"],
             "needsFiles": ["shp", "prj", "dbf", "shx", "csv", "tiff", "zip", "xml"]
         }
-    ]
+        ]
 
     Rappresent the list of the supported file type in geonode that can be ingested by the platform
 
 For example. the following configuration is needed to add the GeoJSON as supported file:
 
     Default::
+
         {
             "id": "geojson",
             "label": "GeoJSON",

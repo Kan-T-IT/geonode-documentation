@@ -62,7 +62,7 @@ Authentication is the process of verifying the identity of someone through the u
 If the credentials are valid, the authorization process starts. Authentication process always proceeds to Authorization process (although they may often seem to be combined).
 The two terms are often used synonymously but they are two different processes.
 
-For more details and explanation about the authentication concepts, take a look `here <http://searchsecurity.techtarget.com/definition/authentication>`_.
+For more details and explanation about the authentication concepts, take a look `here <http://searchsecurity.techtarget.com/definition/authentication>`__.
 
 Authorization
 ^^^^^^^^^^^^^
@@ -93,7 +93,7 @@ The authentication system in Django aims to be very generic and doesn’t provid
 #. Throttling of login attempts
 #. Authentication against third-parties (OAuth, for example)
 
-.. note:: For more details on installation and configuration of Django authentication system, please refer to the official guide https://docs.djangoproject.com/en/3.2/topics/auth/.
+.. note:: For more details on installation and configuration of Django authentication system, please refer to the official guide https://docs.djangoproject.com/en/5.0/topics/auth/.
 
 GeoNode communicates with GeoServer through Basic Authentication under the hood, in order to configure the data and the GeoServer catalog.
 
@@ -220,7 +220,7 @@ GeoServer must know and must be able to access GeoNode via HTTP/HTTPS. In other 
     The Authentication mechanism above allows GeoServer to get information about the user and his Roles, which addresses point 1.
 
     About point 2, GeoServer makes use of the `GeoFence Embedded Server <http://docs.geoserver.org/latest/en/user/community/geofence-server/index.html>`_ plugin.
-    GeoFence is a java web application that provides an advanced authentication / authorization engine for GeoServer using the interface described in `here <https://github.com/geoserver/geofence/wiki/First-steps>`_.
+    GeoFence is a java web application that provides an advanced authentication / authorization engine for GeoServer using the interface described in `here <https://github.com/geoserver/geofence/wiki/First-steps>`__.
     GeoFence has its own rules database for the management of Authorization rules, and overrides the standard GeoServer security management system by implementing a sophisticated Resource Access Manager.
     Least but not last, GeoFence implements and exposes a `REST API <https://github.com/geoserver/geofence/wiki/REST-API>`_ allowing remote authorized clients to read / write / modify security rules.
 
@@ -986,14 +986,14 @@ GeoFence Rules Management and Tutorials
 
 * `This tutorial <http://docs.geoserver.org/latest/en/user/community/geofence-server/tutorial.html>`_ shows how to install and configure the Geofence Internal Server plug-in. It shows how to create rules in two ways: using the GUI and REST methods.
 
-* GeoFence Rules can be created / updated / deleted through a REST API, accessible only by a GeoServer Admin user. You can find more details on how the GeoFence REST API works `here <https://github.com/geoserver/geofence/wiki/REST-API>`_.
+* GeoFence Rules can be created / updated / deleted through a REST API, accessible only by a GeoServer Admin user. You can find more details on how the GeoFence REST API works `here <https://github.com/geoserver/geofence/wiki/REST-API>`__.
 
 GeoFence Rules Storage Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 By default GeoFence is configured to use a filesystem based DB stored on the GeoServer Data Dir ``<GEOSERVER_DATA_DIR/geofence``.
 
-* It is possible also to configure GeoFence in order to use an external PostgreSQL / PostGIS Database. For more details please refer to the official GeoFence documentation `here <https://github.com/geoserver/geofence/wiki/GeoFence-configuration>`_.
+* It is possible also to configure GeoFence in order to use an external PostgreSQL / PostGIS Database. For more details please refer to the official GeoFence documentation `here <https://github.com/geoserver/geofence/wiki/GeoFence-configuration>`__.
 
 1. Add ``Java Libraries`` to ``GeoServer``
 
@@ -1007,7 +1007,7 @@ By default GeoFence is configured to use a filesystem based DB stored on the Geo
 
         restart geoserver
 
-2. Either create a DB with the updated schema here https://github.com/geoserver/geofence/blob/master/doc/setup/sql/002_create_schema_postgres.sql or enable the hbm2ddl auto creation through the configuration file (see step ``3``)
+2. Either create a DB with the updated schema `here <https://github.com/geoserver/geofence/blob/master/doc/setup/sql/002_create_schema_postgres.sql>`_ or enable the hbm2ddl auto creation through the configuration file (see step ``3``)
 
     .. note:: Notice that "update" also creates the tables if they do not exist. In production, however, I would suggest to change it to "validate"
 

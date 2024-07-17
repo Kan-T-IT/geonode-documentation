@@ -283,7 +283,7 @@ PostgreSQL is now ready. To test the configuration, try to connect to the ``geon
   psql -U my_geonode my_geonode_data
 
 
-
+.. _debug_geonode:
 
 Run GeoNode Project for the first time in DEBUG Mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

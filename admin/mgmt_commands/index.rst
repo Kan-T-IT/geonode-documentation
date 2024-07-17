@@ -578,7 +578,7 @@ Run
 
 .. note:: If you enabled ``local_settings.py`` the command will change as following:
 
-.. code-block:: shell
+    .. code-block:: shell
 
             DJANGO_SETTINGS_MODULE=geonode.local_settings python manage.py updatelayers --help
 

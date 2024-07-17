@@ -97,15 +97,15 @@ In the "my_geonode/src/my_geonode/templates/geonode-mapstore-client/snippets" di
 
 Create a file name hero.html and add the following.
 
-.. code:: html 
+.. code-block:: html
+
     <div id="gn-hero" class="gn-hero">
         <div class="jumbotron">
             <div class="gn-hero-description">
                 <h1>My GeoNode</h1>
                 <p>Example customization of geonode project</p>
             </div>
-            <p class="gn-hero-tools">
-            </p>
+            <p class="gn-hero-tools"></p>
         </div>
     </div>
 
@@ -852,11 +852,11 @@ We will push only the my_geonode folder to GitHub and as we knew earlier, GeoNod
 
 Steps to push your code to GitHub:
 
-- Create an empty repository in GitHub and copy it's address
+- Create an empty repository in GitHub and copy its address
 
 - In my_geonode, run git init to initialize an empty repository
 
-- Add your remote repository address with ``git remote add yourname yourremoteaddress``
+- Add your remote repository, use the following command: ``git remote add yourname yourremoteaddress`` in your terminal
 
 - edit .gitignore adding all *.pyc files
 

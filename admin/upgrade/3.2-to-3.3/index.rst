@@ -71,7 +71,7 @@ Apply migrations and apply basic fixtures:
 
     ./manage.sh dbshell
 
-.. code-block:: sql
+.. code-block:: console
 
     ALTER TABLE <table> ADD COLUMN <colum-name>_bkp varchar;
     UPDATE <table> SET <colum-name>_bkp = colum-name;
@@ -85,7 +85,7 @@ Run migration then:
 
     ./manage.sh dbshell
 
-.. code-block:: sql
+.. code-block:: console
 
     UPDATE <table> SET <colum-name> = <colum-name>_bkp;
     ALTER TABLE <table> DROP COLUMN <colum-name>_bkp;

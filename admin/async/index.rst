@@ -68,7 +68,7 @@ If correclty set, Geoserver will manage the upload asyncronously.
 
     client.get("http://localhost:8000/upload/final?id={import_id}")
 
-    The `import_id` is returned from the previous step
+The `import_id` is returned from the previous step
 
 Step 4
 ------

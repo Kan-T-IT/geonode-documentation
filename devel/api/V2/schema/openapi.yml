@@ -1,60 +1,61 @@
 openapi: 3.0.3
 info:
-  title: ''
-  version: 0.0.0
+    title: ''
+    version: 0.0.0
 paths:
-  /api/v2/:
-    get:
-      operationId: root_retrieve
-      security:
-      - basicAuth: []
-      - cookieAuth: []
-      - {}
-      responses:
-        '200':
-          description: No response body
-  /api/v2/categories/:
-    get:
-      operationId: categories_list
-      description: API endpoint that lists categories.
-      parameters:
-      - name: ordering
-        required: false
-        in: query
-        description: Which field to use when ordering the results.
-        schema:
-          type: string
-      - name: page
-        required: false
-        in: query
-        description: A page number within the paginated result set.
-        schema:
-          type: integer
-      - name: page_size
-        required: false
-        in: query
-        description: Number of results to return per page.
-        schema:
-          type: integer
-      - name: search
-        required: false
-        in: query
-        description: A search term.
-        schema:
-          type: string
-      tags:
-        - categories
-      security:
-      - basicAuth: []
-      - cookieAuth: []
-      - {}
-      responses:
-        '200':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/PaginatedTopicCategoryList'
-          description: ''
+    /api/v2/:
+        get:
+            operationId: root_retrieve
+            security:
+            - basicAuth: []
+            - cookieAuth: []
+            - {}
+            responses:
+                '200':
+                description: No response body
+    /api/v2/categories/:
+        get:
+            operationId: categories_list
+            description: API endpoint that lists categories.
+            parameters:
+            - name: ordering
+                required: false
+                in: query
+                description: Which field to use when ordering the results.
+                schema:
+                type: string
+            - name: page
+                required: false
+                in: query
+                description: A page number within the paginated result set.
+                schema:
+                type: integer
+            - name: page_size
+                required: false
+                in: query
+                description: Number of results to return per page.
+                schema:
+                type: integer
+            - name: search
+                required: false
+                in: query
+                description: A search term.
+                schema:
+                type: string
+            tags:
+                - categories
+            security:
+            - basicAuth: []
+            - cookieAuth: []
+            - {}
+            responses:
+                '200':
+
+                content:
+                    application/json:
+                    schema:
+                        $ref: '#/components/schemas/PaginatedTopicCategoryList'
+                description: ''
   /api/v2/categories/{id}/:
     get:
       operationId: categories_retrieve

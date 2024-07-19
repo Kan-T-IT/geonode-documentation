@@ -302,7 +302,7 @@ In order to do that, you need to print the contents of the auto-generated file `
 
 .. code:: shell
 
-  $> docker ps
+  $ docker ps
 
     CONTAINER ID        IMAGE                        COMMAND                  CREATED             STATUS              PORTS                                                                                NAMES
     e9fc97a75d1a        geonode/nginx:geoserver      "/docker-entrypoint.…"   2 hours ago         Up 2 hours          0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp                                             nginx4my_geonode
@@ -318,7 +318,7 @@ In order to do that, you need to print the contents of the auto-generated file `
 
 .. code:: shell
 
-  $> docker container exec -u 0 -it jenkins4my_geonode sh -c 'cat /var/jenkins_home/secrets/initialAdminPassword'
+  $ docker container exec -u 0 -it jenkins4my_geonode sh -c 'cat /var/jenkins_home/secrets/initialAdminPassword'
 
     b91e9d*****************373834
 
@@ -421,10 +421,10 @@ In that case you will need to change few things in order to allow :guilabel:`Jen
 
 # Test your connection locally
 
-   .. code:: shell
+   .. code:: console
 
       $ ssh -p 22 user@localhost
-         user@localhost's password: 
+      user@localhost's password:
 
 #. You will need to do some changed to your ``docker-compose.yml`` file in order to enable the :guilabel:`host network` configuration.
 
@@ -432,7 +432,7 @@ In that case you will need to change few things in order to allow :guilabel:`Jen
 
    .. code:: shell
 
-      $> vim docker-compose.yml
+      $ vim docker-compose.yml
 
       ...
       jenkins:
@@ -454,9 +454,9 @@ In that case you will need to change few things in order to allow :guilabel:`Jen
       ...
 
       # Recreate the Jenkins container
-      $> docker-compose stop jenkins
-      $> docker-compose rm jenkins
-      $> docker-compose up -d jenkins
+      $ docker-compose stop jenkins
+      $ docker-compose rm jenkins
+      $ docker-compose up -d jenkins
 
    .. warning:: From now on, your local Jenkins instance will be accessible from :guilabel:`http://localhost:9080/jenkins`
 
@@ -578,7 +578,7 @@ Modify the ``docker-compose.override.yml`` as follows in order to link the backu
 
 .. code:: shell
 
-   $> vim docker-compose.override.yml
+   $ vim docker-compose.override.yml
 
    version: '2.2'
    services:
@@ -605,5 +605,5 @@ Modify the ``docker-compose.override.yml`` as follows in order to link the backu
        - '/data/backup_restore:/backup_restore'  # Link to local volume in the HOST
 
    # Restart the containers
-   $> docker-compose up -d
+   $ docker-compose up -d
 

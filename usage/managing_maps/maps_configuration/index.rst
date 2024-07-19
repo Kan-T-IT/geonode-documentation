@@ -57,7 +57,7 @@ The map will automatically re-center on that area delimiting it by a polygon in 
 .. _sidebar:
 
 Navigation bar
--------------
+--------------
 
 .. |sidebar_expand_button| image:: img/sidebar_expand_button.png
     :width: 30px

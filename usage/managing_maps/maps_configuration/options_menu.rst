@@ -29,7 +29,7 @@ Saving a map
 
 | Once all the customizations have been carried out, you can *Save* your map by clicking on the :guilabel:`Save` option under the :guilabel:`Resources` options of the *Menu*.
 
-|You could create a new map from the existing view by clicking :guilabel:`Save As..`.
+| You could create a new map from the existing view by clicking :guilabel:`Save As..`.
 | A new popup window will open.
 
 .. figure:: img/save_as_map.png

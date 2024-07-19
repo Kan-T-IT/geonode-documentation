@@ -90,7 +90,7 @@ The *Animation Range* option lets you to define a temporal range within which th
      *The Timeline Animation Range*
 
 
-See the `MapStore Documentation <https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/timeline/>`_ for more information.
+See the `MapStore Documentation <https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/timeline/>`__ for more information.
 
 .. |play_button| image:: img/play_button.png
     :width: 30px

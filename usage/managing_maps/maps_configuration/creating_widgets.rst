@@ -88,9 +88,11 @@ The resulting widget looks like the following.
 Table Widgets
 -------------
 
-| Through the *Table Widgets* you can add the :ref:`attributes-table` of the dataset to the map. You can decide to show a subset of the features, through filters, and you can select one or more columns/attributes.
+Through the *Table Widgets* you can add the :ref:`attributes-table` of the dataset to the map. You can decide to show a subset of the features, through filters, and you can select one or more columns/attributes.
+
 You can also enter a *Title* for each column to be displayed as the table header in place of the Name of the layer field and enter a *Description* for each field to be displayed as a tooltip, visible moving the mouse on the column header.
-| So, choose what attributes you are interested in and click on |configure_widgets_options_button|.
+
+So, choose what attributes you are interested in and click on |configure_widgets_options_button|.
 
 .. figure:: img/table_widget_columns.png
     :align: center

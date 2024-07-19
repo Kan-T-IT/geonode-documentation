@@ -50,7 +50,7 @@ The *Toolbar* shows you many buttons:
 
 
 Managing Dataset Settings
------------------------
+-------------------------
 
 The *Dataset Settings* panel looks like the one below.
 
@@ -114,7 +114,8 @@ Click on the **Tiling** tab to change the output *Format* of the WMS requests, t
     :align: middle
 
 Add an Annotation
-------------
+-----------------
+
 Click on the |annotation_button| button from the *TOC Toolbar* to enrich the map with special features which expose additional information, mark particular position on the map and so on.
 From here the editor can insert a *Title* and a *Description*.
 
@@ -149,4 +150,4 @@ Here the user can choose between five different types of *Geometries*:
 4. *Text*
 5. *Circle* 
 
-See the `MapStore Documentation <https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/annotations/>`_ for more information.
+See the `MapStore Documentation <https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/annotations/>`__ for more information.

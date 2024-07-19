@@ -858,7 +858,7 @@ Steps to push your code to GitHub:
 
 - Add your remote repository, use the following command: ``git remote add yourname yourremoteaddress`` in your terminal
 
-- edit .gitignore adding all \*.pyc files
+- edit .gitignore adding all ``*.pyc`` files
 
 - ``git add *`` to add all content of my_geonode
 

@@ -1,4 +1,4 @@
-.. _data:
+.. _extra-metadata:
 
 Dynamic Extra Metadata
 ======================

@@ -1,4 +1,4 @@
-.. _data:
+.. _api:
 
 
 Rest API

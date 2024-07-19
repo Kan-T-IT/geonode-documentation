@@ -1,4 +1,4 @@
-.. _data:
+.. _download_handlers:
 
 Download Handlers
 =================
@@ -34,7 +34,7 @@ The default download handler is placed under the `geonode.layers` [package](http
 
 Follow an example of an basic class for define the download handler:
 
-```python
+.. code-block:: python
 
 class DatasetDownloadHandler:
     def __str__(self):
@@ -60,8 +60,5 @@ class DatasetDownloadHandler:
         Used by the API, it should return the URL where the resource can be downloaded from
         """
         return reverse("dataset_download", args=[resource.alternate])
-
-```
-
 
 If you prefer to inherit from the already existing one, the response is generated in the `process_dowload` method

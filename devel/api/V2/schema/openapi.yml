@@ -1,61 +1,60 @@
 openapi: 3.0.3
 info:
-    title: ''
-    version: 0.0.0
+  title: ''
+  version: 0.0.0
 paths:
-    /api/v2/:
-        get:
-            operationId: root_retrieve
-            security:
-            - basicAuth: []
-            - cookieAuth: []
-            - {}
-            responses:
-                '200':
-                description: No response body
-    /api/v2/categories/:
-        get:
-            operationId: categories_list
-            description: API endpoint that lists categories.
-            parameters:
-            - name: ordering
-                required: false
-                in: query
-                description: Which field to use when ordering the results.
-                schema:
-                type: string
-            - name: page
-                required: false
-                in: query
-                description: A page number within the paginated result set.
-                schema:
-                type: integer
-            - name: page_size
-                required: false
-                in: query
-                description: Number of results to return per page.
-                schema:
-                type: integer
-            - name: search
-                required: false
-                in: query
-                description: A search term.
-                schema:
-                type: string
-            tags:
-                - categories
-            security:
-            - basicAuth: []
-            - cookieAuth: []
-            - {}
-            responses:
-                '200':
-
-                content:
-                    application/json:
-                    schema:
-                        $ref: '#/components/schemas/PaginatedTopicCategoryList'
-                description: ''
+  /api/v2/:
+    get:
+      operationId: root_retrieve
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          description: No response body
+  /api/v2/categories/:
+    get:
+      operationId: categories_list
+      description: API endpoint that lists categories.
+      parameters:
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - name: page_size
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - categories
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedTopicCategoryList'
+          description: ''
   /api/v2/categories/{id}/:
     get:
       operationId: categories_retrieve
@@ -68,7 +67,7 @@ paths:
         description: A unique integer value identifying this topic category.
         required: true
       tags:
-        - categories
+      - categories
       security:
       - basicAuth: []
       - cookieAuth: []
@@ -110,7 +109,7 @@ paths:
         schema:
           type: string
       tags:
-        - datasets
+      - datasets
       security:
       - cookieAuth: []
       - basicAuth: []
@@ -126,7 +125,7 @@ paths:
       operationId: datasets_partial_update
       description: API endpoint that allows layers to be viewed or edited.
       tags:
-        - datasets
+      - datasets
       requestBody:
         content:
           application/json:
@@ -160,7 +159,7 @@ paths:
         description: A unique integer value identifying this dataset.
         required: true
       tags:
-        - datasets
+      - datasets
       security:
       - cookieAuth: []
       - basicAuth: []
@@ -228,7 +227,7 @@ paths:
         description: A unique integer value identifying this dataset.
         required: true
       tags:
-        - datasets
+      - datasets
       requestBody:
         content:
           application/json:
@@ -273,7 +272,7 @@ paths:
         description: A unique integer value identifying this dataset.
         required: true
       tags:
-        - datasets
+      - datasets
       requestBody:
         content:
           application/json:
@@ -323,7 +322,7 @@ paths:
         description: A unique integer value identifying this dataset.
         required: true
       tags:
-        - datasets
+      - datasets
       security:
       - cookieAuth: []
       - basicAuth: []
@@ -371,7 +370,7 @@ paths:
         schema:
           type: string
       tags:
-        - datasets
+      - datasets
       security:
       - cookieAuth: []
       - basicAuth: []
@@ -419,7 +418,7 @@ paths:
         schema:
           type: string
       tags:
-        - datasets
+      - datasets
       security:
       - cookieAuth: []
       - basicAuth: []
@@ -443,7 +442,7 @@ paths:
         description: A unique integer value identifying this dataset.
         required: true
       tags:
-        - datasets
+      - datasets
       security:
       - cookieAuth: []
       - basicAuth: []
@@ -485,7 +484,7 @@ paths:
         schema:
           type: string
       tags:
-        - documents
+      - documents
       security:
       - cookieAuth: []
       - basicAuth: []
@@ -501,7 +500,7 @@ paths:
       operationId: documents_partial_update
       description: API endpoint that allows documents to be viewed or edited.
       tags:
-        - documents
+      - documents
       requestBody:
         content:
           application/json:
@@ -535,7 +534,7 @@ paths:
         description: A unique integer value identifying this document.
         required: true
       tags:
-        - documents
+      - documents
       security:
       - cookieAuth: []
       - basicAuth: []

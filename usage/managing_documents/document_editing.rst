@@ -30,7 +30,7 @@ You can edit the metadata of your document as described in the :ref:`document-me
 .. figure:: img/advanced_metadata_button.png
     :align: center
 
-|The :guilabel:`Advanced Metadata` button takes you to a big form where all the available metadata of the document can be edited.
+| The :guilabel:`Advanced Metadata` button takes you to a big form where all the available metadata of the document can be edited.
 | Some information are mandatory such as the *Title* or the *Category* the document belongs to, some others are optional.
 
 .. figure:: img/document_metadata_editing.png

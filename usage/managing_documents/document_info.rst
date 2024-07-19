@@ -70,12 +70,13 @@ That page looks like the one shown in the picture below.
 On the page of a document, the resource is either directly displayed on the page or accessible by clicking on the link provided under the title.
 
 Exploring the Document detail menu Sections
----------------------------
+-------------------------------------------
 
 As soon as a document is opened, the **Info** panel is shown. It reports the document metadata such as its title, abstract, date of publication etc. The metadata also indicates the user who is responsible for uploading and managing this content, as well as the group to which it is linked.
 
 .. figure:: img/document_info.png
     :align: center
+
     *Document Info*
 
 

@@ -27,17 +27,3 @@ msgstr ""
 msgid "Docker Setup (First time only)"
 msgstr ""
 
-#~ msgid "1. Install the Docker and docker-compose packages on a Ubuntu host"
-#~ msgstr ""
-
-#~ msgid "1. Install the Docker and docker-compose packages on Ubuntu 22.04"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The following steps were taken from "
-#~ "the official `Docker documentation "
-#~ "<https://docs.docker.com/engine/install/ubuntu/>`_. We "
-#~ "invite you to refer to it for "
-#~ "any update."
-#~ msgstr ""
-

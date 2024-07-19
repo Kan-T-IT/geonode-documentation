@@ -31,13 +31,3 @@ msgstr ""
 #: ../../usage/managing_maps/index.rst:7 c372feefc1a546aab7e33315ac88b16b
 msgid "In this section, you will learn how to create a new map and share it."
 msgstr ""
-
-#~ msgid ""
-#~ "Maps are sets of layers displayed "
-#~ "together on an interactive web map. "
-#~ "Maps can be composed in the map"
-#~ " composer and saved as GeoNode "
-#~ "resources. Maps can also be associated"
-#~ " with metadata, ratings, and comments."
-#~ msgstr ""
-

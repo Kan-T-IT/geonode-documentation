@@ -223,16 +223,3 @@ msgstr ""
 #: 2134276bc4db43a98fcb1d99a3a680cd
 msgid "*Remote Service metadata*"
 msgstr ""
-
-#~ msgid ""
-#~ "Click on the :guilabel:`Remote Services` "
-#~ "link of the :guilabel:`Data` menu in "
-#~ "the navigation bar."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Click on the :guilabel:`Remote Services` "
-#~ "link of the :guilabel:`Add Resource` "
-#~ "menu in the navigation bar."
-#~ msgstr ""
-

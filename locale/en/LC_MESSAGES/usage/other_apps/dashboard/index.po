@@ -86,17 +86,3 @@ msgid ""
 "guide/exploring-dashboards>`_"
 msgstr ""
 
-#~ msgid ""
-#~ "To build a new Dashboard go to "
-#~ ":guilabel:`Create new` option on the "
-#~ "resource page and choose option *Create"
-#~ " dashboard*."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To build a new Dashboard go to "
-#~ ":guilabel:`Add Resource` option on the "
-#~ "resource page and choose option *Create"
-#~ " dashboard*."
-#~ msgstr ""
-

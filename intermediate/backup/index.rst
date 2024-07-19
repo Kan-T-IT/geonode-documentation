@@ -419,7 +419,10 @@ In that case you will need to change few things in order to allow :guilabel:`Jen
 
       $ sudo apt install openssh-server
 
-      # Test your connection locally
+# Test your connection locally
+
+   .. code:: shell
+
       $ ssh -p 22 user@localhost
          user@localhost's password: 
 

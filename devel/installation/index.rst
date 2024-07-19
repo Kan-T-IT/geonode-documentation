@@ -194,7 +194,7 @@ This is required for static development
         
 .. Note:: Every time you want to update the static files after making changes to the sources, go to geonode/static and run ‘grunt production’.
 
-.. warning:: Starting from the following step, you have to make sure that you installed GDAL correctly according to the documentation page "Install GDAL for Development"
+.. warning:: Starting from the following step, you have to make sure that you installed GDAL correctly according to the documentation page :ref: `install_gdal`
 
 Install GeoNode in the new active local virtualenv
 

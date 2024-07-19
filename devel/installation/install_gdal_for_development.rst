@@ -1,3 +1,5 @@
+.. _install_gdal:
+
 How to Install GDAL for development
 ======================================
 

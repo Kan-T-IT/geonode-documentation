@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../index.rst:14
+msgid "About"
+msgstr ""
+
+#: ../../index.rst:20
+msgid "Getting Started"
+msgstr ""
+
+#: ../../index.rst:26
+msgid "Using"
+msgstr ""
+
+#: ../../index.rst:32
+msgid "Installing"
+msgstr ""
+
+#: ../../index.rst:38
+msgid "Configuring (Basic)"
+msgstr ""
+
+#: ../../index.rst:44
+msgid "Configuring (Intermediate)"
+msgstr ""
+
+#: ../../index.rst:50
+msgid "Configuring (Advanced)"
+msgstr ""
+
+#: ../../index.rst:56
+msgid "Administering"
+msgstr ""
+
+#: ../../index.rst:62
+msgid "Contributing"
+msgstr ""
+
+#: ../../index.rst:68
+msgid "Developing"
+msgstr ""
+
+#: ../../index.rst:5 6734639f86514d08aa2c02926e05dcf1
+msgid "GeoNode's Documentation"
+msgstr ""
+
+#: ../../index.rst:7 e2d7314b918c4aaf925b13b19afde662
+msgid "Welcome to GeoNode's Documentation."
+msgstr ""
+
+#: ../../index.rst:9 1535515fb8fa469baa0acc2126eea025
+msgid ""
+"GeoNode is an Open Source, Content Management System (CMS) for geospatial"
+" data. It is a web-based application and platform for developing "
+"geospatial information systems (GIS) and for deploying spatial data "
+"infrastructures (SDI)."
+msgstr ""
+
+#: ../../index.rst:12 8b3e758b183f4a03a6a31ae7043453dd
+msgid "Table of contents"
+msgstr ""
+

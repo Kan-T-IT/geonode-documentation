@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../advanced/contrib/index.rst:2 28f16903c86a4a699e9608bcd64d629b
+msgid "Geonode auth via LDAP"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:4 464638b5741d4bc99dc0a3966d03126a
+msgid ""
+"This package provides utilities for using LDAP as an authentication and "
+"authorization backend for geonode."
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:7 900a514f090a4d7980295a2760265ba9
+msgid ""
+"The `django_auth_ldap <https://django-auth-"
+"ldap.readthedocs.io/en/latest/>`_ package is a very capable way to add "
+"LDAP integration with django projects. It provides a lot of flexibility "
+"in mapping LDAP users to geonode users and is able to manage user "
+"authentication."
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:11 3f7bb5d563eb47168a7a04d9ea7f3e7c
+msgid ""
+"However, in order to provide full support for mapping LDAP groups with "
+"geonode's and enforce group permissions on resources, a custom geonode "
+"authentication backend  is required. This contrib package provides such a"
+" backend, based on `django_auth_ldap <https://django-auth-"
+"ldap.readthedocs.io/en/latest/>`_."
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:18 779680a7e6f44746b77de1e5b83ffc99
+msgid "Installation"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:20 a6df1a0bc7da40b1bf131f55bb2a5a0b
+msgid "Installing this contrib package is a matter of:"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:22 fd5f8ad128d44751b0ce390f6a894969
+msgid "Installing geonode"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:23 b1bf16d40dff446faa34c8cec60b9ad7
+msgid "Installing system LDAP libraries (development packages needed)"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:24 2bac55b985124d738fd03a1bf4291e05
+msgid "Cloning this repository locally"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:25 19bbc817528e4734a292a66a0a5e057b
+msgid "Change to the `ldap` directory and install this contrib package"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:43 f93e7ca4b841428c8e45e34003419568
+msgid "Configuration"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:45 2fabc7e6576945609c79a648ebf8a655
+msgid ""
+"Add ``geonode_ldap.backend.GeonodeLdapBackend`` as an additional auth "
+"backend."
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:55 209947b18be646799b92b0d5a1c1b546
+msgid ""
+"You may use additional auth backends, the django authentication framework"
+" tries them all according to the order listed in the settings. This means"
+" that geonode can be setup in such a way as to permit internal "
+"organization users to login with their LDAP credentials, while at the "
+"same time allowing for casual users to use their facebook login (as long "
+"as you enable facebook social auth provider)."
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:62 28df2cd9224e4dd9ae2a5eca929266ea
+msgid ""
+"The django's ``django.contrib.auth.backends.ModelBackend`` must also be "
+"used in order to provide full geonode integration with LDAP. However this"
+" is included by default on GeoNode ``settings``"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:75 45f42d94022441a7a85f7c64989aec14
+msgid ""
+"Set some additional configuration values. Some of these variables are "
+"prefixed with ``AUTH_LDAP`` (these are used directly by `django_auth_ldap"
+" <https://django-auth-ldap.readthedocs.io/en/latest/>`_) while others are"
+" prefixed with ``GEONODE_LDAP`` (these are used by ``geonode_ldap``). The"
+" geonode custom variables are:"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:80 555b08170f2040baadd987a098a6231f
+msgid ""
+"``GEONODE_LDAP_GROUP_PROFILE_FILTERSTR`` - This is an LDAP search "
+"fragment with the filter that allows querying for existing groups. See "
+"example below"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:83 b95ea150366f46eb8e4d426f8108ef60
+msgid ""
+"``GEONODE_LDAP_GROUP_NAME_ATTRIBUTE`` - This is the name of the LDAP "
+"attribute that will be used for deriving the geonode group name. If not "
+"specified it will default to `cn`, which means that the LDAP object's "
+"`common name` will be used for generating the name of the geonode group"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:88 e7f85d1e055545f7ab2d5010f626e375
+msgid ""
+"``GEONODE_LDAP_GROUP_PROFILE_MEMBER_ATTR`` - This is the name of the LDAP"
+" attribute that will be used for deriving the geonode membership. If not "
+"specified it will default to ``member``"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:93 777ffbf3e8244397ab8c9f76a167756f
+msgid "Example configuration:"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:146 b4b9f69f42494e1399ac11b1ca838790
+msgid "Example environment variables:"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:160 2ac358340cc946b58b8a062b4bda576e
+msgid ""
+"The configuration seen in the example above will allow LDAP users to "
+"login to geonode with their LDAP credentials."
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:163 c5e80dd8d49a4c3880a1b77c0d7c25c3
+msgid ""
+"On first login, a geonode user is created from the LDAP user and its LDAP"
+" attributes ``cn`` and ``sn`` are used to populate the geonode user's "
+"``first_name`` and ``last_name`` profile fields."
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:167 70c358ba41114922afe88dcd2f10f317
+msgid ""
+"Any groups that the user is a member of in LDAP (under the "
+"``cn=groups,dc=ad,dc=example,dc=org`` search base and belonging to one of"
+" ``(|(cn=abt1)(cn=abt2)(cn=abt3)(cn=abt4)(cn=abt5)(cn=abt6))`` groups) "
+"will be mapped to the corresponding geonode groups, even creating these "
+"groups in geonode in case they do not exist yet. The geonode user is also"
+" made a member of these geonode groups."
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:173 8581fb9f94874b83925371097f344a47
+msgid ""
+"Upon each login, the user's geonode group memberships are re-evaluated "
+"according to the information extracted from LDAP. The "
+"``AUTH_LDAP_MIRROR_GROUPS_EXCEPT`` setting can be used to specify groups "
+"whose memberships will not be re-evaluated."
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:178 9f454aa7d20c4a4b9f44a8d17ba6e0f4
+msgid ""
+"If no LDAP groups shall be mirrored ``LDAP_MIRROR_GROUPS`` and "
+"``LDAP_MIRROR_GROUPS_EXCEPT`` must be set to ``False``."
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:180 00c1b2157e5b43e49a0473b3842a4584
+msgid ""
+"Users mapped from LDAP will be marked with an ``ldap`` tag. This will be "
+"used to keep them in sync."
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:182 0d47eb0cfe38421ca5b0adcb6cbfd351
+msgid ""
+"If you remove the ``ldap`` tag, the users will be threaten as pure "
+"internal GeoNode ones."
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:184 bb97d37243e0482580341671cba8f81d
+msgid ""
+"You may also manually generate the geonode groups in advance, before "
+"users login. In this case, when a user logs in and the mapped LDAP group "
+"already exists, the user is merely added to the geonode group"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:188 1763c1b1eaae4538a593ea0cc65eacc8
+msgid ""
+"Be sure to check out `django_auth_ldap <https://django-auth-"
+"ldap.readthedocs.io/en/latest/>`_ for more information on the various "
+"configuration options."
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:192 006a0916a4d2452bbd9122124e07fe78
+msgid "Keep Users and Groups Synchronized"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:194 a0cbd7760f2b437f9a672732a1723f9e
+msgid ""
+"In order to constantly keep the remote LDAP Users and Groups "
+"**synchronized** with GeoNode, you will need to run periodically some "
+"specific management commands."
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:202 932b24624be745bab34cf010c8578da1
+msgid "Where the ``manage.sh`` is a bash script similar to the following one:"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:204 506d300d01d246b2b6af6ea659ecdc13
+msgid "**manage.sh**"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:210 cb18fd4b5dc444aba1618cff6080177a
+msgid ""
+"and the ``/opt/geonode/my-geonode/.env`` is something similar to the "
+"following one:"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:212 ad562706785b4efabc43f88ad28b1d61
+msgid "**/opt/geonode/my-geonode/.env**"
+msgstr ""
+
+#: ../../advanced/contrib/index.rst:266 f67c32c1fb22446db514d9344abdce5e
+msgid ""
+"You might want to use the same ``/opt/geonode/my-geonode/.env`` for your "
+"``UWSGI`` configuration too:"
+msgstr ""
+

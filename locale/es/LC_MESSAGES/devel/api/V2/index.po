@@ -1,0 +1,748 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../devel/api/V2/index.rst:4 d3f5820f0a6f49b2b56f795d5d85201e
+msgid "API v2 - Schema"
+msgstr ""
+
+#: ../../devel/api/V2/index.rst:6 84a7609b09a44e6c93ad5175207efe9e
+msgid "OpenAPI 3.0 Schema"
+msgstr ""
+
+#: ../../<openapi> 008bd2676f5447eeb5a565b64257c553
+#: 015bd1378d014744bcca9b0e81612323 03a44b76808b428ca9cc72a0a56a9b86
+#: 1a8c065e81e5469fad79d5926bb3226c 201f098b9d1846d3b33cba3f35a06052
+#: 2c27b9cd877748c0977b2df35a33d42a 317ba77256de473c9d299b6920cb0e21
+#: 3ecfd5f4cf7d4c7685ddc31b214b7016 41400dfa9b734e88bd7a7df28b49e637
+#: 4c9e258b66f945de886558f14980e798 4e40d52e673b4b4aa0ea91b1b307d111
+#: 50848da461294b7d844557f08853a50d 50bc9b3b76b54038b83bf92d39dfe3cc
+#: 573baa7949794e438709e251642222d9 73af45cebecd4e43ae162189b4abff24
+#: 787f545e10f54c1ca69c227621e0e4b2 7e5b6e3353214be3aa899ee04eef6151
+#: 83c5b0adf413436681864c7e503f7543 cc2f49d573144192b21ad74eeda35944
+#: f4d37bfa6c7e4671b9eb7bef4d97f4eb fc6e7164a88d4c9fa1aad03f52307870
+msgid "Status Codes"
+msgstr ""
+
+#: ../../<openapi>:1 03dd99f720fb43db8904e3aa4f186cc8
+#: 37316c6d028c47e586d7bec3d09db30f 6d933cdcd9744894a2bc8987b06512da
+#: 880bebe84c55437596546a8635508a61
+msgid "No response body"
+msgstr ""
+
+#: ../../<openapi>:1 c330d8c032ff4986b13f08dd7bd3fc5e
+#: e00940f208bb4e60969115248436c117
+msgid "API endpoint that lists categories."
+msgstr ""
+
+#: ../../<openapi> 06dcad7c28604657b2957bca3e6dce03
+#: 5098e040a1f4401a92cff444a94ca850 56f2b8aba38f41ce98cfae6b53b32e44
+#: f47c0147cc2d421cbf511ba6ea111f58
+msgid "Query Parameters"
+msgstr ""
+
+#: ../../<openapi>:1 015d317a4426450f8b44d40e55cda334
+#: d7332f8db91b4a889a779459615ac5d1 e8924b52a90f4d3f9639c5b90cf33524
+msgid "Which field to use when ordering the results."
+msgstr ""
+
+#: ../../<openapi>:1 39f22358044e45069f4f275551253d9b
+#: 550f6d1b8ad04d47996481f3e3b21c6e bb670e0be19c415cbb7bdecaa5ff02a8
+msgid "A page number within the paginated result set."
+msgstr ""
+
+#: ../../<openapi>:1 4f4c45a1417248d1923d1f6d8fc8470c
+#: 66ad1ab043894d818ec3d6ff29292b17 83d58af774fb410b9b043ad8e4c16e90
+msgid "Number of results to return per page."
+msgstr ""
+
+#: ../../<openapi>:1 01201b9abdd44c4a951c5149ca0bba40
+#: 38cffd82672d46009564cf8722f9a9ba 6cacc9eb7e8d4f59b4f0fcf2c859949a
+msgid "A search term."
+msgstr ""
+
+#: ../../<openapi> 0f349c83c91b4565b106f83efa07e912
+#: 1f8e95bcb90a4dc5adea3cac2088660b 2d02bbb49be04b4db0ab14ea2359f25c
+#: 5913625b7d004fd099a639d04b637e48 6f556a96e8824549ab70db456aca35d5
+#: 7bc1a1a0af9e4fb99fc6f0550307432d 7bda34d11b2d4af3bac913041c67092e
+#: 84b2f622c8c94d1ea8fb63ce863547d9 8a3f6df17c4949da86d9d9bb4c4f3088
+#: 8b1d2f9af10443fba8a726e8481b1863 930bf7a98d1147d58d9ac9b10afebc49
+#: c755e39d9f2b465784546c3b7a12b308 ffa8c06cb5e44d4ca8bf33d2549107a2
+#: fff61f44167f4c0384540b43d154ca12
+msgid "Parameters"
+msgstr ""
+
+#: ../../<openapi>:1 84c4157554ba40258759ce59d7a21235
+msgid "A unique integer value identifying this topic category."
+msgstr ""
+
+#: ../../<openapi>:1 4baa419cfb1642f281d1d570a1f8b6a2
+#: 4ed82322e91a454882bc13999df6d90d 7e83f5e4c98d40a5829a6d2a6c60e2a1
+#: c88137f1db1942f3814d03bea3b5b9d8
+msgid "API endpoint that allows layers to be viewed or edited."
+msgstr ""
+
+#: ../../<openapi>:1 2194ee6e994149ed9c51c7f304d391ba
+#: 55d357c8f44b4005a03385e44ba3a463 9965fbaa34b84481a813f6f46983665d
+#: c13bfa0da6ff451298220b5304ee4b68
+msgid "A unique integer value identifying this dataset."
+msgstr ""
+
+#: ../../<openapi>:1 168cefc3804545838c8fb5df3d7f9619
+#: 5e6695d9a375431b9ebb105656c47100
+msgid "Update one or more model instances."
+msgstr ""
+
+#: ../../<openapi>:1 3f1881313d2b47a9adc91e05770e6998
+#: e797918c2d744c4e9aed77520a199d33
+msgid ""
+"If ENABLE_BULK_UPDATE is set, multiple previously-fetched records may be "
+"updated in a single call, provided their IDs."
+msgstr ""
+
+#: ../../<openapi>:1 ae5b9ca012ce403eac6cbe58370d4a7f
+#: e4cd92b9dfca400491212bebf07bd422
+msgid ""
+"If ENABLE_PATCH_ALL is set, multiple records may be updated in a single "
+"PATCH call, even without knowing their IDs."
+msgstr ""
+
+#: ../../<openapi>:1 0bb26b6bb3de4d5e867823d3971baa2c
+#: b922906e683d492796b17c0b96fe0db3
+msgid ""
+"*WARNING*: ENABLE_PATCH_ALL should be considered an advanced feature and "
+"used with caution. This feature must be enabled at the viewset level and "
+"must also be requested explicitly by the client via the \"patch-all\" "
+"query parameter."
+msgstr ""
+
+#: ../../<openapi>:1 6a4f17578eeb400d9818be9f2eacb199
+#: faa696a57480435585740593a00f91c2
+msgid "This parameter can have one of the following values:"
+msgstr ""
+
+#: ../../<openapi>:1 6dba0a77ffaf430a91882e992c7f87a9
+#: fba223fad07b4568ab4ce0fa50ed2a5e
+msgid ""
+"true (or 1): records will be fetched and then updated in a transaction "
+"loop"
+msgstr ""
+
+#: ../../<openapi>:1 1d04dda523a5427993fc262361201ed1
+#: ee5716db17944f2cb8e3030758f8b743
+msgid "The `Model.save` method will be called and model signals will run"
+msgstr ""
+
+#: ../../<openapi>:1 c6ce030369a4411ba00c9ee9aaf25a9a
+#: f675115c99574469bfa63a1e51aec938
+msgid ""
+"This can be slow if there are too many signals or many records in the "
+"query"
+msgstr ""
+
+#: ../../<openapi>:1 7794bfefa02245abafa45537671520aa
+#: d437c3f0c8b645039cdd32a93e9123df
+msgid "This is considered the more safe and default behavior"
+msgstr ""
+
+#: ../../<openapi>:1 3d76da8cd7ee406e83a1045980069351
+#: c0b128a19ba5434aac584e91cab2b9cd
+msgid "query: records will be updated in a single query"
+msgstr ""
+
+#: ../../<openapi>:1 e6cfc0761ede46178bdcb23331654b6a
+#: ecf3667be05f42d2a2ba029e016f90a7
+msgid "The `QuerySet.update` method will be called and model signals will not run"
+msgstr ""
+
+#: ../../<openapi>:1 0c9eb5d9065146c2b954e6cf0372909d
+#: ad085e3b3645468fa19322d94e1ab423
+msgid ""
+"This will be fast, but may break data constraints that are controlled by "
+"signals"
+msgstr ""
+
+#: ../../<openapi>:1 b746a81226a5456dbbfcca3eed697593
+#: d7d9bc55b0c0427db0238387145e3c0d
+msgid "This is considered unsafe but useful in certain situations"
+msgstr ""
+
+#: ../../<openapi>:1 78d8f27ef268435fbcf179ad3138f39e
+#: e5ac02687217416d8d57b00b6bded0bc
+msgid ""
+"The server's successful response to a patch-all request will NOT include "
+"any individual records. Instead, the response content will contain a "
+"\"meta\" object with an \"updated\" count of updated records."
+msgstr ""
+
+#: ../../<openapi>:1 b092f866d1ed43e28e6a821b3ba507b2
+#: ce4a6252b6a14dc1ab04c04ed4ae1448
+msgid "Examples:"
+msgstr ""
+
+#: ../../<openapi>:1 357583dd28344c878abf74c509289bf8
+#: 72adc4a398d24c5fbcb1fac1f6378ecb
+msgid "Update many dogs by ID:"
+msgstr ""
+
+#: ../../<openapi>:1 5dd76a80c35a49e89cf47ad31423731b
+#: a8bee92430f24285895168175d25541c
+msgid "PATCH /dogs/ ["
+msgstr ""
+
+#: ../../<openapi>:1 85766350a01d4840ae468db30b142139
+#: edf8006eecd94f9facfd3003e08e4938
+msgid ""
+"{'id': 1, 'fur': 'white'}, {'id': 2, 'fur': 'black'}, {'id': 3, 'fur': "
+"'yellow'}"
+msgstr ""
+
+#: ../../<openapi>:1 43c49aa7caac421090affe98da724ede
+#: 74daa1f41f6f42ad87ea6b6db41841de c9bed4b385a94e2e8dd17ff8eecf598b
+msgid "]"
+msgstr ""
+
+#: ../../<openapi>:1 665199bb52854830bc4fef15bfa9aaf9
+#: f0bf39d145534b34a620a30238131ed3
+msgid "Update all dogs in a query:"
+msgstr ""
+
+#: ../../<openapi>:1 a3eaa75dcd784aa69a3f197095d4947f
+#: b6000988877a493c914be61144653ae0
+msgid "PATCH /dogs/?filter{fur.contains}=brown&patch-all=true {"
+msgstr ""
+
+#: ../../<openapi>:1 169b763fc5ce4bbe8038dd943e345a0d
+#: 8a194c9ddde04f1c8f35a2f9e120c021
+msgid "'fur': 'gold'"
+msgstr ""
+
+#: ../../<openapi>:1 072c3ab869fb41bcb612ed5b33970337
+#: 3dd1f528c13349c9a88cc22dab4f4000 5a039a21fbdb47ebb09d98b5f1130f93
+#: a477e2234cfa49b9b6d8bc13232b403c ca607611404248a3b7acb9e6d3eb59b1
+#: e70bdbadcd7641878d0b9fae2c792424 eb74539e61194b9380d69b3a13468a5d
+msgid "}"
+msgstr ""
+
+#: ../../<openapi>:1 6cf5876985a4413dbdb70362ba36a2f2
+msgid "Example:"
+msgstr ""
+
+#: ../../<openapi>:1 d762d1d82c434b01b2084b34ec77c09e
+msgid "Update the metadata (e.g.'title', 'abstract',...) of a dataset:"
+msgstr ""
+
+#: ../../<openapi>:1 ed3ddeda2ed04ab5905f3fcdd922ef4a
+msgid "PATCH /dataset/{id}/ {"
+msgstr ""
+
+#: ../../<openapi>:1 6495a99abfde4ffb9a0f489cd0f3481b
+msgid ""
+"'{metadata_1_name}': '{metadata_1_value}', '{metadata_n_name}': "
+"'{metadata_n_value'"
+msgstr ""
+
+#: ../../<openapi>:1 0559c23101f34b4299c7d4d2fb369243
+#: 92d00aa9b5a442669e6fb9222aaba7c9
+msgid "Fetch related object(s), as if sideloaded (used to support link objects)."
+msgstr ""
+
+#: ../../<openapi>:1 16d422d1b50d4fbbac69092e09498f71
+#: ee4832e6e03740228b295d1492bfede5
+msgid ""
+"This method gets mapped to `/<resource>/<pk>/<field_name>/` by "
+"DynamicRouter for all DynamicRelationField fields. Generally, this method"
+" probably shouldn't be overridden."
+msgstr ""
+
+#: ../../<openapi>:1 7b3c86d912954640a5faafef9ad9f4ad
+#: 85b189eaf7764c37925345a038c62f73
+msgid ""
+"An alternative implementation would be to generate reverse queries. For "
+"an exploration of that approach, see:"
+msgstr ""
+
+#: ../../<openapi>:1 6e3d60308d99437ab8c47967c08bee83
+#: 88766ad34fb04c17b84f741a2760a975
+msgid "https://gist.github.com/ryochiji/54687d675978c7d96503"
+msgstr ""
+
+#: ../../<openapi>:1 10d89737fa85402f9ac76bf9ec7938f1
+msgid "API endpoint allowing to retrieve the MapLayers list."
+msgstr ""
+
+#: ../../<openapi>:1 4c207099fea34d0b927d23fcf7a47e94
+msgid "API endpoint allowing to retrieve maps using the dataset."
+msgstr ""
+
+#: ../../<openapi>:1 00a22ca19ecc4f639d8e897e4e420b30
+msgid ""
+"API endpoint allowing to upload ISO-19115 compliant XML metadata for the "
+"dataset."
+msgstr ""
+
+#: ../../<openapi>:1 26211e870c264f8f9348458937d3e241
+msgid "API endpoint that allows documents to be viewed or edited."
+msgstr ""
+
+#: ../../<openapi>:1 4b4df924c94144cb9cce214f8c126b5b
+msgid "A unique integer value identifying this document."
+msgstr ""
+
+#: ../../<openapi>:1 6bb7def05e88432c9db421e673948af6
+msgid "Update one dog:"
+msgstr ""
+
+#: ../../<openapi>:1 6ece8476476c4983a7ac78e7d97748f8
+msgid "PATCH /dogs/1/ {"
+msgstr ""
+
+#: ../../<openapi>:1 a6d17527dbb646baa3b7b56993710b62
+msgid "'fur': 'white'"
+msgstr ""
+
+#: ../../<openapi>:1 cd9a705085f046e3b8007045bcb78407
+msgid "API endpoint allowing to retrieve the DocumentResourceLink(s)."
+msgstr ""
+
+#: ../../<openapi>:1 7f9d6275d3ae413aa493c3a313306876
+msgid "API endpoint that allows geoapps to be viewed or edited."
+msgstr ""
+
+#: ../../<openapi>:1 c1727817cb9e4575820f5b854817f466
+msgid ""
+"Either create a single or many model instances in bulk using the "
+"Serializer's many=True ability from Django REST >= 2.2.5."
+msgstr ""
+
+#: ../../<openapi>:1 553a4b6fee0940adb48e2fca021f2e35
+msgid ""
+"The data can be represented by the serializer name (single or plural "
+"forms), dict or list."
+msgstr ""
+
+#: ../../<openapi>:1 8370685bf63b4875a52fdcdb5bd0cfb2
+#: beb67bd7d821447eb00e0b22dd539179 fab8f73afef44f23a20a02f3a0782c32
+msgid "POST /dogs/ {"
+msgstr ""
+
+#: ../../<openapi>:1 41e56de8a322484cb82a521e9c48b330
+msgid "\"name\": \"Fido\", \"age\": 2"
+msgstr ""
+
+#: ../../<openapi>:1 83bcf94581ef4037aa21c2134ca1fd88
+msgid "\"dog\": {"
+msgstr ""
+
+#: ../../<openapi>:1 58bf2ea396514b13bf1d148c8c82a550
+msgid "\"name\": \"Lucky\", \"age\": 3"
+msgstr ""
+
+#: ../../<openapi>:1 ab9e2452bf544fd8bedd6b5b11d659ad
+msgid "\"dogs\": ["
+msgstr ""
+
+#: ../../<openapi>:1 77a378dd4fc14bbcbdfc5ed4b0d3370d
+#: ee7ce190f56b411990602d5231144036
+msgid "{\"name\": \"Fido\", \"age\": 2}, {\"name\": \"Lucky\", \"age\": 3}"
+msgstr ""
+
+#: ../../<openapi>:1 55d890dcd05f462eb3ae92eee7ce7213
+msgid "POST /dogs/ ["
+msgstr ""
+
+#: ../../<openapi>:1 53b3cca7450d45c5a5007333a153935c
+msgid "A unique integer value identifying this geo app."
+msgstr ""
+
+#: ../../<openapi>:1 efbe7343d42643deb124f82da7980c6e
+msgid "API endpoint that allows gropus to be viewed or edited."
+msgstr ""
+
+#: ../../<openapi>:1 711b46e8657549b4b064831f54ac36f9
+msgid "Either delete a single or many model instances in bulk"
+msgstr ""
+
+#: ../../<openapi>:1 697dc07f46c94d93a4cd52ad5dc64cbb
+msgid "DELETE /dogs/ {"
+msgstr ""
+
+#: ../../<openapi>:1 433883dfb81748ecbdc0f44dc5089905
+msgid "{\"id\": 1}, {\"id\": 2}"
+msgstr ""
+
+#: ../../<openapi>:1 74493a52f7c443b2af782e8b3d1c86f2
+msgid "DELETE /dogs/ ["
+msgstr ""
+
+#: ../../<openapi>:1 ed40ae7c6085472a8269b8b7c98903a6
+msgid "A unique integer value identifying this group profile."
+msgstr ""
+
+#: ../../<openapi>:1 72c4d5f419154f30b8f93e1b61730dda
+msgid "API endpoint allowing to retrieve the Group managers."
+msgstr ""
+
+#: ../../<openapi>:1 799a927221994f9f8e2930685ff0f4cb
+msgid "API endpoint allowing to retrieve the Group members."
+msgstr ""
+
+#: ../../<openapi>:1 bc06cf1c280e45829b29a5f7229bf536
+msgid "API endpoint allowing to retrieve the Group specific resources."
+msgstr ""
+
+#: ../../<openapi>:1 be0cc9d1df934b6e9f944c4c8d20dec9
+msgid "A viewset that can support dynamic API features."
+msgstr ""
+
+#: ../../<openapi>:1 4ec54fdd9de54c5e938917fbf8b07bac
+msgid "Attributes:"
+msgstr ""
+
+#: ../../<openapi>:1 728d4bf71515440d82a38954d13dc2d1
+msgid ""
+"features: A list of features supported by the viewset. meta: Extra data "
+"that is added to the response by the DynamicRenderer."
+msgstr ""
+
+#: ../../<openapi>:1 1de7b6f878b0415dad069973c4d64252
+msgid "Adds the `update_list` method to a viewset"
+msgstr ""
+
+#: ../../<openapi>:1 1d878a30011544c2b734826378001126
+msgid ""
+"`update_list` is used by `api.routers.ListPatchRouter` in order to allow "
+"performing PATCH requests against a viewset's `list` endpoint"
+msgstr ""
+
+#: ../../<openapi>:1 b6c1933f88004b65a01378c46a6f3bbe
+msgid "A unique integer value identifying this harvester."
+msgstr ""
+
+#: ../../<openapi>:1 4580370f93bc472ab5a46b80aaa25640
+msgid "A unique integer value identifying this asynchronous harvesting session."
+msgstr ""
+
+#: ../../<openapi>:1 04685eb8c6fc43f58d8b589fe90b7d4b
+msgid "API endpoint that lists hierarchical keywords."
+msgstr ""
+
+#: ../../<openapi>:1 30ee0946bc09464eb52d368b9cf73f5b
+msgid "A unique integer value identifying this hierarchical keyword."
+msgstr ""
+
+#: ../../<openapi>:1 278b35ae90ca4ac7818700853d4baf3a
+msgid "Handle the exposed management commands usage:"
+msgstr ""
+
+#: ../../<openapi>:1 c2a96af676c1445ab42e7b8b6058263e
+msgid "GET: List of exposed commands"
+msgstr ""
+
+#: ../../<openapi>:1 cecf7b185c334fa89b85226dc70511e2
+msgid "GET detail: Help for a specific command"
+msgstr ""
+
+#: ../../<openapi>:1 fce3fab573214766b55c79bf78b43c0b
+msgid "POST: Create a job (and automatic runs) for a specific command."
+msgstr ""
+
+#: ../../<openapi>:1 498ff1939de1479fac6e6edeb6d70d7d
+#: 849ab75dccf246a4a7c764a7ae97b7c0
+msgid ""
+"Creates and runs a management command job. Expects application/json "
+"content type in a following shape: {"
+msgstr ""
+
+#: ../../<openapi>:1 0b6edad1076548f0afa1f0667a794b4e
+#: 3bb77a16c05847f290db4c6159ab345c
+msgid ""
+"\"args\": [<arg1>, <arg2>], \"kwargs: {<key1>: <val1>, <key2>: <val2>}, "
+"\"autostart\": bool"
+msgstr ""
+
+#: ../../<openapi>:1 b37f6a92f4694384afffbf2781995799
+#: b485162ef82f4d739911ee1508d672bd
+msgid "} By default, autostart is set to true."
+msgstr ""
+
+#: ../../<openapi>:1 19242a511e21447f85d3f4fdc6503e5e
+#: 46657b3cdf724764bc4825236de3608c
+msgid ""
+"Create, List, Retrieve, Start, Stop and Get Status of a Management "
+"Command Job."
+msgstr ""
+
+#: ../../<openapi>:1 86c090e65b574f08a186b95a351d0688
+#: ee9a108ff6444b9abe6576d16561479b
+msgid "A unique integer value identifying this management command job."
+msgstr ""
+
+#: ../../<openapi>:1 5f959877a46e406997d9b96c68c5f7f1
+msgid "API endpoint that allows maps to be viewed or edited."
+msgstr ""
+
+#: ../../<openapi>:1 3ebd7c37a6b440a58e9b934b8ab76dcd
+msgid ""
+"Changes in the m2m `maplayers` are committed before object changes. To "
+"protect the db, this action is done within an atomic tansation."
+msgstr ""
+
+#: ../../<openapi>:1 ff1b0bc5ee7141e38d8764d9756ce1b7
+msgid "A unique integer value identifying this map."
+msgstr ""
+
+#: ../../<openapi>:1 8728494dd52b470aa6e27c00aadbc082
+msgid "API endpoint allowing to retrieve the local MapLayers."
+msgstr ""
+
+#: ../../<openapi>:1 f202caefcbe04e309e4dda5d59bb2906
+msgid "API endpoint that lists all possible owners."
+msgstr ""
+
+#: ../../<openapi>:1 1aff91060c4842feae866c5a6ab55321
+msgid "A unique integer value identifying this user."
+msgstr ""
+
+#: ../../<openapi>:1 e84bd03277d94fd2a8fae890fa4ae5a5
+msgid "API endpoint that lists regions."
+msgstr ""
+
+#: ../../<openapi>:1 cbcf9e78c0b14f65b21f1e910ceb7522
+msgid "A unique integer value identifying this region."
+msgstr ""
+
+#: ../../<openapi>:1 400453512f5c432c8241f0dee2859c72
+msgid "Main dispatcher endpoint to follow an API request status progress"
+msgstr ""
+
+#: ../../<openapi>:1 c2ff768ff1f14daf9fadd39ab3a33898
+msgid "GET input: <str: execution id>"
+msgstr ""
+
+#: ../../<openapi>:1 e8529d9cb2024c0da335c84fcce7dde5
+msgid "output: <ExecutionRequest>"
+msgstr ""
+
+#: ../../<openapi>:1 a96596a83da449c6a58ec12728845325
+msgid "API endpoint that allows base resources to be viewed or edited."
+msgstr ""
+
+#: ../../<openapi>:1 2b363e9d15354232825fd3228d359d5d
+#: 53bf03405fb04eb88e12f4c07753d920 869aca7c37944af7bd3a68b9256f7e8c
+#: 93a32bf51c344a028fefb248d8de849e
+msgid "A unique integer value identifying this resource base."
+msgstr ""
+
+#: ../../<openapi>:1 c045ff2298a14100b69b3d3352736ac5
+msgid ""
+"Instructs the Async dispatcher to execute a 'COPY' operation over a valid"
+" 'uuid'."
+msgstr ""
+
+#: ../../<openapi>:1 214e60e27bca40859b53528ea4cfe062
+msgid ""
+"Instructs the Async dispatcher to execute a 'DELETE' operation over a "
+"valid 'uuid'."
+msgstr ""
+
+#: ../../<openapi>:1 119cba1803c244e6af9a8410b9084665
+msgid "Get/Update/Delete/Add extra metadata for resource"
+msgstr ""
+
+#: ../../<openapi>:1 bc0c5616ed534109813014961fe24736
+msgid "API endpoint allowing to retrieve the favorite Resources."
+msgstr ""
+
+#: ../../<openapi>:1 68a2a28363424301b5fd93951bfd75f8
+#: 68efaf6c31f24a55a59254417dd247b7 cf637efdbc5b4b7e880ab02c77985323
+msgid "Sets an object's the permission levels based on the perm_spec JSON."
+msgstr ""
+
+#: ../../<openapi>:1 70feb667f1504f2985874f96f3f34346
+#: aa9163bc4f5f4fa488793bcd3fae2489 fd5d3a3d4cc0424fab7801275cc64714
+msgid "the mapping looks like: ``` {"
+msgstr ""
+
+#: ../../<openapi>:1 21dc5265ff1c488b904f3595375e591c
+#: 54a014e118fb424fa48c058dbec6861a ac1f86bb6f6d4a57a5f41926624558bf
+msgid "'users': {"
+msgstr ""
+
+#: ../../<openapi>:1 3dbd6efbfad4442393ee24951f63fee9
+#: 49244d6ce8324fc984f134b904fa97e0 90b21b31f343450ab65a9577df62fe76
+msgid ""
+"'AnonymousUser': ['view'], <username>: ['perm1','perm2','perm3'], "
+"<username2>: ['perm1','perm2','perm3'] ..."
+msgstr ""
+
+#: ../../<openapi>:1 39255cce589a44759c3a600c1b224e78
+#: cecf2a572988476faf3c0d6503906188 ee175c169e1d4ea9921ac8c565443778
+msgid "}, 'groups': {"
+msgstr ""
+
+#: ../../<openapi>:1 4068351139884490b6a4d461e22cb2a4
+#: 81bad3db76ef43478a3eccf0fe916d6d a43a5f7b5a404bfdb009c48dac78f68d
+msgid ""
+"<groupname>: ['perm1','perm2','perm3'], <groupname2>: "
+"['perm1','perm2','perm3'], ..."
+msgstr ""
+
+#: ../../<openapi>:1 ae59ca442f444fc9af085e038994dabf
+msgid "API endpoint allowing to rate and get overall rating of the Resource."
+msgstr ""
+
+#: ../../<openapi>:1 13388a6ace614abc840804b7a6857bf1
+msgid "API endpoint allowing to set thumbnail of the Resource."
+msgstr ""
+
+#: ../../<openapi>:1 1a7a842f3f254333be1bb1d1b33279bc
+msgid ""
+"Instructs the Async dispatcher to execute a 'UPDATE' operation over a "
+"valid 'uuid'."
+msgstr ""
+
+#: ../../<openapi>:1 00a22ca19ecc4f639d8e897e4e420b30
+msgid "API endpoint allowing to set the thumbnail url for an existing dataset."
+msgstr ""
+
+#: ../../<openapi>:1 7d77dd85f7d04d7cb688a13e92b5fa4e
+msgid "API endpoint allowing to retrieve the approved Resources."
+msgstr ""
+
+#: ../../<openapi>:1 59486c7647e2416ab4ab4af3d405ebd3
+msgid "Instructs the Async dispatcher to execute a 'CREATE' operation."
+msgstr ""
+
+#: ../../<openapi>:1 1d3f329c4eeb4a03bc069a23ce263124
+msgid "API endpoint allowing to retrieve the featured Resources."
+msgstr ""
+
+#: ../../<openapi>:1 e325cc088c4741c4bedaffcca1447921
+msgid "Instructs the Async dispatcher to execute a 'INGEST' operation."
+msgstr ""
+
+#: ../../<openapi>:1 63160607c79c470b95ff0280123cdf58
+msgid "API endpoint allowing to retrieve the published Resources."
+msgstr ""
+
+#: ../../<openapi>:1 c6cee9f284f644c3a3e498bfe2c3bb50
+msgid "Returns the list of available ResourceBase polymorphic_ctypes."
+msgstr ""
+
+#: ../../<openapi>:1 782c3027fe984f97b8809c7365b577f3
+msgid "\"resource_types\":["
+msgstr ""
+
+#: ../../<openapi>:1 47ec08f10e4e4a21a4a0dab1db05814a
+msgid "{"
+msgstr ""
+
+#: ../../<openapi>:1 fb505e7e27f54ecd8adef50a43f9b380
+msgid "\"name\": \"layer\", \"count\": <number of layers>"
+msgstr ""
+
+#: ../../<openapi>:1 022e90d98cc14c6894ea8a3c36b420de
+msgid "}, {"
+msgstr ""
+
+#: ../../<openapi>:1 655b862435bd4b0eaf670fb9fcb929a2
+msgid "\"name\": \"map\", \"count\": <number of maps>"
+msgstr ""
+
+#: ../../<openapi>:1 17db9827bcb143bfa80c0e83cf2feb2c
+msgid "\"name\": \"document\", \"count\": <number of documents>"
+msgstr ""
+
+#: ../../<openapi>:1 f0b3567008394af78371a90d30e6e8bc
+msgid "\"name\": \"geostory\", \"count\": <number of geostories>"
+msgstr ""
+
+#: ../../<openapi>:1 71c49f195f53478db5a2cff97e2f6659
+msgid ""
+"OpenApi3 schema for this API. Format can be selected via content "
+"negotiation."
+msgstr ""
+
+#: ../../<openapi>:1 07805e949b5442739692bf6c03a37de4
+msgid "YAML: application/vnd.oai.openapi"
+msgstr ""
+
+#: ../../<openapi>:1 e14c118f350b486d9e9b2254cbd444cc
+msgid "JSON: application/vnd.oai.openapi+json"
+msgstr ""
+
+#: ../../<openapi>:1 fc40270bb7ba4fbe91d1cf365b425983
+msgid "API endpoint that lists Thesaurus keywords."
+msgstr ""
+
+#: ../../<openapi>:1 7aa610e88c2149e288bb434e0058d18b
+msgid "A unique integer value identifying this thesaurus keyword."
+msgstr ""
+
+#: ../../<openapi>:1 8e0d2223fe684347bdbe3edb954df472
+msgid "A unique value identifying this upload parallelism limit."
+msgstr ""
+
+#: ../../<openapi>:1 5ed6da8b4e014e73ac3a0c21671e1582
+msgid "A unique value identifying this upload size limit."
+msgstr ""
+
+#: ../../<openapi>:1 30fb499612644ba3b56f41b9bfec237d
+msgid "API endpoint that allows uploads to be viewed or edited."
+msgstr ""
+
+#: ../../<openapi>:1 7abe8d4e3e724cb18734c097034664fa
+msgid "A unique integer value identifying this upload."
+msgstr ""
+
+#: ../../<openapi>:1 987970df16ce4758ac41e7f50f52aeae
+msgid "Starts an upload session based on the Dataset Upload Form."
+msgstr ""
+
+#: ../../<openapi>:1 277d8af069d5430e882a6203132e3bad
+msgid "the form params look like: ```"
+msgstr ""
+
+#: ../../<openapi>:1 a0fe745d02fb46feab3bf031523214e3
+msgid ""
+"'csrfmiddlewaretoken': self.csrf_token, 'permissions': '{ \"users\": "
+"{\"AnonymousUser\": [\"view_resourcebase\"]} , \"groups\":{}}', 'time': "
+"'false', 'charset': 'UTF-8', 'base_file': base_file, 'dbf_file': "
+"dbf_file, 'shx_file': shx_file, 'prj_file': prj_file, 'tif_file': "
+"tif_file"
+msgstr ""
+
+#: ../../<openapi>:1 543bb1d1c2c94e26b6de221e63e7d103
+msgid "```"
+msgstr ""
+
+#: ../../<openapi>:1 3656d666b756465797a44c4e959cbf61
+msgid "API endpoint that allows users to be viewed or edited."
+msgstr ""
+
+#: ../../<openapi>:1 702991cec6a14480afd330f314beafa0
+msgid "API endpoint allowing to retrieve the Groups the user is member of."
+msgstr ""
+
+#: ../../<openapi>:1 027b698a84114d9a88750f7786bf3d1e
+msgid "API endpoint allowing to retrieve the Resources visible to the user."
+msgstr ""
+

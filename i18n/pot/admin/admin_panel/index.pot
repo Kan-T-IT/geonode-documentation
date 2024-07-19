@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1577,7 +1577,7 @@ msgstr ""
 
 #: ../../admin/admin_panel/index.rst:934
 #: ca5ede8b8359478b8a680801b70e2050
-msgid "This small section won't cover entirely the GeoNode OAuth2 security integration, this is explained in detail in other sections of the documentation (refer to :ref:`oauth2_fixtures_and_migration` and :ref:`oauth2_tokens_and_sessions`)."
+msgid "This small section won't cover entirely the GeoNode OAuth2 security integration, this is explained in detail in other sections of the documentation (refer to :ref:`geoserver_geonode_aa`)."
 msgstr ""
 
 #: ../../admin/admin_panel/index.rst:937
@@ -1607,7 +1607,7 @@ msgstr ""
 
 #: ../../admin/admin_panel/index.rst:951
 #: c3f30b1e541846448aa28a48c5c4ba11
-msgid "The section :ref:`oauth2_tokens_and_sessions` better explains the concepts behind OAuth2 sessions; we want just to refresh the mind here about the basic concepts:"
+msgid "The section :ref:`geoserver_geonode_aa` better explains the concepts behind OAuth2 sessions; we want just to refresh the mind here about the basic concepts:"
 msgstr ""
 
 #: ../../admin/admin_panel/index.rst:954

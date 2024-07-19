@@ -8,38 +8,38 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-10 11:11+0200\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.1\n"
 
-#: ../../start/quick/index.rst:2 af7945965e0e45739ec8f8bacd5615af
+#: ../../start/quick/index.rst:2 798fb9469885415291f0d792d82cad7d
 msgid "Introduction"
 msgstr ""
 
-#: ../../start/quick/index.rst:4 14e89a815135429caf25b75c7d6d8caf
+#: ../../start/quick/index.rst:4 690302d9823547fe89580c845a9c28c7
 msgid ""
 "The following is a quick guide to get started with GeoNode in most common"
 " operating systems."
 msgstr ""
 
-#: ../../start/quick/index.rst:6 a655670f16614572a1df20bfa5b6a822
+#: ../../start/quick/index.rst:6 70fc5445bd1446edb5b4222566391fd5
 msgid ""
 "For a full setup and deployment, please refer to the :doc:`complete "
 "installation guides </install/index>`"
 msgstr ""
 
-#: ../../start/quick/index.rst:8 4f59166433854d629f9126f380d275f9
+#: ../../start/quick/index.rst:8 098ed6215fe5455e9882c48c4c554fc2
 msgid ""
 "This is meant to be run on a fresh machine with no previously installed "
 "packages or GeoNode versions."
 msgstr ""
 
-#: ../../start/quick/index.rst:10 05ec36ebbb654270badb37737f728796
+#: ../../start/quick/index.rst:10 3d1ae13212b34d48817a71e4c810ec98
 msgid ""
 "The methods presented here are meant to be used for a limited internal "
 "demo only. Before exposing your GeoNode instance to a public server, "
@@ -47,11 +47,11 @@ msgid ""
 "</advanced/hardening/index>`"
 msgstr ""
 
-#: ../../start/quick/index.rst:14 b1bf9c272a35430082fff47b219bffea
+#: ../../start/quick/index.rst:14 a1aa4c8a8c794f67a3a4feb2f2612899
 msgid "Recommended Minimum System Requirements"
 msgstr ""
 
-#: ../../start/quick/index.rst:16 3ae60f9974784744a401b53ca8b72fdf
+#: ../../start/quick/index.rst:16 4b99b446d69a48a38ce02802100c88fd
 msgid ""
 "A definite specification of technical requirements is difficult to "
 "recommend. Accepted performance is highly subjective. Furthermore, the "
@@ -59,27 +59,27 @@ msgid ""
 "database or the network connectivity of your infrastructure."
 msgstr ""
 
-#: ../../start/quick/index.rst:18 5a764fb6e2d441f9b5fd4df5aacdfef2
+#: ../../start/quick/index.rst:18 8d24d1ff9afd493c9a03dfbda0f7fd57
 msgid ""
 "For deployment of GeoNode on a single server, the following are the *bare"
 " minimum* system requirements:"
 msgstr ""
 
-#: ../../start/quick/index.rst:20 4cf8bbcf2f054df5a6e32bbf477c6fc1
+#: ../../start/quick/index.rst:20 e85bc62137fe4901826f4063645f4f2b
 msgid "8GB of RAM (16GB or more preferred for a production deployment)."
 msgstr ""
 
-#: ../../start/quick/index.rst:21 dbb402e4aa014194bc883e274270c673
+#: ../../start/quick/index.rst:21 f619c2228393499e95c6a72bea4ac007
 msgid ""
 "2.2GHz processor with 4 cores. (Additional processing power may be "
 "required for multiple concurrent styling renderings)"
 msgstr ""
 
-#: ../../start/quick/index.rst:22 cc2e302300c24eb0a9397250e240f317
+#: ../../start/quick/index.rst:22 e962d59f0e23435d876a1c27efaa33d2
 msgid "30 GB software disk usage (Reserved to OS and source code only)."
 msgstr ""
 
-#: ../../start/quick/index.rst:23 b85b19de706f4e24ada96df9b94e45a8
+#: ../../start/quick/index.rst:23 6f64b663e6d64529b07527919dca6860
 msgid ""
 "Additional disk space for any data hosted with GeoNode, data stored on "
 "the DataBase and tiles cached with GeoWebCache. For db, spatial data, "
@@ -87,63 +87,63 @@ msgid ""
 "baseline size for GeoNode deployments is between 50GB and 100GB."
 msgstr ""
 
-#: ../../start/quick/index.rst:25 8b9c11f90f05400986a59d0480473fbb
+#: ../../start/quick/index.rst:25 b70186f63bf143aea08ad44c9e79a58b
 msgid "64-bit hardware **strongly** recommended."
 msgstr ""
 
-#: ../../start/quick/index.rst:55 d99e9a2f764c486b919f33ad7d5fe47f
+#: ../../start/quick/index.rst:55 1b100de6022e4953a9f9699565a70c3d
 msgid "Install via Docker"
 msgstr ""
 
-#: ../../start/quick/index.rst:57 031be50414d8445a90a147b32b2feb55
+#: ../../start/quick/index.rst:57 3239133d6c4447fbaf9ea9178f988bde
 msgid ""
 "`Docker <https://www.docker.com/>`_ is a free software platform used for "
 "packaging software into standardized units for development, shipment and "
 "deployment."
 msgstr ""
 
-#: ../../start/quick/index.rst:60 2266c3e4ec6b43e4b18c528d2487905b
+#: ../../start/quick/index.rst:60 3c5d8239838d4ca8a3cb1c66aadc025c
 msgid "credits to Docker"
 msgstr ""
 
-#: ../../start/quick/index.rst:62 0ad7939646db40b98862f332ff13457a
+#: ../../start/quick/index.rst:62 c1fb48cf4e71426087870e21809f0f68
 msgid ""
 "A container image is a lightweight, stand-alone, executable package of a "
 "piece of software that includes everything needed to run it: code, "
 "runtime, system tools, system libraries, settings."
 msgstr ""
 
-#: ../../start/quick/index.rst:64 9c8b8c417b924845ad4db66ed0582a25
+#: ../../start/quick/index.rst:64 1dfee75462354e93916812815b6ed624
 msgid ""
 "Docker containers running on a single machine share that machine's "
 "operating system kernel; they start instantly and use less compute and "
 "RAM."
 msgstr ""
 
-#: ../../start/quick/index.rst:66 f219a4259bb24d3c9e6342b30a0970c9
+#: ../../start/quick/index.rst:66 ddf3fd9c5fcb43a8bb21b115f937fcd5
 msgid ""
 "Containers can share a single kernel, and the only information that needs"
 " to be in a container image is the executable and its package "
 "dependencies, which never need to be installed on the host system."
 msgstr ""
 
-#: ../../start/quick/index.rst:68 bcbce66efa924ba8a407af0378777c7d
+#: ../../start/quick/index.rst:68 3afcbe92d40243f1a5f3e90b5adaf439
 msgid ""
 "Multiple containers can run on the same machine and share the OS kernel "
 "with other containers, each running as isolated processes in user space."
 msgstr ""
 
-#: ../../start/quick/index.rst:70 cd06d164c094432b87eb19cc2b6abd09
+#: ../../start/quick/index.rst:70 5c2354ecdf504ef693c22b22a45419b9
 msgid ""
 "This documentation will refer to the usage of Docker on a Ubuntu host, "
 "but you can of course run Docker also on other Linux distributions, "
 "Windows and Mac."
 msgstr ""
 
-#: ../../start/quick/index.rst:72 efbd558a99154bd7b4419279b02912e6
+#: ../../start/quick/index.rst:72 e254f5a49ce74046867a9f4478fe08eb
 msgid ""
 "For the steps to setup Docker on Ubuntu you can jump ahead to "
-":ref:`Ubuntu 20.04 <Ubuntu (20.04) Basic Setup>`"
+":ref:`Ubuntu 22.04 <Ubuntu (22.04) Basic Setup>`"
 msgstr ""
 
 #~ msgid "Quick Installation Guide"
@@ -216,5 +216,12 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ":ref:`CentOS 7.0 <CentOS (7.0 +) Basic Setup>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For the steps to setup Docker on"
+#~ " Ubuntu you can jump ahead to "
+#~ ":ref:`Ubuntu 20.04 <Ubuntu (20.04) Basic "
+#~ "Setup>`"
 #~ msgstr ""
 

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,11 +27,21 @@ msgid ":ref:`settings`"
 msgstr ""
 
 #: ../../basic/index.rst:13
+#: de135c8693fa4fa78304bb5d5e08b7f8
+msgid "Docker Environmental variables"
+msgstr ""
+
+#: ../../basic/index.rst:15
+#: 2a3e6c1ed9de49f6ba6adc260b8a9a34
+msgid ":ref:`dockerenvvars`"
+msgstr ""
+
+#: ../../basic/index.rst:24
 #: 8477de2724834872b402b393e75a6cfb
 msgid "Customize the Look and Feel"
 msgstr ""
 
-#: ../../basic/index.rst:21
+#: ../../basic/index.rst:32
 #: 306eeb7b643d4e31985d4331b1df010c
 msgid "GeoNode permissions"
 msgstr ""

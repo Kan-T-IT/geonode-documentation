@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -143,12 +143,12 @@ msgstr ""
 
 #: ../../about/index.rst:65
 #: 3c642ab4c41541069d40113a8b864320
-msgid "GeoNode current version: `3.2.0 <https://github.com/GeoNode/geonode/releases/tag/3.2.0>`_"
+msgid "GeoNode current version: `4.3.0 <https://github.com/GeoNode/geonode/releases/tag/4.3.0>`_"
 msgstr ""
 
 #: ../../about/index.rst:67
 #: 52298416455b4b949a511c2bc334a282
-msgid "Main Features: `State of GeoNode <https://www.geosolutionsgroup.com/blog/state-geonode-3-2-webinar/>`_"
+msgid "Main Features: `State of GeoNode <https://www.geosolutionsgroup.com/blog/geonode-4-3/>`_"
 msgstr ""
 
 #: ../../about/index.rst:72

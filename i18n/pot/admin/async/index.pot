@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,6 +79,11 @@ msgstr ""
 #: ../../admin/async/index.rst:64
 #: e246087871894ec7b93e9ec869a078b9
 msgid "Call in the final upload page in order to trigger the actual import. If correclty set, Geoserver will manage the upload asyncronously."
+msgstr ""
+
+#: ../../admin/async/index.rst:71
+#: c427624ed20a4d67b085122378656fd0
+msgid "The `import_id` is returned from the previous step"
 msgstr ""
 
 #: ../../admin/async/index.rst:74

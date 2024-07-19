@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,46 +32,51 @@ msgid "Through the *Share* Link shown in the menu it is possible to manage the d
 msgstr ""
 
 #: ../../usage/managing_documents/document_permissions.rst:10
-#: 91fb87125d7a44c5bd1bef198332ad72
-msgid "View (allows to view the document)."
+#: 682644c7c51b47cf8176d3358b192975
+msgid "None (the document is not visible)."
 msgstr ""
 
 #: ../../usage/managing_documents/document_permissions.rst:11
-#: d9b0cd8e5b48423a890e81a2de18ccfc
-msgid "Download (allows to view and download the document)."
+#: 91fb87125d7a44c5bd1bef198332ad72
+msgid "View Metadata  (allows to view the document)."
 msgstr ""
 
 #: ../../usage/managing_documents/document_permissions.rst:12
+#: d9b0cd8e5b48423a890e81a2de18ccfc
+msgid "View and Download (allows to view and download the document)."
+msgstr ""
+
+#: ../../usage/managing_documents/document_permissions.rst:13
 #: 3d5e9fcfcb5943a5bec588152e95f66b
 msgid "Edit (allows to change the document metadata and attributes)."
 msgstr ""
 
-#: ../../usage/managing_documents/document_permissions.rst:13
+#: ../../usage/managing_documents/document_permissions.rst:14
 #: f3b5869eae3b46ec9839e11d34b06071
 msgid "Manage it (allows to update, delete, change share options, publish/unpublish)."
 msgstr ""
 
-#: ../../usage/managing_documents/document_permissions.rst:20
+#: ../../usage/managing_documents/document_permissions.rst:21
 #: ede3c689e7294403b6b02ba0cae48590
 msgid "See an example in the picture below."
 msgstr ""
 
-#: ../../usage/managing_documents/document_permissions.rst:23
+#: ../../usage/managing_documents/document_permissions.rst:24
 #: 89b5135b5a6b472e856fb56feaca9ec4
 msgid "After making changes, always save them with the *Save* Link in the menu"
 msgstr ""
 
-#: ../../usage/managing_documents/document_permissions.rst:28
+#: ../../usage/managing_documents/document_permissions.rst:29
 #: 682644c7c51b47cf8176d3358b192975
 msgid "*Changing the Document share options*"
 msgstr ""
 
-#: ../../usage/managing_documents/document_permissions.rst:30
+#: ../../usage/managing_documents/document_permissions.rst:31
 #: 913addacf2274298be5bb4d4c6494417
 msgid "Usually those with options of editing metadata and the management of a document are in charge and responsible of the document, i.e. the contributor who uploaded it has those options by default."
 msgstr ""
 
-#: ../../usage/managing_documents/document_permissions.rst:32
+#: ../../usage/managing_documents/document_permissions.rst:33
 #: bc27067dd727423f8a98276c0d059c70
 msgid "Once the share options are set, click :guilabel:`Save` link in the menu to save them."
 msgstr ""

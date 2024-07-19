@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../usage/data/finding_data.rst:9
 #: dbbabb73eb2e46ecb0d43a383a1a8b08
-msgid "The *Search* box in the navigation bar (see the picture below) let you type a text and find all the data which have to deal with that text."
+msgid "The *Search* box in the navigation bar (see the picture below) let you type a text and find all the resource which have to deal with that text."
 msgstr ""
 
 #: ../../usage/data/finding_data.rst:14
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../usage/data/finding_data.rst:24
 #: 99bf8549acc44adab8378e8e5818ae45
-msgid "It is possible to search and filter data by Text, Types, Categories, Keywords, Owners, Regions or Extent."
+msgid "It is possible to search and filter data by Text, Types, Categories, Keywords, Owners, Regions, Group, Limitations on public access, Date and Extent."
 msgstr ""
 
 #: ../../usage/data/finding_data.rst:26
@@ -76,12 +76,17 @@ msgstr ""
 msgid "Data can be ordered by Most recent, Less recent, Name and Popularity."
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:42
+#: ../../usage/data/finding_data.rst:38
+#: d00353c1a20b45469976d7443d9c6b75
+msgid "*Ordering Link*"
+msgstr ""
+
+#: ../../usage/data/finding_data.rst:43
 #: d00353c1a20b45469976d7443d9c6b75
 msgid "*Ordering Data*"
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:45
+#: ../../usage/data/finding_data.rst:46
 #: 75e8fc5a900f46969325c54a2949db93
 msgid "For *Users* see :ref:`user-info`."
 msgstr ""

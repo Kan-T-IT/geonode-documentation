@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../usage/managing_documents/uploading_documents.rst:4
+#: 967c1f62fd484ea6a9e410902466051e
+msgid "Upload/Add Documents"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:6
+#: 1b9470fbada0417396541f9c58e5357b
+msgid ""
+"GeoNode allows to share reports, conceptual notes, posters, spreadsheets,"
+" etc. A wide range of documents files can be hosted on the platform, "
+"including text files (.doc, .docx, .txt, .odt), spreadsheets (.xls, "
+".xlsx, .ods), presentations (.ppt, .pptx, .odp), images (.gif, .jpg, "
+".png, .tif, .tiff), PDF, zip files (.rar, .zip, .gz), SLD, XML, QML files"
+" or as External URL."
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:8
+#: 013b48dc154143e0a04586c73b7b6ca2
+msgid "Only authenticated users can upload data into GeoNode."
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:10
+#: 1af09806ea1046428e6729cc1f23fab4
+msgid "It is possible to upload a *Documents* in two ways:"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:12
+#: a051fd27ecf44121b286cb47b1452f15
+msgid ""
+"From the :guilabel:`All Resources` page, by clicking *Add Resource* which"
+" displays a list including `Upload document` link:"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:17
+#: ceb8fe3dd9884823a084eff5c06ad77c
+msgid "*Document Upload from All Resources page*"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:19
+#: d5286b53745d4ded9d85185b663a0e0d
+msgid "From the :guilabel:`Documents` page, by clicking on *New* button."
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:24
+#: a18d79da9f36487686783d16b1a6a5a0
+msgid "*Document Upload from Documents page*"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:26
+#: ceb8fe3dd9884823a084eff5c06ad77c
+msgid "The *Document Upload* page looks like the one shown in the picture below."
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:31
+#: 3199f86a31554067ba77afc7b3cff40e
+msgid "*Document Upload page*"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:33
+#: 0c9aea8fdf1f4df7b0768690013a109f
+msgid "On *GeoNode* documents can be:"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:35
+#: 21bfa492b634431ab29abed677ba0acd
+msgid "Upload from the **Local file**"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:37
+#: 6f8a13ef014f4b30b7d6906de26ea900
+msgid "Created with reference to **External URL**"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:40
+#: e9851ba941e84e609efb3a0af786d77b
+msgid "In order to upload a document from the **Local file**, you need to:"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:42
+#: bd3f49b3a6c94c07a5c4650a7a16327d
+msgid "Click on :guilabel:`Select files` button"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:43
+#: 5b14fb19ff424ad68381be799c0387cd
+msgid "Select a file from your disk."
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:44
+#: ../../usage/managing_documents/uploading_documents.rst:57
+#: bd3f49b3a6c94c07a5c4650a7a16327d
+msgid "Click the :guilabel:`Upload` button"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:49
+#: 749821bbf38744d88ddd7b35a8a2b001
+msgid "*Upload document from the select files option*"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:51
+#: 354b009375b64a0f8940a6f12b33b971
+msgid ""
+"A document may refer to a remote document, without making a local copy of"
+" the remote resource."
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:52
+#: f2f423d0d5f04382a13fcf8715e9a0a3
+msgid "To add a document that references an **External URL** you need to:"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:54
+#: bd3f49b3a6c94c07a5c4650a7a16327d
+msgid "Click on :guilabel:`Add URL` button"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:55
+#: 057af4a1ec53478fb0bc39060839824d
+msgid "Select an URL"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:56
+#: 95fde1e6bd1f4aa3bf4fc04ec939150b
+msgid "Select an extension from the drop-down menu"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:62
+#: 4977cd78dbc946c5a1219f2b2a1c08f0
+msgid "*Add document from the add URL option*"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:64
+#: 8222f851b8734adb929fd846431b3dde
+msgid ""
+"At the end of the uploading process, by clicking on the View button, you "
+"will be driven to the document page with the Info panel open. Here it is "
+"possible to view more info, edit metadata, share, download, and delete "
+"the document. See the next section to know more about Metatadata."
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:66
+#: d0a119c477774cb597306e55bfcb9542
+msgid "If you get the following error message:"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:68
+#: 7809df632d204614a5f4a36c081b8892
+msgid ""
+"``Total upload size exceeds 100.0 MB. Please try again with smaller "
+"files.``"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:70
+#: 4e6ea6e62aa746539c664ca7c74e6540
+msgid ""
+"This means that there is an upload size limit of 100 MB. An user with "
+"administrative access can change the upload limits at the `admin panel "
+"<../../admin/upload-size-limits/index.html#upload-size-limits>`__."
+msgstr ""
+

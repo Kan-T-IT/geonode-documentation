@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../usage/dashboard/index.rst:4 f6406161d527419ea7d0370d261d6dc3
+msgid "Dashboard"
+msgstr ""
+
+#: ../../usage/dashboard/index.rst:6 146bfa23d8f247658104ca61e1371eee
+msgid ""
+"Dashboard is a MapStore tool integrated in GeoNode that provides the user"
+" with a space to add many Widgets, such as charts, maps, tables, texts "
+"and counters, and can create connections between them in order to:"
+msgstr ""
+
+#: ../../usage/dashboard/index.rst:8 c5f0de53a547473394fdda9abe419251
+msgid "Provide an overview to better visualize a specific data context"
+msgstr ""
+
+#: ../../usage/dashboard/index.rst:9 100f297607bb49ee87ba9558ee64f8cc
+msgid ""
+"Interact spatially and analytically with the data by creating connections"
+" between widgets"
+msgstr ""
+
+#: ../../usage/dashboard/index.rst:10 4c512876495c4568aeea3879f91d9375
+msgid "Perform analysis on involved data/layers"
+msgstr ""
+
+#: ../../usage/dashboard/index.rst:12 39809d46fd1a4506a2788014ef7666a0
+msgid ""
+"To build a new Dashboard go to :guilabel:`Add Resource` option on the "
+"*All Resources* page and choose option *Create dashboard* or select "
+":guilabel:`New` option on the *Dashboards* page"
+msgstr ""
+
+#: ../../usage/dashboard/index.rst:17 bd34de766a6c4457841b9cca6d498698
+msgid "*Create dashboard from All Resources page*"
+msgstr ""
+
+#: ../../usage/dashboard/index.rst:22 11d3e49857fd4560aea3a3e6d98d2b72
+msgid "*Create dashboard from Dashboards page*"
+msgstr ""
+
+#: ../../usage/dashboard/index.rst:24 21d4cf1e3046411cb8e117555aa4206a
+msgid ""
+"Now you landed on the Dashboard edition page that is composed of the "
+"following sections:"
+msgstr ""
+
+#: ../../usage/dashboard/index.rst:29 0bc1d2ec4d2348729f78a01b40f6549c
+msgid "*New Dashboard Apps option*"
+msgstr ""
+
+#: ../../usage/dashboard/index.rst:32 1943a8d73b814dfaa471832752b9211d
+msgid "Further Reading"
+msgstr ""
+
+#: ../../usage/dashboard/index.rst:34 8f24b2d6c5f04f3fbb218c72cc223bc5
+msgid ""
+"Follow the link below to get more detailed information about the usage of"
+" Dashboard."
+msgstr ""
+
+#: ../../usage/dashboard/index.rst:36 88f55d3a5d1848e8b9e3eb92bc49d6f9
+msgid ""
+"`Dashboard Documentation <https://mapstore.readthedocs.io/en/latest/user-"
+"guide/exploring-dashboards>`_"
+msgstr ""
+

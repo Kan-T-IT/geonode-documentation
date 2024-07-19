@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../usage/managing_datasets/dataset_advanced.rst:4
+#: a2f51f0ca47848f8b378cc5dc34f1eb4
+msgid "Advanced Dataset Management with MapStore"
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_advanced.rst:6
+#: 2f18a456d0784aaea6f00f67455aae3e
+msgid ""
+"GeoNode provides the user with some advanced features for dataset "
+"manipulation such as dataset filtering, attribute edition and dataset "
+"export in different formats. In a nutshell, these feature are provided "
+"via MapStore and we will redirect the user to MapStore specific "
+"documentation for further details."
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_advanced.rst:10
+#: e7c809b0b559434a8a57112081f37dd5
+msgid "Filtering Datasets"
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_advanced.rst:12
+#: 17a90965179643b1be9bc8212ff9bec7
+msgid ""
+"With GeoNode you can filter a dataset via it's attributes, direct map "
+"filter by drawing an area of interest over the map canvas and via cross-"
+"dataset filter, allowing intersection, contained and contains overlay "
+"methods. For more detail please check the MapStore documentation `here "
+"<https://mapstore.readthedocs.io/en/latest/user-guide/filtering-"
+"layers/>`_."
+msgstr ""
+

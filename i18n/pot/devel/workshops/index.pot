@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -651,7 +651,7 @@ msgstr ""
 
 #: ../../devel/workshops/index.rst:855
 #: d41ba53e2a6846c889b05f75295aa719
-msgid "Create an empty repository in GitHub and copy it's address"
+msgid "Create an empty repository in GitHub and copy its address"
 msgstr ""
 
 #: ../../devel/workshops/index.rst:857
@@ -661,12 +661,12 @@ msgstr ""
 
 #: ../../devel/workshops/index.rst:859
 #: 1c865789527a4aea8e6581882349adcb
-msgid "Add your remote repository address with ``git remote add yourname yourremoteaddress``"
+msgid "Add your remote repository, use the following command: ``git remote add yourname yourremoteaddress`` in your terminal"
 msgstr ""
 
 #: ../../devel/workshops/index.rst:861
 #: 55a58353cd0b46f8bf4d780d924d15cf
-msgid "edit .gitignore adding all *.pyc files"
+msgid "edit .gitignore adding all ``*.pyc`` files"
 msgstr ""
 
 #: ../../devel/workshops/index.rst:863

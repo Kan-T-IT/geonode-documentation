@@ -1,0 +1,244 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:4
+#: 8bed4e88f84d48399b14ebe8f8f10a3e
+msgid "Creating Widgets"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:11
+#: 6a79fe3e3cb54616aa2273dfa28561a7
+msgid ""
+"*Widgets* are graphical elements that describe the datasets data. They "
+"can be of different types such as *Charts*, *Texts*, *Tables* and "
+"*Counters*. Through the |create_widgets_button| button of the :ref:`toc` "
+"you can open the *Widgets* panel."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:6
+#: a280fbd58eea4c96929ee07a6b085f03
+msgid "create_widgets_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:17
+#: 114d260bcb914e23b2e622a0778e231c
+msgid "*Creating Widgets*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:20
+#: dacf3231281a49f7a83f429c9c1ffcc0
+msgid "Chart Widgets"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:22
+#: 8070ecafc5134f13b5afcfdf8ed08669
+msgid ""
+"*Chart Widgets* are graphical representations of the dataset data. They "
+"can be *Bar Chart*, *Pie Chart* or *Line Chart* as shown in the picture "
+"below."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:27
+#: 2b10ee6fdf1042f49c3c10738669f126
+msgid "*Chart Widgets*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:49
+#: 8a95d8c5cf2540fd983587b0d2f35e0e
+msgid "Lets create a new **Bar Chart**."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:51
+#: 9cb92d24b5a048df86a72d05dfb5b510
+msgid ""
+"Click on *Bar Chart* then select the *X Attribute*, the *Y Attribute*, "
+"the *Operation* and the *Color* do you prefer. You can also display the "
+"*Legend*, *Hide the Y axis*, *Hide the grid* and decide what *Label* "
+"display into the legend."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:53
+#: 0b364d6e20164807b2f0396bcfb9df2c
+msgid ""
+"Now you can filter the data to be considered for the chart by clicking on"
+" |advanced_search_button|. We don't need any filter so click "
+"|configure_widgets_options_button| to configure other widget options. "
+"Insert a *Title* and a *Description* and click on *Save* |save_button|."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:29
+#: 32114c58b71d4bef8f57cf9f61bdac42
+msgid "advanced_search_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:34
+#: 84ef2c8eb6a043b48a970ecb1cb6d7d3 cb666c7bb7bf4d7e9473d72dfe881378
+#: e00ab47b4fc149babb580db0ae266bf9
+msgid "configure_widgets_options_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:39
+#: 402f06f7bbb84ae3a549c3f9dff7c57a 573bff92fe4745c6a35efb1045bee264
+#: b9442e75e6e54195932d0fea7ee58e56 f1f5d556ca3d4e3982bd0d9826df5be3
+msgid "save_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:58
+#: 4a000f6ee34449f1b9b47e29a7d47ed1
+msgid "*Chart Widgets Creation*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:60
+#: 74964ef5030a4d69adf6896bab22c6d6
+msgid ""
+"The green |connect_to_viewport| icon means that the chart is connected to"
+" the viewport."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:44
+#: 70ea977c278544f5826d2aa6a9b9f57f
+msgid "connect_to_viewport"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:62
+#: f47808da7b7e4dcbb1ae2e2916da2273
+msgid ""
+"At the top of the bar chat, there is the options menu of the widget where"
+" you can *Download grapg as png*, *Zoom the wigets* and *Reset axes*."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:68
+#: d1453cc9adae4308a763460750fed718
+msgid "*Chart Widgets Options*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:71
+#: 0a30f7416af047958c95d70c36bd8a76
+msgid "Text Widgets"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:73
+#: 363a74f586444c6d84286a859cd8d7e7
+msgid ""
+"If you select *Text* on the *Widgets* panel you can create *Text "
+"Widgets*. Add a *Title* and the desired descriptive text, then click on "
+"|save_button|."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:79
+#: 4f0af150c1c549a0a1c3817e9695e899
+msgid "*Text Widgets Creation*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:81
+#: 16bbff8c3a764d5c8dbb1b0fcedfc2fa
+msgid "The resulting widget looks like the following."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:86
+#: 4f60558c05944c5182360eac82caa027
+msgid "*My Text Widget*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:89
+#: 9f158c3989eb4158bef7e6e9fde52fdd
+msgid "Table Widgets"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:91
+#: 753a704f9b0c4df9a6d6d799bb4e1a3b
+msgid ""
+"Through the *Table Widgets* you can add the :ref:`attributes-table` of "
+"the dataset to the map. You can decide to show a subset of the features, "
+"through filters, and you can select one or more columns/attributes."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:93
+#: 614f428c0b7945788800131a7bd491b6
+msgid ""
+"You can also enter a *Title* for each column to be displayed as the table"
+" header in place of the Name of the layer field and enter a *Description*"
+" for each field to be displayed as a tooltip, visible moving the mouse on"
+" the column header."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:95
+#: 7ed25641abd74e998923dc020b64d6d6
+msgid ""
+"So, choose what attributes you are interested in and click on "
+"|configure_widgets_options_button|."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:100
+#: 7d60ce9851044a80b0cc1b98f61b96d4
+msgid "*Table Widgets Columns*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:102
+#: 20b48ce7636742a4af9552740277b109
+msgid ""
+"Insert *Title* and *Description* (optional) and click on |save_button|. "
+"The example below shows the *Table Widget* on the map."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:107
+#: 1a5b2cb23bd34bc0a6b3d73e29afe3bd
+msgid "*Table Widget*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:110
+#: ce1bbdf9d82845d39db7926f99490f93
+msgid "Counter Widgets"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:112
+#: 1ebdeab919d64876aa6dc1d75cacc0aa
+msgid ""
+"*Counter Widgets* are numeric representations of some attributes. For "
+"example you can represent the average speed limit on a road network."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:118
+#: d5bac84c06c4462384ae418785ffbdcc
+msgid "*Counter Widget Creation*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:120
+#: 0cf43777523d4333bb97dacf58098e1e
+msgid ""
+"Click on |configure_widgets_options_button|, insert *Title* and "
+"*Description* then click on |save_button|."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:125
+#: 6a8dbe7889d44545abbe4c07c135cffc
+msgid "*Counter Widget*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:127
+#: 6eedb3d8470f4321bf8b92e5fd324abe
+msgid ""
+"The GeoNode map viewer is `MapStore <https://mapstore2.geo-"
+"solutions.it/mapstore/#/>`_ based, see the `MapStore Documentation "
+"<https://docs.mapstore.geosolutionsgroup.com/en/latest/user-"
+"guide/widgets/>`_ for further information."
+msgstr ""
+

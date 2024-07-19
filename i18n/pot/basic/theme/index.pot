@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -136,97 +136,97 @@ msgstr ""
 msgid "Append a rule to change the background color of the header to match the logo graphic:"
 msgstr ""
 
-#: ../../basic/theme/index.rst:121
+#: ../../basic/theme/index.rst:120
 #: af94055eef9e4230a600b88c6ce30300
 msgid "Create new file to manipulate *hero*  section:"
 msgstr ""
 
-#: ../../basic/theme/index.rst:128
+#: ../../basic/theme/index.rst:127
 #: 4e668475e25e4771ad90484c03191919
 msgid "Add the following code to change the background image and font for the *hero* section:"
 msgstr ""
 
-#: ../../basic/theme/index.rst:154
+#: ../../basic/theme/index.rst:153
 #: 68c3c772c3814f32a17d673bb1a65e7f
 msgid "Collect the static files into STATIC_ROOT, restart the development server and reload the page:"
 msgstr ""
 
-#: ../../basic/theme/index.rst:164
+#: ../../basic/theme/index.rst:163
 #: 2a3614bef5254410826646e9d4a9a7b6
 msgid "*CSS override*"
 msgstr ""
 
-#: ../../basic/theme/index.rst:166
+#: ../../basic/theme/index.rst:165
 #: aec24127df344211840491b5702ae66c
 msgid "You can continue adding rules to this file to override the styles that are in the GeoNode base CSS file which is built from `base.less <https://github.com/GeoNode/geonode/blob/master/geonode/static/geonode/less/base.less>`_."
 msgstr ""
 
-#: ../../basic/theme/index.rst:168
+#: ../../basic/theme/index.rst:167
 #: 38f7cfca659042ea9598a18d29d11758
 msgid "You may find it helpful to use your browser's development tools to inspect elements of your site that you want to override to determine which rules are already applied. See the screenshot below."
 msgstr ""
 
-#: ../../basic/theme/index.rst:173
+#: ../../basic/theme/index.rst:172
 #: 90a96e3053a84fc7a5c5bc2664b4341d
 msgid "*Screenshot of using browser debugger to inspect the CSS overrides*"
 msgstr ""
 
-#: ../../basic/theme/index.rst:176
+#: ../../basic/theme/index.rst:175
 #: fc336db024e541789ff9bb28e9615561
 msgid "Modify GeoNode Homepage"
 msgstr ""
 
-#: ../../basic/theme/index.rst:178
+#: ../../basic/theme/index.rst:177
 #: 9979e427aba64d76967f824bad565861
 msgid "So far we learned how to modify some template sections of your GeoNode main page. You can do it individually per section template, adding a new page under :file:`<my_geonode>/templates/geonode-mapstore-client/snippets` folder with the section name (ex: :file:`brand_navbar.html`) or by extending the base template file :file:`custom_theme.html` where you can add different theme settings in one place."
 msgstr ""
 
-#: ../../basic/theme/index.rst:184
+#: ../../basic/theme/index.rst:183
 #: 3879d30621054f6abe0d561271803ca1
 msgid "Remove the previous `hero` section :file:`hero.html` file:"
 msgstr ""
 
-#: ../../basic/theme/index.rst:190
+#: ../../basic/theme/index.rst:189
 #: ae6c286bc66b4e9dafca1ed6073b1b94
 msgid "Create a new :file:`custom_theme.html` file:"
 msgstr ""
 
-#: ../../basic/theme/index.rst:198
+#: ../../basic/theme/index.rst:197
 #: d7ac0c123cf94fc5959795b36b8a4fec
 msgid "Add the following content to this page:"
 msgstr ""
 
-#: ../../basic/theme/index.rst:240
+#: ../../basic/theme/index.rst:239
 #: 9b6b6caccca64b5b9ee2e0bb5aacdc0d
 msgid "Restart httpd server"
 msgstr ""
 
-#: ../../basic/theme/index.rst:247
+#: ../../basic/theme/index.rst:246
 #: 86872f5880dd4bd299b9508ae1868c5d
 msgid "Your customized layout should be similar to the next picture:"
 msgstr ""
 
-#: ../../basic/theme/index.rst:252
+#: ../../basic/theme/index.rst:251
 #: 872f04becdd94a93881ce169658776bc
 msgid "Edit title and intro message"
 msgstr ""
 
-#: ../../basic/theme/index.rst:254
+#: ../../basic/theme/index.rst:253
 #: b9d660e93c984f4298e3b6c742cfc2d6
 msgid "Login as administrator on GeoNode and go to ``Admin`` page:"
 msgstr ""
 
-#: ../../basic/theme/index.rst:259
+#: ../../basic/theme/index.rst:258
 #: 7222e9f0ff024632b500ee0480a1a535
 msgid "Create a new theme under `GeoNode Themes Library` and ``Themes``:"
 msgstr ""
 
-#: ../../basic/theme/index.rst:264
+#: ../../basic/theme/index.rst:263
 #: 5ec2cdbfe4ac4cfba743a027e8e4b68d
 msgid "Add a ``Name``, ``Description`` and turn on ``Is enabled`` option. At the bottom, add a ``Jumbotron title`` and ``Jumbotron content``. This will override the default GeoNode welcome title and message. Click ``Save`` at the bottom in the end."
 msgstr ""
 
-#: ../../basic/theme/index.rst:275
+#: ../../basic/theme/index.rst:274
 #: b351bba858724784898057072db13c34
 msgid "After this, reload your GeoNode homepage. The output should be similar to this:"
 msgstr ""

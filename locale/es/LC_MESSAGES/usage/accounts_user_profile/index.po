@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../usage/accounts_user_profile/index.rst:2
+#: 49d272274c8b4cc1af440ece061c5fae
+msgid "Accounts and User Profile"
+msgstr ""
+
+#: ../../usage/accounts_user_profile/index.rst:4
+#: edc240ebe8584950a8c4d2537b067f06
+msgid ""
+"In GeoNode many contents are public so unregistered users have read-only "
+"access to public maps, datasets,documents, geostory and dashboard. In "
+"order to create maps, dashboard or geostory and add datasets or "
+"documents, edit the data and share these resources with other users, you "
+"need to sign in."
+msgstr ""
+
+#: ../../usage/accounts_user_profile/index.rst:7
+#: 2cd859d7415c4cff8e072bbc6d9375b1
+msgid ""
+"GeoNode is primarily a *social* platform, thus a primary component of any"
+" GeoNode instance is the user account."
+msgstr ""
+
+#: ../../usage/accounts_user_profile/index.rst:9
+#: 0233e7ef6ef04168955688e54655c082
+msgid ""
+"This section will guide you through account registration, updating your "
+"account information and preferences, connections with social networks and"
+" email addresses."
+msgstr ""
+

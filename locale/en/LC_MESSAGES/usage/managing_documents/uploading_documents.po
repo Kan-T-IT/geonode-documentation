@@ -8,75 +8,148 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 10:00+0200\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.1\n"
 
 #: ../../usage/managing_documents/uploading_documents.rst:4
-#: 7886f0e4fe0c4571830bc6838d5abb4b
-msgid "Uploading Documents"
+#: 967c1f62fd484ea6a9e410902466051e
+msgid "Upload/Add Documents"
 msgstr ""
 
 #: ../../usage/managing_documents/uploading_documents.rst:6
-#: 2ba0a9b129884ae294d7a7ed61a0200f
+#: 1b9470fbada0417396541f9c58e5357b
 msgid ""
 "GeoNode allows to share reports, conceptual notes, posters, spreadsheets,"
 " etc. A wide range of documents files can be hosted on the platform, "
 "including text files (.doc, .docx, .txt, .odt), spreadsheets (.xls, "
 ".xlsx, .ods), presentations (.ppt, .pptx, .odp), images (.gif, .jpg, "
-".png, .tif, .tiff), PDF, zip files (.rar, .zip, .gz), SLD, XML or QML "
-"files."
+".png, .tif, .tiff), PDF, zip files (.rar, .zip, .gz), SLD, XML, QML files"
+" or as External URL."
 msgstr ""
 
 #: ../../usage/managing_documents/uploading_documents.rst:8
-#: 29aeaf71e21143c19f01eb5568412632
+#: 013b48dc154143e0a04586c73b7b6ca2
 msgid "Only authenticated users can upload data into GeoNode."
 msgstr ""
 
 #: ../../usage/managing_documents/uploading_documents.rst:10
-#: 9d4ac6f5466e441794243150c7a773a6
-msgid ""
-"*Documents* uploading is accessible by clicking *Create new* which "
-"displays a list including `upload document link`:"
+#: 1af09806ea1046428e6729cc1f23fab4
+msgid "It is possible to upload a *Documents* in two ways:"
 msgstr ""
 
-#: ../../usage/managing_documents/uploading_documents.rst:15
-#: dd1cd51f01834a02be2c9a7781cbd3ba
-msgid "*Document Upload link*"
+#: ../../usage/managing_documents/uploading_documents.rst:12
+#: a051fd27ecf44121b286cb47b1452f15
+msgid ""
+"From the :guilabel:`All Resources` page, by clicking *Add Resource* which"
+" displays a list including `Upload document` link:"
 msgstr ""
 
 #: ../../usage/managing_documents/uploading_documents.rst:17
-#: fe2be191454a47c2ae05928cd63b7905
-msgid "The *Document Upload* page looks like the one shown in the picture below."
+#: ceb8fe3dd9884823a084eff5c06ad77c
+msgid "*Document Upload from All Resources page*"
 msgstr ""
 
-#: ../../usage/managing_documents/uploading_documents.rst:22
-#: bc8ee40855164d0a9d311b76566c7ffd
-msgid "*Document Upload page*"
+#: ../../usage/managing_documents/uploading_documents.rst:19
+#: d5286b53745d4ded9d85185b663a0e0d
+msgid "From the :guilabel:`Documents` page, by clicking on *New* button."
 msgstr ""
 
 #: ../../usage/managing_documents/uploading_documents.rst:24
-#: 77330982e9c745b486be5c29f3c5e30e
-msgid "In order to upload a document:"
+#: a18d79da9f36487686783d16b1a6a5a0
+msgid "*Document Upload from Documents page*"
 msgstr ""
 
 #: ../../usage/managing_documents/uploading_documents.rst:26
-#: 746549c9dd074ba6a1593ba5601d8f37
+#: ceb8fe3dd9884823a084eff5c06ad77c
+msgid "The *Document Upload* page looks like the one shown in the picture below."
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:31
+#: 3199f86a31554067ba77afc7b3cff40e
+msgid "*Document Upload page*"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:33
+#: 0c9aea8fdf1f4df7b0768690013a109f
+msgid "On *GeoNode* documents can be:"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:35
+#: 21bfa492b634431ab29abed677ba0acd
+msgid "Upload from the **Local file**"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:37
+#: 6f8a13ef014f4b30b7d6906de26ea900
+msgid "Created with reference to **External URL**"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:40
+#: e9851ba941e84e609efb3a0af786d77b
+msgid "In order to upload a document from the **Local file**, you need to:"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:42
+#: bd3f49b3a6c94c07a5c4650a7a16327d
+msgid "Click on :guilabel:`Select files` button"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:43
+#: 5b14fb19ff424ad68381be799c0387cd
 msgid "Select a file from your disk."
 msgstr ""
 
-#: ../../usage/managing_documents/uploading_documents.rst:27
-#: dc83807cb4674251bd787fa2fbb23fdf
+#: ../../usage/managing_documents/uploading_documents.rst:44
+#: ../../usage/managing_documents/uploading_documents.rst:57
+#: bd3f49b3a6c94c07a5c4650a7a16327d
 msgid "Click the :guilabel:`Upload` button"
 msgstr ""
 
-#: ../../usage/managing_documents/uploading_documents.rst:29
-#: ba3ff17c47b144e094f1f2b584b19b4d
+#: ../../usage/managing_documents/uploading_documents.rst:49
+#: 749821bbf38744d88ddd7b35a8a2b001
+msgid "*Upload document from the select files option*"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:51
+#: 354b009375b64a0f8940a6f12b33b971
+msgid ""
+"A document may refer to a remote document, without making a local copy of"
+" the remote resource."
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:52
+#: f2f423d0d5f04382a13fcf8715e9a0a3
+msgid "To add a document that references an **External URL** you need to:"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:54
+#: bd3f49b3a6c94c07a5c4650a7a16327d
+msgid "Click on :guilabel:`Add URL` button"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:55
+#: 057af4a1ec53478fb0bc39060839824d
+msgid "Select an URL"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:56
+#: 95fde1e6bd1f4aa3bf4fc04ec939150b
+msgid "Select an extension from the drop-down menu"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:62
+#: 4977cd78dbc946c5a1219f2b2a1c08f0
+msgid "*Add document from the add URL option*"
+msgstr ""
+
+#: ../../usage/managing_documents/uploading_documents.rst:64
+#: 8222f851b8734adb929fd846431b3dde
 msgid ""
 "At the end of the uploading process, by clicking on the View button, you "
 "will be driven to the document page with the Info panel open. Here it is "
@@ -84,20 +157,20 @@ msgid ""
 "the document. See the next section to know more about Metatadata."
 msgstr ""
 
-#: ../../usage/managing_documents/uploading_documents.rst:31
-#: 119bf8df46b441a5b91d8b4b73f4f6db
+#: ../../usage/managing_documents/uploading_documents.rst:66
+#: d0a119c477774cb597306e55bfcb9542
 msgid "If you get the following error message:"
 msgstr ""
 
-#: ../../usage/managing_documents/uploading_documents.rst:33
-#: 052619fb1fbb41718bf0563f2a245fc9
+#: ../../usage/managing_documents/uploading_documents.rst:68
+#: 7809df632d204614a5f4a36c081b8892
 msgid ""
 "``Total upload size exceeds 100.0 MB. Please try again with smaller "
 "files.``"
 msgstr ""
 
-#: ../../usage/managing_documents/uploading_documents.rst:35
-#: c8502acc3cbf42bfa698daa8ccd78f0d
+#: ../../usage/managing_documents/uploading_documents.rst:70
+#: 4e6ea6e62aa746539c664ca7c74e6540
 msgid ""
 "This means that there is an upload size limit of 100 MB. An user with "
 "administrative access can change the upload limits at the `admin panel "
@@ -175,5 +248,33 @@ msgstr ""
 #~ "share, download and delete the document."
 #~ " See the next section to know "
 #~ "more about Metatadata."
+#~ msgstr ""
+
+#~ msgid "Uploading Documents"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "GeoNode allows to share reports, "
+#~ "conceptual notes, posters, spreadsheets, etc."
+#~ " A wide range of documents files "
+#~ "can be hosted on the platform, "
+#~ "including text files (.doc, .docx, .txt,"
+#~ " .odt), spreadsheets (.xls, .xlsx, .ods),"
+#~ " presentations (.ppt, .pptx, .odp), images"
+#~ " (.gif, .jpg, .png, .tif, .tiff), "
+#~ "PDF, zip files (.rar, .zip, .gz), "
+#~ "SLD, XML or QML files."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Documents* uploading is accessible by "
+#~ "clicking *Create new* which displays a"
+#~ " list including `upload document link`:"
+#~ msgstr ""
+
+#~ msgid "*Document Upload link*"
+#~ msgstr ""
+
+#~ msgid "In order to upload a document:"
 #~ msgstr ""
 

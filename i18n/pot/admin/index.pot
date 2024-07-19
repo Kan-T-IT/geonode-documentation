@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,39 +16,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../admin/index.rst:32
 #: ../../admin/index.rst:17
 #: ../../admin/index.rst:32
 #: 
 #: 2e6dab47113142359d3a65feba8973a5
-#: ae7283a76aae4f1a9fa9e95a9bb9e662
 msgid "GeoNode Management Commands"
 msgstr ""
 
-#: ../../admin/index.rst:41
 #: ../../admin/index.rst:39
 #: ../../admin/index.rst:41
 #: 
 #: 6aa6020f4a5b42b99303751cc9c31d1f
-#: cbcaeea423b649e0a4d8ac880945941e
 msgid "Changing the default Languages"
 msgstr ""
 
-#: ../../admin/index.rst:50
 #: ../../admin/index.rst:48
 #: ../../admin/index.rst:50
 #: 
 #: 77668200270543d785ed79596716bd14
-#: 543972109fb0486aa8688855c04aef7f
 msgid "GeoNode Upgrade from older versions"
 msgstr ""
 
-#: ../../admin/index.rst:59
 #: ../../admin/index.rst:57
 #: ../../admin/index.rst:59
 #: 
 #: 7abdcdbefc16414d913dad507b4c9661
-#: 3f26130ba1bb478e8a5fdd0825ee310f
 msgid "GeoNode Async Signals"
 msgstr ""
 

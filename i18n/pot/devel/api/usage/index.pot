@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,21 +42,21 @@ msgid "To obtain a single resource, a primary key is provided in the url. Eg ``G
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:16
+#: ../../devel/api/usage/index.rst:744
 #: 7716eff12c514096931a67b994c59bf9
+#: 0a285f78aebf4ae0a9fdbed527508a9f
 msgid "Example Requests:"
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:18
-#: ../../devel/api/usage/index.rst:381
+#: ../../devel/api/usage/index.rst:403
 #: 55deea4190af4fa3877eaa1fdae14054
 #: 37b3453e843a4d42ae0d779e2934a3ae
 msgid "Listing"
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:27
-#: ../../devel/api/usage/index.rst:401
 #: 1ad7603f7ce741f8bc148a025305ef17
-#: 91c4e77fcdcf4c74b696f361583395f0
 msgid "Detail"
 msgstr ""
 
@@ -76,7 +76,7 @@ msgid "A token can be used in place of Basic Auth by setting ``'Authorization': 
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:53
-#: ../../devel/api/usage/index.rst:341
+#: ../../devel/api/usage/index.rst:340
 #: 23d53ca568b34294a39bf40b97ad38a1
 #: d26253ff337c4f8d9381f21fdf6a4147
 msgid "Resource Download"
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../../devel/api/usage/index.rst:65
 #: 06edcfd5ed464cd6b59f6b50458d7e38
-msgid "1. Metadata"
+msgid "Metadata"
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:67
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../devel/api/usage/index.rst:70
 #: cc1efbde788b45789027ce26efb4c81a
-msgid "2. OGC services"
+msgid "OGC services"
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:72
@@ -119,150 +119,150 @@ msgstr ""
 
 #: ../../devel/api/usage/index.rst:77
 #: a9fef50de4af462a9e7340fdd2092d68
-msgid "1. Embedding"
+msgid "Embedding"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:78
+#: ../../devel/api/usage/index.rst:79
 #: 2393641d8653422090dd1632822bc62c
 msgid "A resource can be embedded inside a third party website. The “embed view” of a resource is suitable to be placed inside an iframe. The URL for the embedded view can be obtained from the ``resource.embed_url`` property."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:82
+#: ../../devel/api/usage/index.rst:83
 #: 1212e596977d4bce89e8dbf8a11a557d
 msgid "Resource Searching and Filtering"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:84
+#: ../../devel/api/usage/index.rst:85
 #: f6fafd9b28a4431ab1fdc6b905e06314
 msgid "GeoNode resources can be filtered with the following query parameters:"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:90
+#: ../../devel/api/usage/index.rst:91
 #: 414413e7fcbe49d6a8a745a7818b0b7d
 msgid "Parameters"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:91
+#: ../../devel/api/usage/index.rst:92
 #: 8ad43b6ea7ec4fd7baef3c655f697668
 msgid "URL"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:92
+#: ../../devel/api/usage/index.rst:93
 #: ec61b1ea598c43219378a7e23e9d5b7f
 msgid "title and abstract ``(paginated free text search)``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:93
+#: ../../devel/api/usage/index.rst:94
 #: 8f3b6cf483d6445f823aeaa72b58cb50
 msgid "/api/v2/resources?page=1&search=text-to-search&search_fields=title&search_fields=abstract"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:94
+#: ../../devel/api/usage/index.rst:95
 #: eb6cb9af372140ecb35e0e676e790480
-msgid "resource_type ``(dataset, map, document, geostory, dashboard)``"
+msgid "resource_type ``(dataset, map, document, service, geostory, dashboard)``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:95
+#: ../../devel/api/usage/index.rst:96
 #: e03e6ffd8b7b41d990f1d7e3022652b4
 msgid "/api/v2/resources?filter{resource_type}=map"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:96
+#: ../../devel/api/usage/index.rst:97
 #: 29dd9dc32dfc4d7cbabfe33b77c75fcd
 msgid "subtype ``(raster,vector, vector_time, remote)``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:97
+#: ../../devel/api/usage/index.rst:98
 #: f45685c9118e4b28b420e255ca88b179
 msgid "/api/v2/resources?filter{resource_type}=vector"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:98
+#: ../../devel/api/usage/index.rst:99
 #: 908dacbfd6014e8eb9a4dd151fce2c1d
 msgid "favorite ``(Boolean True)``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:99
+#: ../../devel/api/usage/index.rst:100
 #: bfaa95f434f64b8289b5fd4052709fe3
 msgid "/api/v2/resources?favorite=true"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:100
+#: ../../devel/api/usage/index.rst:101
 #: 567628cea3de46a08829c9f8bf32f321
 msgid "featured ``(Boolean True or False)``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:101
+#: ../../devel/api/usage/index.rst:102
 #: 3d9e9136b14240cc913997c02beccf2d
 msgid "/api/v2/resources?filter{featured}=true"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:102
+#: ../../devel/api/usage/index.rst:103
 #: 4a79e02d60474bb99a42b0be52962efc
 msgid "published ``(Boolean True or False)``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:103
+#: ../../devel/api/usage/index.rst:104
 #: c71bebdfa1dd4a1fa79d864ce07e18d5
 msgid "/api/v2/resources?filter{is_published}=true"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:104
+#: ../../devel/api/usage/index.rst:105
 #: cdcad04b36524fcdacb8ce8cd8bf7bd8
 msgid "aprroved ``(Boolean True or False)``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:105
+#: ../../devel/api/usage/index.rst:106
 #: 16a19d54b0eb4262a3f95d4989a3a4d9
 msgid "/api/v2/resources?filter{is_approved}=true"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:106
+#: ../../devel/api/usage/index.rst:107
 #: d4225160cb99482eb24d0269c90c8a98
 msgid "category"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:107
+#: ../../devel/api/usage/index.rst:108
 #: aa32cf055aca45c3b009823edb439a3d
 msgid "api/v2/resources?filter{category.identifier}=example"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:108
+#: ../../devel/api/usage/index.rst:109
 #: 457d95661dc046ca901ffbcf558eb3d5
 msgid "keywords"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:109
+#: ../../devel/api/usage/index.rst:110
 #: 40ba865a6e8c428fa7e2ec70cc6ca194
 msgid "/api/v2/resources?filter{keywords.name}=example"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:110
+#: ../../devel/api/usage/index.rst:111
 #: 92f7e262ac8d4eabb4a322d04133b01a
 msgid "regions"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:111
+#: ../../devel/api/usage/index.rst:112
 #: 24ac0fc28d394ac194fbb2c64a86536d
 msgid "/api/v2/resources?filter{regions.name}=global"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:112
+#: ../../devel/api/usage/index.rst:113
 #: 9d68da4117934c1c8d29d25ba3cbff7d
 msgid "owner"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:113
+#: ../../devel/api/usage/index.rst:114
 #: ce109debe9514077927a5c9486c45e4f
 msgid "/api/v2/resources?filter{owner.username}=test_user"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:114
+#: ../../devel/api/usage/index.rst:115
 #: ec0bc6a4df134d5ab7558f65ab91bfb1
 msgid "extent ``(Four comer separated coordinates)``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:115
+#: ../../devel/api/usage/index.rst:116
 #: bc893569d38c4a689458109b1dc7e8ec
 msgid "/api/v2/resources?extent=-180,-90,180,90"
 msgstr ""
@@ -292,431 +292,538 @@ msgstr ""
 msgid "It's important to note that other methods are case sensitive except the icontains."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:149
-#: 3eff20e23c1a4690ab70a3060d8c7b13
-msgid "Obtaining Available Resource Types"
+#: ../../devel/api/usage/index.rst:148
+#: 2b2bf40732e44177983328b896d23b70
+msgid "Dataset specific resources"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:150
-#: 80698fdb6f014599935ecdc48dfcc0a7
-msgid "The list of available resource types can be obtained from API ``GET /api/v2/resources/resource_types``"
-msgstr ""
-
-#: ../../devel/api/usage/index.rst:153
-#: ../../devel/api/usage/index.rst:170
-#: ../../devel/api/usage/index.rst:196
-#: ../../devel/api/usage/index.rst:220
-#: ../../devel/api/usage/index.rst:257
-#: ../../devel/api/usage/index.rst:282
-#: ../../devel/api/usage/index.rst:305
-#: ../../devel/api/usage/index.rst:329
-#: ../../devel/api/usage/index.rst:351
-#: ../../devel/api/usage/index.rst:365
-#: ../../devel/api/usage/index.rst:386
-#: ../../devel/api/usage/index.rst:406
-#: ../../devel/api/usage/index.rst:425
-#: ../../devel/api/usage/index.rst:445
-#: ../../devel/api/usage/index.rst:478
-#: 1725e209000d4b0fba893f5738a2ae7a
-#: 1aef55c790fb4dc0bb817bc2a0ef73ba
-#: a13a5e69bee7430f9762efe8cc9ed271
-#: 67d00ff99f4747efb32c0a0433c795ca
-#: 8412b0d1c8db4c94a1c6486869eddcb8
-#: 7d68451e914d40fa98f9c0f66f834c2c
-#: 8e2e509f6e9b48b2aba94eb1b7507009
-#: 07435903dc304b91b4b717ed0bf4e2c0
-#: 568ad50cc7fb4fbcbdf3161a10d574f6
-#: 18072546274c4a108d16cdd4e105e894
-#: 5cad877e7b4140f0b1d4a9e0aaff8f71
-#: c054e07faebc4fababbcee26f92aded0
-#: 931b070d599c4e508509207fbd22b477
-#: 8f4311ea65cf4f689046edc43a3fac5f
-#: aa7ae041f86a4619ae413aa4e408742f
-msgid "Example:"
-msgstr ""
-
-#: ../../devel/api/usage/index.rst:163
-#: e9801be2db57401c92359d1c60481c94
-msgid "Dataset Get standardized Metadata"
-msgstr ""
-
-#: ../../devel/api/usage/index.rst:181
+#: ../../devel/api/usage/index.rst:168
 #: fee159b877f64bf68962239f838dc60a
 msgid "Get the metadata of uploaded datasets with:"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:165
+#: ../../devel/api/usage/index.rst:151
 #: f97ff496c9a640adb7c32af98f22f6d5
 msgid "API: ``GET /api/v2/datasets/{id}``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:166
-#: ../../devel/api/usage/index.rst:194
-#: ../../devel/api/usage/index.rst:218
-#: ../../devel/api/usage/index.rst:278
-#: ../../devel/api/usage/index.rst:303
-#: ../../devel/api/usage/index.rst:349
-#: ../../devel/api/usage/index.rst:363
-#: ../../devel/api/usage/index.rst:384
-#: ../../devel/api/usage/index.rst:404
+#: ../../devel/api/usage/index.rst:152
+#: ../../devel/api/usage/index.rst:181
+#: ../../devel/api/usage/index.rst:204
+#: ../../devel/api/usage/index.rst:227
+#: ../../devel/api/usage/index.rst:302
+#: ../../devel/api/usage/index.rst:348
+#: ../../devel/api/usage/index.rst:362
+#: ../../devel/api/usage/index.rst:377
+#: ../../devel/api/usage/index.rst:405
 #: ../../devel/api/usage/index.rst:423
-#: ../../devel/api/usage/index.rst:443
+#: ../../devel/api/usage/index.rst:440
+#: ../../devel/api/usage/index.rst:464
+#: ../../devel/api/usage/index.rst:483
+#: ../../devel/api/usage/index.rst:505
+#: ../../devel/api/usage/index.rst:523
+#: ../../devel/api/usage/index.rst:543
+#: ../../devel/api/usage/index.rst:570
 #: f311afb6adef492b84c811eb4fc5ed1b
-#: 9f3cef4001144cd79733be49f985366b
-#: e3b8314428dd413a8feacfdc18bea16f
-#: 3ba3c62c5b1a48d3bfdb054308b1daf9
-#: 0a8f9c739d4a4bada197e032a4c36c52
+#: f311afb6adef492b84c811eb4fc5ed1b
+#: f311afb6adef492b84c811eb4fc5ed1b
+#: f311afb6adef492b84c811eb4fc5ed1b
+#: f311afb6adef492b84c811eb4fc5ed1b
+#: f311afb6adef492b84c811eb4fc5ed1b
 #: 3b1fb0b4d063423bb992dcdb944d2580
 #: b31fbb8b8059482893b290b8b9756dfb
-#: 71f4a269944543d89bc6133286f55778
-#: 55f11a70fe94474abb4e1751d7b7c391
-#: 81a131d7e53a438aa3fa0dd41b2f6fec
+#: f311afb6adef492b84c811eb4fc5ed1b
+#: f311afb6adef492b84c811eb4fc5ed1b
+#: f311afb6adef492b84c811eb4fc5ed1b
 #: 30c43c25e1c44a5998c8e13a2926e907
+#: f311afb6adef492b84c811eb4fc5ed1b
+#: f311afb6adef492b84c811eb4fc5ed1b
+#: f311afb6adef492b84c811eb4fc5ed1b
+#: f311afb6adef492b84c811eb4fc5ed1b
+#: f311afb6adef492b84c811eb4fc5ed1b
 msgid "Status Code: ``200``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:168
+#: ../../devel/api/usage/index.rst:155
 #: d6e7b09b7b82492c80b58df608944a73
 msgid "This is very similar to `GET /api/v2/resources` but provides additional metadata specifically for datasets like `featureinfo_custom_template` or `attribute_set`"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:184
+#: ../../devel/api/usage/index.rst:157
+#: ../../devel/api/usage/index.rst:183
+#: ../../devel/api/usage/index.rst:206
+#: ../../devel/api/usage/index.rst:229
+#: ../../devel/api/usage/index.rst:276
+#: ../../devel/api/usage/index.rst:304
+#: ../../devel/api/usage/index.rst:325
+#: ../../devel/api/usage/index.rst:350
+#: ../../devel/api/usage/index.rst:364
+#: ../../devel/api/usage/index.rst:407
+#: ../../devel/api/usage/index.rst:425
+#: ../../devel/api/usage/index.rst:442
+#: ../../devel/api/usage/index.rst:466
+#: ../../devel/api/usage/index.rst:485
+#: ../../devel/api/usage/index.rst:507
+#: ../../devel/api/usage/index.rst:525
+#: ../../devel/api/usage/index.rst:545
+#: ../../devel/api/usage/index.rst:572
+#: ../../devel/api/usage/index.rst:605
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 8412b0d1c8db4c94a1c6486869eddcb8
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 568ad50cc7fb4fbcbdf3161a10d574f6
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 8f4311ea65cf4f689046edc43a3fac5f
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 1725e209000d4b0fba893f5738a2ae7a
+msgid "Example:"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:171
 #: 90a0923c27d749f3a8eba52f608f0891
 msgid "Resource Upload"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:186
+#: ../../devel/api/usage/index.rst:173
 #: c6b92fae361945068f34cde456e6aeac
-msgid "GeoNode allows upload of datasets and documents."
+msgid "The API supports the upload of datasets and documents."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:188
-#: ../../devel/api/usage/index.rst:212
+#: ../../devel/api/usage/index.rst:176
 #: ../../devel/api/usage/index.rst:346
 #: c0469352d5aa45f38e3b62b2c9d59cd0
-#: ebea04e79c1c4bd89d0b7e08f336b607
-#: 5272628a32534e3bb635f1400e77c8a7
+#: c0469352d5aa45f38e3b62b2c9d59cd0
 msgid "Datasets"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:190
+#: ../../devel/api/usage/index.rst:177
 #: a283741e2aa24f7c8bf3acbed2446da6
 msgid "The dataset upload form accepts file formats of ESRI Shapefile, GeoTIFF, Comma Separated Value (CSV), Zip Archive, XML Metadata File, and Styled Layer Descriptor (SLD). For a successful upload, the form requires base_file, dbf_file, shx_file, and prj_file. The xml_file, and Sld_file are optional."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:193
+#: ../../devel/api/usage/index.rst:180
 #: 765d7f9fb1a34cf398e9210bfc688897
 msgid "API: ``POST /api/v2/uploads/upload``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:214
-#: e6f3d7908bc940d08f968883609ddcdb
-msgid "The document upload form accepts ``.txt, .log, .doc, .docx, .ods, .odt, .sld, .qml, .xls, .xlsx, .xml, .bm, .bmp, .dwg, .dxf, .fif, .gif, .jpg, .jpe, .jpeg, .png, .tif, .tiff, .pbm, .odp, .ppt, .pptx, .pdf, .tar, .tgz, .rar, .gz, .7z, .zip, .aif, .aifc, .aiff, .au, .mp3, .mpga, .wav, .afl, .avi, .avs, .fli, .mp2, .mp4, .mpg, .ogg, .webm, .3gp, .flv, .vdo, .glb, .pcd, .gltf`` files. Files are sent as form data."
+#: ../../devel/api/usage/index.rst:200
+#: ../../devel/api/usage/index.rst:360
+#: f0759e1bfc6143be9fbb05a34ecd262b
+#: f0759e1bfc6143be9fbb05a34ecd262b
+msgid "Documents"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:217
+#: ../../devel/api/usage/index.rst:201
+#: fee159b877f64bf68962239f838dc60a
+msgid "Documents can be uploaded as form data."
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:203
+#: ../../devel/api/usage/index.rst:226
+#: 757c55bd6a704d0fac8d5461db179d64
 #: 757c55bd6a704d0fac8d5461db179d64
 msgid "API: ``POST /api/v2/documents``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:240
+#: ../../devel/api/usage/index.rst:224
+#: b4e9474cf13447afafc6b1315a46b45b
+msgid "Documents can also be created to reference remote resources. In this case the ``doc_url`` parameter must be used to set the URL of the remote document."
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:245
+#: 44aa857e8bb94effab06adf4df05fb98
+msgid "Notice that if the URL doesn't end with a valid doc extension, the ``extension`` parameter must be used (e.g. ``extension: 'jpeg'``)."
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:248
 #: 1a63f4ba0b8044469d0d28e49d7c661f
 msgid "Tracking dataset upload progress"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:241
-#: 50a75b741f614ece8c07817162652a4c
-msgid "When an upload request is executed, GeoNode creates an “upload object” and keeps updating its state and progress (it’s a property attribute, calculated on getting the response) attributes as the resource is being created and configured in Geoserver. The states used include:"
-msgstr ""
-
-#: ../../devel/api/usage/index.rst:243
-#: 7895c634bd5f462291acaf32197475f5
-msgid "READY"
-msgstr ""
-
-#: ../../devel/api/usage/index.rst:244
-#: b5d19f6462874fcfbf082b683917da39
-msgid "RUNNING"
-msgstr ""
-
-#: ../../devel/api/usage/index.rst:245
-#: 6ac4e5c97d7d4cf1989036aaeab8987e
-msgid "PENDING"
-msgstr ""
-
-#: ../../devel/api/usage/index.rst:246
-#: c0aa83c6d40e48e0a5d07d8559ba2605
-msgid "WAITING"
-msgstr ""
-
-#: ../../devel/api/usage/index.rst:247
-#: 76d0b1ebca1a4b7a9cd9f503f04a7038
-msgid "INCOMPLETE"
-msgstr ""
-
-#: ../../devel/api/usage/index.rst:248
-#: d92b6e83b67043398009e56bd2b12982
-msgid "COMPLETE"
-msgstr ""
-
 #: ../../devel/api/usage/index.rst:249
-#: 05ed5f385c7b47d6a2445a2a0748b6e0
-msgid "INVALID"
-msgstr ""
-
-#: ../../devel/api/usage/index.rst:250
-#: 0c35120ee5da484897b5f097e31de47c
-msgid "PROCESSED"
+#: 50a75b741f614ece8c07817162652a4c
+msgid "When an upload request is executed, GeoNode creates an \"Execution request\" and keeps updating its state and progress (it’s a property attribute, calculated on getting the response) attributes as the resource is being created and configured in Geoserver. An execution can be in one of the following status:"
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:252
-#: f9b6474041d241b2a8a11fdb9a9ff7b7
-msgid "When the dataset is successfully uploaded, the final state of the upload is set to ``PROCESSED`` and progress is calculated as ``100.0``."
+#: 71467799f3d842208800a200a7f7ae5f
+msgid "``ready``"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:253
+#: 431fc9c10159463da1943620fc543230
+msgid "``running``"
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:254
-#: a13ad843efd64447b1977ac63914c57a
-msgid "In order to view ongoing uploads, and their states, you can use the API ``GET /api/v2/uploads`` or ``GET /api/v2/uploads/{id}`` if the upload id is known. You can also filter uploads with state. Eg ``GET /api/v2/uploads?filter{state}=PROCESSED``"
+#: e7ed7e8d20f64539987981239278a3e0
+msgid "``failed``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:270
-#: ../../devel/api/usage/index.rst:360
-#: f0759e1bfc6143be9fbb05a34ecd262b
-#: 11f210cdfe0b47b2b239961e723f8dd9
-msgid "Documents"
+#: ../../devel/api/usage/index.rst:255
+#: 2c0f77f8693d4f95a1e74eda6c49fddc
+msgid "``finished``"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:257
+#: f9b6474041d241b2a8a11fdb9a9ff7b7
+msgid "When the dataset is successfully uploaded, the final state of the upload is set to ``finished``."
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:259
+#: ee7514dfd80b4676b185b21f1be116ba
+msgid "In order to view status of the execution, the API method ``GET /api/v2/executionrequest/{execution_id}`` where ``{execution_id}`` is the value returned by the initial call to the upload API."
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:261
+#: 968b52e0d156466dbeaae8c68f315540
+msgid "The returned object contains, beyond all the information related to the execution, the inputs that were passed to the execution request, and output params specific to the type of execution. In the case of a dataset upload, the output params contain the URL of the catalog page for the new datast."
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:272
-#: 5870d5d0cd5d4bfd9d43f1796d432f7f
-msgid "At the moment documents can't be uploaded through the API. This will probably change in the future."
+#: fffa3aa2aabf4a92b84dcf7833d1fac3
+msgid "You can also filter executions by status. Eg ``GET /api/v2/executionrequest?filter{action}=import&filter{source}=upload&filter{status}=finished``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:275
-#: 0c86d96a604148f6bb7e3241f38c849b
-msgid "Resource Update"
+#: ../../devel/api/usage/index.rst:289
+#: f87531443e774eeb806d729a68c7ee7c
+msgid "Overwriting a dataset"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:277
-#: 4fefd0b6dfe444ce9d2472edfcfa8f0c
-msgid "API: ``PATCH /api/v2/resources/{pk}``"
+#: ../../devel/api/usage/index.rst:290
+#: 8d41b5c6b8384949aaeebd92b9c566e0
+msgid "Uploading a resource will create by default a new dataset. This behaviour can be changed by setting the ``overwrite_existing_layer`` parameter to ``True``. In this case the upload procedure will overwrite a resource whose name matches with the new one."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:280
-#: e928f699ecfe4e3d92c5107facb4b9bc
-msgid "The payload can be all resource attributes or only attributes you want to change."
+#: ../../devel/api/usage/index.rst:294
+#: e572616ddd8841f78cde1b3bb4b48e9e
+msgid "Skip existing dataset"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:295
+#: 131036b2ca6542cebf5ef1cf6fa290c9
+msgid "If the parameter ``skip_existing_layers`` is set to true ``True`` the uplad procedure will ignore files whose name matched with already existing resources."
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:298
+#: b6e7f74399a84b74ae86b99b544dc40a
+msgid "Upload of a metadata file"
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:299
-#: 4b9c6d410e1d46a99a02be67efdf94b3
-msgid "Dataset Update Metadata"
+#: 7b95d649038e47d399959d32eacd6f13
+msgid "A complete metadata file conforming to ISO-19115 can be uploaded for a dataset."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:321
-#: afbed2fed7a4463f9bc69ef305a38331
-msgid "Update individual metadata:"
-msgstr ""
-
-#: ../../devel/api/usage/index.rst:302
+#: ../../devel/api/usage/index.rst:301
 #: 7f24181e5635424290dc33a01e6e601a
-msgid "API: ``PATCH /api/v2/datasets/{id}``"
+msgid "API: ``PUT /api/v2/datasets/{dataset_id}/metadata``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:307
-#: 6b78a3e508fd4f14a5aa5d27c3c8df16
-msgid "This example changes the title and the license of a dataset."
-msgstr ""
-
-#: ../../devel/api/usage/index.rst:322
-#: b162fa9bf70e44f4896f1709b9ff2edf
-msgid "`bbox_polygon` and `ll_bbox_polygon` are derived values which cannot be changed."
-msgstr ""
-
-#: ../../devel/api/usage/index.rst:324
+#: ../../devel/api/usage/index.rst:320
 #: 983a37ac8685412aa9a35b17ba5bcb22
 msgid "Resource Delete"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:326
+#: ../../devel/api/usage/index.rst:322
 #: c989b88717724f7ebb41381e1e361682
 msgid "API: ``DELETE /api/v2/resources/{pk}/delete``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:327
+#: ../../devel/api/usage/index.rst:323
 #: 5f677e6c3f6b41b090002ac1d0f6a00f
 msgid "Status Code: ``204``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:343
+#: ../../devel/api/usage/index.rst:337
+#: bee8419b62a24469869cc7f1ee00f982
+msgid "eee"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:342
 #: c12205e0b15c46f69d66d726faffc377
 msgid "GeoNode offers a download option to resources of resource_type dataset and document. For datasets, the download option is available for only datasets with uploaded files."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:348
+#: ../../devel/api/usage/index.rst:347
 #: 9a9d34edcf364b13990cccd2ac6cbdf5
 msgid "API: ``GET /datasets/{resource.alternate}/dataset_download``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:362
+#: ../../devel/api/usage/index.rst:361
 #: 60f8b8c610544ad88536ff19acd3bc01
 msgid "API: ``GET /documents/{resource.pk}/download``"
 msgstr ""
 
+#: ../../devel/api/usage/index.rst:374
+#: 4b9c6d410e1d46a99a02be67efdf94b3
+msgid "Dataset Update Metadata"
+msgstr ""
+
 #: ../../devel/api/usage/index.rst:376
+#: 7f24181e5635424290dc33a01e6e601a
+msgid "API: ``PATCH /api/v2/datasets/{id}``"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:379
+#: 6b78a3e508fd4f14a5aa5d27c3c8df16
+msgid "The following example changes the title and the license of a dataset."
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:394
+#: b162fa9bf70e44f4896f1709b9ff2edf
+msgid "`bbox_polygon` and `ll_bbox_polygon` are derived values which cannot be changed."
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:397
 #: ed607d6ec86042789cc631110a3c555f
 msgid "Users, Groups and Permissions"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:379
+#: ../../devel/api/usage/index.rst:400
 #: 1fefbfb334674f5493a3d696db4c106c
 msgid "Users"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:383
+#: ../../devel/api/usage/index.rst:404
+#: ../../devel/api/usage/index.rst:439
+#: 3f2888df11a349e195b017c928208438
 #: 3f2888df11a349e195b017c928208438
 msgid "API: ``POST /api/v2/users``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:403
+#: ../../devel/api/usage/index.rst:421
+#: 059f49a92a5a49e5bd4deb6958d79eaf
+msgid "User detail"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:422
 #: 0153eb1684724862adcf0a296d50bd48
 msgid "API: ``POST /api/v2/users/{pk}``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:420
+#: ../../devel/api/usage/index.rst:438
+#: f11c99c3f5d24200bb7272ac04b53f10
+msgid "Create a new user"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:462
+#: 714a928e5dc346b094ebe797c8e8dd13
+msgid "Edit a User"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:463
+#: 0153eb1684724862adcf0a296d50bd48
+msgid "API: ``PATCH /api/v2/users/{pk}``"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:481
+#: 70f0811fdd254c06bce07a1a8c517d57
+msgid "Delete a User"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:482
+#: 0153eb1684724862adcf0a296d50bd48
+msgid "API: ``DELETE /api/v2/users/{pk}``"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:499
+#: 232080ff698e4740b746ccd15aebdfc1
+msgid "In this case the list of validation rules configured in :ref:`user-deletion-rules` are checked before the deletion is executed."
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:503
 #: 2a380d7b01f64086aadfc543e28856e0
 msgid "List user groups"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:422
+#: ../../devel/api/usage/index.rst:504
 #: 374e9b1d75e942dd9aac6bdb67dc1d41
 msgid "API: ``POST /api/v2/users/{pk}/groups``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:438
+#: ../../devel/api/usage/index.rst:521
+#: fb78f7ab70854b4b9c7e2cf2a1fecabf
+msgid "Transfer resources owned by a user to another"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:522
+#: 374e9b1d75e942dd9aac6bdb67dc1d41
+msgid "API: ``POST /api/v2/users/{pk}/transfer_resources``"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:537
+#: 1c03ee57d1064865ae3fe316f6d398e5
+msgid "In this case the resources will be transfered to the user with id 1001, instead using the payload={\"owner\": \"DEFAULT\"} the resources will be transfered to the principal user"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:541
+#: 71fd53f6fd86417da4cb96a06c8d0acd
+msgid "Remove user as a group manager"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:542
+#: 374e9b1d75e942dd9aac6bdb67dc1d41
+msgid "API: ``POST /api/v2/users/{pk}/remove_from_group_manager``"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:557
+#: 56790263c40248aa8c57f007df43c5f6
+msgid "In this case the user shall be removed as a group manager from the following group ids, if the payload would be payload={\"groups\": \"ALL\"} the user will be removed as a group manager from all the groups its part of"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:565
 #: dbb001fac94a4280ae00983479135c4f
 msgid "Groups"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:440
+#: ../../devel/api/usage/index.rst:567
 #: 104dd75927a640348096c55f503521ff
 msgid "In GeoNode, On listing groups, the api returns groups which have group profiles. Therefore for django groups which are not related to a group profile are not included in the response. However these can be accessed in the Django Administration panel."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:442
+#: ../../devel/api/usage/index.rst:569
 #: 0ce93ef1b4984133adb29d7e271ae68b
 msgid "API: ``POST /api/v2/groups``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:461
+#: ../../devel/api/usage/index.rst:588
 #: 6468f3549dff4857b6759c1f28913bae
 msgid "Permissions"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:462
+#: ../../devel/api/usage/index.rst:589
 #: 7c0cbb76a42a43a6a174fbc6eba65082
 msgid "Permissions in GeoNode are set per resource and per user or group. The following are general permissions that can be assigned:"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:464
+#: ../../devel/api/usage/index.rst:591
 #: 19d6d24853534735aa84113e71e1c460
 msgid "*View:* allows to view the resource. ``[view_resourcebase]``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:465
+#: ../../devel/api/usage/index.rst:592
 #: 91866105e1f7416a98c61c490965ae3b
 msgid "*Download:* allows to download the resource specifically datasets and documents. ``[ view_resourcebase, download_resourcebase]``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:466
+#: ../../devel/api/usage/index.rst:593
 #: 9aaf8a42f1954e00a264fa7af60257b4
 msgid "*Edit:* allows to change attributes, properties of the datasets features, styles and metadata for the specified resource. ``[view_resourcebase, download_resourcebase, change_resourcebase, change_dataset_style, change_dataset_data, change_resourcebase_metadata]``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:467
+#: ../../devel/api/usage/index.rst:594
 #: 4b77082765694910b78aa96f5b38f709
 msgid "*Manage:* allows to update, delete, change permissions, publish and unpublish the resource. ``[view_resourcebase, download_resourcebase, change_resourcebase, change_dataset_style, change_dataset_data, publish_resourcebase, delete_resourcebase, change_resourcebase_metadata, change_resourcebase_permissions]``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:470
+#: ../../devel/api/usage/index.rst:597
 #: 2b2bf40732e44177983328b896d23b70
 msgid "Obtaining permissions on a resource"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:472
+#: ../../devel/api/usage/index.rst:599
 #: 885e5b95cb934d0fa8488debae83a7f9
 msgid "On listing the resources or on resource detail API, GeoNode includes perms attribute to each resource with a list of permissions a user making the request has on the respective resource."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:474
+#: ../../devel/api/usage/index.rst:601
 #: 45e8f8369bee4776a19114f33ebfdd03
 msgid "GeoNode also provides an API to get an overview of permissions set on a resource. The response contains users and groups with permissions set on them. However this API returns ``200`` if a requesting user has ``manage`` permissions on the resource otherwise it will return ``403 (Forbidden)``."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:476
+#: ../../devel/api/usage/index.rst:603
 #: 1d390a3e86d348b5bffef0009aca21ac
 msgid "API: ``GET /api/v2/resources/1791/permissions``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:492
+#: ../../devel/api/usage/index.rst:619
 #: 50d0f865747446f0883d32769bd23d95
 msgid "Changing permissions on a resource"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:494
+#: ../../devel/api/usage/index.rst:621
 #: b3f689f3a61840948f8a925d79574afa
 msgid "Permissions are configured with a so called ``perms spec``, which is a JSON structured where permissions for single users and groups can be specified."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:496
+#: ../../devel/api/usage/index.rst:623
 #: c3ea6626f94d4ca7a50a6de6aebd485b
 msgid "The example below shows a perm specification for following rules:"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:498
+#: ../../devel/api/usage/index.rst:625
 #: 7da72b6f581e44c5aa791e37ff74d3fc
 msgid "user1 can ``edit``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:499
+#: ../../devel/api/usage/index.rst:626
 #: ff67f2e0033d4f52a07fbaa1a27354a8
 msgid "user2 can ``manage``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:500
+#: ../../devel/api/usage/index.rst:627
 #: 11c0c7dfc2cf400db2cb5b1f55d44266
 msgid "group1 can ``edit``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:501
+#: ../../devel/api/usage/index.rst:628
 #: 1c2eb9ff608e43fa96bf87e738b9031e
 msgid "anonymous users (public) can ``view``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:502
+#: ../../devel/api/usage/index.rst:629
 #: 11a4ec377b34425ab60822876448cdc8
 msgid "registered members can ``download``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:504
+#: ../../devel/api/usage/index.rst:631
 #: ee313063ec5c4e038f1d0c894a7547f9
 msgid "NOTE: The id of the “anonymous” and “registered members” groups can be obtained from the permissions of the resource. They are not listed inside the groups API, since these are spceial internal groups"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:537
+#: ../../devel/api/usage/index.rst:664
 #: 9b4832be40e7488685704b05f41e50d6
 msgid "The perm spec is sent as JSON, with ``application/json Content-Type``, inside a ``PUT`` request."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:580
+#: ../../devel/api/usage/index.rst:707
 #: e877065b8bd54faab17d35fcd0a756b1
 msgid "This is an asynchrnous operation which returns a response similar to the following:"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:591
+#: ../../devel/api/usage/index.rst:718
 #: de6b7362b0b64f8f8f0b7691c4fc3999
 msgid "The ``status_url`` property returns the URL to track kthe progress of the request. Querying the URL a result similar to the following will be returned:"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:608
+#: ../../devel/api/usage/index.rst:735
 #: 449f520690f2477aba5c79e67fcd9662
 msgid "The operation will be completed once the ``status`` property is updated with the value ``finished``."
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:738
+#: 224b401eeaee4fc9b87fabd0d50ca492
+msgid "Linked Resources Listing and Details"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:740
+#: 08d64d1c7c394a27a3af85ebbdcc7d6b
+msgid "All available linked_resources  can be listed with API ``GET /api/v2/resources/{pk}/linked_resources``. where pk Resource base id"
+msgstr ""
+
+#: ../../devel/api/usage/index.rst:746
+#: 3eff20e23c1a4690ab70a3060d8c7b13
+msgid "List all resource links"
 msgstr ""

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -236,8 +236,8 @@ msgstr ""
 msgid "In order to be harvested by the :ref:`harvesting scheduler <harvesting-scheduler-label>`, a harvestable resource must have its ``should_be_harvested`` attribute set to ``True``. This attribute can be set manually by the user or it can be set automatically by the harvester worker, in case the corresponding harvester is configured with ``harvest_new_resources_by_default = True``"
 msgstr ""
 
-#: ../../intermediate/harvesting/index.rst:145
 #: ../../intermediate/harvesting/index.rst:141
+#: ../../intermediate/harvesting/index.rst:145
 #: f6fac17c6c1d4fe69f5e2000420f841a
 #: 516b7b88e93847ea8d8a3fddd7072076
 msgid "harvesting session"
@@ -667,7 +667,7 @@ msgstr ""
 
 #: ../../intermediate/harvesting/index.rst:416
 #: f904e90d8dc74fb3b99c2e8a71e0b265
-msgid "A string specifying a datetime that is used to filter out resources by their start_date. This is parsed with :ref:`dateutil.parser.parse() <https://dateutil.readthedocs.io/en/stable/parser.html#dateutil.parser.parse>`, which means that it accepts many different formats (e.g. `2021-06-31T13:04:05Z`)"
+msgid "A string specifying a datetime that is used to filter out resources by their start_date. This is parsed with `dateutil.parser.parse() <https://dateutil.readthedocs.io/en/stable/parser.html#dateutil.parser.parse>`_, which means that it accepts many different formats (e.g. `2021-06-31T13:04:05Z`)"
 msgstr ""
 
 #: ../../intermediate/harvesting/index.rst:421
@@ -802,7 +802,7 @@ msgstr ""
 
 #: ../../intermediate/harvesting/index.rst:490
 #: 382552b0ccca42be93e653965cce81d3
-msgid "New harvesting workers can be created by writing classes derived from :ref:`geonode.harvesting.harvesters.base.BaseGeonodeHarvesterWorker <https://github.com/GeoNode/geonode/blob/master/geonode/harvesting/harvesters/base.py#L66>`. This class defines an abstract interface that must be implemented. All methods decorated with ``abc.abstractmethod`` must be implemented in the custom harvester worker class. Study the implementation of the standard GeoNode harvester worker classes in order to gain insight on how to implement custom ones."
+msgid "New harvesting workers can be created by writing classes derived from `geonode.harvesting.harvesters.base.BaseGeonodeHarvesterWorker <https://github.com/GeoNode/geonode/blob/master/geonode/harvesting/harvesters/base.py#L66>`_. This class defines an abstract interface that must be implemented. All methods decorated with ``abc.abstractmethod`` must be implemented in the custom harvester worker class. Study the implementation of the standard GeoNode harvester worker classes in order to gain insight on how to implement custom ones."
 msgstr ""
 
 #: ../../intermediate/harvesting/index.rst:496

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -602,7 +602,7 @@ msgid "Here below an example using a global host (``master.demo.geonode.org``) a
 msgstr ""
 
 #: ../../intermediate/backup/index.rst:408
-#: ../../intermediate/backup/index.rst:468
+#: ../../intermediate/backup/index.rst:471
 #: 6b1396a9f8ef44f38575c830a0a62340
 #: 162ed18ea9f64899a962e1fd1fad82fb
 msgid "Before saving the configuration always ensure the connection is ok by using the :guilabel:`Test Configuration` button"
@@ -618,149 +618,154 @@ msgstr ""
 msgid "First of all, be sure :guilabel:`OpenSSH Server` is correctly installed and running on your PC. Eventually check any firewall rules."
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:426
+#: ../../intermediate/backup/index.rst:422
+#: b70b5d45ae1a4e2bb4c472226bc81d25
+msgid "# Test your connection locally"
+msgstr ""
+
+#: ../../intermediate/backup/index.rst:429
 #: cf9c24d316ec41228f94ecb6f1fe0d81
 msgid "You will need to do some changed to your ``docker-compose.yml`` file in order to enable the :guilabel:`host network` configuration."
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:428
+#: ../../intermediate/backup/index.rst:431
 #: 419ea32bfafd4ccc91b2a3f681993060
 msgid "Enable ``network_mode: \"host\"`` on Jenkins container"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:458
+#: ../../intermediate/backup/index.rst:461
 #: 69da6f2f42b24d1ea91a2acc92dfb80f
 msgid "From now on, your local Jenkins instance will be accessible from :guilabel:`http://localhost:9080/jenkins`"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:460
+#: ../../intermediate/backup/index.rst:463
 #: b03a5cba0fca4d819ef59873676b1878
 msgid "Add ``localhost`` Server to the :guilabel:`Publish over SSH` plugin configuration"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:462
+#: ../../intermediate/backup/index.rst:465
 #: dd8ff4de1461404eb86c29e527940db0
 msgid "Mode to :guilabel:`http://localhost:9080/jenkins/configure` and fill the required information"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:473
+#: ../../intermediate/backup/index.rst:476
 #: f38864d6a2c64cf4969ec990878e6a22
 msgid "We are now ready to create the Jenkins Job which will run a full backup & restore of our GeoNode dockerized instance."
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:475
+#: ../../intermediate/backup/index.rst:478
 #: 872cd8ff73fb452482747b6e28502da5
 msgid "Move to the Jenkins Home and click on :guilabel:`Create a Job` button"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:480
+#: ../../intermediate/backup/index.rst:483
 #: d0bf56bfd3ba4262a455b3650441f8fa
 msgid "Provide a name to the Job and select :guilabel:`Freestyle project`"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:485
+#: ../../intermediate/backup/index.rst:488
 #: 4b6ce865a90e44418b274aa9e2b3c9e9
 msgid "Enable the :guilabel:`Log rotation` strategy if needed"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:490
+#: ../../intermediate/backup/index.rst:493
 #: 05470f68bee7446e88e819b9360d2926
 msgid "Configure the :guilabel:`Job Parameters` which will be used by the script later on."
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:492
+#: ../../intermediate/backup/index.rst:495
 #: 70e03cabab0f4d05a80fab11317ecf58
 msgid "Add three :guilabel:`String Parameters`"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:497
+#: ../../intermediate/backup/index.rst:500
 #: b0e131ade14f49a4b925182c16fdc1b6
 msgid "as shown below"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:499
+#: ../../intermediate/backup/index.rst:502
 #: 2e99a6f761c34c24bbec519d8609022b
 msgid ":guilabel:`BKP_FOLDER_NAME`"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:504
+#: ../../intermediate/backup/index.rst:507
 #: aeacd90076d34d97a4ea323d0fcb7255
 msgid ":guilabel:`SOURCE_URL`"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:506
-#: ../../intermediate/backup/index.rst:513
+#: ../../intermediate/backup/index.rst:509
+#: ../../intermediate/backup/index.rst:516
 #: 92cb1628fa98414dab6062a9faec6b51
-#: d87e750c0dd34602b90f520387b140e1
+#: 92cb1628fa98414dab6062a9faec6b51
 msgid "Provide the correct URL of your GeoNode instance"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:511
+#: ../../intermediate/backup/index.rst:514
 #: 44410ae0e49c455b9c3e34f4634ce118
 msgid ":guilabel:`TARGET_URL`"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:518
+#: ../../intermediate/backup/index.rst:521
 #: 96c10d0e2559484d9808fe02efc3e035
 msgid "Enable the :guilabel:`Delete workspace before build starts` and :guilabel:`Add timestamps to the Console Output` :guilabel:`Build Environment` options"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:523
+#: ../../intermediate/backup/index.rst:526
 #: d2c4fa2777b8428caa523499e29ab6a3
 msgid "Finally let's create the :guilabel:`SSH Build Step`"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:528
+#: ../../intermediate/backup/index.rst:531
 #: 5f3745f82fd34048a585276ba9334f63
 msgid "Select the correct :guilabel:`SSH Server` and provide the :guilabel:`Exec Command` below"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:530
+#: ../../intermediate/backup/index.rst:533
 #: 5d109aab0565495688c9c1b810e84e7f
 msgid "Replace :guilabel:`{{project_name}}` with your :guilabel:`geonode-project instance name` (e.g. :guilabel:`my_geonode`)"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:542
+#: ../../intermediate/backup/index.rst:545
 #: 00a7aa894aaa44949082a73e0dde20d0
 msgid "Click on :guilabel:`Advanced` and change the parameters as shown below"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:547
+#: ../../intermediate/backup/index.rst:550
 #: 3d077f9be38547cab880f5e230981f4c
 msgid "**Save!** You are ready to run the Job..."
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:562
+#: ../../intermediate/backup/index.rst:565
 #: 776643ff051f4f5aab5bb1d75eb2a798
 msgid "Link the :guilabel:`backup_restore` folder to a local folder on the :guilabel:`HOST`"
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:564
+#: ../../intermediate/backup/index.rst:567
 #: 0752c130f1eb4491b173a472aef7221c
 msgid "In the case you need to save the backup archives outside the docker container, there's the possibility to directly link the :guilabel:`backup_restore` folder to a local folder on the :guilabel:`HOST`."
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:566
+#: ../../intermediate/backup/index.rst:569
 #: bb7070bf1d684a909db6c38f4dfe0d45
 msgid "In that case you won't need to :guilabel:`docker cp` the files everytime from the containers, they will be directly available on the host filesystem."
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:568
+#: ../../intermediate/backup/index.rst:571
 #: 37d7df578f264c96b3fe6f74b44185cd
 msgid "Always keep an eye to the disk space. Backups archives may be huge."
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:570
+#: ../../intermediate/backup/index.rst:573
 #: d0f1f8b6dc3341358959d0d7a0fd5de9
 msgid "You might want also to consider filtering the files through the backup dt filters on the :guilabel:`settings.ini` in order to reduce the size of the archive files, including only the new ones."
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:572
+#: ../../intermediate/backup/index.rst:575
 #: 6e1d13f9c7ca413cb6ee5aaea21a9ade
 msgid "Modify the ``docker-compose.override.yml`` as follows in order to link the backup folders outside."
 msgstr ""
 
-#: ../../intermediate/backup/index.rst:574
+#: ../../intermediate/backup/index.rst:577
 #: 5d14f679bbd64413b52142c080bb85e0
 msgid "``/data/backup_restore`` is a folder physically located into the host filesystem."
 msgstr ""

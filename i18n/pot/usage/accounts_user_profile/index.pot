@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../usage/accounts_user_profile/index.rst:4
 #: edc240ebe8584950a8c4d2537b067f06
-msgid "In GeoNode many contents are public so unregistered users have read-only access to public maps, datasets and documents. In order to create maps, add datasets or documents, edit the data and share these resources with other users, you need to sign in."
+msgid "In GeoNode many contents are public so unregistered users have read-only access to public maps, datasets,documents, geostory and dashboard. In order to create maps, dashboard or geostory and add datasets or documents, edit the data and share these resources with other users, you need to sign in."
 msgstr ""
 
 #: ../../usage/accounts_user_profile/index.rst:7

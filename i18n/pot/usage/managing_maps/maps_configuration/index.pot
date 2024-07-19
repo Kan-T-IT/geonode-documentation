@@ -1,0 +1,257 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:5
+#: 2b2df86fb67d4a75967d76162b5ac9d2
+msgid "Map tools and configuration"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:7
+#: c1a51eb195f54d5d9dfdbdd94f9c5b75
+msgid "In this section, we are going to explore all tools provided on the Map View page. From the list of available maps, you can select the map you are interested in and click *View map*, the map will look like this."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:12
+#: cd9d97b9e46a4381b3db29abe46646a3
+msgid "*The Map View*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:14
+#: bb8612a681974981af4f4c082719ba28
+msgid "The Map View (based on `MapStore <https://mapstore2.geo-solutions.it/mapstore/#/>`_) provides the following tools:"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:16
+#: a79fb94161b6459f94273b95ea4e1b87
+msgid "the :ref:`toc` to manage the map contents;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:17
+#: 36146bd65d0d4ba99ff91992ec714ebb
+msgid "the *Basemap Switcher* to change the basemap (see the next paragraphs);"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:18
+#: 79e960d504a5445b9218ed2dfd246af8
+msgid "the *Search Bar* to search by location, name and coordinates (see the paragraph below);"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:19
+#: a2e8572834a14c15b1a7e4ff0a72bad8
+msgid "the :ref:`options-menu-tools` which contains the link to the datasets *Catalog*;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:20
+#: 92880208f3f64c5ebf864e4bcffd7a18
+msgid "the *Sidebar* which contains, by default, the link to the *Print* tool and to the *Measure* tool;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:21
+#: 273cdb6de9a7400eb67d50f16d8c7dc7
+msgid "the *Navigation Bar* and its tools such as the *Zoom* tools, the *3D Navigation* tool and the *Get Features Info* tool;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:22
+#: acbaed95a16e4ca48d848dcd55c7b689
+msgid "the *Footer Tools* to manage the scale of the map, to track the mouse coordinates and change the CRS (Coordinates Reference System)."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:24
+#: dd100204d9ed4b4381eacac7847d4266
+msgid "A map can be configured to use a custom :ref:`map-viewers`, with which the lsit of tools available in the map can be customized."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:40
+#: 2b5c70d6238a4c66803720cb9df19d92
+msgid "Search Bar"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:42
+#: c8b0b81d964c4d14b642c267e957c18d
+msgid "The *Search Bar* of the map viewer allows you to find point of interests (POIs), streets or locations by name."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:43
+#: 4a13040b02d445ef8e3cc1d2012cfbe7
+msgid "Lets type the name of some place then select the first record."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:48
+#: b29f6da4491a439cb76cf779adc6273b
+msgid "*The Search Bar*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:50
+#: 71a54f4c9fe740eeaa0be4d0d4419cdc
+msgid "The map will automatically re-center on that area delimiting it by a polygon in the case of an area, by a line in the case of a linear shape (e.g. streets, streams) and by a marker in the case of a point."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:55
+#: a38fde8ed5444f988e5eaf9b3dd941a0
+msgid "*Result of a Search*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:60
+#: 7d562abaae13431b8e2473ee1c5ce71b
+msgid "Navigation bar"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:113
+#: 140f674d52ea45b8be67d69241ffdba0
+msgid "The *Map Viewer* makes also available the *Navigation bar*. It is a navigation panel containing various tools that help you to explore the map such as tools for zooming, changing the extent and querying objects on the map."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:114
+#: 0720e4466f4740edb51134ed6acb3aff
+msgid "By default the *Navigation bar* shows you the zooming buttons |zoom_in_button|, |zoom_out_button| and |3d_button|, other options can be explored by clicking on |sidebar_expand_button| which expands/collapses the toolbar.|"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:67
+#: 93e5af9060aa4ebca358fd4bfc060974
+msgid "zoom_in_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:72
+#: 4679a59b366a48a78af7858bec32d30e
+msgid "zoom_out_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:77
+#: 025cfda6a1144a77927b15935f01eb6b
+msgid "3d_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:62
+#: e7f3b4efbf0843c4946850ea02535063
+msgid "sidebar_expand_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:120
+#: 23200f8e391a46c1bced402cc869bf45
+msgid "*The Default Navigation bar*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:126
+#: b923beffde7e468083db7d334354032a
+msgid "*The Expanded Navigation bar*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:128
+#: dea04f0073a44f2ab034e93ec3554677
+msgid "The *Navigation bar* contains the following tools:"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:130
+#: 691eb6581a4a4eb39b37acebfcf394bc
+msgid "The *Query Objects on map* allows you to get feature information through the |query_objects_on_map_button| button. It allows you to retrieve information about the features of some datasets by clicking them directly on the map."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:82
+#: b8de46f41efa4e04be32868c1e0ef260
+msgid "query_objects_on_map_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:136
+#: 77193f0a04844b0c969da60485f8a4ea
+msgid "*Querying Objects on map*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:138
+#: 45588463b6b6473bab4289a6404f2eb1
+msgid "When clicking on map a new panel opens. That panel will show you all the information about the clicked features for each active loaded dataset."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:140
+#: 552bd0ff1ddc4e0cb62dc90cf4dfab5f
+msgid "You can *Zoom To Max Extent* by clicking |zoom_to_max_extent_button|."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:87
+#: d09a16fd986a45b197c326fff4e7179e
+msgid "zoom_to_max_extent_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:144
+#: d6c680027be14596aaf9dd34be7c0e4f
+msgid "Basemap Switcher"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:146
+#: 1ad21488af5646e0a6289768344f5d8f
+msgid "By default, GeoNode allows to enrich maps with many world backgrounds. You can open available backgrounds by clicking on the map tile below:"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:148
+#: 3de4130cebab4d5bb0433136c7b554f5
+msgid "*OpenStreetMap*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:149
+#: d9f34dc31f8f46388e59639291b56a96
+msgid "*OpenTopoMap*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:150
+#: 8cd57c4f2ef2464b8296fe77ccdb49f2
+msgid "*Sentinel-2-cloudless*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:156
+#: a5cd195945464dd4a937392e7dba4090
+msgid "*The Basemap Switcher Tool*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:158
+#: 99960b10e9804389ae401512dd0eb5a0
+msgid "You can also decide to have an *Empty Background*."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:164
+#: 857ea83d41d14fbdb0d3c07e6e71ea3f
+msgid "*Switching the Basemap*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:167
+#: 1bfd2320e5114a8aa69074ddc5caab52
+msgid "Footer Tools"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:169
+#: 128011ed43634e8ebfd85153628982ba
+msgid "At the bottom of the map, the *Footer* shows you the *Scale* of the map and allows you to change it."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:175
+#: 0ed6b0b1a1b748c7b21f4c770e7709ab
+msgid "*The Map Scale*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:177
+#: ccd0ccbeb58545d1b22f66a74095d6d2
+msgid "The |show_hide_coordinates_button| button allows you to see the pointer *Coordinates* and to change the Coordinates Reference System (CRS), WGS 84 by default."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:107
+#: a95deaf80f0941b4a4b1869208ff6e6b
+msgid "show_hide_coordinates_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/index.rst:182
+#: 68f58f7c537f42d682eafbdf514d65b9
+msgid "*The Pointer Coordinates and the CRS*"
+msgstr ""

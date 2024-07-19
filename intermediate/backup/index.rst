@@ -417,10 +417,10 @@ In that case you will need to change few things in order to allow :guilabel:`Jen
 
    .. code:: shell
 
-      $> sudo apt install openssh-server
+      $ sudo apt install openssh-server
 
       # Test your connection locally
-      $> ssh -p 22 user@localhost
+      $ ssh -p 22 user@localhost
          user@localhost's password: 
 
 #. You will need to do some changed to your ``docker-compose.yml`` file in order to enable the :guilabel:`host network` configuration.

@@ -181,6 +181,8 @@ Edit ``/opt/geonode/uwsgi.ini``.
 
    touch-reload = /opt/geonode/geonode/wsgi.py
 
+.. _configure_dbs_core:
+
 3. Postgis database Setup
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 

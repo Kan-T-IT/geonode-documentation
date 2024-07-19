@@ -42,7 +42,7 @@ By clicking on the copy icons you have a copy of the current *Bounding Box* or t
 
 .. note:: When a resource is `linked from` the document the link is under the *Linked by* list while when a resource is `linked to` the document the link is under the *Used by* list
 
-.. warning:: From the :ref:`document_metadata` it is possible edit the document *Linked Resources*
+.. warning:: From the :ref:`document-metadata` it is possible edit the document *Linked Resources*
 
 From the right toolbar on the **Info** panel it is possible:
 

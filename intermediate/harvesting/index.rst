@@ -414,7 +414,7 @@ resource_title_filter
 
 start_date_filter
     A string specifying a datetime that is used to filter out resources by their start_date. This is parsed with
-    :ref:`dateutil.parser.parse() <https://dateutil.readthedocs.io/en/stable/parser.html#dateutil.parser.parse>`,
+    `dateutil.parser.parse() <https://dateutil.readthedocs.io/en/stable/parser.html#dateutil.parser.parse>`_,
     which means that it accepts many different formats (e.g. `2021-06-31T13:04:05Z`)
 
 end_date_filter
@@ -488,7 +488,7 @@ Creating new harvesting workers
 ===============================
 
 New harvesting workers can be created by writing classes derived from
-:ref:`geonode.harvesting.harvesters.base.BaseGeonodeHarvesterWorker <https://github.com/GeoNode/geonode/blob/master/geonode/harvesting/harvesters/base.py#L66>`.
+`geonode.harvesting.harvesters.base.BaseGeonodeHarvesterWorker <https://github.com/GeoNode/geonode/blob/master/geonode/harvesting/harvesters/base.py#L66>`_.
 This class defines an abstract interface that must be implemented. All methods decorated with ``abc.abstractmethod``
 must be implemented in the custom harvester worker class. Study the implementation of the standard GeoNode harvester worker
 classes in order to gain insight on how to implement custom ones.

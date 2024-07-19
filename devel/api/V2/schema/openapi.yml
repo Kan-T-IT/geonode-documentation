@@ -43,7 +43,7 @@ paths:
         schema:
           type: string
       tags:
-      - categories
+        - categories
       security:
       - basicAuth: []
       - cookieAuth: []
@@ -67,7 +67,7 @@ paths:
         description: A unique integer value identifying this topic category.
         required: true
       tags:
-      - categories
+        - categories
       security:
       - basicAuth: []
       - cookieAuth: []
@@ -109,7 +109,7 @@ paths:
         schema:
           type: string
       tags:
-      - datasets
+        - datasets
       security:
       - cookieAuth: []
       - basicAuth: []
@@ -125,7 +125,7 @@ paths:
       operationId: datasets_partial_update
       description: API endpoint that allows layers to be viewed or edited.
       tags:
-      - datasets
+        - datasets
       requestBody:
         content:
           application/json:
@@ -159,7 +159,7 @@ paths:
         description: A unique integer value identifying this dataset.
         required: true
       tags:
-      - datasets
+        - datasets
       security:
       - cookieAuth: []
       - basicAuth: []
@@ -227,7 +227,7 @@ paths:
         description: A unique integer value identifying this dataset.
         required: true
       tags:
-      - datasets
+        - datasets
       requestBody:
         content:
           application/json:
@@ -272,7 +272,7 @@ paths:
         description: A unique integer value identifying this dataset.
         required: true
       tags:
-      - datasets
+        - datasets
       requestBody:
         content:
           application/json:
@@ -322,7 +322,7 @@ paths:
         description: A unique integer value identifying this dataset.
         required: true
       tags:
-      - datasets
+        - datasets
       security:
       - cookieAuth: []
       - basicAuth: []
@@ -370,7 +370,7 @@ paths:
         schema:
           type: string
       tags:
-      - datasets
+        - datasets
       security:
       - cookieAuth: []
       - basicAuth: []
@@ -418,7 +418,7 @@ paths:
         schema:
           type: string
       tags:
-      - datasets
+        - datasets
       security:
       - cookieAuth: []
       - basicAuth: []
@@ -442,7 +442,7 @@ paths:
         description: A unique integer value identifying this dataset.
         required: true
       tags:
-      - datasets
+        - datasets
       security:
       - cookieAuth: []
       - basicAuth: []
@@ -484,7 +484,7 @@ paths:
         schema:
           type: string
       tags:
-      - documents
+        - documents
       security:
       - cookieAuth: []
       - basicAuth: []
@@ -500,7 +500,7 @@ paths:
       operationId: documents_partial_update
       description: API endpoint that allows documents to be viewed or edited.
       tags:
-      - documents
+        - documents
       requestBody:
         content:
           application/json:
@@ -534,7 +534,7 @@ paths:
         description: A unique integer value identifying this document.
         required: true
       tags:
-      - documents
+        - documents
       security:
       - cookieAuth: []
       - basicAuth: []

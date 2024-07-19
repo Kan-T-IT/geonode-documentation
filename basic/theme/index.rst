@@ -50,7 +50,7 @@ Let’s walk through an example of the steps necessary to change the default log
 
       $ sudo vi brand_navbar.html
 
-   .. code-block:: css
+   .. code-block:: html
 
       {% extends "geonode-mapstore-client/snippets/brand_navbar.html" %}
       {% load static %}
@@ -114,7 +114,6 @@ First, we’ll walk through the steps necessary to displace it downward so it is
   .. code-block:: css
 
       #gn-brand-navbar {
-          ....
           background-color: #ff0000 !important;
       }
 
@@ -127,7 +126,7 @@ First, we’ll walk through the steps necessary to displace it downward so it is
 
 #. Add the following code to change the background image and font for the *hero* section:
 
-  .. code-block:: css
+  .. code-block:: html
 
     {% extends "geonode-mapstore-client/snippets/hero.html" %}
     {% block extra_style %}
@@ -197,7 +196,7 @@ section name (ex: :file:`brand_navbar.html`) or by extending the base template f
 
 #. Add the following content to this page:
 
-  .. code-block:: css
+  .. code-block:: html
 
     {% load static %}
     {% block content %}

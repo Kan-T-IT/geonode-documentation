@@ -1,7 +1,7 @@
 .. _uploading-datasets:
 
 Datasets Uploading
-================
+==================
 
 | The most important resource type in GeoNode is the *Dataset*. A dataset represents spatial information so it can be displayed inside a map.
 | To better understand what we are talking about lets upload your first dataset.
@@ -31,6 +31,7 @@ The *Datasets Uploading* page looks like the one in the picture below.
 
 
 | Through the :guilabel:`Select files` button you can select files from your disk, make sure they are valid raster or vector spatial data, then you can click to :guilabel:`Upload` button. 
+
 A progress bar shows the operation made during the dataset upload and alerts you when the process is over.
 
 .. figure:: img/dataset_upload_confirm.png

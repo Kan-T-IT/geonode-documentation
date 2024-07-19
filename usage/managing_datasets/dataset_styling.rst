@@ -1,7 +1,7 @@
 .. _dataset-style:
 
 Dataset Styling
-=============
+===============
 
 Maps are helpful because they allow you gain a deeper understanding of your data by allowing you to visualize it in many different ways.
 So you can tell different stories depending on how the data is presented.
@@ -10,7 +10,7 @@ For any given data or dataset, you should explore different styling options and 
 In GeoNode each dataset has one style refered to as a *Default Style* which is determined by the nature of the data you're mapping. When uploading a new dataset (see :ref:`uploading-datasets`) a new default style will be associated to it.
 
 Editing the Dataset Style
------------------------
+-------------------------
 
 In order to edit a dataset style, open the *Dataset Page* (see :ref:`dataset-info`) and click on :guilabel:`Edit`. Then click the :guilabel:`Edit Style` link in the *options* (see the picture below).
 
@@ -38,7 +38,7 @@ The visual editor looks like this
 You can then edit the style by clicking on each attribute of the style.
 
 Creating Style Rules
--------------------
+--------------------
 
 In order to create a new rule, Three options are provided.
 

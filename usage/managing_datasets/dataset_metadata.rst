@@ -1,12 +1,12 @@
 .. _dataset-metadata:
 
 Datasets Metadata
-===============
+=================
 
 In GeoNode special importance is given to *Metadata* and their standard formats.
 
 Editing Metadata
----------------
+----------------
 
 | Metadata contains all the information related to the dataset. They provide essential information for its identification and its comprehension. Metadata also make the dataset more easily retrievable through search by other users.
 | The *Metadata* of a dataset can be changed through a *Edit Metadata* form which involves four steps, one for each type of metadata considered:

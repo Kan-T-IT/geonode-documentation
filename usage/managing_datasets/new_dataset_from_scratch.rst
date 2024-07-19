@@ -1,5 +1,5 @@
 Creating a Dataset from scratch
-=============================
+===============================
 
 An interesting tool that GeoNode makes available to you is the *Create dataset*. It allows you to create a new vector dataset from scratch. The *Dataset Creation Form* is reachable through the :guilabel:`Create dataset` link shown in the picture below.
 

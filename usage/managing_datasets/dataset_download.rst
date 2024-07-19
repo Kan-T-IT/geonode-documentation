@@ -2,7 +2,7 @@
 .. _dataset-download:
 
 Downloading Datasets
-==================
+====================
 
 At the top of the *Dataset Menu* there is an :guilabel:`Download` link where it is possible to download:
 
@@ -40,14 +40,14 @@ To download the file to your machine, click on the export dataset icon. This ope
 .. figure:: img/export_icon.png
      :align: center
 
-     *Export Results Icon *
+     *Export Results Icon*
 
 .. figure:: img/export_list.png
      :align: center
 
 
 Printing
---------------
+--------
 
 | The `MapStore <https://mapstore2.geo-solutions.it/mapstore/#/>`_ based map viewer of GeoNode allows you to print the current view with a customizable layout.
 | Click the :guilabel:`Print` option from the *Menu*, the **Printing Window** will open.

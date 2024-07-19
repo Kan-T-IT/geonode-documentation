@@ -1,7 +1,7 @@
 .. _dataset-info:
 
 Dataset Information
-=================
+===================
 
 From the *Dataset Search Page* (see :ref:`finding-data`) you can select the dataset you are interested in and click on its name to see an overview about it.
 

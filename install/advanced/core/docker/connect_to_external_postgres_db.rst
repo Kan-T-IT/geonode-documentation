@@ -33,6 +33,7 @@ Connecting GeoNode Docker to an External Database
 -  ``@docker-compose.yml`` comment out the related ``volumes`` section
 
    .. code-block:: console
+
        # dbdata:
        #   name: ${COMPOSE_PROJECT_NAME}-dbdata
        # dbbackups:

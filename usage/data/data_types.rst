@@ -26,7 +26,7 @@ Each resource type has its own menu and can be reached through :guilabel:`Datase
 .. _document-data-type:
 
 Datasets
-------
+--------
 
 | Datasets are a primary component of GeoNode.
 | Datasets are publishable resources representing a raster or vector spatial data source. Datasets also can be associated with metadata, ratings, and comments.
@@ -41,6 +41,7 @@ Maps
 
 | Maps are a primary component of GeoNode.
 | Maps are comprised of various datasets and their styles. Datasets can be both local datasets in GeoNode as well as remote datasets either served from other WMS servers or by web service datasets such as Google or MapQuest.
+
 GeoNode maps also contain other information such as map zoom and extent, dataset ordering, and style.
 
 You can create a map based on uploaded datasets, combine them with some existing datasets and a remote web service dataset, share the resulting map for public viewing.
@@ -56,7 +57,7 @@ Documents
 | Through the document detailed page is possible to view, download and manage a document.
 
 GeoStories
----------
+----------
 
 | GeoStory is a MapStore tool integrated in GeoNode that provides the user a way to create inspiring and immersive stories by combining text, interactive maps, and other multimedia content like images and video or other third party contents. Through this tool you can simply tell your stories on the web and then publish and share them with different groups of GeoNode users or make them public to everyone around the world.
 

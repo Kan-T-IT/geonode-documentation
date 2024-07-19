@@ -89,6 +89,7 @@ GeoNode uses an ``.env`` where the environment variables required by Docker and 
 A simple way to generate a basic ``.env`` is using the ``create-envfile.py`` utility command. If run without arguments it will generate a valid ``.env`` for a local deployment.
 
 .. code-block:: shell
+
     cd my_geonode
     python create-envfile.py
 
@@ -334,7 +335,7 @@ Whenever you change someting on :guilabel:`.env` file, you will need to rebuild 
 
 
 [Optional] Configure your SSL Certificates
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In production deployment mode, GeoNode uses by default :guilabel:`Let's Encrypt` certificates
 

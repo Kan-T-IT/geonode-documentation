@@ -34,6 +34,7 @@ Data can be ordered by Most recent, Less recent, Name and Popularity.
 
 .. figure:: img/ordering_link.png
      :align: center
+
      *Ordering Link*
 
 .. figure:: img/ordering_data.png

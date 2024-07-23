@@ -2,105 +2,134 @@
 # Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2024-07-19 20:53+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../admin/upgrade/3.2-to-3.3/index.rst:4 a1d36f917be845fd8aaaafcf95de8c57
 msgid "Upgrade from 3.2.x / 3.3.x"
-msgstr ""
+msgstr "Actualizar desde 3.2.x / 3.3.x"
 
 #: ../../admin/upgrade/3.2-to-3.3/index.rst:6 fa3dc72085904bbc873a9b51cacb948e
 msgid "Upgrade the dependencies"
-msgstr ""
+msgstr "Actualizar las dependencias"
 
 #: ../../admin/upgrade/3.2-to-3.3/index.rst:7 cf35f5dd66b440efb984cee332ea0864
 msgid ""
 "Perform the ``migrations`` management command; in case some attribute is "
 "conflicting, remove it manually from the DB"
 msgstr ""
+"Ejecute el comando de gestión ``migraciones``; en caso de que algún atributo"
+" esté en conflicto, elimínelo manualmente de la base de datos"
 
 #: ../../admin/upgrade/3.2-to-3.3/index.rst:8 d0ca3fb128cd44cca7b70ea4da2297a6
 msgid "Proform the ``collectstatic`` management command"
-msgstr ""
+msgstr "Realiza el comando de gestión ``collectstatic``"
 
-#: ../../admin/upgrade/3.2-to-3.3/index.rst:11 2bd76102b4394aa09548b0f75a86b397
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:11
+#: 2bd76102b4394aa09548b0f75a86b397
 msgid "Upgrade the instance dependencies"
-msgstr ""
+msgstr "Actualiza las dependencias de la instancia"
 
-#: ../../admin/upgrade/3.2-to-3.3/index.rst:13 7c380bbad7d4412d804059910a9810a9
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:13
+#: 7c380bbad7d4412d804059910a9810a9
 msgid ""
-"Check the :ref:`install_dep` and :ref:`install_venv` sections in order to"
-" upgrade your Python environment."
+"Check the :ref:`install_dep` and :ref:`install_venv` sections in order to "
+"upgrade your Python environment."
 msgstr ""
+"Consulte las secciones :ref:`install_dep` y :ref:`install_venv` para "
+"actualizar tu entorno Python."
 
-#: ../../admin/upgrade/3.2-to-3.3/index.rst:15 d25fe4545c0b4200a967e3999912ca70
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:15
+#: d25fe4545c0b4200a967e3999912ca70
 msgid ""
-"Also, make sure the code is ``Python 3.8`` compatible and that you "
-"switched and aligned the **source code** and the **requirements.txt** to "
-"the ``master`` branch."
+"Also, make sure the code is ``Python 3.8`` compatible and that you switched "
+"and aligned the **source code** and the **requirements.txt** to the "
+"``master`` branch."
 msgstr ""
+"Además, asegúrate de que el código sea compatible con  ``Python 3.8`` y que "
+"hayas cambiado y alineado el **código fuente** y el **requirements.txt** a "
+"la rama ``master``."
 
-#: ../../admin/upgrade/3.2-to-3.3/index.rst:17 3c23f8bdc285479da6afd242ad97e6df
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:17
+#: 3c23f8bdc285479da6afd242ad97e6df
 msgid "This must be done manually and with particular attention."
-msgstr ""
+msgstr "Esto debe hacerse manualmente y con especial atención."
 
-#: ../../admin/upgrade/3.2-to-3.3/index.rst:36 8c73044ebc5143ff83cb0ac530859f33
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:36
+#: 8c73044ebc5143ff83cb0ac530859f33
 msgid "Run GeoNode migrations"
-msgstr ""
+msgstr "Ejecutar migraciones de GeoNode"
 
-#: ../../admin/upgrade/3.2-to-3.3/index.rst:38 ba96778d3ffe4e78b33e22f0680219a2
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:38
+#: ba96778d3ffe4e78b33e22f0680219a2
 msgid "Activate your GeoNode virtualenv and set the env vars:"
-msgstr ""
+msgstr "Active su GeoNode virtualenv y configure las variables de entorno:"
 
-#: ../../admin/upgrade/3.2-to-3.3/index.rst:45 b6b2ce979bee452696474868d24fa0d2
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:45
+#: b6b2ce979bee452696474868d24fa0d2
 msgid ""
-"Here are the variables to export - update them to your environment "
-"settings:"
+"Here are the variables to export - update them to your environment settings:"
 msgstr ""
+"Aquí están las variables a exportar - actualízalas según la configuración de"
+" tu entorno:"
 
-#: ../../admin/upgrade/3.2-to-3.3/index.rst:60 a708705d4d66431fa8c2ebb7b0ef55e5
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:60
+#: a708705d4d66431fa8c2ebb7b0ef55e5
 msgid "Apply migrations and apply basic fixtures:"
-msgstr ""
+msgstr "Aplica migraciones y aplica las fixtures básicas:"
 
-#: ../../admin/upgrade/3.2-to-3.3/index.rst:68 a3f10174abc64459a50527e5a37c8a83
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:68
+#: a3f10174abc64459a50527e5a37c8a83
 msgid ""
-"Incase of an error of :guilabel:`django.db.utils.ProgrammingError: column"
-" \"colum-name\" of relation \"table-name\" already exists` on running "
+"Incase of an error of :guilabel:`django.db.utils.ProgrammingError: column "
+"\"colum-name\" of relation \"table-name\" already exists` on running "
 "migrations, you can backup the field data with the following steps."
 msgstr ""
+"En caso de un error de :guilabel:`django.db.utils.ProgrammingError: column "
+"\"colum-name\" of relation \"table-name\" already exists` al ejecutar las "
+"migraciones, puedes hacer una copia de seguridad de los datos del campo con "
+"los siguientes pasos."
 
-#: ../../admin/upgrade/3.2-to-3.3/index.rst:82 b449e7378680433ea7103cddde6f62f4
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:82
+#: b449e7378680433ea7103cddde6f62f4
 msgid "Run migration then:"
-msgstr ""
+msgstr "Ejecute la migración entonces:"
 
-#: ../../admin/upgrade/3.2-to-3.3/index.rst:97 45e2009bdc97420896a4bc0075484165
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:97
+#: 45e2009bdc97420896a4bc0075484165
 msgid "Create superuser"
-msgstr ""
+msgstr "Crea un superusuario"
 
-#: ../../admin/upgrade/3.2-to-3.3/index.rst:99 57f44f5af179464d8fb06ae52a31c65d
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:99
+#: 57f44f5af179464d8fb06ae52a31c65d
 msgid ""
-"To create a superuser you should drop the following constraints (they can"
-" be re-enabled if needed):"
+"To create a superuser you should drop the following constraints (they can be"
+" re-enabled if needed):"
 msgstr ""
+"Para crear un superusuario, debes eliminar las siguientes restricciones "
+"(pueden ser reactivadas si es necesario):"
 
 #: ../../admin/upgrade/3.2-to-3.3/index.rst:111
 #: 2032b7cfd10d407c8a95a1707a3e392c
 msgid "Update Templates"
-msgstr ""
+msgstr "Actualiza las plantillas"
 
 #: ../../admin/upgrade/3.2-to-3.3/index.rst:113
 #: 5f8db71334b9426e9c6b854019fa37cd
@@ -109,4 +138,5 @@ msgid ""
 "Update available templates to use {% load static %} instead of {% load "
 "staticfiles %}"
 msgstr ""
-
+"Actualiza las plantillas disponibles para usar {% load static %} en lugar de"
+" {% load staticfiles %}"

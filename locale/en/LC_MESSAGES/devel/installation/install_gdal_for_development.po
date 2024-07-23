@@ -134,15 +134,3 @@ msgstr ""
 msgid "And from the activated environment:"
 msgstr ""
 
-#~ msgid ""
-#~ "On a fresh Ubuntu 18.04 installation,"
-#~ " we will be installing gdal version"
-#~ " 2.4.2"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "On a fresh Ubuntu 20.04 installation,"
-#~ " we will be installing gdal version"
-#~ " 3.3.2"
-#~ msgstr ""
-

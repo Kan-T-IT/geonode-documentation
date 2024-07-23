@@ -74,17 +74,3 @@ msgstr ""
 #: ../../admin/index.rst:66 d433aea7c59744a8a9278cd0e55220cc
 msgid "GeoNode Add a thesaurus"
 msgstr ""
-
-#~ msgid ""
-#~ "The following sections will explain more"
-#~ " in depth what functionalities the "
-#~ "admin panel makes you available. It "
-#~ "should be highlighted that the sections"
-#~ " not covered in this guide are "
-#~ "meant to be managed through GeoNode "
-#~ "UI."
-#~ msgstr ""
-
-#~ msgid "GeoNode add a thesaurus"
-#~ msgstr ""
-

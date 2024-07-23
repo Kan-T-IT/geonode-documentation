@@ -30,9 +30,4 @@ msgstr ""
 msgid "Harvesting resources from remote services"
 msgstr ""
 
-#~ msgid "Viewer and Hooksets"
-#~ msgstr ""
-
-#~ msgid "Monitoring"
-#~ msgstr ""
 

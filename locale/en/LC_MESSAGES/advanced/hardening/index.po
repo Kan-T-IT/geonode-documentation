@@ -38,22 +38,3 @@ msgstr ""
 #: ../../advanced/hardening/index.rst:26 369a04f16e434d3fb699e13e8899fc73
 msgid "After that we need to update the `/etc/nginx/sites-enabled/geonode` file,"
 msgstr ""
-
-#~ msgid "Publish on HTTPS"
-#~ msgstr ""
-
-#~ msgid "TBD"
-#~ msgstr ""
-
-#~ msgid "OAuth2 Fixtures Update and Base URL Migration"
-#~ msgstr ""
-
-#~ msgid "GeoNode Security Subsystem"
-#~ msgstr ""
-
-#~ msgid "OAuth2 Tokens and Sessions"
-#~ msgstr ""
-
-#~ msgid "TBD (ref to :ref:`oauth2_admin_panel_access_tokens`)"
-#~ msgstr ""
-

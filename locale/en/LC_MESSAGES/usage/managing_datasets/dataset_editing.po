@@ -235,16 +235,3 @@ msgid ""
 "<https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide"
 "/attributes-table/>`_ for further information."
 msgstr ""
-
-#~ msgid ""
-#~ "By default the GeoNode map viewer "
-#~ "is `MapStore <https://mapstore2.geo-"
-#~ "solutions.it/mapstore/#/>`_ based, see the "
-#~ "`MapStore Documentation "
-#~ "<https://mapstore2.readthedocs.io/en/latest/>`_ for "
-#~ "further information."
-#~ msgstr ""
-
-#~ msgid "*Edit Info*"
-#~ msgstr ""
-

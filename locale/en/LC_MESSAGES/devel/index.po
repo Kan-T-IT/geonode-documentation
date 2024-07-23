@@ -33,6 +33,4 @@ msgid ""
 "installed from scratch as it has GeoNode-Core as a prerequisit."
 msgstr ""
 
-#~ msgid "API Schema"
-#~ msgstr ""
 

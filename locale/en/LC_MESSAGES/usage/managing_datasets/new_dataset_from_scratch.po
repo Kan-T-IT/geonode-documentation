@@ -85,10 +85,3 @@ msgid ""
 "See the :ref:`dataset-editing` section to learn how to add new features."
 msgstr ""
 
-#~ msgid ""
-#~ "At this time you can also change"
-#~ " the default *Share options* settings, "
-#~ "see :ref:`dataset-permissions` to learn "
-#~ "how."
-#~ msgstr ""
-

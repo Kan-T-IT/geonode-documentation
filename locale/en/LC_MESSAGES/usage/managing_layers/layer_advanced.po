@@ -78,23 +78,3 @@ msgid ""
 "capabilities, please follow this `documentation link "
 "<https://mapstore.readthedocs.io/en/latest/user-guide/layer-settings/>`_."
 msgstr ""
-
-#~ msgid "Widgets"
-#~ msgstr ""
-
-#~ msgid "Export Layer Data"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "With GeoNode you can filter a "
-#~ "layer via it's attributes, direct map"
-#~ " filter, by drawing and area of "
-#~ "interest over the map canvas and "
-#~ "via cross-layer filter, allowing "
-#~ "intersection, contained and contains overlay"
-#~ " methods. For more detail please "
-#~ "check the MapStore documentation `here "
-#~ "<https://mapstore.readthedocs.io/en/latest/user-guide"
-#~ "/filtering-layers/>`_."
-#~ msgstr ""
-

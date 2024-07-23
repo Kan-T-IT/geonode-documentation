@@ -389,11 +389,3 @@ msgstr ""
 msgid "8- Visit http://localhost:8000/"
 msgstr ""
 
-#~ msgid ""
-#~ "Starting from the following step, you"
-#~ " have to make sure that you "
-#~ "installed GDAL correctly according to "
-#~ "the documentation page \"Install GDAL "
-#~ "for Development\""
-#~ msgstr ""
-

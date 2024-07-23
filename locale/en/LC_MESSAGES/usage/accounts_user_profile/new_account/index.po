@@ -95,23 +95,3 @@ msgstr ""
 msgid "*Confirm Log out*"
 msgstr ""
 
-#~ msgid ""
-#~ "To take full advantage of all the"
-#~ " GeoNode features you need an user"
-#~ " account. Follow these step to create"
-#~ " a new one."
-#~ msgstr ""
-
-#~ msgid "*Sign in screen*"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "On the next page, fill out the "
-#~ "form. Enter a user name and "
-#~ "password in the fields. Also, enter "
-#~ "your email address for verification."
-#~ msgstr ""
-
-#~ msgid "To logout click on the :guilabel:`Log out` link of the user menu."
-#~ msgstr ""
-

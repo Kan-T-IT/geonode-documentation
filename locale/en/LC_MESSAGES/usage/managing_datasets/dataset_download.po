@@ -249,20 +249,3 @@ msgstr ""
 msgid "*The Measure Tool*"
 msgstr ""
 
-#~ msgid ""
-#~ "At the top of the *Dataset Menu*"
-#~ " there is an :guilabel:`Export` link "
-#~ ". It provides access to the "
-#~ "ability to extract geospatial data from"
-#~ " within GeoNode."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You will be able to select from"
-#~ " a list of options of the "
-#~ "supported export file formats."
-#~ msgstr ""
-
-#~ msgid "*Export Results Icon *"
-#~ msgstr ""
-

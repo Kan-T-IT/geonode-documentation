@@ -239,9 +239,3 @@ msgid ""
 "permissions form on layer detail page')"
 msgstr ""
 
-#~ msgid ""
-#~ "In your settings set ``DEBU_STATIC=True``. "
-#~ "This will load unminified assets in "
-#~ "your template."
-#~ msgstr ""
-

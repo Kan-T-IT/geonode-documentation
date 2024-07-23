@@ -1,51 +1,63 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2023-07-12 10:00+0200\n"
+"PO-Revision-Date: 2024-07-19 20:53+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.12.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/accounts_user_profile/index.rst:2
-#: 49d272274c8b4cc1af440ece061c5fae
+#: a9cce855c31a43a38ee21d7ed0f038a8
 msgid "Accounts and User Profile"
-msgstr ""
+msgstr "Cuentas y Perfil de usuario"
 
 #: ../../usage/accounts_user_profile/index.rst:4
-#: edc240ebe8584950a8c4d2537b067f06
+#: 8302c7ced6b048fdadf70a1c396770e3
 msgid ""
 "In GeoNode many contents are public so unregistered users have read-only "
-"access to public maps, datasets,documents, geostory and dashboard. In "
-"order to create maps, dashboard or geostory and add datasets or "
-"documents, edit the data and share these resources with other users, you "
-"need to sign in."
+"access to public maps, datasets,documents, geostory and dashboard. In order "
+"to create maps, dashboard or geostory and add datasets or documents, edit "
+"the data and share these resources with other users, you need to sign in."
 msgstr ""
+"En GeoNode, muchos contenidos son públicos, por lo que los usuarios no "
+"registrados tienen acceso de solo lectura a mapas públicos, conjuntos de "
+"datos, documentos, historias geográficas y paneles de control. Para crear "
+"mapas, paneles de control o historias geográficas y agregar conjuntos de "
+"datos o documentos, editar los datos y compartir estos recursos con otros "
+"usuarios, necesitas iniciar sesión."
 
 #: ../../usage/accounts_user_profile/index.rst:7
-#: 2cd859d7415c4cff8e072bbc6d9375b1
+#: 48197e2f97df4ba7846275d016b04ecc
 msgid ""
-"GeoNode is primarily a *social* platform, thus a primary component of any"
-" GeoNode instance is the user account."
+"GeoNode is primarily a *social* platform, thus a primary component of any "
+"GeoNode instance is the user account."
 msgstr ""
+"GeoNode es principalmente una plataforma *social*, por lo que un componente "
+"principal de cualquier instancia de GeoNode es la cuenta de usuario."
 
 #: ../../usage/accounts_user_profile/index.rst:9
-#: 0233e7ef6ef04168955688e54655c082
+#: cc7a954693d741dfa5cb26e5dc6fed9f
 msgid ""
 "This section will guide you through account registration, updating your "
-"account information and preferences, connections with social networks and"
-" email addresses."
+"account information and preferences, connections with social networks and "
+"email addresses."
 msgstr ""
-
+"Esta sección te guiará a través del registro de cuenta, la actualización de "
+"tu información y preferencias de cuenta, las conexiones con redes sociales y"
+" las direcciones de correo electrónico."

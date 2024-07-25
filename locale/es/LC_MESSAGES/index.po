@@ -1,81 +1,87 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2021-06-03 17:10+0200\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.9.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../index.rst:14
+#: ../../index.rst:14 1fbf8ee7dbdc4c7586e788204edc9be6
 msgid "About"
-msgstr ""
+msgstr "Acerca de"
 
-#: ../../index.rst:20
+#: ../../index.rst:20 041ff18c99984ba68268517ded421c49
 msgid "Getting Started"
-msgstr ""
+msgstr "Empezando"
 
-#: ../../index.rst:26
+#: ../../index.rst:26 b12dbc2770c04b68b123a1e32da73e88
 msgid "Using"
-msgstr ""
+msgstr "Usando"
 
-#: ../../index.rst:32
+#: ../../index.rst:32 31c6ca1b3c484c709e2528da2f0f4623
 msgid "Installing"
-msgstr ""
+msgstr "Instalación"
 
-#: ../../index.rst:38
+#: ../../index.rst:38 01eb853bb23c4aec89c809b0c42c8803
 msgid "Configuring (Basic)"
-msgstr ""
+msgstr "Configuración (Básica)"
 
-#: ../../index.rst:44
+#: ../../index.rst:44 eaac54558a5646f2a61a746babaedbf7
 msgid "Configuring (Intermediate)"
-msgstr ""
+msgstr "Configuración (Intermedia)"
 
-#: ../../index.rst:50
+#: ../../index.rst:50 c90b5c6d050c484f99c424be15776909
 msgid "Configuring (Advanced)"
-msgstr ""
+msgstr "Configuración (Avanzada)"
 
-#: ../../index.rst:56
+#: ../../index.rst:56 2021fcc6ce3c4087a759bbf818b73fba
 msgid "Administering"
-msgstr ""
+msgstr "Administración"
 
-#: ../../index.rst:62
+#: ../../index.rst:62 fc3acbc4501e462db9062ce8e284ea3d
 msgid "Contributing"
-msgstr ""
+msgstr "Contribuyendo"
 
-#: ../../index.rst:68
+#: ../../index.rst:68 8f30be4a0275425ebfc5876e2c518d90
 msgid "Developing"
-msgstr ""
+msgstr "Desarrollando"
 
-#: ../../index.rst:5 6734639f86514d08aa2c02926e05dcf1
+#: ../../index.rst:5 3bdca12530e846bdbc06c42b24465372
 msgid "GeoNode's Documentation"
-msgstr ""
+msgstr "Documentación de GeoNode"
 
-#: ../../index.rst:7 e2d7314b918c4aaf925b13b19afde662
+#: ../../index.rst:7 85f5ebf240c84a86abb19511550cddd0
 msgid "Welcome to GeoNode's Documentation."
-msgstr ""
+msgstr "Bienvenido a la documentación de GeoNode."
 
-#: ../../index.rst:9 1535515fb8fa469baa0acc2126eea025
+#: ../../index.rst:9 972d5c743b6d4e1e945e877b2d668a98
 msgid ""
-"GeoNode is an Open Source, Content Management System (CMS) for geospatial"
-" data. It is a web-based application and platform for developing "
-"geospatial information systems (GIS) and for deploying spatial data "
-"infrastructures (SDI)."
+"GeoNode is an Open Source, Content Management System (CMS) for geospatial "
+"data. It is a web-based application and platform for developing geospatial "
+"information systems (GIS) and for deploying spatial data infrastructures "
+"(SDI)."
 msgstr ""
+"GeoNode es un sistema de gestión de contenidos (CMS) de código abierto para "
+"datos geoespaciales. Es una aplicación y plataforma basada en web para "
+"desarrollar sistemas de información geoespacial (SIG) y para implementar "
+"infraestructuras de datos espaciales (IDE)."
 
-#: ../../index.rst:12 8b3e758b183f4a03a6a31ae7043453dd
+#: ../../index.rst:12 64685551a5114811b9a34409af198155
 msgid "Table of contents"
-msgstr ""
-
+msgstr "Tabla de contenido"

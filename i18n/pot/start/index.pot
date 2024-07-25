@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"POT-Creation-Date: 2024-07-25 20:49-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../../start/index.rst:112
 #: dac786888e704337ac7c8ad48d57d3ce
-msgid "A live demo of the latest stable build is available at http://master.demo.geonode.org/."
+msgid "A live demo of the latest stable build is available at https://demo.geonode.org/."
 msgstr ""
 
 #: ../../start/index.rst:117

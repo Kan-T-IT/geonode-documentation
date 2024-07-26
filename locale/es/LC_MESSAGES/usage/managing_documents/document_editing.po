@@ -1,87 +1,103 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2024-07-19 21:10+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/managing_documents/document_editing.rst:4
 #: 16ea57536d534263ad505c2ca496de38
 msgid "Document Editing"
-msgstr ""
+msgstr "Edición de documentos"
 
 #: ../../usage/managing_documents/document_editing.rst:6
 #: c1a4831807104b259a89b716239f3d61
 msgid ""
 "The :ref:`document-info` page makes available useful menu for document "
-"editing. Click on the :guilabel:`Edit` link then :guilabel:`Edit "
-"Metadata` to see editing forms."
+"editing. Click on the :guilabel:`Edit` link then :guilabel:`Edit Metadata` "
+"to see editing forms."
 msgstr ""
+"La página :ref:`document-info` pone a disposición un menú para la edición de"
+" documentos. Haga clic en el enlace :guilabel:`Editar` y luego en "
+":guilabel:`Editar metadatos` para ver los formularios de edición."
 
 #: ../../usage/managing_documents/document_editing.rst:9
 #: 1f19c6225f2d44f086715e59fc97e8ab
 msgid "Setting the Document Thumbnail"
-msgstr ""
+msgstr "Configuración de la miniatura del documento"
 
 #: ../../usage/managing_documents/document_editing.rst:11
 #: a34be5a2d0044e20a81b2f6658408c23
 msgid ""
 "From the *Metadata Form*, it is possible to *Set the Thumbnail* of the "
-"document. Click on :guilabel:`Choose file` to open the *Thumbnail "
-"Uploading* page and chose the image that will illustrate your document. "
-"Once this is done, click on the ok button and save. If the thumbnail has "
-"been successfully uploaded you can see it by coming back to the document "
-"list."
+"document. Click on :guilabel:`Choose file` to open the *Thumbnail Uploading*"
+" page and chose the image that will illustrate your document. Once this is "
+"done, click on the ok button and save. If the thumbnail has been "
+"successfully uploaded you can see it by coming back to the document list."
 msgstr ""
+"Desde el *Formulario de Metadatos*, es posible *Establecer la Miniatura* del"
+" documento. Haga clic en :guilabel:`Elegir archivo` para abrir la página "
+"*Carga de miniaturas* y elija la imagen que ilustrará su documento. Una vez "
+"hecho esto, haga clic en el botón Aceptar y guarde. Si la miniatura se ha "
+"cargado correctamente, podrá verla volviendo a la lista de documentos."
 
 #: ../../usage/managing_documents/document_editing.rst:16
 #: d30720e266f349b592bedcc7e75c1d55
 msgid "*Upload Document's Thumbnail*"
-msgstr ""
+msgstr "*Subir miniatura del documento*"
 
 #: ../../usage/managing_documents/document_editing.rst:18
 #: 68c8c39a75c445478ebaf8105a422085
 msgid "If no errors occur, the new selected thumbnail will be shown."
 msgstr ""
+"Si no se producen errores, se mostrará la nueva miniatura seleccionada."
 
 #: ../../usage/managing_documents/document_editing.rst:23
 #: fa13adf52b624efea39e31bb028c5245
 msgid "*Uploading success*"
-msgstr ""
+msgstr "*Subida exitosa*"
 
 #: ../../usage/managing_documents/document_editing.rst:26
 #: b6cda43843c347fcbc737b8a329fd46e
 msgid "Editing the Document Metadata"
-msgstr ""
+msgstr "Edición de los metadatos del documento"
 
 #: ../../usage/managing_documents/document_editing.rst:28
 #: fe66686e8d3948a5b24a90adf2fbcd6e
 msgid ""
-"You can edit the metadata of your document as described in the :ref"
-":`document-metadata` section or by using THe *Advanced Metadata* option "
+"You can edit the metadata of your document as described in the "
+":ref:`document-metadata` section or by using THe *Advanced Metadata* option "
 "below."
 msgstr ""
+"Puede editar los metadatos de su documento como se describe en la sección "
+":ref:`document-metadata` o utilizando la opción *Metadatos avanzados* a "
+"continuación."
 
 #: ../../usage/managing_documents/document_editing.rst:33
 #: 2210e13fee064113b4324f873be9610d
 msgid ""
-"The :guilabel:`Advanced Metadata` button takes you to a big form where "
-"all the available metadata of the document can be edited."
+"The :guilabel:`Advanced Metadata` button takes you to a big form where all "
+"the available metadata of the document can be edited."
 msgstr ""
+"El botón :guilabel:`Metadatos Avanzados` te lleva a un formulario grande "
+"donde se pueden editar todos los metadatos disponibles del documento."
 
 #: ../../usage/managing_documents/document_editing.rst:34
 #: 2210e13fee064113b4324f873be9610d
@@ -89,24 +105,29 @@ msgid ""
 "Some information are mandatory such as the *Title* or the *Category* the "
 "document belongs to, some others are optional."
 msgstr ""
+"Algunas informaciones son obligatorias como el *Título* o la *Categoría* a "
+"la que pertenece el documento, otras son opcionales."
 
 #: ../../usage/managing_documents/document_editing.rst:39
 #: e8cdb57771014832b459192f76ec8eaa
 msgid "*Editing Metadata*"
-msgstr ""
+msgstr "*Edición de metadatos*"
 
 #: ../../usage/managing_documents/document_editing.rst:41
 #: dbb23ce2338b4a5c8243fbc1a39649a1
 msgid ""
-"In the example shown in the picture above, the information inside the red"
-" rectangles have been changed. To save the changes click on "
+"In the example shown in the picture above, the information inside the red "
+"rectangles have been changed. To save the changes click on "
 ":guilabel:`Update`, you will be redirected to the document page."
 msgstr ""
+"En el ejemplo que se muestra en la imagen de arriba, se ha cambiado la "
+"información dentro de los rectángulos rojos. Para guardar los cambios haga "
+"clic en :guilabel:`Actualizar`, será redirigido a la página del documento."
 
 #: ../../usage/managing_documents/document_editing.rst:44
 #: 6d9a09ef333347a58d6260db672dc0f6
 msgid "Editing the Document Info"
-msgstr ""
+msgstr "Editar la información del documento"
 
 #: ../../usage/managing_documents/document_editing.rst:46
 #: 4641fba037a24f6b996c6f6a34742b3f
@@ -114,6 +135,8 @@ msgid ""
 "You can edit the information of your document by clicking on the "
 ":guilabel:`Info` button."
 msgstr ""
+"Puedes editar la información de tu documento haciendo clic en el botón "
+":guilabel:`Info`."
 
 #: ../../usage/managing_documents/document_editing.rst:48
 #: 7b0bd092e4354160a86434bdd95bc6dd
@@ -121,11 +144,13 @@ msgid ""
 "From the Info panel, it is possible to upload the **Thumbnail** of the "
 "document."
 msgstr ""
+"Desde el panel de Información, es posible cargar la **Miniatura** del "
+"documento."
 
 #: ../../usage/managing_documents/document_editing.rst:53
 #: 8953333e6d9344f49c3ebe5a4fe2e1b0
 msgid "*Upload Thumbnail*"
-msgstr ""
+msgstr "*Subir miniatura*"
 
 #: ../../usage/managing_documents/document_editing.rst:55
 #: 46c88c59863d4ca2887024208e42c267
@@ -133,28 +158,33 @@ msgid ""
 "If you want this document in your **Favorites** (see :ref:`editing-"
 "profile`), click on the start icon."
 msgstr ""
+"Si desea este documento en sus **Favoritos** (ver :ref:`editing-profile`), "
+"haga clic en el icono de inicio."
 
 #: ../../usage/managing_documents/document_editing.rst:60
 #: 4ef9d94f06214930a910f13761371001
 msgid "*Favorite document*"
-msgstr ""
+msgstr "*Documento favorito*"
 
 #: ../../usage/managing_documents/document_editing.rst:62
 #: 305008b07abc4736b8dd410c02c5dafc
 msgid ""
-"You can directly **Download** the document and **Share** the document url"
-" by clicking the buttons on the top-right of the panel."
+"You can directly **Download** the document and **Share** the document url by"
+" clicking the buttons on the top-right of the panel."
 msgstr ""
+"Puede **Descargar** directamente el documento y **Compartir** la URL del "
+"documento haciendo clic en los botones en la parte superior derecha del "
+"panel."
 
 #: ../../usage/managing_documents/document_editing.rst:67
 #: 0d2225c0d7144c7a8e2a989a52301b9e
 msgid "*Share and Download document*"
-msgstr ""
+msgstr "*Compartir y descargar documento*"
 
 #: ../../usage/managing_documents/document_editing.rst:69
 #: 767c41ec0c2e4868ad77fd9313958b7f
 msgid "By clicking the document **Title**, you can change it."
-msgstr ""
+msgstr "Al hacer clic en el documento **Título**, puede cambiarlo."
 
 #: ../../usage/managing_documents/document_editing.rst:74
 #: ../../usage/managing_documents/document_editing.rst:81
@@ -162,23 +192,28 @@ msgstr ""
 #: 2b28c7bbae63420ba87d4dca4e2ae87b 5ab96b6ef817491caefc9e313a6de152
 #: 8fe41a6d28f544839a2ba16028f9f039
 msgid "*Document Title*"
-msgstr ""
+msgstr "*Titulo del documento*"
 
 #: ../../usage/managing_documents/document_editing.rst:76
 #: bf201542d4094babb0695652c4c0b651
 msgid ""
-"From the :guilabel:`Locations` tab, you can manage the spacial extent of "
-"the document."
+"From the :guilabel:`Locations` tab, you can manage the spacial extent of the"
+" document."
 msgstr ""
+"Desde la pestaña :guilabel:`Ubicaciones`, puedes gestionar la extensión "
+"espacial del documento."
 
 #: ../../usage/managing_documents/document_editing.rst:84
 #: bfde6c7aca254a43a30f3d58d063f59f
 msgid ""
 "Here numerical fields and a map show the spatial extent (WGS 84) for the "
-"document and you can edit it by Shift+click and drag to draw the new "
-"extent on the map and change its location by clicking the marker and "
-"drag."
+"document and you can edit it by Shift+click and drag to draw the new extent "
+"on the map and change its location by clicking the marker and drag."
 msgstr ""
+"Aquí, los campos numéricos y un mapa muestran la extensión espacial (WGS 84)"
+" del documento, y puedes editarla manteniendo presionada la tecla Shift "
+"mientras haces clic y arrastras para dibujar la nueva extensión en el mapa y"
+" cambiar su ubicación haciendo clic en el marcador y arrastrándolo."
 
 #: ../../usage/managing_documents/document_editing.rst:91
 #: 4d132557d63c4845ab869f1e30201c7a
@@ -186,4 +221,5 @@ msgid ""
 "The *Location* tab is also available for :ref:`dashboard` and "
 ":ref:`geostory`"
 msgstr ""
-
+"La pestaña *Ubicación* también está disponible para :ref:`dashboard` y "
+":ref:`geostory`"

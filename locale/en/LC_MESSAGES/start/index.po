@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-25 20:49-0300\n"
+"POT-Creation-Date: 2024-07-26 09:15-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -215,7 +215,7 @@ msgid ""
 msgstr ""
 
 #: ../../start/index.rst:117 dcb77d4c984b4dadace10165a26b93ed
-msgid "*Online Demo @ master.demo.geonode.org*"
+msgid "*Online Demo @ demo.geonode.org*"
 msgstr ""
 
 #: ../../start/index.rst:119 e9e307c490a84530b47a86f1f725b095
@@ -252,5 +252,8 @@ msgstr ""
 #~ "A live demo of the latest stable"
 #~ " build is available at "
 #~ "http://master.demo.geonode.org/."
+#~ msgstr ""
+
+#~ msgid "*Online Demo @ master.demo.geonode.org*"
 #~ msgstr ""
 

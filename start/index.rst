@@ -114,7 +114,7 @@ A live demo of the latest stable build is available at https://demo.geonode.org/
   .. figure:: img/online_demo-001.png
         :align: center
 
-        *Online Demo @ master.demo.geonode.org*
+        *Online Demo @ demo.geonode.org*
 
 Anyone may sign up for a user account, upload and style data, create and share maps, and change permissions.
 

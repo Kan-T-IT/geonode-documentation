@@ -188,8 +188,8 @@ msgstr "*Ubicación del documento y licencias*"
 msgid ""
 "Click on the blue button :guilabel:`Next >>` to go ahead to the next step."
 msgstr ""
-"Haga clic en el botón azul :guilabel:`Siguiente >>` para avanzar al "
-"siguiente paso."
+"Haga clic en el botón :guilabel:`Siguiente >>` para avanzar al siguiente "
+"paso."
 
 #: ../../usage/managing_documents/document_metadata.rst:46
 #: ce5b4ce04c854453a6d0a6f5fcb2750e

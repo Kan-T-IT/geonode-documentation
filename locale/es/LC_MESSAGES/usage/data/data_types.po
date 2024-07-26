@@ -70,7 +70,7 @@ msgstr "GeoHistorias"
 
 #: ../../usage/data/data_types.rst:14 6182cb51f8f54d5ba3f4a33fc49babcf
 msgid "Dashboards"
-msgstr "Paneles de control"
+msgstr "Paneles de control (Dashboards)"
 
 #: ../../usage/data/data_types.rst:17 cb16879e6f1a49a49dc8fc4918ea27e1
 msgid ""

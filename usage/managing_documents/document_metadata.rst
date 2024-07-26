@@ -27,7 +27,7 @@ Editing a document's metadata is done in three steps (*Basic Metadata*, *Locatio
 
       *Document Basic Metadata*
 
-  Once all the fields are filled, click on the blue button :guilabel:`Next >>` in the bottom right corner of the page.
+  Once all the fields are filled, click on the button :guilabel:`Next >>` in the bottom right corner of the page.
 
 2. On the **Location and Licenses** page, the following information should be filled:
 
@@ -41,7 +41,7 @@ Editing a document's metadata is done in three steps (*Basic Metadata*, *Locatio
 
       *Document Location and Licenses*
 
-  Click on the blue button :guilabel:`Next >>` to go ahead to the next step.
+  Click on the button :guilabel:`Next >>` to go ahead to the next step.
 
 3. On the **Optional Metadata** page, complementary information can be added: 
 
@@ -60,4 +60,4 @@ Editing a document's metadata is done in three steps (*Basic Metadata*, *Locatio
       *Document Optional Metadata*
 
   | If all the mandatory information is filled out the document can be published, if not the ``Completeness`` progress bar warns you that something is missing.
-  | Click on the blue button :guilabel:`Update` to save information on the system.
+  | Click on the button :guilabel:`Update` to save information on the system.

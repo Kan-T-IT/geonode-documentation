@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"POT-Creation-Date: 2024-07-26 12:51-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../usage/managing_documents/document_metadata.rst:30
 #: 21d734abdb5040cba475e35e3f5145f8
-msgid "Once all the fields are filled, click on the blue button :guilabel:`Next >>` in the bottom right corner of the page."
+msgid "Once all the fields are filled, click on the button :guilabel:`Next >>` in the bottom right corner of the page."
 msgstr ""
 
 #: ../../usage/managing_documents/document_metadata.rst:32
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ../../usage/managing_documents/document_metadata.rst:44
 #: b2c5bf6c1f654a84b27abbefd4e431ac
-msgid "Click on the blue button :guilabel:`Next >>` to go ahead to the next step."
+msgid "Click on the button :guilabel:`Next >>` to go ahead to the next step."
 msgstr ""
 
 #: ../../usage/managing_documents/document_metadata.rst:46
@@ -173,5 +173,5 @@ msgstr ""
 
 #: ../../usage/managing_documents/document_metadata.rst:0
 #: 69998ac9c8de4d55a55114e3944df476
-msgid "Click on the blue button :guilabel:`Update` to save information on the system."
+msgid "Click on the button :guilabel:`Update` to save information on the system."
 msgstr ""

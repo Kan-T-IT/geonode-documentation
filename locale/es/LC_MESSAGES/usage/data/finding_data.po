@@ -32,7 +32,7 @@ msgid ""
 "documents and other resource types by using different routes, filters and "
 "search functions."
 msgstr ""
-"Esta sección lo guiará para navegar por GeoNode para encontrar conjuntos de "
+"Esta sección te guiará para navegar por GeoNode para encontrar conjuntos de "
 "datos, mapas, documentos y otros tipos de recursos mediante el uso de "
 "diferentes rutas, filtros y funciones de búsqueda."
 

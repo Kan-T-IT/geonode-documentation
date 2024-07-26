@@ -132,7 +132,7 @@ msgid ""
 "Once all the fields are filled, click on the blue button :guilabel:`Next >>`"
 " in the bottom right corner of the page."
 msgstr ""
-"Una vez que todos los campos estén llenos, haz clic en el botón azul "
+"Una vez que todos los campos estén llenos, haz clic en el botón  "
 ":guilabel:`Siguiente >>` en la esquina inferior derecha de la página."
 
 #: ../../usage/managing_documents/document_metadata.rst:32

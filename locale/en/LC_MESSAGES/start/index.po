@@ -248,12 +248,3 @@ msgstr ""
 msgid "Quick Installation Guide"
 msgstr ""
 
-#~ msgid ""
-#~ "A live demo of the latest stable"
-#~ " build is available at "
-#~ "http://master.demo.geonode.org/."
-#~ msgstr ""
-
-#~ msgid "*Online Demo @ master.demo.geonode.org*"
-#~ msgstr ""
-

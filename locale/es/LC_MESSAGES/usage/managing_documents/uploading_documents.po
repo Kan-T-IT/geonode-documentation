@@ -1,175 +1,197 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/managing_documents/uploading_documents.rst:4
 #: 967c1f62fd484ea6a9e410902466051e
 msgid "Upload/Add Documents"
-msgstr ""
+msgstr "Cargar/Agregar documentos"
 
 #: ../../usage/managing_documents/uploading_documents.rst:6
 #: 1b9470fbada0417396541f9c58e5357b
 msgid ""
-"GeoNode allows to share reports, conceptual notes, posters, spreadsheets,"
-" etc. A wide range of documents files can be hosted on the platform, "
-"including text files (.doc, .docx, .txt, .odt), spreadsheets (.xls, "
-".xlsx, .ods), presentations (.ppt, .pptx, .odp), images (.gif, .jpg, "
-".png, .tif, .tiff), PDF, zip files (.rar, .zip, .gz), SLD, XML, QML files"
-" or as External URL."
+"GeoNode allows to share reports, conceptual notes, posters, spreadsheets, "
+"etc. A wide range of documents files can be hosted on the platform, "
+"including text files (.doc, .docx, .txt, .odt), spreadsheets (.xls, .xlsx, "
+".ods), presentations (.ppt, .pptx, .odp), images (.gif, .jpg, .png, .tif, "
+".tiff), PDF, zip files (.rar, .zip, .gz), SLD, XML, QML files or as External"
+" URL."
 msgstr ""
+"GeoNode permite compartir informes, notas conceptuales, carteles, hojas de "
+"cálculo, etc. Se puede alojar una amplia gama de archivos de documentos en "
+"la plataforma, incluidos archivos de texto (.doc, .docx, .txt, .odt), hojas "
+"de cálculo (.xls, .xlsx, .ods), presentaciones (.ppt, .pptx, .odp), imágenes"
+" (.gif, .jpg, .png, .tif, .tiff), PDF, archivos zip (.rar, .zip, .gz ), "
+"archivos SLD, XML, QML o como URL externa."
 
 #: ../../usage/managing_documents/uploading_documents.rst:8
 #: 013b48dc154143e0a04586c73b7b6ca2
 msgid "Only authenticated users can upload data into GeoNode."
-msgstr ""
+msgstr "Sólo los usuarios autenticados pueden cargar datos en GeoNode."
 
 #: ../../usage/managing_documents/uploading_documents.rst:10
 #: 1af09806ea1046428e6729cc1f23fab4
 msgid "It is possible to upload a *Documents* in two ways:"
-msgstr ""
+msgstr "Es posible subir un *Documento* de dos maneras:"
 
 #: ../../usage/managing_documents/uploading_documents.rst:12
 #: a051fd27ecf44121b286cb47b1452f15
 msgid ""
-"From the :guilabel:`All Resources` page, by clicking *Add Resource* which"
-" displays a list including `Upload document` link:"
+"From the :guilabel:`All Resources` page, by clicking *Add Resource* which "
+"displays a list including `Upload document` link:"
 msgstr ""
+"Desde la página :guilabel:`Todos los recursos`, al hacer clic en *Agregar "
+"recurso* que muestra una lista que incluye el enlace `Cargar documento`:"
 
 #: ../../usage/managing_documents/uploading_documents.rst:17
 #: ceb8fe3dd9884823a084eff5c06ad77c
 msgid "*Document Upload from All Resources page*"
-msgstr ""
+msgstr "*Carga de documentos desde la página Todos los recursos*"
 
 #: ../../usage/managing_documents/uploading_documents.rst:19
 #: d5286b53745d4ded9d85185b663a0e0d
 msgid "From the :guilabel:`Documents` page, by clicking on *New* button."
-msgstr ""
+msgstr "Desde la página :guilabel:`Documentos`, pulsando en el botón *Nuevo*."
 
 #: ../../usage/managing_documents/uploading_documents.rst:24
 #: a18d79da9f36487686783d16b1a6a5a0
 msgid "*Document Upload from Documents page*"
-msgstr ""
+msgstr "*Carga de documentos desde la página Documentos*"
 
 #: ../../usage/managing_documents/uploading_documents.rst:26
 #: ceb8fe3dd9884823a084eff5c06ad77c
-msgid "The *Document Upload* page looks like the one shown in the picture below."
+msgid ""
+"The *Document Upload* page looks like the one shown in the picture below."
 msgstr ""
+"La página *Carga de documentos* se parece a la que se muestra en la imagen "
+"siguiente."
 
 #: ../../usage/managing_documents/uploading_documents.rst:31
 #: 3199f86a31554067ba77afc7b3cff40e
 msgid "*Document Upload page*"
-msgstr ""
+msgstr "*Página de carga de documentos*"
 
 #: ../../usage/managing_documents/uploading_documents.rst:33
 #: 0c9aea8fdf1f4df7b0768690013a109f
 msgid "On *GeoNode* documents can be:"
-msgstr ""
+msgstr "En *GeoNode* los documentos pueden ser:"
 
 #: ../../usage/managing_documents/uploading_documents.rst:35
 #: 21bfa492b634431ab29abed677ba0acd
 msgid "Upload from the **Local file**"
-msgstr ""
+msgstr "Cargados desde un **archivo local**"
 
 #: ../../usage/managing_documents/uploading_documents.rst:37
 #: 6f8a13ef014f4b30b7d6906de26ea900
 msgid "Created with reference to **External URL**"
-msgstr ""
+msgstr "Creados con referencia a una **URL externa**"
 
 #: ../../usage/managing_documents/uploading_documents.rst:40
 #: e9851ba941e84e609efb3a0af786d77b
 msgid "In order to upload a document from the **Local file**, you need to:"
-msgstr ""
+msgstr "Para cargar un documento desde un **archivo local**, necesitas:"
 
 #: ../../usage/managing_documents/uploading_documents.rst:42
 #: bd3f49b3a6c94c07a5c4650a7a16327d
 msgid "Click on :guilabel:`Select files` button"
-msgstr ""
+msgstr "Haga clic en :guilabel:botón `Seleccionar archivos`"
 
 #: ../../usage/managing_documents/uploading_documents.rst:43
 #: 5b14fb19ff424ad68381be799c0387cd
 msgid "Select a file from your disk."
-msgstr ""
+msgstr "Seleccionar un archivo de tu disco."
 
 #: ../../usage/managing_documents/uploading_documents.rst:44
 #: ../../usage/managing_documents/uploading_documents.rst:57
 #: bd3f49b3a6c94c07a5c4650a7a16327d
 msgid "Click the :guilabel:`Upload` button"
-msgstr ""
+msgstr "Hacer clic en el botón :guilabel:`Subir`"
 
 #: ../../usage/managing_documents/uploading_documents.rst:49
 #: 749821bbf38744d88ddd7b35a8a2b001
 msgid "*Upload document from the select files option*"
-msgstr ""
+msgstr "*Subir documento desde la opción de seleccionar archivos*"
 
 #: ../../usage/managing_documents/uploading_documents.rst:51
 #: 354b009375b64a0f8940a6f12b33b971
 msgid ""
-"A document may refer to a remote document, without making a local copy of"
-" the remote resource."
+"A document may refer to a remote document, without making a local copy of "
+"the remote resource."
 msgstr ""
+"Un documento puede referirse a un documento remoto, sin hacer una copia "
+"local del recurso remoto."
 
 #: ../../usage/managing_documents/uploading_documents.rst:52
 #: f2f423d0d5f04382a13fcf8715e9a0a3
 msgid "To add a document that references an **External URL** you need to:"
 msgstr ""
+"Para agregar un documento que haga referencia a una **URL externa**, debes:"
 
 #: ../../usage/managing_documents/uploading_documents.rst:54
 #: bd3f49b3a6c94c07a5c4650a7a16327d
 msgid "Click on :guilabel:`Add URL` button"
-msgstr ""
+msgstr "Hacer clic en el botón :guilabel:`Agregar URL`"
 
 #: ../../usage/managing_documents/uploading_documents.rst:55
 #: 057af4a1ec53478fb0bc39060839824d
 msgid "Select an URL"
-msgstr ""
+msgstr "Seleccionar una URL"
 
 #: ../../usage/managing_documents/uploading_documents.rst:56
 #: 95fde1e6bd1f4aa3bf4fc04ec939150b
 msgid "Select an extension from the drop-down menu"
-msgstr ""
+msgstr "Seleccionar una extensión del menú desplegable"
 
 #: ../../usage/managing_documents/uploading_documents.rst:62
 #: 4977cd78dbc946c5a1219f2b2a1c08f0
 msgid "*Add document from the add URL option*"
-msgstr ""
+msgstr "*Agregar documento desde la opción agregar URL*"
 
 #: ../../usage/managing_documents/uploading_documents.rst:64
 #: 8222f851b8734adb929fd846431b3dde
 msgid ""
 "At the end of the uploading process, by clicking on the View button, you "
 "will be driven to the document page with the Info panel open. Here it is "
-"possible to view more info, edit metadata, share, download, and delete "
-"the document. See the next section to know more about Metatadata."
+"possible to view more info, edit metadata, share, download, and delete the "
+"document. See the next section to know more about Metatadata."
 msgstr ""
+"Al final del proceso de carga, al hacer clic en el botón Ver, accederás a la"
+" página del documento con el panel de información abierto. Aquí es posible "
+"ver más información, editar metadatos, compartir, descargar y eliminar el "
+"documento. Consulta la siguiente sección para saber más sobre los metadatos."
 
 #: ../../usage/managing_documents/uploading_documents.rst:66
 #: d0a119c477774cb597306e55bfcb9542
 msgid "If you get the following error message:"
-msgstr ""
+msgstr "Si recibes el siguiente mensaje de error:"
 
 #: ../../usage/managing_documents/uploading_documents.rst:68
 #: 7809df632d204614a5f4a36c081b8892
 msgid ""
-"``Total upload size exceeds 100.0 MB. Please try again with smaller "
-"files.``"
+"``Total upload size exceeds 100.0 MB. Please try again with smaller files.``"
 msgstr ""
+"``El tamaño total de carga supera los 100,0 MB. Inténtelo de nuevo con "
+"archivos más pequeños.``"
 
 #: ../../usage/managing_documents/uploading_documents.rst:70
 #: 4e6ea6e62aa746539c664ca7c74e6540
@@ -178,4 +200,7 @@ msgid ""
 "administrative access can change the upload limits at the `admin panel "
 "<../../admin/upload-size-limits/index.html#upload-size-limits>`__."
 msgstr ""
-
+"Esto significa que hay un límite de tamaño de carga de 100 MB. Un usuario "
+"con acceso administrativo puede cambiar los límites de carga en el `panel de"
+" administración <../../admin/upload-size-limits/index.html#upload-size-"
+"limits>`__."

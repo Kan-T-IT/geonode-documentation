@@ -1,69 +1,82 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/managing_datasets/dataset_permissions.rst:4
 #: 12cb938faf964f95805857132084428c
 msgid "Share Options"
-msgstr ""
+msgstr "Opciones para compartir"
 
 #: ../../usage/managing_datasets/dataset_permissions.rst:6
 #: eef385f39a444aa79bc4511ad18d106b
 msgid ""
-"In order to modify the Dataset *Share options* settings, on the detail "
-"page of the dataset click the :guilabel:`Share` link in the "
-":guilabel:`Resource` menu. By default only owners can edit and manage "
-"datasets, anyone can view them."
+"In order to modify the Dataset *Share options* settings, on the detail page "
+"of the dataset click the :guilabel:`Share` link in the :guilabel:`Resource` "
+"menu. By default only owners can edit and manage datasets, anyone can view "
+"them."
 msgstr ""
+"Para modificar la configuración de *Opciones para compartir* del conjunto de"
+" datos, en la página de detalles del conjunto de datos, haz clic en el "
+"enlace :guilabel:`Compartir` en el menú :guilabel:`Recursos`. De forma "
+"predeterminada, solo los propietarios pueden editar y administrar conjuntos "
+"de datos; cualquiera puede verlos."
 
 #: ../../usage/managing_datasets/dataset_permissions.rst:11
 #: b3dea8e82ab043a5835b669a343e8098
 msgid "*Change Dataset Share options*"
-msgstr ""
+msgstr "*Cambiar opciones para compartir conjunto de datos*"
 
 #: ../../usage/managing_datasets/dataset_permissions.rst:13
 #: 490382f721154ed88bbcef3bb19e11f6
 msgid ""
-"Through the *Share options Settings Panel* you can add or remove options "
-"for users and groups. The picture below shows an example."
+"Through the *Share options Settings Panel* you can add or remove options for"
+" users and groups. The picture below shows an example."
 msgstr ""
+"A través del *Panel de configuración de opciones para compartir* puedes "
+"agregar o eliminar opciones para usuarios y grupos. La siguiente imagen "
+"muestra un ejemplo."
 
 #: ../../usage/managing_datasets/dataset_permissions.rst:18
 #: 3b91d0e6b93c45f5b10ffea688a74a80
 msgid "*Dataset Share options settings for users and groups*"
 msgstr ""
+"*Configuración de opciones de compartir conjunto de datos para usuarios y "
+"grupos*"
 
 #: ../../usage/managing_datasets/dataset_permissions.rst:20
 #: 8842c3e2e2ea4634bd2b151fc7adf23e
 msgid "You can set the following share options:"
-msgstr ""
+msgstr "Puedes configurar las siguientes opciones para compartir:"
 
 #: ../../usage/managing_datasets/dataset_permissions.rst:22
 #: 05a0ea73486b40e4836b17909aa24eb1
 msgid "*View* (allows to view the dataset)."
-msgstr ""
+msgstr "*Ver* (permite ver el conjunto de datos)."
 
 #: ../../usage/managing_datasets/dataset_permissions.rst:23
 #: dbe434b0c94e4cd1be68c24ceadeee3e
 msgid "*Download* (allows to view and download the dataset)."
-msgstr ""
+msgstr "*Descargar* (permite ver y descargar el conjunto de datos)."
 
 #: ../../usage/managing_datasets/dataset_permissions.rst:24
 #: b5fe79d224bf42a7bad0eed3c142fe14
@@ -71,6 +84,9 @@ msgid ""
 "*Edit* (allows to change the dataset metadata,change attributes and "
 "properties of the datasets features and change the dataset style)."
 msgstr ""
+"*Editar* (permite cambiar los metadatos del conjunto de datos, cambiar los "
+"atributos y propiedades de las características del conjunto de datos y "
+"cambiar el estilo del conjunto de datos)."
 
 #: ../../usage/managing_datasets/dataset_permissions.rst:25
 #: ba57e373319943ef986437a17157dda4
@@ -78,6 +94,8 @@ msgid ""
 "*Manage* (allows to update, delete, change share options, publish and "
 "unpublish the dataset)."
 msgstr ""
+"*Administrar* (permite actualizar, eliminar, cambiar opciones para "
+"compartir, publicar y despublicar el conjunto de datos)."
 
 #: ../../usage/managing_datasets/dataset_permissions.rst:27
 #: cb793af9b21b443f95bc95c777d8da37
@@ -85,9 +103,12 @@ msgid ""
 "When assigning options to a group, all the group members will have those "
 "options. Be careful in case of editing them."
 msgstr ""
+"Al asignar opciones a un grupo, todos los miembros del grupo tendrán esas "
+"opciones. Ten cuidado en caso de editarlos."
 
 #: ../../usage/managing_datasets/dataset_permissions.rst:29
 #: 7b8bdd70ac994b87a75c24bc9742517d
 msgid "Click on :guilabel:`Save` link in the menu to save these settings."
 msgstr ""
-
+"Haz clic en el enlace :guilabel:`Guardar` en el menú para guardar esta "
+"configuración."

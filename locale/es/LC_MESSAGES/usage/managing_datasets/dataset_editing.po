@@ -1,177 +1,201 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:4
 #: cf6ed031e5f3458293d7991fb17520f9
 msgid "Dataset Editing"
-msgstr ""
+msgstr "Edición de conjuntos de datos"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:6
 #: ad48513639404b75bea2c798509e5588
 msgid ""
-"The :guilabel:`Edit` link in the menu of the *Dataset Page*  opens a list"
-" of options like ones shown in the picture below."
+"The :guilabel:`Edit` link in the menu of the *Dataset Page*  opens a list of"
+" options like ones shown in the picture below."
 msgstr ""
+"El enlace :guilabel:`Edit` en el menú de la *Página del conjunto de datos* "
+"abre una lista de opciones como las que se muestran en la siguiente imagen."
 
 #: ../../usage/managing_datasets/dataset_editing.rst:11
 #: c68f763fc11a4941b9d3c81834be5ac8
 msgid "*Dataset Editing Link*"
-msgstr ""
+msgstr "*Enlace de edición del conjunto de datos*"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:13
 #: a9bd755c7d4d4ca5b9c77bb322f53576
 msgid "In that options list, you can see three options listed as:"
-msgstr ""
+msgstr "En esa lista de opciones, puedes ver tres opciones enumeradas como:"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:15
 #: 8cfa61929f4e496ab3871b7fef23f4f2
 msgid "*Edit Data*"
-msgstr ""
+msgstr "*Editar datos*"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:16
 #: 66203eaf73b345cebde53d2f25e832a9
 msgid "*Edit Styles*"
-msgstr ""
+msgstr "*Editar estilos*"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:17
 #: b165f89ee8d645599cc55ac75f4f3291
 msgid "*Edit Metadata*"
-msgstr ""
+msgstr "*Editar metadatos*"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:18
 #: cbe57831bae04bc7b35907286231ff77
 msgid "*Upload Style*"
-msgstr ""
+msgstr "*Subir estilo*"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:19
 #: b165f89ee8d645599cc55ac75f4f3291
 msgid "*Upload Metadata*"
-msgstr ""
+msgstr "*Subir metadatos*"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:22
 #: bd17b1fb40bb4119b1603a4f832db351
 msgid ""
-"In this section you will learn how to edit a *Dataset*, and its data. See"
-" :ref:`dataset-metadata` to learn how to explore the dataset *Metadata*, "
-"how to upload and edit them. The *Styles* will be covered in a dedicated "
+"In this section you will learn how to edit a *Dataset*, and its data. See "
+":ref:`dataset-metadata` to learn how to explore the dataset *Metadata*, how "
+"to upload and edit them. The *Styles* will be covered in a dedicated "
 "section, see :ref:`dataset-style`."
 msgstr ""
+"En esta sección aprenderás cómo editar un *Conjunto de datos* y sus datos. "
+"Consulta :ref:`dataset-metadata` para aprender cómo explorar el conjunto de "
+"datos *Metadatos*, cómo cargarlos y editarlos. Los *Estilos* se cubrirán en "
+"una sección dedicada, consulte :ref:`dataset-style`."
 
 #: ../../usage/managing_datasets/dataset_editing.rst:27
 #: 40e4620c8470437d8eab42997464df58
 msgid "Editing the Dataset Data"
-msgstr ""
+msgstr "Editar los datos del conjunto de datos"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:29
 #: 3d2aeaa8716e4247b2abd965b2376e69
 msgid ""
-"The :guilabel:`Edit data` link of the *Dataset Editing* options opens the"
-" *Dataset* within a *Map*."
+"The :guilabel:`Edit data` link of the *Dataset Editing* options opens the "
+"*Dataset* within a *Map*."
 msgstr ""
+"El enlace :guilabel:`Editar datos` de las opciones de *Edición de conjunto "
+"de datos* abre el *Conjunto de datos* dentro de un *Mapa*."
 
 #: ../../usage/managing_datasets/dataset_editing.rst:34
 #: 23957e8098ed4a22bd7bb2717c6e048b
 msgid "*Editing the Dataset Data*"
-msgstr ""
+msgstr "*Edición de los datos del conjunto de datos*"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:36
 #: b7432a8eded44f9db5ce2478e370a933
 msgid ""
-"The *Attribute Table* panel of the *Dataset* will automatically appear at"
-" the bottom of the *Map*. In that panel all the features are listed. For "
-"each feature you can zoom to its extent by clicking on the corresponding "
-"*magnifying glass* icon |magnifying_glass_icon| at the beginning of the "
-"row, you can also observe which values the feature assumes for each "
-"attribute."
+"The *Attribute Table* panel of the *Dataset* will automatically appear at "
+"the bottom of the *Map*. In that panel all the features are listed. For each"
+" feature you can zoom to its extent by clicking on the corresponding "
+"*magnifying glass* icon |magnifying_glass_icon| at the beginning of the row,"
+" you can also observe which values the feature assumes for each attribute."
 msgstr ""
+"El panel *Tabla de atributos* del *Conjunto de datos* aparecerá "
+"automáticamente en la parte inferior del *Mapa*. En ese panel se enumeran "
+"todas las características. Para cada característica, puedes hacer zoom en su"
+" extensión haciendo clic en el icono de *lupa* correspondiente "
+"|magnifying_glass_icon| Al principio de la fila, también puedes observar qué"
+" valores asume la característica para cada atributo."
 
 #: ../../usage/managing_datasets/dataset_editing.rst:38
 #: b8ae12dfe38f4b808fcaf92fa6344509
 msgid "magnifying_glass_icon"
-msgstr ""
+msgstr "magnifying_glass_icon"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:43
 #: 253c99f35e7d4b078f39e284dfb8e6ff
 msgid ""
-"Click the *Edit Mode* |edit_mode_button| button to start an editing "
-"session."
+"Click the *Edit Mode* |edit_mode_button| button to start an editing session."
 msgstr ""
+"Haga clic en *Modo de edición* |edit_mode_button| para iniciar una sesión de"
+" edición."
 
 #: ../../usage/managing_datasets/dataset_editing.rst:45
 #: 2de347dab0b74824a3ffbd4d10da9d36
 msgid "edit_mode_button"
-msgstr ""
+msgstr "edit_mode_button"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:50
 #: dde5b8754e0e42f5a4e42bb8b8c9a4d7
 msgid "Now you can:"
-msgstr ""
+msgstr "Ahora podrás:"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:52
 #: 05c65d8c8fd944fb942441061c3bcf25
 msgid "*Add new Features*"
-msgstr ""
+msgstr "*Agregar nuevas características*"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:54
 #: 85616bdbc1f34eea8f28d7098a1d6e8c
 msgid ""
-"Through the *Add New Feature* button |add_new_feature_button| it is "
-"possible to set up a new feature for your dataset. Fill the attributes "
-"fields and click |save_changes_button| to save your change. Your new "
-"feature doesn't have a shape yet, click on |add_shape_to_geometry_button|"
-" to draw its shape directly on the *Map* then click on "
-"|save_changes_button| to save it."
+"Through the *Add New Feature* button |add_new_feature_button| it is possible"
+" to set up a new feature for your dataset. Fill the attributes fields and "
+"click |save_changes_button| to save your change. Your new feature doesn't "
+"have a shape yet, click on |add_shape_to_geometry_button| to draw its shape "
+"directly on the *Map* then click on |save_changes_button| to save it."
 msgstr ""
+"A través del botón *Agregar nueva característica* |add_new_feature_button| "
+"es posible configurar una nueva función para su conjunto de datos. Completa "
+"los campos de atributos y haz clic en |save_changes_button| para guardar tu "
+"cambio. Tu nueva característica aún no tiene forma, haz clic en "
+"|add_shape_to_geometry_button| para dibujar su forma directamente en el "
+"*Mapa* y luego haz clic en |save_changes_button| para salvarlo."
 
 #: ../../usage/managing_datasets/dataset_editing.rst:58
 #: 84e6e4120764471c946fa75df0637caa
 msgid "add_new_feature_button"
-msgstr ""
+msgstr "add_new_feature_button"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:63
 #: 3f372eb0dc65463eb63b1d724e64f538 ab4d6357060f49fe8fe14965d19cfb0d
 msgid "save_changes_button"
-msgstr ""
+msgstr "save_changes_button"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:68
 #: 3a6666a1209348148fb392b94c4ed264
 msgid "add_shape_to_geometry_button"
-msgstr ""
+msgstr "add_shape_to_geometry_button"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:73
 #: 2b562b427f1b49159378555f6d6e8da7
 msgid ""
-"When your new feature has a multi-vertex shape you have to double-click "
-"the last vertex to finish the drawing."
+"When your new feature has a multi-vertex shape you have to double-click the "
+"last vertex to finish the drawing."
 msgstr ""
+"Cuando su nueva característica tiene una forma de múltiples vértices, debes "
+"hacer doble clic en el último vértice para finalizar el dibujo."
 
 #: ../../usage/managing_datasets/dataset_editing.rst:78
 #: a96e06af04e946a291beee612a687eec
 msgid "*Create New Feature*"
-msgstr ""
+msgstr "*Crear nueva función*"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:80
 #: cbe57831bae04bc7b35907286231ff77
 msgid "*Delete Features*"
-msgstr ""
+msgstr "*Eliminar funciones*"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:82
 #: 6f3a011a1d7a4ff7a52a5432a4a3a6b8
@@ -179,62 +203,78 @@ msgid ""
 "If you want to delete a feature you have to select it on the *Attribute "
 "Table* and click on |delete_feature_button|."
 msgstr ""
+"Si deseas eliminar una característica, debes seleccionarla en la *Tabla de "
+"atributos* y hacer clic en |delete_feature_button|."
 
 #: ../../usage/managing_datasets/dataset_editing.rst:84
 #: ccf5cac9365f41c2b1623c85a9dfb6d1
 msgid "delete_feature_button"
-msgstr ""
+msgstr "delete_feature_button"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:89
 #: b44c8ab408824663bed52e0841843017
 msgid "*Change the Feature Shape*"
-msgstr ""
+msgstr "*Cambiar la forma de la característica*"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:91
 #: d4004fd4463248aeb2fd6baf78506513
 msgid ""
-"You can edit the shape of an existing geometry dragging its vertices with"
-" the mouse. A blue circle lets you know what vertex you are moving."
+"You can edit the shape of an existing geometry dragging its vertices with "
+"the mouse. A blue circle lets you know what vertex you are moving."
 msgstr ""
+"Puedes editar la forma de una geometría existente arrastrando sus vértices "
+"con el mouse. Un círculo azul te permite saber qué vértice estás moviendo."
 
 #: ../../usage/managing_datasets/dataset_editing.rst:93
 #: b2a67b4166374bf2b7506982e27725e4
 msgid ""
-"Features can have *multipart shapes*. You can add parts to the shape when"
-" editing it."
+"Features can have *multipart shapes*. You can add parts to the shape when "
+"editing it."
 msgstr ""
+"Las entidades pueden tener *formas de varias partes*. Puedes agregar partes "
+"a la forma al editarla."
 
 #: ../../usage/managing_datasets/dataset_editing.rst:95
 #: 21a67b929a124caa9cf362b911c76fd2
 msgid "*Change the Feature Attributes*"
-msgstr ""
+msgstr "*Cambiar los atributos de las funciones*"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:97
 #: eeec313c5d944aa4b0435d127da9d928
 msgid ""
-"When you are in *Edit Mode* you can also edit the attributes values "
-"changing them directly in the corresponding text fields. You can achieve "
-"this by going into the edit mode and double click in the values."
+"When you are in *Edit Mode* you can also edit the attributes values changing"
+" them directly in the corresponding text fields. You can achieve this by "
+"going into the edit mode and double click in the values."
 msgstr ""
+"Cuando estás en *Modo Edición* también puedes editar los valores de los "
+"atributos cambiándolos directamente en los campos de texto correspondientes."
+" Puedes lograr esto ingresando al modo de edición y haciendo doble clic en "
+"los valores."
 
 #: ../../usage/managing_datasets/dataset_editing.rst:99
 #: 0c50283bd8034b83bace5d59255703fd
 msgid ""
-"Once you have finished you can end the *Editing Session* by clicking on "
-"the |end_editing_session_button|."
+"Once you have finished you can end the *Editing Session* by clicking on the "
+"|end_editing_session_button|."
 msgstr ""
+"Una vez que hayas terminado, puedes finalizar la *Sesión de edición* "
+"haciendo clic en el botón |end_editing_session_button|."
 
 #: ../../usage/managing_datasets/dataset_editing.rst:101
 #: adb66597c5fe448dabe92f30943fc08a
 msgid "end_editing_session_button"
-msgstr ""
+msgstr "end_editing_session_button"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:106
 #: 3dee3609364441baa1bc1953073a79aa
 msgid ""
 "By default the GeoNode map viewer is `MapStore <https://mapstore2.geo-"
 "solutions.it/mapstore/#/>`_ based, see the `MapStore Documentation "
-"<https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide"
-"/attributes-table/>`_ for further information."
+"<https://docs.mapstore.geosolutionsgroup.com/en/latest/user-"
+"guide/attributes-table/>`_ for further information."
 msgstr ""
-
+"De forma predeterminada, el visor de mapas GeoNode está basado en `MapStore "
+"<https://mapstore2.geo-solutions.it/mapstore/#/>`_; consulta la "
+"`Documentación de MapStore "
+"<https://docs.mapstore.geosolutionsgroup.com/en/latest/user-"
+"guide/attributes-table/>`_ para obtener más información."

@@ -1,28 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:4
 #: de7bc005acee482eb39900b74cf1f718
 msgid "Datasets Metadata"
-msgstr ""
+msgstr "Metadatos de conjuntos de datos"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:6
 #: 2ddc67d306c84f94bd9ea81efaafb002
@@ -30,27 +33,36 @@ msgid ""
 "In GeoNode special importance is given to *Metadata* and their standard "
 "formats."
 msgstr ""
+"En GeoNode se da especial importancia a los *Metadatos* y sus formatos "
+"estándar."
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:9
 #: a2839490d21740ffa258dd1b76624717
 msgid "Editing Metadata"
-msgstr ""
+msgstr "Edición de metadatos"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:11
 #: 4fbfb46d5859471c9ef753fb82c9c299
 msgid ""
-"Metadata contains all the information related to the dataset. They "
-"provide essential information for its identification and its "
-"comprehension. Metadata also make the dataset more easily retrievable "
-"through search by other users."
+"Metadata contains all the information related to the dataset. They provide "
+"essential information for its identification and its comprehension. Metadata"
+" also make the dataset more easily retrievable through search by other "
+"users."
 msgstr ""
+"Los metadatos contienen toda la información relacionada con el conjunto de "
+"datos. Proporcionan información esencial para su identificación y su "
+"comprensión. Los metadatos también hacen que el conjunto de datos sea más "
+"fácil de recuperar mediante búsquedas por parte de otros usuarios."
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:12
 #: 1d1ad68cacc34fe19a0153a90e519854
 msgid ""
-"The *Metadata* of a dataset can be changed through a *Edit Metadata* form"
-" which involves four steps, one for each type of metadata considered:"
+"The *Metadata* of a dataset can be changed through a *Edit Metadata* form "
+"which involves four steps, one for each type of metadata considered:"
 msgstr ""
+"Los *Metadatos* de un conjunto de datos se pueden cambiar a través de un "
+"formulario de *Editar Metadatos* que involucra cuatro pasos, uno para cada "
+"tipo de metadatos considerado:"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:14
 #: 482a37e523574738a8b16641691cd4e9
@@ -59,11 +71,14 @@ msgid ""
 ":guilabel:`Edit Metadata` link from the :guilabel:`Edit` options on the "
 "*Dataset Page*."
 msgstr ""
+"Puede abrir el formulario *Metadatos* de un *Conjunto de datos* haciendo "
+"clic en el enlace :guilabel:`Editar metadatos` desde las opciones "
+":guilabel:`Editar` en la *Página del conjunto de datos*."
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:16
 #: d72a6688cf274de8974974c6c25cdd28
 msgid "**Basic Metadata**"
-msgstr ""
+msgstr "**Metadatos básicos**"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:18
 #: d0d1cc86b47544beb6039d1867e9b399
@@ -71,91 +86,109 @@ msgid ""
 "The first two steps are mandatory (no datasets will be published if the "
 "required information are not provided) whereas the last two are optional."
 msgstr ""
+"Los dos primeros pasos son obligatorios (no se publicará ningún conjunto de "
+"datos si no se proporciona la información requerida), mientras que los dos "
+"últimos son opcionales."
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:23
 #: 77f35b4d833c4ddf8383d3660967f061
 msgid "*Basic Dataset Metadata*"
-msgstr ""
+msgstr "*Metadatos del conjunto de datos básicos*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:25
 #: 187ca3ad791c4b6e8b88f6b2926f0e1a
-msgid "In the first step the system asks you to insert the following metadata:"
+msgid ""
+"In the first step the system asks you to insert the following metadata:"
 msgstr ""
+"En el primer paso el sistema le pide que inserte los siguientes metadatos:"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:27
 #: 2193c036b1364a0f83e55127df950ce7
 msgid "*Thumbnail* of the dataset (click :guilabel:`Edit` to change it);"
 msgstr ""
+"*Miniatura* del conjunto de datos (haga clic en :guilabel:`Editar` para "
+"cambiarlo);"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:28
 #: 3e757adc123b4c7ba9b9a48b2af8271d
 msgid "*Title* of the dataset, which should be clear and understandable;"
-msgstr ""
+msgstr "*Título* del conjunto de datos, que debe ser claro y comprensible;"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:29
 #: 98e78fae3abe45838f3e087de26bc29a
 msgid "*Abstract*; brief narrative summary of the content of the dataset"
 msgstr ""
+"*Abstracto*; breve resumen narrativo del contenido del conjunto de datos"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:31
 #: b517591a45d746048edc29d40902c203
 msgid ""
-"The *Abstract* panel allows you to insert HTML code through a *wysiwyg* "
-"text editor"
+"The *Abstract* panel allows you to insert HTML code through a *wysiwyg* text"
+" editor"
 msgstr ""
+"El panel *Resumen* le permite insertar código HTML a través de un editor de "
+"texto *wysiwyg*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:33
 #: 2a42978c125e43779c9b6d51365829e3
 msgid ""
-"*Creation/Publication/Revision Dates*  which define the time period that "
-"is covered by the dataset;"
+"*Creation/Publication/Revision Dates*  which define the time period that is "
+"covered by the dataset;"
 msgstr ""
+"*Fechas de creación/publicación/revisión* que definen el período de tiempo "
+"que cubre el conjunto de datos;"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:34
 #: 40e1135fd15e47e99d676a14c5064b7c
 msgid ""
 "*Keywords*, which should be chosen within the available list. The "
-"contributor search for available keywords by clicking on the searching "
-"bar, or on the folder logo representing, or by entering the first letters"
-" of the desired word;"
+"contributor search for available keywords by clicking on the searching bar, "
+"or on the folder logo representing, or by entering the first letters of the "
+"desired word;"
 msgstr ""
+"*Palabras clave*, que se deben elegir dentro de la lista disponible. El "
+"colaborador busca palabras clave disponibles haciendo clic en la barra de "
+"búsqueda, o en el logotipo de la carpeta que representa, o ingresando las "
+"primeras letras de la palabra deseada;"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:35
 #: 1a9a675398b242fab3acf5d26c8195b6
 msgid "*Category* which the dataset belongs to;"
-msgstr ""
+msgstr "*Categoría* a la que pertenece el conjunto de datos;"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:36
 #: 3b5969191e784db98047b745e7bacc1b
 msgid "*Group* which the dataset is linked to."
-msgstr ""
+msgstr "*Grupo* al que está vinculado el conjunto de datos."
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:39
 #: 7a22ca047fc34fac8859c6a0b22e19fd
 msgid "**Location and Licenses**"
-msgstr ""
+msgstr "**Ubicación y Licencias**"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:44
 #: 1b29dc3d52724a71958b0fb2bc1cf362
 msgid "*Location and Licenses Metadata for Datasets*"
-msgstr ""
+msgstr "*Metadatos de ubicación y licencias para conjuntos de datos*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:46
 #: 60b4ca3c909f4c13afe598e27d9c275f
 msgid ""
-"The following list shows what kinds of metadata you are required to enter"
-" (see also the picture below):"
+"The following list shows what kinds of metadata you are required to enter "
+"(see also the picture below):"
 msgstr ""
+"La siguiente lista muestra qué tipos de metadatos debes ingresar (consulta "
+"también la imagen a continuación):"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:48
 #: 88c0ca4d4df048e5acc066b9abbcd1ad
 msgid "*Language* of the dataset;"
-msgstr ""
+msgstr "*Idioma* del conjunto de datos;"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:49
 #: 00d41a972a1d4aaca822fb3cdbaa4f7b
 msgid "*License* of the dataset;"
-msgstr ""
+msgstr "*Licencia* del conjunto de datos;"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:50
 #: f8e67505db76489098791acf0e178ecd
@@ -163,21 +196,28 @@ msgid ""
 "*DOI* of the dataset; if available, this represents the `Digital Object "
 "Identifier <https://www.doi.org/>`_ of the resource"
 msgstr ""
+"*DOI* del conjunto de datos; si está disponible, esto representa el "
+"`Identificador de objeto digital <https://www.doi.org/>`_ del recurso"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:51
 #: 3696a948f76f4ecaa7377ed85eb395e8
 msgid ""
-"*Attribution* of the dataset; authority or function assigned, as to a "
-"ruler, legislative assembly, delegate, or the like"
+"*Attribution* of the dataset; authority or function assigned, as to a ruler,"
+" legislative assembly, delegate, or the like"
 msgstr ""
+"*Atribución* del conjunto de datos; autoridad o función asignada, como "
+"gobernante, asamblea legislativa, delegado o similar"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:52
 #: 379a57eaecb24faf847fc149d72933e7
 msgid ""
 "*Regions*, which informs on the spatial extent covered by the dataset. "
-"Proposed extents cover the following scales: global, continental, "
-"regional, national;"
+"Proposed extents cover the following scales: global, continental, regional, "
+"national;"
 msgstr ""
+"* Regiones *, que informa sobre la extensión espacial cubierta por el "
+"conjunto de datos. Los alcances propuestos cubren las siguientes escalas: "
+"global, continental, regional, nacional;"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:53
 #: bdfdf557ee3e40148067e24df21fa515
@@ -185,145 +225,175 @@ msgid ""
 "*Data Quality statement* (general explanation of the data producer's "
 "knowledge about the lineage of a dataset);"
 msgstr ""
+"*Declaración de calidad de los datos* (explicación general del conocimiento "
+"del productor de datos sobre el linaje de un conjunto de datos);"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:54
 #: e8b57913974f4bf081ad9145680b6a99
 msgid "Potential *Restrictions* on dataset sharing."
-msgstr ""
+msgstr "Posibles *Restricciones* al compartir conjuntos de datos."
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:56
 #: b2027032c31840b3adad0f2018aa442a
 msgid ""
-"The *Data Quality statement* and *Restrictions* panels allow you to "
-"insert HTML code through a *wysiwyg* text editor"
+"The *Data Quality statement* and *Restrictions* panels allow you to insert "
+"HTML code through a *wysiwyg* text editor"
 msgstr ""
+"Los paneles *Declaración de calidad de datos* y *Restricciones* te permiten "
+"insertar código HTML a través de un editor de texto *wysiwyg*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:59
 #: 29b9e2d2858d43a790a90e3f2fef5517
 msgid "**Optional Metadata**"
-msgstr ""
+msgstr "**Metadatos opcionales**"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:64
 #: 1b2e14bf038d441fadfbf0f476062ab2
 msgid "*Optional Dtaset Metadata*"
-msgstr ""
+msgstr "*Metadatos de conjunto de datos opcionales*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:66
 #: 9ce92918e008411bbfe9c5167398e58d
 msgid "Complementary information are:"
-msgstr ""
+msgstr "La información complementaria es:"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:68
 #: a8149f4e7b104820837800e72dd5e0b8
 msgid "*Edition* to indicate the reference or the source of the dataset;"
 msgstr ""
+"*Edición* para indicar la referencia o la fuente del conjunto de datos;"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:69
 #: 749445af632e4345ad1d9ea9958022a3
 msgid "*Purpose* of the dataset and its objectives;"
-msgstr ""
+msgstr "*Propósito* del conjunto de datos y sus objetivos;"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:70
 #: 3710797773604216ba2ed57d1bf92079
 msgid ""
-"*Supplemental information* that can provide a better understanding of the"
-" uploaded dataset;"
+"*Supplemental information* that can provide a better understanding of the "
+"uploaded dataset;"
 msgstr ""
+"*Información complementaria* que puede proporcionar una mejor comprensión "
+"del conjunto de datos cargado;"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:71
 #: f7b055e7032e4f18ac8ed77cee1ff556
 msgid "*Maintenance frequency* of the dataset;"
-msgstr ""
+msgstr "*Frecuencia de mantenimiento* del conjunto de datos;"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:72
 #: 432667057ff14ddaa4c9bf05ea0f98dd
 msgid ""
-"users who are *Responsible* for the dataset, its *Owner*, and the "
-"*Author* of its metadata;"
+"users who are *Responsible* for the dataset, its *Owner*, and the *Author* "
+"of its metadata;"
 msgstr ""
+"usuarios que son *Responsables* del conjunto de datos, su *Propietario* y el"
+" *Autor* de sus metadatos;"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:73
 #: 322c8da09a6c4932aa7df829bec9a208
 msgid "*Spatial representation type* used."
-msgstr ""
+msgstr "*Tipo de representación espacial* utilizado."
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:74
 #: 0a0d0a7319384e338d0e5b6212ab1c2f
 msgid ""
-"*Related resources* to link one or multiple resources to the document. "
-"These will be visible inside the :ref:`dataset-info` panel"
+"*Related resources* to link one or multiple resources to the document. These"
+" will be visible inside the :ref:`dataset-info` panel"
 msgstr ""
+"*Recursos relacionados* para vincular uno o varios recursos al documento. "
+"Estos serán visibles dentro del panel :ref:`dataset-info`"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:76
 #: 09e7c03350c04a5c8ca4eed6b9b1af54
 msgid ""
-"The *Purpose* and *Supplemental information* panels allow you to insert "
-"HTML code through a *wysiwyg* text editor"
+"The *Purpose* and *Supplemental information* panels allow you to insert HTML"
+" code through a *wysiwyg* text editor"
 msgstr ""
+"Los paneles *Propósito* e *Información complementaria* le permiten insertar "
+"código HTML a través de un editor de texto *wysiwyg*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:79
 #: b6b775e54be042769dc232ef5f9621ca
 msgid "**Dataset Attributes**"
-msgstr ""
+msgstr "**Atributos del conjunto de datos**"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:84
 #: c3e2f232f08e451091b96ad5364576c8
 msgid "*Dataset Attributes Metadata for Dataset*"
 msgstr ""
+"*Metadatos de Atributos de Conjuntos de Datos para Conjuntos de Datos*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:86
 #: 7857c6bbbdfe4c6e805ef69da255a6c4
 msgid ""
-"At this step you can enrich the dataset attributes with useful "
-"information like the following:"
+"At this step you can enrich the dataset attributes with useful information "
+"like the following:"
 msgstr ""
+"En este paso puedes enriquecer los atributos del conjunto de datos con "
+"información útil como la siguiente:"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:88
 #: 94803830625549e08ed8fc418b5e9995
 msgid "The *Label* displayed"
-msgstr ""
+msgstr "La *Etiqueta* mostrada"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:89
 #: 49bee5a7a2e440bfbee62b5853d88b5d
 msgid "A detailed *Description*"
-msgstr ""
+msgstr "Una *Descripción detallada*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:90
 #: 1c993327d6a64ba28dbaeae967d3e8da
 msgid "The *Display Order*"
-msgstr ""
+msgstr "El *Orden de visualización*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:91
 #: 18f7b277c4464fd1bf4d420910d69151
 msgid ""
-"The *Display Type*; the default value is *Label*, which means that the "
-"value of the attribute will be rendered as a plain text. There's the "
-"possibility to instruct GeoNode to threat the values as different media-"
-"types. As an instance, if the values of the selected attribute will "
-"contain image urls, by selecting the ``IMAGE`` *Display Type* you will "
-"allow GeoNode to render the image directly when querying the dataset from"
-" the maps. The same for ``VIDEO``, ``AUDIO`` or ``IFRAME`` mime types."
+"The *Display Type*; the default value is *Label*, which means that the value"
+" of the attribute will be rendered as a plain text. There's the possibility "
+"to instruct GeoNode to threat the values as different media-types. As an "
+"instance, if the values of the selected attribute will contain image urls, "
+"by selecting the ``IMAGE`` *Display Type* you will allow GeoNode to render "
+"the image directly when querying the dataset from the maps. The same for "
+"``VIDEO``, ``AUDIO`` or ``IFRAME`` mime types."
 msgstr ""
+"El *Tipo de visualización*; el valor predeterminado es *Etiqueta*, lo que "
+"significa que el valor del atributo se mostrará como texto plano. Existe la "
+"posibilidad de instruir a GeoNode para tratar los valores como diferentes "
+"tipos de medios. Por ejemplo, si los valores del atributo seleccionado "
+"contienen URLs de imágenes, al seleccionar el tipo de visualización "
+"``IMAGEN``, permitirás que GeoNode muestre la imagen directamente al "
+"consultar el conjunto de datos desde los mapas. Lo mismo aplica para los "
+"tipos mime ``VIDEO``, ``AUDIO`` o ``IFRAME``."
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:95
 #: 688f65c95b3647129983e46f9448b17c
 msgid ""
-"The *Visibile* flag; allows you to instruct GeoNode wether or not hiding "
-"an attribute from the *Get Feature Type* outcomes"
+"The *Visibile* flag; allows you to instruct GeoNode wether or not hiding an "
+"attribute from the *Get Feature Type* outcomes"
 msgstr ""
+"El indicador *Visible*; te permite instruir a GeoNode si ocultar o no un "
+"atributo en los resultados de *Obtener tipo de característica*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:98
 #: 4b27ad6482ee4338be73a5f84a2f5962
 msgid ""
-"It is possible to define a completely custom ``HTML`` template for the "
-"*Get Feature Type* outcome. That is possible by enabling the *Use a "
-"custom template* flag as shown in the figure below."
+"It is possible to define a completely custom ``HTML`` template for the *Get "
+"Feature Type* outcome. That is possible by enabling the *Use a custom "
+"template* flag as shown in the figure below."
 msgstr ""
+"Es posible definir una plantilla ``HTML`` completamente personalizada para "
+"el resultado *Obtener tipo de característica*. Esto es posible habilitando "
+"la opción *Usar una plantilla personalizada* como se muestra en la siguiente"
+" figura."
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:104
 #: 05e32d779c494a3dbc282c73533015b6
 msgid "*Use a custom template*"
-msgstr ""
+msgstr "*Utilice una plantilla personalizada*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:106
 #: e9a5fa9b0410492e8c142ffb3362b07b
@@ -331,26 +401,32 @@ msgid ""
 "By using the keywork ``${properties.<attribute_name>``, you can tell to "
 "GeoNode to render the actual value of the attribute on the map."
 msgstr ""
+"Al utilizar la función de clave ``${properties.<attribute_name>``, puedes "
+"indicarle a GeoNode que represente el valor real del atributo en el mapa."
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:109
 #: 9a1800c8093b4f64a6277d735e0ea3a0
 msgid "As an instance, the example below"
-msgstr ""
+msgstr "Por ejemplo, el siguiente ejemplo"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:114
 #: 67a7c29de1be486e8f9a945dbfbbece6
 msgid "*Use a custom template: HTML*"
-msgstr ""
+msgstr "*Utilice una plantilla personalizada: HTML*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:117
 #: c784b5cba4f645da8ecbf8712f1a37be
 msgid "Will render an ``HTML Table`` along with values as shown here below"
 msgstr ""
+"Representará una ``Tabla HTML`` junto con los valores como se muestra a "
+"continuación"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:122
 #: b29a9bbd6d3b46f8b092052764af9672
 msgid "*Use a custom template: Get Feature Info outcome*"
 msgstr ""
+"*Utilice una plantilla personalizada: obtenga el resultado de información de"
+" funciones*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:124
 #: 0e424c369a5047819b964739a46ae44a
@@ -358,6 +434,8 @@ msgid ""
 "Use :guilabel:`next >>` or :guilabel:`<< back` to navigate through those "
 "steps. Once you have finished click on :guilabel:`Update`."
 msgstr ""
+"Utiliza :guilabel:`siguiente >>` o :guilabel:`<< atrás` para navegar por "
+"esos pasos. Una vez hayas terminado pulsa en :guilabel:`Actualizar`."
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:126
 #: cee175ebd83b4f0a8a96e16e4de87a75
@@ -366,16 +444,19 @@ msgid ""
 "*Completeness* bar shows you a red message like the one in the picture "
 "below."
 msgstr ""
+"Algunos metadatos son obligatorios; si omites alguno de esos metadatos, la "
+"barra *Integridad* le muestra un mensaje rojo como el de la imagen a "
+"continuación."
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:132
 #: 3c132ced3a5240b89f6f376622e4169d
 msgid "*Completeness Progress Bar*"
-msgstr ""
+msgstr "*Barra de progreso de integridad*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:135
 #: 48135d3f65e54cf291ed6c8cc4b7f1b0
 msgid "Metadata Advanced Editing"
-msgstr ""
+msgstr "Edición avanzada de metadatos"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:137
 #: 4e3dd51b2042452fb4e05253d1ea0a89
@@ -383,18 +464,23 @@ msgid ""
 "In the *Edit Metadata* page the :guilabel:`Advanced Metadata`  button is "
 "also available."
 msgstr ""
+"En la página *Editar Metadatos* también está disponible el botón "
+":guilabel:`Metadatos Avanzados`."
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:142
 #: 5030e6e325554bb8adb5b65f959a6238
 msgid "*The Advanced Metadata button*"
-msgstr ""
+msgstr "*El botón Metadatos avanzados*"
 
 #: ../../usage/managing_datasets/dataset_metadata.rst:144
 #: b218a76201824e4381a05e156b9202db
 msgid ""
 "Click on it to display the *Metadata Advanced Editing Page*. That page "
 "allows you to edit all the dataset metadata described in the previous "
-"paragraph. Once you have finished to edit them click on "
-":guilabel:`Update` to save your changes."
+"paragraph. Once you have finished to edit them click on :guilabel:`Update` "
+"to save your changes."
 msgstr ""
-
+"Haz clic en él para mostrar la *Página de edición avanzada de metadatos*. "
+"Esa página te permite editar todos los metadatos del conjunto de datos "
+"descritos en el párrafo anterior. Una vez que hayas terminado de editarlos "
+"haz clic en :guilabel:`Actualizar` para guardar los cambios."

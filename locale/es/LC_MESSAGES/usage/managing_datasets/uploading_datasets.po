@@ -1,28 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:4
 #: 72c1f9d3a69747fd9aa5ec1b7b0ce605
 msgid "Datasets Uploading"
-msgstr ""
+msgstr "Carga de conjuntos de datos"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:6
 #: fe2a401de7024be5b25e502beb53389a
@@ -30,6 +33,9 @@ msgid ""
 "The most important resource type in GeoNode is the *Dataset*. A dataset "
 "represents spatial information so it can be displayed inside a map."
 msgstr ""
+"El tipo de recurso más importante en GeoNode es el *Conjunto de datos*. Un "
+"conjunto de datos representa información espacial para que pueda mostrarse "
+"dentro de un mapa."
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:7
 #: 9b7eb88b3d7241d08027a425c0a5bb25
@@ -37,134 +43,167 @@ msgid ""
 "To better understand what we are talking about lets upload your first "
 "dataset."
 msgstr ""
+"Para comprender mejor de qué estamos hablando, carguemos tu primer conjunto "
+"de datos."
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:9
 #: b6da9884ead6400ea4c318d9e77a42e2
 msgid "It is possible to upload a *Datasets* in two ways:"
-msgstr ""
+msgstr "Es posible cargar un *Conjunto de datos* de dos maneras:"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:11
 #: 81c5880e20274a599fba30f79f941bff
 msgid ""
-"From the :guilabel:`All Resources` page, by clicking *Add Resource* which"
-" displays a list including `Upload dataset` link:"
+"From the :guilabel:`All Resources` page, by clicking *Add Resource* which "
+"displays a list including `Upload dataset` link:"
 msgstr ""
+"Desde la página :guilabel:`Todos los recursos`, al hacer clic en *Agregar "
+"recurso*, se muestra una lista que incluye el enlace `Cargar conjunto de "
+"datos`:"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:16
 #: ca0d4adc6976424aa012768f3d3b3c9f
 msgid "*Dataset Upload from All Resources page*"
-msgstr ""
+msgstr "*Carga de conjunto de datos desde la página Todos los recursos*"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:18
 #: c71cb6104301481e910feb3248d3a4b0
 msgid ""
-"From the :guilabel:`Datasets` page, by clicking on *New* which displays a"
-" list including `Upload dataset` link:"
+"From the :guilabel:`Datasets` page, by clicking on *New* which displays a "
+"list including `Upload dataset` link:"
 msgstr ""
+"Desde la página :guilabel:`Conjuntos de datos`, haciendo clic en *Nuevo* que"
+" muestra una lista que incluye el enlace `Cargar conjunto de datos`:"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:23
 #: fc20fa76bbb24a4daf2bf403010a7ede
 msgid "*Dataset Upload from Datasets page*"
-msgstr ""
+msgstr "*Carga de conjunto de datos desde la página Conjuntos de datos*"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:25
 #: 20ad47ace0524866a0490227010b4bde
 msgid "The *Datasets Uploading* page looks like the one in the picture below."
 msgstr ""
+"La página *Carga de conjuntos de datos* se parece a la de la imagen "
+"siguiente."
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:30
 #: 9c9ce6788c034931817ba67629224055
 msgid "*The Datasets Uploading page*"
-msgstr ""
+msgstr "*La página de carga de conjuntos de datos*"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:33
 #: 8f65a24c9a074da1a0ab55b13c1e1e99
 msgid ""
-"Through the :guilabel:`Select files` button you can select files from "
-"your disk, make sure they are valid raster or vector spatial data, then "
-"you can click to :guilabel:`Upload` button."
+"Through the :guilabel:`Select files` button you can select files from your "
+"disk, make sure they are valid raster or vector spatial data, then you can "
+"click to :guilabel:`Upload` button."
 msgstr ""
+"A través del botón :guilabel:`Seleccionar archivos` puedes seleccionar "
+"archivos de tu disco, asegurarse de que sean datos espaciales rasterizados o"
+" vectoriales válidos, luego puedes hacer clic en el botón "
+":guilabel:`Cargar`."
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:35
 #: 7e3147f6f1f647fa95ed8c13cdb57941
 msgid ""
-"A progress bar shows the operation made during the dataset upload and "
-"alerts you when the process is over."
+"A progress bar shows the operation made during the dataset upload and alerts"
+" you when the process is over."
 msgstr ""
+"Una barra de progreso muestra la operación realizada durante la carga del "
+"conjunto de datos y te avisa cuando finaliza el proceso."
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:40
 #: fc20fa76bbb24a4daf2bf403010a7ede
 msgid "*Upload dataset*"
-msgstr ""
+msgstr "*Subir conjunto de datos*"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:43
 #: cea219b87e1d4c13baf923bf6ecdde74
 msgid ""
 "In this example the ``ne_10m_airports2`` ESRI Shapefile, with all its "
-"mandatory files (`.shp`, `.shx`, `.dbf` and `.prj`), has been chosen. "
-"When the process ends click on :guilabel:`View` button"
+"mandatory files (`.shp`, `.shx`, `.dbf` and `.prj`), has been chosen. When "
+"the process ends click on :guilabel:`View` button"
 msgstr ""
+"En este ejemplo se ha elegido el ``ne_10m_airports2`` ESRI Shapefile, con "
+"todos sus archivos obligatorios (`.shp`, `.shx`, `.dbf` y `.prj`). Cuando "
+"finalice el proceso haz clic en el botón :guilabel:`Ver`"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:49
 #: fc20fa76bbb24a4daf2bf403010a7ede
 msgid "*Dataset uploading finished*"
-msgstr ""
+msgstr "*Carga del conjunto de datos finalizada*"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:51
 #: 052432c646c948e5b41667f23d441446
 msgid ""
 "There are lot of free spatial dataset available in the Internet. In this "
 "example, an extract of the Berlin city center roads map from the `BBBike "
-"extracts OpenStreetMap <https://extract.bbbike.org>`_ dataset has been "
-"used."
+"extracts OpenStreetMap <https://extract.bbbike.org>`_ dataset has been used."
 msgstr ""
+"Hay muchos conjuntos de datos espaciales gratuitos disponibles en Internet. "
+"En este ejemplo, se ha utilizado un extracto del mapa de carreteras del "
+"centro de la ciudad de Berlín del conjunto de datos `BBBike extracts "
+"OpenStreetMap <https://extract.bbbike.org>`_."
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:53
 #: 2f63e0db8de54b6fbb651a06b399181a
 msgid ""
-"In the next paragraphs you will learn how to create a dataset from "
-"scratch, how to set share options, how to explore the dataset properties "
-"and how to edit them."
+"In the next paragraphs you will learn how to create a dataset from scratch, "
+"how to set share options, how to explore the dataset properties and how to "
+"edit them."
 msgstr ""
+"En los siguientes párrafos aprenderás cómo crear un conjunto de datos desde "
+"cero, cómo configurar opciones para compartir, cómo explorar las propiedades"
+" del conjunto de datos y cómo editarlas."
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:55
 #: 92f2eaa29dee4defb07f42416ffe3944
 msgid "If you get the following error message:"
-msgstr ""
+msgstr "Si recibes el siguiente mensaje de error:"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:57
 #: 2129752bc1904b9aa32c1d065fdd96ea
 msgid ""
-"``Total upload size exceeds 100.0 MB. Please try again with smaller "
-"files.``"
+"``Total upload size exceeds 100.0 MB. Please try again with smaller files.``"
 msgstr ""
+"``El tamaño total de carga supera los 100,0 MB. Inténtelo de nuevo con "
+"archivos más pequeños.``"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:59
 #: 140d12d35ab248d2ae7802a6fd7ac7bc
 msgid ""
 "This means that there is an upload size limit of 100 MB. An user with "
-"administrative access can change the upload size limits at the `admin "
-"panel for size limits <../../admin/upload-size-limits/index.html#upload-"
-"size-limits>`__."
+"administrative access can change the upload size limits at the `admin panel "
+"for size limits <../../admin/upload-size-limits/index.html#upload-size-"
+"limits>`__."
 msgstr ""
+"Esto significa que hay un límite de tamaño de carga de 100 MB. Un usuario "
+"con acceso administrativo puede cambiar los límites de tamaño de carga en el"
+" `panel de administración para límites de tamaño <../../admin/upload-size-"
+"limits/index.html#upload-size-limits>`__."
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:61
 #: a3551ffd753a403ead97e4546a793e13
 msgid "Similarly, for the following error message:"
-msgstr ""
+msgstr "De manera similar, para el siguiente mensaje de error:"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:63
 #: 13d881becb34499f95e4be7ec7c21666
 msgid ""
-"``The number of active parallel uploads exceeds 5. Wait for the pending "
-"ones to finish.``"
+"``The number of active parallel uploads exceeds 5. Wait for the pending ones"
+" to finish.``"
 msgstr ""
+"``El número de cargas paralelas activas supera las 5. Espere a que finalicen"
+" las pendientes.``"
 
 #: ../../usage/managing_datasets/uploading_datasets.rst:65
 #: 1d5a43cb24fe4c3986e17de49a37589e
 msgid ""
 "You can modify the upload parallelism limits at the `admin panel for "
-"parallelism limits <../../admin/upload-parallelism-limit/index.html"
-"#upload-parallelism-limits>`__."
+"parallelism limits <../../admin/upload-parallelism-limit/index.html#upload-"
+"parallelism-limits>`__."
 msgstr ""
-
+"Puede modificar los límites de paralelismo de carga en el `panel de "
+"administración para límites de paralelismo <../../admin/upload-parallelism-"
+"limit/index.html#upload-parallelism-limits>`__."

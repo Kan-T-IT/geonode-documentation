@@ -1,89 +1,106 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2023-07-12 10:00+0200\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.12.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/managing_datasets/new_dataset_from_scratch.rst:2
-#: 73fa5c8821f64a918bd57ae46884f659
+#: 813d7914be774819ad9e1f3978f8aa75
 msgid "Creating a Dataset from scratch"
-msgstr ""
+msgstr "Creando un conjunto de datos desde cero"
 
 #: ../../usage/managing_datasets/new_dataset_from_scratch.rst:4
-#: 425d232f6f3a438ba8bc77d09ff03379
+#: e4e6dbc4bed4488eb1ce6e14263ca104
 msgid ""
 "An interesting tool that GeoNode makes available to you is the *Create "
 "dataset*. It allows you to create a new vector dataset from scratch. The "
-"*Dataset Creation Form* is reachable through the :guilabel:`Create "
-"dataset` link shown in the picture below."
+"*Dataset Creation Form* is reachable through the :guilabel:`Create dataset` "
+"link shown in the picture below."
 msgstr ""
+"Una herramienta interesante que GeoNode pone a tu disposición es la de "
+"*Crear conjunto de datos*. Te permite crear un nuevo conjunto de datos "
+"vectoriales desde cero. Se puede acceder al *Formulario de creación de "
+"conjunto de datos* a través del enlace :guilabel:`Crear conjunto de datos` "
+"que se muestra en la siguiente imagen."
 
 #: ../../usage/managing_datasets/new_dataset_from_scratch.rst:9
-#: 35b32d5cd12a4bc2a0be72209192d46f
+#: 406d9ca7810f44e3b41c27f2741c3bbb
 msgid "*Create dataset link*"
-msgstr ""
+msgstr "*Crear enlace de conjunto de datos*"
 
 #: ../../usage/managing_datasets/new_dataset_from_scratch.rst:11
-#: 57ea204003d646c5b541f506d96d004e
+#: 43146659de814ed9b9d61046e4ae5030
 msgid ""
-"In order to create the new Dataset you have to fill out the required "
-"fields:"
+"In order to create the new Dataset you have to fill out the required fields:"
 msgstr ""
+"Para crear el nuevo conjunto de datos debes completar los campos "
+"obligatorios:"
 
 #: ../../usage/managing_datasets/new_dataset_from_scratch.rst:13
-#: 81ab82059f8d4ca6a74131ea523bfa16
+#: f00c5cbc8c404752b70159eca1e93da3
 msgid "*Name*"
-msgstr ""
+msgstr "*Nombre*"
 
 #: ../../usage/managing_datasets/new_dataset_from_scratch.rst:14
-#: 6f103106da044fb28be9e564f803bd16
+#: 37f4a3923948486ea35e370479392fef
 msgid "*Title*"
-msgstr ""
+msgstr "*Título*"
 
 #: ../../usage/managing_datasets/new_dataset_from_scratch.rst:15
-#: 09af7970fe8f4a3d928702389067af71
+#: 2a1005d4d39842dfaa4cd4b73b705b63
 msgid "*Geometry type*"
-msgstr ""
+msgstr "*Tipo de geometría*"
 
 #: ../../usage/managing_datasets/new_dataset_from_scratch.rst:20
-#: 61924e94071c4932ac699e4c17b1f69e
+#: 69d9dcdd8e124d8094f42a3e5c71d3a8
 msgid "*Geometry types*"
-msgstr ""
+msgstr "*Tipos de geometría*"
 
 #: ../../usage/managing_datasets/new_dataset_from_scratch.rst:22
-#: 4894352e6eb84214aeb160342ab7a475
+#: 18b1eb9fa9c94148bb88a8fea35a4969
 msgid ""
-"Usually the datasets features should have some *Attributes* that enrich "
-"the amount of information associated with each of them. Through the "
+"Usually the datasets features should have some *Attributes* that enrich the "
+"amount of information associated with each of them. Through the "
 ":guilabel:`Add Attribute` button you can add new attributes."
 msgstr ""
+"Normalmente las características de los conjuntos de datos deben tener "
+"algunos *Atributos* que enriquezcan la cantidad de información asociada a "
+"cada uno de ellos. A través del botón :guilabel:`Añadir Atributo` podrás "
+"añadir nuevos atributos."
 
 #: ../../usage/managing_datasets/new_dataset_from_scratch.rst:27
-#: 50abe1fbd42e40e2a1e882cca901560a
+#: 38697534801a40c283bdb064213495db
 msgid "*New Dataset creation from scratch*"
-msgstr ""
+msgstr "*Creación de nuevo conjunto de datos desde cero*"
 
 #: ../../usage/managing_datasets/new_dataset_from_scratch.rst:30
-#: a330bcc3b9b047d5a1812b51485ba277
+#: 029a25836c1a42a7a52fcc29fac7ecb3
 msgid ""
-"Once the form has been filled out, click on :guilabel:`Create`. You will "
-"be redirected to the *Dataset Page* (see :ref:`dataset-info`). Now your "
-"Dataset is created but is still empty, no features have been added yet. "
-"See the :ref:`dataset-editing` section to learn how to add new features."
+"Once the form has been filled out, click on :guilabel:`Create`. You will be "
+"redirected to the *Dataset Page* (see :ref:`dataset-info`). Now your Dataset"
+" is created but is still empty, no features have been added yet. See the "
+":ref:`dataset-editing` section to learn how to add new features."
 msgstr ""
-
+"Una vez rellenado el formulario pulsa en :guilabel:`Crear`. Serás redirigido"
+" a la *Página del conjunto de datos* (ver :ref:`dataset-info`). Ahora tu "
+"conjunto de datos está creado pero aún está vacío, aún no se han agregado "
+"funciones. Consulta la sección :ref:`dataset-editing` para aprender cómo "
+"agregar nuevas funciones."

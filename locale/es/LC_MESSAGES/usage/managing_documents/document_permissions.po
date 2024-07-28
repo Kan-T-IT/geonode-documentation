@@ -1,99 +1,119 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2023-07-12 10:00+0200\n"
+"PO-Revision-Date: 2024-07-19 20:53+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.12.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/managing_documents/document_permissions.rst:4
-#: b35b5ce97e5c462da98b938ed79a5ff1
+#: 7bcee2b4dbd44e11b74c7f21d8f96a46
 msgid "Share Options"
-msgstr ""
+msgstr "Compartir opciones"
 
 #: ../../usage/managing_documents/document_permissions.rst:6
-#: 652f7ac5a37e466eb806b4589a61c564
+#: 2e9c370c00bc4692bf3c9a309ba01f04
 msgid ""
 "GeoNode encourages to publicly, share and make available for download "
 "information uploaded on the platform. By default, anyone can see and "
-"download a document. However, the document responsible can choose to "
-"limit access to the document to some contributors and/or groups."
+"download a document. However, the document responsible can choose to limit "
+"access to the document to some contributors and/or groups."
 msgstr ""
+"GeoNode alienta a publicar, compartir y poner a disposición para su descarga"
+" la información cargada en la plataforma. De forma predeterminada, "
+"cualquiera puede ver y descargar un documento. Sin embargo, el responsable "
+"del documento puede optar por limitar el acceso al documento a algunos "
+"contribuyentes y/o grupos."
 
 #: ../../usage/managing_documents/document_permissions.rst:8
-#: ae2676dfc6514254a4869b4ec94082de
+#: 46f99b006a4540cd857e304c5c8ae6ea
 msgid ""
 "Through the *Share* Link shown in the menu it is possible to manage the "
 "document share options. it opens a form where set up who can:"
 msgstr ""
+"A través del enlace *Compartir* que se muestra en el menú es posible "
+"gestionar las opciones para compartir documentos. se abre un formulario "
+"donde se configura quién puede:"
 
 #: ../../usage/managing_documents/document_permissions.rst:10
-#: 682644c7c51b47cf8176d3358b192975
+#: 7286bcefedaa4a2fb621e236b20c96ff
 msgid "None (the document is not visible)."
-msgstr ""
+msgstr "Ninguno (el documento no es visible)."
 
 #: ../../usage/managing_documents/document_permissions.rst:11
-#: 91fb87125d7a44c5bd1bef198332ad72
+#: eafaa10f82604cd89a4a3cf6a021bf0a
 msgid "View Metadata  (allows to view the document)."
-msgstr ""
+msgstr "Ver Metadatos (permite ver el documento)."
 
 #: ../../usage/managing_documents/document_permissions.rst:12
-#: d9b0cd8e5b48423a890e81a2de18ccfc
+#: 67ae51a4b17d48379ba0f17497159aed
 msgid "View and Download (allows to view and download the document)."
-msgstr ""
+msgstr "Ver y Descargar (permite ver y descargar el documento)."
 
 #: ../../usage/managing_documents/document_permissions.rst:13
-#: 3d5e9fcfcb5943a5bec588152e95f66b
+#: b9f37dcede364220b5f2c0cceeacd8c5
 msgid "Edit (allows to change the document metadata and attributes)."
-msgstr ""
+msgstr "Editar (permite cambiar los metadatos y atributos del documento)."
 
 #: ../../usage/managing_documents/document_permissions.rst:14
-#: f3b5869eae3b46ec9839e11d34b06071
+#: 4674d39c457b47a493cbc3a1043f4d9c
 msgid ""
 "Manage it (allows to update, delete, change share options, "
 "publish/unpublish)."
 msgstr ""
+"Gestionarlo (permite actualizar, eliminar, cambiar opciones para compartir, "
+"publicar/despublicar)."
 
 #: ../../usage/managing_documents/document_permissions.rst:21
-#: ede3c689e7294403b6b02ba0cae48590
+#: 5f76c046c29142298c563221e52e6e5a
 msgid "See an example in the picture below."
-msgstr ""
+msgstr "Ve un ejemplo en la imagen a continuación."
 
 #: ../../usage/managing_documents/document_permissions.rst:24
-#: 89b5135b5a6b472e856fb56feaca9ec4
-msgid "After making changes, always save them with the *Save* Link in the menu"
+#: 4741ddd11cb54a309785cb07dfb2ce84
+msgid ""
+"After making changes, always save them with the *Save* Link in the menu"
 msgstr ""
+"Después de realizar cambios, guárdalos siempre con el enlace *Guardar* en el"
+" menú"
 
 #: ../../usage/managing_documents/document_permissions.rst:29
-#: 682644c7c51b47cf8176d3358b192975
+#: 7286bcefedaa4a2fb621e236b20c96ff
 msgid "*Changing the Document share options*"
-msgstr ""
+msgstr "*Cambiando las opciones para compartir documentos*"
 
 #: ../../usage/managing_documents/document_permissions.rst:31
-#: 913addacf2274298be5bb4d4c6494417
+#: 4c22de679289467298957d9dc0611f81
 msgid ""
 "Usually those with options of editing metadata and the management of a "
-"document are in charge and responsible of the document, i.e. the "
-"contributor who uploaded it has those options by default."
+"document are in charge and responsible of the document, i.e. the contributor"
+" who uploaded it has those options by default."
 msgstr ""
+"Generalmente aquellos con opciones de edición de metadatos y la gestión de "
+"un documento están a cargo y son responsables del documento, es decir, el "
+"colaborador que lo subió tiene esas opciones por defecto."
 
 #: ../../usage/managing_documents/document_permissions.rst:33
-#: bc27067dd727423f8a98276c0d059c70
+#: bf812afa61d8421dbaac0f70351ba8e4
 msgid ""
-"Once the share options are set, click :guilabel:`Save` link in the menu "
-"to save them."
+"Once the share options are set, click :guilabel:`Save` link in the menu to "
+"save them."
 msgstr ""
-
+"Una vez configuradas las opciones para compartir, haz clic en el enlace "
+":guilabel:`Guardar` en el menú para guardarlas."

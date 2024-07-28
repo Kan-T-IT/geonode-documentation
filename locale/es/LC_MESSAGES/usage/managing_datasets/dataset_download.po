@@ -1,50 +1,55 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/managing_datasets/dataset_download.rst:5
 #: 4d84f24e1a6c44beb7ed6a61105f0963
 msgid "Downloading Datasets"
-msgstr ""
+msgstr "Descarga de conjuntos de datos"
 
 #: ../../usage/managing_datasets/dataset_download.rst:7
 #: 8aa76521c6fc4e988f0d5914817ab27d
 msgid ""
-"At the top of the *Dataset Menu* there is an :guilabel:`Download` link "
-"where it is possible to download:"
+"At the top of the *Dataset Menu* there is an :guilabel:`Download` link where"
+" it is possible to download:"
 msgstr ""
+"En la parte superior del *Menú Conjunto de Datos* hay un enlace "
+":guilabel:`Descargar` donde es posible descargar:"
 
 #: ../../usage/managing_datasets/dataset_download.rst:9
 #: ef20ae828f8340f3bb5c227d3e113875
 msgid "Dataset"
-msgstr ""
+msgstr "Conjunto de datos"
 
 #: ../../usage/managing_datasets/dataset_download.rst:11
 #: 9a486ba566d64f91b0fd56683e1bb681
 msgid "ISO Metadata"
-msgstr ""
+msgstr "Metadatos ISO"
 
 #: ../../usage/managing_datasets/dataset_download.rst:13
 #: 002535dad34f420fa2f028aef3625ddc
 msgid "Dublin Core Metadata"
-msgstr ""
+msgstr "Metadatos Dublin Core"
 
 #: ../../usage/managing_datasets/dataset_download.rst:15
 #: 1e2e5877721643488cb09e27bbe11658
@@ -52,202 +57,221 @@ msgid ""
 "Clicking the :guilabel:`ISO Metadata` or the :guilabel:`Dublin Core "
 "Metadata` exports the layer metadata in `xml` format."
 msgstr ""
+"Al hacer clic en :guilabel:`ISO Metadata` o :guilabel:`Dublin Core Metadata`"
+" se exportan los metadatos de la capa en formato `xml`."
 
 #: ../../usage/managing_datasets/dataset_download.rst:20
 #: 98056d905d5f46c28cc8d87c8e110387
 msgid "*Downloading Metadata*"
-msgstr ""
+msgstr "*Descargando metadata*"
 
 #: ../../usage/managing_datasets/dataset_download.rst:22
 #: 53fc242ad19149a0a0280b65d6a3cfb2
 msgid ""
-"Open the :guilabel:`Dataset` option you will be able to select from a "
-"list of options of the supported export file formats."
+"Open the :guilabel:`Dataset` option you will be able to select from a list "
+"of options of the supported export file formats."
 msgstr ""
+"Abre la opción :guilabel:`Dataset` y podrás seleccionar de una lista de "
+"opciones de los formatos de archivo de exportación admitidos."
 
 #: ../../usage/managing_datasets/dataset_download.rst:27
 #: 98056d905d5f46c28cc8d87c8e110387
 msgid "*Downloading Datasets*"
-msgstr ""
+msgstr "*Descargando conjuntos de datos*"
 
 #: ../../usage/managing_datasets/dataset_download.rst:29
 #: 00582dd36c7d480f96d1216cc5e3709e
 msgid ""
 "As shown in the image above, GeoNode allows you to download a subset of "
-"data. Click on :guilabel:`Download filtered dataset` to download filtered"
-" data."
+"data. Click on :guilabel:`Download filtered dataset` to download filtered "
+"data."
 msgstr ""
+"Como se muestra en la imagen de arriba, GeoNode te permite descargar un "
+"subconjunto de datos. Haz clic en :guilabel:`Descargar conjunto de datos "
+"filtrados` para descargar datos filtrados."
 
 #: ../../usage/managing_datasets/dataset_download.rst:31
 #: a0e7918436364851ac142902fa23e031
 msgid ""
-"On clicking Export, the file is prepared and a notification is showed "
-"when file is ready"
+"On clicking Export, the file is prepared and a notification is showed when "
+"file is ready"
 msgstr ""
+"Al hacer clic en Exportar, el archivo se prepara y se muestra una "
+"notificación cuando el archivo está listo."
 
 #: ../../usage/managing_datasets/dataset_download.rst:36
 #: 8c6d86eda02f47e09967252e3bff6192
 msgid "*Export Ready*"
-msgstr ""
+msgstr "*Listo para exportar*"
 
 #: ../../usage/managing_datasets/dataset_download.rst:38
 #: a15f963a48e741eaa849b5ad687cc6fb
 msgid ""
-"To download the file to your machine, click on the export dataset icon. "
-"This opens the prepared export files and you can save the files on your "
-"by clicking on the save icon on each item."
+"To download the file to your machine, click on the export dataset icon. This"
+" opens the prepared export files and you can save the files on your by "
+"clicking on the save icon on each item."
 msgstr ""
+"Para descargar el archivo a tu máquina, haz clic en el icono de exportar "
+"conjunto de datos. Esto abre los archivos de exportación preparados y puedes"
+" guardarlos haciendo clic en el icono de guardar en cada elemento."
 
 #: ../../usage/managing_datasets/dataset_download.rst:43
 #: 1fdf1383e2b84b5c961f251c5a8c6912
 msgid "*Export Results Icon*"
-msgstr ""
+msgstr "*Icono de resultados de exportación*"
 
 #: ../../usage/managing_datasets/dataset_download.rst:50
 #: e42769ba687d4ae1a698bc76b40b0fd2
 msgid "Printing"
-msgstr ""
+msgstr "Impresión"
 
 #: ../../usage/managing_datasets/dataset_download.rst:52
 #: f890306daafc4490bb9633e19499d09f
 msgid ""
-"The `MapStore <https://mapstore2.geo-solutions.it/mapstore/#/>`_ based "
-"map viewer of GeoNode allows you to print the current view with a "
-"customizable layout."
+"The `MapStore <https://mapstore2.geo-solutions.it/mapstore/#/>`_ based map "
+"viewer of GeoNode allows you to print the current view with a customizable "
+"layout."
 msgstr ""
+"El visor de mapas basado en `MapStore <https://mapstore2.geo-"
+"solutions.it/mapstore/#/>`_ de GeoNode te permite imprimir la vista actual "
+"con un diseño personalizable."
 
 #: ../../usage/managing_datasets/dataset_download.rst:53
 #: 3a997f7492c24b15813bc9d6aeb8a5f4
 msgid ""
-"Click the :guilabel:`Print` option from the *Menu*, the **Printing "
-"Window** will open."
+"Click the :guilabel:`Print` option from the *Menu*, the **Printing Window** "
+"will open."
 msgstr ""
+"Haz clic en la opción :guilabel:`Imprimir` del *Menú*, se abrirá la "
+"**Ventana de Impresión**."
 
 #: ../../usage/managing_datasets/dataset_download.rst:58
 #: 54f8aee685da44d18dc61a2506ca485a
 msgid "*The Printing Window*"
-msgstr ""
+msgstr "*La ventana de impresión*"
 
 #: ../../usage/managing_datasets/dataset_download.rst:60
 #: d7d85d05e6e24af186323df942562a9c
 msgid "From this window you can:"
-msgstr ""
+msgstr "Desde esta ventana podrás:"
 
 #: ../../usage/managing_datasets/dataset_download.rst:62
 #: c4d4d8f7ef0e438eb3802888e3f1fc2e
 msgid "enter *Title* and *Description*;"
-msgstr ""
+msgstr "ingresar *Título* y *Descripción*;"
 
 #: ../../usage/managing_datasets/dataset_download.rst:63
 #: 59d5d9c285a64e4dabd1a1edb3e98fa2
 msgid "choose the *Resolution* in dpi;"
-msgstr ""
+msgstr "elegir la *Resolución* en ppp;"
 
 #: ../../usage/managing_datasets/dataset_download.rst:64
 #: 51561954dd284922aa29eeb239b8867e
 msgid "select the format"
-msgstr ""
+msgstr "seleccionar el formato"
 
 #: ../../usage/managing_datasets/dataset_download.rst:65
 #: 6d7eaf4badd6443d98633af0aa589328
 msgid "select the coordinate"
-msgstr ""
+msgstr "seleccionar la coordenada"
 
 #: ../../usage/managing_datasets/dataset_download.rst:66
 #: 678e9720e28c400ca0ed8db8c5ca84fa
 msgid "add the scale"
-msgstr ""
+msgstr "agregar la escala"
 
 #: ../../usage/managing_datasets/dataset_download.rst:67
 #: 5e879bcf82f14458a4770d6c0768872a
 msgid "add grid with label"
-msgstr ""
+msgstr "agregar cuadrícula con etiqueta"
 
 #: ../../usage/managing_datasets/dataset_download.rst:68
 #: 8293057c01624e458a0bd7d9907ed5ca
 msgid "customize the *Layout*"
-msgstr ""
+msgstr "personalizar el *Diseño*"
 
 #: ../../usage/managing_datasets/dataset_download.rst:70
 #: f3af140138da43f0a174ab62e8205e85
 msgid "the *Sheet size* (A3, A4);"
-msgstr ""
+msgstr "el *Tamaño de hoja* (A3, A4);"
 
 #: ../../usage/managing_datasets/dataset_download.rst:71
 #: 20b89cc876da4d2591458c22aeb3e595
 msgid "if include the legend or not;"
-msgstr ""
+msgstr "si incluye la leyenda o no;"
 
 #: ../../usage/managing_datasets/dataset_download.rst:72
 #: a6e692c03b764ba28002aed8af514b65
 msgid "if to put the legend in a separate page;"
-msgstr ""
+msgstr "si poner la leyenda en página aparte;"
 
 #: ../../usage/managing_datasets/dataset_download.rst:73
 #: b07056790b0d42268c52f6f107b5e82c
 msgid "the page *Orientation* (Landscape or Portrait);"
-msgstr ""
+msgstr "la página *Orientación* (Paisaje o Retrato);"
 
 #: ../../usage/managing_datasets/dataset_download.rst:75
 #: 2a6d9d3883634e89b545e98df4066efe
 msgid "customize the *Legend*"
-msgstr ""
+msgstr "personalizar la *Leyenda*"
 
 #: ../../usage/managing_datasets/dataset_download.rst:77
 #: ae1dd4dcb1b84b5f9079f81fe415acdb
 msgid "the *Label Font*;"
-msgstr ""
+msgstr "la *Fuente de etiqueta*;"
 
 #: ../../usage/managing_datasets/dataset_download.rst:78
 #: 701153aa479b4db6b2dc1b86caa2a6d3
 msgid "the *Font Size*;"
-msgstr ""
+msgstr "el *Tamaño de fuente*;"
 
 #: ../../usage/managing_datasets/dataset_download.rst:79
 #: ebc543f701054cc7890031f50844921c
 msgid "the *Font Emphasis* (bold, italic);"
-msgstr ""
+msgstr "el *énfasis de fuente* (negrita, cursiva);"
 
 #: ../../usage/managing_datasets/dataset_download.rst:80
 #: 0c96e3afda0147b78deccf885ce15b07
 msgid "if *Force Labels*;"
-msgstr ""
+msgstr "si *Forzar Etiquetas*;"
 
 #: ../../usage/managing_datasets/dataset_download.rst:81
 #: c0979618eeea41f6abd2b071955fba07
 msgid "if use *Anti Aliasing Font*;"
-msgstr ""
+msgstr "si utiliza *Fuente antialiasing*;"
 
 #: ../../usage/managing_datasets/dataset_download.rst:82
 #: a9b90b0d749547d9b2bbe51b90ad4e7d
 msgid "the *Icon Size*;"
-msgstr ""
+msgstr "el *Tamaño del icono*;"
 
 #: ../../usage/managing_datasets/dataset_download.rst:83
 #: 8bdb6739f0c743d8964c2ab8f05da103
 msgid "the *Legend Resolution* in dpi."
-msgstr ""
+msgstr "la *Resolución de leyenda* en ppp."
 
 #: ../../usage/managing_datasets/dataset_download.rst:85
 #: 2ec6e91e081a400181941ddd6df2920c
 msgid "To print the view click on :guilabel:`Print`."
-msgstr ""
+msgstr "Para imprimir la vista haz clic en :guilabel:`Imprimir`."
 
 #: ../../usage/managing_datasets/dataset_download.rst:89
 #: 4c984ef6b5324391aac4390b088585f3
 msgid "Performing Measurements"
-msgstr ""
+msgstr "Realizar mediciones"
 
 #: ../../usage/managing_datasets/dataset_download.rst:91
 #: 735cea632e164482b4ecb018e2ee925c
 msgid ""
 "Click on the :guilabel:`Measure` option of the *Menu* to perform a "
-"measurement. As you can see in the picture below, this tool allows you to"
-" measure *Distances*, *Areas* and the *Bearing* of lines."
+"measurement. As you can see in the picture below, this tool allows you to "
+"measure *Distances*, *Areas* and the *Bearing* of lines."
 msgstr ""
+"Haz clic en la opción :guilabel:`Medir` del *Menú* para realizar una "
+"medición. Como puedes ver en la imagen a continuación, esta herramienta te "
+"permite medir *Distancias*, *Áreas* y el *Rumbo* de líneas."
 
 #: ../../usage/managing_datasets/dataset_download.rst:97
 #: 714f6a86a56b4e9ca33e64cd50199477
 msgid "*The Measure Tool*"
-msgstr ""
-
+msgstr "*La herramienta de medición*"

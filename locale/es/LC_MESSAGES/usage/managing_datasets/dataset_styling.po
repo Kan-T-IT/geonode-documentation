@@ -1,185 +1,223 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2023-07-10 11:11+0200\n"
+"PO-Revision-Date: 2024-07-19 20:53+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.12.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/managing_datasets/dataset_styling.rst:4
-#: 9e047b70c45144ea955e9d0491292d0f
+#: c6a8af56f1cb4bcc846eb65c399f9c29
 msgid "Dataset Styling"
-msgstr ""
+msgstr "Estilo del conjunto de datos"
 
 #: ../../usage/managing_datasets/dataset_styling.rst:6
-#: 86d48df9d2f4446ca1a8eb4d49139565
+#: b3309c1c03494604b5154c4048720688
 msgid ""
-"Maps are helpful because they allow you gain a deeper understanding of "
-"your data by allowing you to visualize it in many different ways. So you "
-"can tell different stories depending on how the data is presented. For "
-"any given data or dataset, you should explore different styling options "
-"and choose the best style for that."
+"Maps are helpful because they allow you gain a deeper understanding of your "
+"data by allowing you to visualize it in many different ways. So you can tell"
+" different stories depending on how the data is presented. For any given "
+"data or dataset, you should explore different styling options and choose the"
+" best style for that."
 msgstr ""
+"Los mapas son útiles porque le permiten obtener una comprensión más profunda"
+" de sus datos al permitirle visualizarlos de muchas maneras diferentes. De "
+"modo que puedes contar diferentes historias dependiendo de cómo se presenten"
+" los datos. Para cualquier dato o conjunto de datos determinado, debes "
+"explorar diferentes opciones de estilo y elegir el mejor estilo para ello."
 
 #: ../../usage/managing_datasets/dataset_styling.rst:10
-#: e84276eaab6b49f3b6b6c288c5cf0a43
+#: e7b49ddc09b84f1f8eb1b14633256845
 msgid ""
-"In GeoNode each dataset has one style refered to as a *Default Style* "
-"which is determined by the nature of the data you're mapping. When "
-"uploading a new dataset (see :ref:`uploading-datasets`) a new default "
-"style will be associated to it."
+"In GeoNode each dataset has one style refered to as a *Default Style* which "
+"is determined by the nature of the data you're mapping. When uploading a new"
+" dataset (see :ref:`uploading-datasets`) a new default style will be "
+"associated to it."
 msgstr ""
+"En GeoNode, cada conjunto de datos tiene un estilo denominado *Estilo "
+"predeterminado* que está determinado por la naturaleza de los datos que está"
+" mapeando. Al cargar un nuevo conjunto de datos (ver :ref:`uploading-"
+"datasets`), se le asociará un nuevo estilo predeterminado."
 
 #: ../../usage/managing_datasets/dataset_styling.rst:13
-#: 5572f9426d174d7c9af5407579c2c2fe
+#: a9bcaf34baa14756a2f9d62f7c1bfe14
 msgid "Editing the Dataset Style"
-msgstr ""
+msgstr "Editar el estilo del conjunto de datos"
 
 #: ../../usage/managing_datasets/dataset_styling.rst:15
-#: 6e7a3d7cabe04136bc90fec616dee936
+#: 1a2b13327722431fbb49a5f3d591e11d
 msgid ""
-"In order to edit a dataset style, open the *Dataset Page* (see :ref"
-":`dataset-info`) and click on :guilabel:`Edit`. Then click the "
+"In order to edit a dataset style, open the *Dataset Page* (see "
+":ref:`dataset-info`) and click on :guilabel:`Edit`. Then click the "
 ":guilabel:`Edit Style` link in the *options* (see the picture below)."
 msgstr ""
+"Para editar un estilo de conjunto de datos, abre la *Página del conjunto de "
+"datos* (ver :ref:`dataset-info`) y haz clic en :guilabel:`Editar`. Luego haz"
+" clic en el enlace :guilabel:`Editar estilo` en las *opciones* (vea la "
+"imagen a continuación)."
 
 #: ../../usage/managing_datasets/dataset_styling.rst:20
-#: 94daa09e80684214bb7e2742951d7b98
+#: 20ff80137f4d46da85694b338a92584e
 msgid "*Edit Styles button*"
-msgstr ""
+msgstr "*Botón Editar estilos*"
 
 #: ../../usage/managing_datasets/dataset_styling.rst:22
-#: 11f346e35cc04ade932be9a0fe2d19b6
+#: 91620d5a9caf4ba3852b127351902cd8
 msgid ""
-"The *Dataset* will open in a new *Map*. The *Styles Panel* will show you "
-"all the default style for the dataset and some useful tools. By default, "
-"the style will be showm in a text editor form."
+"The *Dataset* will open in a new *Map*. The *Styles Panel* will show you all"
+" the default style for the dataset and some useful tools. By default, the "
+"style will be showm in a text editor form."
 msgstr ""
+"El *Conjunto de datos* se abrirá en un nuevo *Mapa*. El *Panel de estilos* "
+"te mostrará todos los estilos predeterminados para el conjunto de datos y "
+"algunas herramientas útiles. De forma predeterminada, el estilo se mostrará "
+"en un formulario de editor de texto."
 
 #: ../../usage/managing_datasets/dataset_styling.rst:27
-#: 712bedb2c3554ac7bb6ea1bb813a4955
+#: aee51ece9b9a469b86fa69c706b7903f
 msgid "*The Styles Panel in the Map*"
-msgstr ""
+msgstr "*El Panel de Estilos en el Mapa*"
 
 #: ../../usage/managing_datasets/dataset_styling.rst:29
-#: 1800ccba3a5f4cfd83d2032e739b1810
+#: 535b0a7b4abc4324848652c9b947be68
 msgid ""
-"You could continue to change the style with the text editor or switch to "
-"a visualized editor using the :guilabel:`Visual editor` above the text "
-"editor."
+"You could continue to change the style with the text editor or switch to a "
+"visualized editor using the :guilabel:`Visual editor` above the text editor."
 msgstr ""
+"Puedes continuar cambiando el estilo con el editor de texto o cambiar a un "
+"editor visualizado usando :guilabel:`Editor visual` encima del editor de "
+"texto."
 
 #: ../../usage/managing_datasets/dataset_styling.rst:31
-#: c6d14c5161f0454899924c941cebcead
+#: afeed269e0b7424692d4a865c715d3cd
 msgid "The visual editor looks like this"
-msgstr ""
+msgstr "El editor visual se ve así"
 
 #: ../../usage/managing_datasets/dataset_styling.rst:36
-#: 5bed49652dc74aed91a2b3aa3453131b
+#: 8eae74bbdb754ddbb42aaa578d731cfe
 msgid "*Visual Styles Panel in the Map*"
-msgstr ""
+msgstr "*Panel de estilos visuales en el mapa*"
 
 #: ../../usage/managing_datasets/dataset_styling.rst:38
-#: 1d4ef83c5b3f4b9da7244b3f0f3c6390
-msgid "You can then edit the style by clicking on each attribute of the style."
+#: 16b93a642761437e800b41159dab1ee3
+msgid ""
+"You can then edit the style by clicking on each attribute of the style."
 msgstr ""
+"Luego puedes editar el estilo haciendo clic en cada atributo del estilo."
 
 #: ../../usage/managing_datasets/dataset_styling.rst:41
-#: 4836d110fd3f4652b296f8e6062b1ff0
+#: 675e9a20fb924a439e1a78d540740410
 msgid "Creating Style Rules"
-msgstr ""
+msgstr "Crear reglas de estilo"
 
 #: ../../usage/managing_datasets/dataset_styling.rst:43
-#: 239628a6b6254979ba7a4ab8a4335095
+#: c0d0cad16b2249fd9ee5c6fe3def6459
 msgid "In order to create a new rule, Three options are provided."
-msgstr ""
+msgstr "Para crear una nueva regla, se proporcionan tres opciones."
 
 #: ../../usage/managing_datasets/dataset_styling.rst:45
-#: 5133676dee374d6c9c5492ddbbcf34ea
+#: 59380e0cb0c545c795d67c9cb9a05e6b
 msgid "Mark rule"
-msgstr ""
+msgstr "Regla de marca"
 
 #: ../../usage/managing_datasets/dataset_styling.rst:46
-#: 851b3be15f6f4212abb88184928c0e0c
+#: 1bec544804354de0ada38bac0420a114
 msgid "Icon rule"
-msgstr ""
+msgstr "Regla de icono"
 
 #: ../../usage/managing_datasets/dataset_styling.rst:47
-#: 31879e63e47343e0a84ad0999501f58d
+#: 725d3f9213ac41e88d378a5d74ffad5e
 msgid "text rule"
-msgstr ""
+msgstr "Regla de texto"
 
 #: ../../usage/managing_datasets/dataset_styling.rst:49
-#: 2959668519064ac184787bb0457f2ff8
+#: a98114388b5d4ccaa3a57346e715e090
 msgid "Click on any of the buttons below to create a type of style you want."
 msgstr ""
+"Haz clic en cualquiera de los botones a continuación para crear el tipo de "
+"estilo que desee."
 
 #: ../../usage/managing_datasets/dataset_styling.rst:54
-#: 9292745a1ba54488891f8c7f665ca114
+#: 978eca567db0430e840a13c942a57399
 msgid "*Create new rule buttons*"
-msgstr ""
+msgstr "*Crear nuevos botones de regla*"
 
 #: ../../usage/managing_datasets/dataset_styling.rst:56
-#: 8c8954f833d04327a89e0d0aed3cde1f
+#: 54fe2d6f06f0454a91014f1f007f5425
 msgid ""
 "The rule you have chosen is now added on the top with default attributes "
 "which you can edit to your preference*."
 msgstr ""
+"La regla que ha elegido ahora se agrega en la parte superior con atributos "
+"predeterminados que puedes editar según tus preferencias*."
 
 #: ../../usage/managing_datasets/dataset_styling.rst:61
-#: f1514f85e0b2440b9a5cbceefb927399
+#: 833dd39d49d94185bcd006a5b4b660d9
 msgid "*New style*"
-msgstr ""
+msgstr "*Nuevo estilo*"
 
 #: ../../usage/managing_datasets/dataset_styling.rst:63
-#: fab23699c179400d90ab7f4ca8f0907a
+#: ce9988d137484b90810be58776753239
 msgid "If the rule has errors, the following will be shown."
-msgstr ""
+msgstr "Si la regla tiene errores se mostrará lo siguiente."
 
 #: ../../usage/managing_datasets/dataset_styling.rst:68
-#: 246c9af5b5904365bf077ac34c76e73d
+#: f7db8f341479406490780a4c6291278e
 msgid "*Rule Error*"
-msgstr ""
+msgstr "*Error de regla*"
 
 #: ../../usage/managing_datasets/dataset_styling.rst:71
-#: 02d4def55c2e4931a733dd9620819923
+#: 94604e46c5b54b97b05a4e4c5f59269e
 msgid ""
 "You can switch the rule ordering by dragging it to the top or bottom "
 "depending on your preference."
 msgstr ""
+"Puedes cambiar el orden de las reglas arrastrándolas hacia la parte superior"
+" o inferior según sus preferencias."
 
 #: ../../usage/managing_datasets/dataset_styling.rst:74
-#: 274ff9b94b574fff8c3d59b49b349399
+#: 8bde000de8c04c84a907433298d7bede
 msgid ""
-"It would be nice to change the style in order to decrease the opacity of "
-"the filling color as well as to reduce the lines width. The embedded "
-"`MapStore <https://mapstore2.geo-solutions.it/mapstore/#/>`_ makes "
-"available a powerful *Style Editor* to accomplish that tasks. In the next"
-" paragraph we will explain how."
+"It would be nice to change the style in order to decrease the opacity of the"
+" filling color as well as to reduce the lines width. The embedded `MapStore "
+"<https://mapstore2.geo-solutions.it/mapstore/#/>`_ makes available a "
+"powerful *Style Editor* to accomplish that tasks. In the next paragraph we "
+"will explain how."
 msgstr ""
+"Sería bueno cambiar el estilo para disminuir la opacidad del color de "
+"relleno y reducir el ancho de las líneas. El `MapStore "
+"<https://mapstore2.geo-solutions.it/mapstore/#/>`_ integrado pone a "
+"disposición un potente *Editor de estilos* para realizar esas tareas. En el "
+"siguiente párrafo explicaremos cómo."
 
 #: ../../usage/managing_datasets/dataset_styling.rst:77
-#: 3fa55592367349eab7a781fc418df0a0
+#: 22878df79bf944c0b7d57d1bad89e817
 msgid ""
-"Each rule has a delete icon on the top right which you can use to remove "
-"the rule on the style."
+"Each rule has a delete icon on the top right which you can use to remove the"
+" rule on the style."
 msgstr ""
+"Cada regla tiene un ícono de eliminación en la parte superior derecha que "
+"puedes usar para eliminar la regla del estilo."
 
 #: ../../usage/managing_datasets/dataset_styling.rst:79
-#: 3ca8e17fe445449282a5f3ba309098af
+#: 1e5fdd6798cd40f3aa23cea26cfefb23
 msgid "Click on :guilabel:`Save` on the top to save your changes."
 msgstr ""
-
+"Haz clic en :guilabel:`Guardar` en la parte superior para guardar los "
+"cambios."

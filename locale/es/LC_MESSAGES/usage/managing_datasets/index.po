@@ -1,39 +1,47 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2023-07-10 11:11+0200\n"
+"PO-Revision-Date: 2024-07-19 20:53+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.12.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../usage/managing_datasets/index.rst:2 f5aad33179aa4a8d825ea87e122ff4fb
+#: ../../usage/managing_datasets/index.rst:2 a577b077146841f49ef4571423668fe0
 msgid "Managing Datasets"
-msgstr ""
+msgstr "Gestión de conjuntos de datos"
 
-#: ../../usage/managing_datasets/index.rst:4 86598cbfbf224300978209b0ce58fac0
+#: ../../usage/managing_datasets/index.rst:4 c4c65a30852d4738a92030377c792169
 msgid ""
-"Datasets are published resources representing raster o vector spatial "
-"data sources. Datasets can also be associated with metadata, ratings, and"
-" comments."
+"Datasets are published resources representing raster o vector spatial data "
+"sources. Datasets can also be associated with metadata, ratings, and "
+"comments."
 msgstr ""
+"Los conjuntos de datos son recursos publicados que representan fuentes de "
+"datos espaciales rasterizados o vectoriales. Los conjuntos de datos también "
+"se pueden asociar con metadatos, calificaciones y comentarios."
 
-#: ../../usage/managing_datasets/index.rst:5 8e602b2932714af69801640f37516bc9
+#: ../../usage/managing_datasets/index.rst:5 3816bfc5d9c74ac0beb70adfe2b7b742
 msgid ""
-"In this section, you will learn how to create a new dataset by uploading "
-"a local data set, add dataset info, change the style of the dataset, and "
-"share the results."
+"In this section, you will learn how to create a new dataset by uploading a "
+"local data set, add dataset info, change the style of the dataset, and share"
+" the results."
 msgstr ""
-
+"En esta sección, aprenderás cómo crear un nuevo conjunto de datos cargando "
+"un conjunto de datos local, agregando información del conjunto de datos, "
+"cambiando el estilo del conjunto de datos y compartiendo los resultados."

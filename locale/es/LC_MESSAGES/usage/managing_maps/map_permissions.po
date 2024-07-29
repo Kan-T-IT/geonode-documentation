@@ -1,97 +1,118 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2023-07-10 11:11+0200\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.12.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/managing_maps/map_permissions.rst:4
-#: a0ec965e3fa5450b9670c541566f513f
+#: a29fadf532704f0c8f5eb43f6e8fd81c
 msgid "Share Options"
-msgstr ""
+msgstr "Compartir opciones"
 
 #: ../../usage/managing_maps/map_permissions.rst:6
-#: a814355039a24b20b36d59380b01a09f
+#: 2cbf204f3c3945efb66869555a6bcf6b
 msgid ""
 "In GeoNode the share options management system is indeed more complex. "
 "Administrators can choose who can do what for each map. Users can manage "
 "only the maps they own or the maps which they are authorize to manage."
 msgstr ""
+"En GeoNode, el sistema de gestión de opciones sobre acciones es, de hecho, "
+"más complejo. Los administradores pueden elegir quién puede hacer qué en "
+"cada mapa. Los usuarios pueden gestionar sólo los mapas que poseen o los "
+"mapas que están autorizados a gestionar."
 
 #: ../../usage/managing_maps/map_permissions.rst:10
-#: 69768d74db0747f5b06efed39517de86
-msgid "By default only owners can edit and manage maps, and anyone can view them."
+#: c6150d47e4624b6a8614a23aa01cbce7
+msgid ""
+"By default only owners can edit and manage maps, and anyone can view them."
 msgstr ""
+"De forma predeterminada, sólo los propietarios pueden editar y administrar "
+"mapas, y cualquiera puede verlos."
 
 #: ../../usage/managing_maps/map_permissions.rst:12
-#: 2634fbc80693418a9dcb45a7db23a3a7
+#: 87af2b8573ec4b7f985cc342d3fb8d63
 msgid ""
 "In order to modify the *Map Share Options* settings you can click the "
 ":guilabel:`Share` link in the *Map Detail Page*."
 msgstr ""
+"Para modificar la configuración de las *Opciones para compartir mapa*, "
+"puedes hacer clic en el enlace :guilabel:`Compartir` en la *Página de "
+"detalles del mapa*."
 
 #: ../../usage/managing_maps/map_permissions.rst:14
-#: 7dc1b39245774ac8a7aa7ade3dd81c05
+#: 9fd3ecd5a1ea4014a6ae96875258474f
 msgid ""
-"Through the *Share Options Settings Panel* you can add or remove options "
-"for users and groups. The picture below shows an example."
+"Through the *Share Options Settings Panel* you can add or remove options for"
+" users and groups. The picture below shows an example."
 msgstr ""
+"A través del *Panel de configuración de opciones para compartir* puedes "
+"agregar o eliminar opciones para usuarios y grupos. La siguiente imagen "
+"muestra un ejemplo."
 
 #: ../../usage/managing_maps/map_permissions.rst:19
-#: 523133cbaa39493984e11747ce1a1796
+#: fc3dd9fd0c5843d8971b6be9eb96d86d
 msgid "*Map Share options settings for users and groups*"
-msgstr ""
+msgstr "*Configuración de opciones de Compartir mapa para usuarios y grupos*"
 
 #: ../../usage/managing_maps/map_permissions.rst:21
-#: 4ab10d854e074e52bf80646e32787463
+#: 4fac2eaba50845779a46e2a0a7bb1f7e
 msgid "You can set the following options:"
-msgstr ""
+msgstr "Puedes configurar las siguientes opciones:"
 
 #: ../../usage/managing_maps/map_permissions.rst:23
-#: 594c4e2fa797407fa0bc892ca8ca1f99
+#: 817af9f97f4140fabc23b2b8ff857a7a
 msgid "*View* (allows to view the map)."
-msgstr ""
+msgstr "*Ver* (permite ver el mapa)."
 
 #: ../../usage/managing_maps/map_permissions.rst:24
-#: 9f560913f7e74a70a749595ecd99e847
+#: 6cbac87f2f284b04ac49f96290e6977c
 msgid "*Download* (allows to view and download the map)."
-msgstr ""
+msgstr "*Descargar* (permite ver y descargar el mapa)."
 
 #: ../../usage/managing_maps/map_permissions.rst:25
-#: 2ccd1a7a89dd4d50922561debf43fb80
+#: 63c0cdba79e446b49bb7d3934ab52807
 msgid "*Edit* (allows to change the map's metadata);"
-msgstr ""
+msgstr "*Editar* (permite cambiar los metadatos del mapa);"
 
 #: ../../usage/managing_maps/map_permissions.rst:26
-#: fe5dbb99600f45d3875da00a67b69ab2
+#: af6cf1c576624989bd2e66f021fee47f
 msgid ""
 "*Manage* allows to update, delete, change share options, publish and "
 "unpublish the map."
 msgstr ""
+"*Administrar* permite actualizar, eliminar, cambiar las opciones para "
+"compartir, publicar y cancelar la publicación del mapa."
 
 #: ../../usage/managing_maps/map_permissions.rst:28
-#: 5053f89566134073add5f400fd80b183
+#: 37afe4102e4a45eda83d389e65157aad
 msgid ""
 "When assigning options to a group, all the group members will have that "
 "option. Be careful in case of editing them."
 msgstr ""
+"Al asignar opciones a un grupo, todos los miembros del grupo tendrán esa "
+"opción. Ten cuidado en caso de editarlos."
 
 #: ../../usage/managing_maps/map_permissions.rst:30
-#: 342c3d4f8953499da41cfa58b9aabc57
+#: 8ce677ed8fb24c4d828f1c560994c130
 msgid "Click on :guilabel:`Save` link in the menu to save these settings."
 msgstr ""
-
+"Haz clic en el enlace :guilabel:`Guardar` en el menú para guardar esta "
+"configuración."

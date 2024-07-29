@@ -1,41 +1,47 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2024-07-19 20:53+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/managing_maps/creating_maps.rst:4
 #: 2dda2bd1340c40bf826bcf05b08b2522
 msgid "Creating Maps"
-msgstr ""
+msgstr "Creando mapas"
 
 #: ../../usage/managing_maps/creating_maps.rst:6
 #: da31e30aff7b407c9666c5864922e812
 msgid ""
-"In this section, we’ll create a *Map* using some uploaded datasets, "
-"combine them with some other datasets from remote web services, and then "
-"share the resulting map for public viewing."
+"In this section, we’ll create a *Map* using some uploaded datasets, combine "
+"them with some other datasets from remote web services, and then share the "
+"resulting map for public viewing."
 msgstr ""
+"En esta sección, crearemos un *Mapa* utilizando algunos conjuntos de datos "
+"cargados, los combinaremos con otros conjuntos de datos de servicios web "
+"remotos y luego compartiremos el mapa resultante para que lo vea el público."
 
 #: ../../usage/managing_maps/creating_maps.rst:8
 #: a50ca925b3d343b3bb91d0d25b28a5bb
 msgid "In order to create new maps you can use:"
-msgstr ""
+msgstr "Para crear nuevos mapas puedes utilizar:"
 
 #: ../../usage/managing_maps/creating_maps.rst:10
 #: 28adbfc89cf6488ea56e54cbcc3f5e5d
@@ -43,23 +49,27 @@ msgid ""
 "The :guilabel:`Create map` listed after clicking the :guilabel:`Add "
 "Resource` button on the *All Resources* list page."
 msgstr ""
+"El :guilabel:`Crear mapa` aparece después de hacer clic en el botón "
+":guilabel:`Agregar recurso` en la página de lista *Todos los recursos*."
 
 #: ../../usage/managing_maps/creating_maps.rst:15
 #: 4bcc714239bb4e3b896b9b0dad72a17b
 msgid "*The Create Map from All Resources page*"
-msgstr ""
+msgstr "*La página Crear mapa desde Todos los recursos*"
 
 #: ../../usage/managing_maps/creating_maps.rst:17
 #: 28adbfc89cf6488ea56e54cbcc3f5e5d
 msgid ""
-"The :guilabel:`New` button after clicking the :guilabel:`Maps` button on "
-"the menu bar."
+"The :guilabel:`New` button after clicking the :guilabel:`Maps` button on the"
+" menu bar."
 msgstr ""
+"El botón :guilabel:`Nuevo` después de hacer clic en el botón "
+":guilabel:`Mapas` en la barra de menú."
 
 #: ../../usage/managing_maps/creating_maps.rst:22
 #: 4bcc714239bb4e3b896b9b0dad72a17b
 msgid "*The Create Map from Maps page*"
-msgstr ""
+msgstr "*La página Crear mapa a partir de mapas*"
 
 #: ../../usage/managing_maps/creating_maps.rst:24
 #: b51e12b2e6474d23b9f9f337b320f400
@@ -67,74 +77,95 @@ msgid ""
 "The :guilabel:`Create map` link in the *Dataset Page* (it creates a map "
 "using a specific dataset)"
 msgstr ""
+"El enlace :guilabel:`Crear mapa` en la *Página de conjunto de datos* (crea "
+"un mapa usando un conjunto de datos específico)"
 
 #: ../../usage/managing_maps/creating_maps.rst:29
 #: 4bcc714239bb4e3b896b9b0dad72a17b
 msgid "*The Create map from dataset*"
-msgstr ""
+msgstr "*Crear mapa a partir del conjunto de datos*"
 
 #: ../../usage/managing_maps/creating_maps.rst:31
 #: b54cbc3308474703b53557f61c182535
 msgid ""
-"The new *Map* will open in a *Map Viewer* like the one in the picture "
-"below."
+"The new *Map* will open in a *Map Viewer* like the one in the picture below."
 msgstr ""
+"El nuevo *Mapa* se abrirá en un *Visor de mapas* como el de la imagen de "
+"abajo."
 
 #: ../../usage/managing_maps/creating_maps.rst:36
 #: 34d82debb44a44e5bbfb6a1277e609bc
 msgid "*The Map Viewer*"
-msgstr ""
+msgstr "*El visor de mapas*"
 
 #: ../../usage/managing_maps/creating_maps.rst:38
 #: 66a1f8f72de94a90b12fa28318464a88
 msgid ""
-"Using the :guilabel:`Add dataset` link, you can add a layer by clicking "
-"on one of the layers listed in the catalog. In the upper left corner the "
-"*TOC button* button opens the :ref:`toc` of the *Map*. It allows to "
-"manage all the datasets associated with the map and to add new ones from "
-"the :guilabel:`Add dataset`. The *TOC* component makes possible to manage"
-" datasets overlap on the map by shifting their relative positions in the "
-"list (drag and drop them up or down in the list). It also allows to "
-"hide/show datasets ( |show_button| and |hide_button| ), to zoom to "
-"datasets extents ( |zoom_to_dataset_extent_button| ) and to manage their "
-"properties ( |dataset_settings_button| ). Once the map datasets have been"
-" settled it is possible to save the *Map* by clicking on the "
-":guilabel:`Save as` under the :guilabel:`Resources` link in the map "
-"toolbar."
+"Using the :guilabel:`Add dataset` link, you can add a layer by clicking on "
+"one of the layers listed in the catalog. In the upper left corner the *TOC "
+"button* button opens the :ref:`toc` of the *Map*. It allows to manage all "
+"the datasets associated with the map and to add new ones from the "
+":guilabel:`Add dataset`. The *TOC* component makes possible to manage "
+"datasets overlap on the map by shifting their relative positions in the list"
+" (drag and drop them up or down in the list). It also allows to hide/show "
+"datasets ( |show_button| and |hide_button| ), to zoom to datasets extents ( "
+"|zoom_to_dataset_extent_button| ) and to manage their properties ( "
+"|dataset_settings_button| ). Once the map datasets have been settled it is "
+"possible to save the *Map* by clicking on the :guilabel:`Save as` under the "
+":guilabel:`Resources` link in the map toolbar."
 msgstr ""
+"Usando el enlace :guilabel:`Agregar conjunto de datos`, puedes agregar una "
+"capa haciendo clic en una de las capas enumeradas en el catálogo. En la "
+"esquina superior izquierda, el botón *TOC button* abre el :ref:`toc` del "
+"*Mapa*. Permite gestionar todos los conjuntos de datos asociados al mapa y "
+"añadir nuevos desde el :guilabel:`Añadir conjunto de datos`. El componente "
+"*TOC* hace posible gestionar la superposición de conjuntos de datos en el "
+"mapa cambiando sus posiciones relativas en la lista (arrastrarlos y "
+"soltarlos hacia arriba o hacia abajo en la lista). También permite "
+"ocultar/mostrar conjuntos de datos ( |show_button| y |hide_button| ), hacer "
+"zoom a las extensiones de los conjuntos de datos ( "
+"|zoom_to_dataset_extent_button| ) y administrar sus propiedades ( "
+"|dataset_settings_button| ). Una vez que se hayan establecido los conjuntos "
+"de datos del mapa, es posible guardar el *Mapa* haciendo clic en "
+":guilabel:`Guardar como` bajo el enlace :guilabel:`Recursos` en la barra de "
+"herramientas del mapa."
 
 #: ../../usage/managing_maps/creating_maps.rst:50
 #: 1ff21ec9489345e9ac8b41fb46273450
 msgid "show_button"
-msgstr ""
+msgstr "show_button"
 
 #: ../../usage/managing_maps/creating_maps.rst:55
 #: fcd87fc1cb1345cfa8c1498ff9229272
 msgid "hide_button"
-msgstr ""
+msgstr "hide_button"
 
 #: ../../usage/managing_maps/creating_maps.rst:60
 #: d00e4f268b564ff0bedb47a8292ee31c
 msgid "zoom_to_dataset_extent_button"
-msgstr ""
+msgstr "zoom_to_dataset_extent_button"
 
 #: ../../usage/managing_maps/creating_maps.rst:65
 #: c56e08f041fd4dc88913eeffd3d9fc6c
 msgid "dataset_settings_button"
-msgstr ""
+msgstr "dataset_settings_button"
 
 #: ../../usage/managing_maps/creating_maps.rst:45
 #: b4c188126b644a56961b7a8f403394a7
 msgid ""
-"If you followed the steps above, you have just created your first *Map*. "
-"Now you should see it in the *Explore Maps* page, see :ref:`map-info` for"
-" further details."
+"If you followed the steps above, you have just created your first *Map*. Now"
+" you should see it in the *Explore Maps* page, see :ref:`map-info` for "
+"further details."
 msgstr ""
+"Si seguiste los pasos anteriores, acabas de crear tu primer *Mapa*. Ahora "
+"deberías verlo en la página *Explorar mapas*; consulta :ref:`map-info` para "
+"obtener más detalles."
 
 #: ../../usage/managing_maps/creating_maps.rst:48
 #: 8387a2fe6f214b40b03033ffd29de930
 msgid ""
-"We will take a closer look at the *Map Viewer* tools in the :ref"
-":`exploring-maps` section."
+"We will take a closer look at the *Map Viewer* tools in the :ref:`exploring-"
+"maps` section."
 msgstr ""
-
+"Echaremos un vistazo más de cerca a las herramientas *Visor de mapas* en la "
+"sección :ref:`exploring-maps`."

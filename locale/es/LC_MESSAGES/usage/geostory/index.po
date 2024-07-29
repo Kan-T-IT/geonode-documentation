@@ -2,176 +2,226 @@
 # Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2024-07-19 20:53+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/geostory/index.rst:4 985b154bc8b046f8900825a80f53bef2
 msgid "GeoStory"
-msgstr ""
+msgstr "GeoHistorias"
 
 #: ../../usage/geostory/index.rst:6 5acbcfdc40264cb09459d33ff4d7dc7f
 msgid ""
-"GeoStory is a MapStore tool integrated in GeoNode that provides the user "
-"a way to create inspiring and immersive stories by combining text, "
-"interactive maps, and other multimedia content like images and video or "
-"other third party contents. Through this tool you can simply tell your "
-"stories on the web and then publish and share them with different groups "
-"of GeoNode users or make them public to everyone around the world."
+"GeoStory is a MapStore tool integrated in GeoNode that provides the user a "
+"way to create inspiring and immersive stories by combining text, interactive"
+" maps, and other multimedia content like images and video or other third "
+"party contents. Through this tool you can simply tell your stories on the "
+"web and then publish and share them with different groups of GeoNode users "
+"or make them public to everyone around the world."
 msgstr ""
+"GeoStory es una herramienta MapStore integrada en GeoNode que proporciona al"
+" usuario una forma de crear historias inspiradoras e inmersivas combinando "
+"texto, mapas interactivos y otro contenido multimedia como imágenes y videos"
+" u otros contenidos de terceros. A través de esta herramienta puedes "
+"simplemente contar tus historias en la web y luego publicarlas y "
+"compartirlas con diferentes grupos de usuarios de GeoNode o hacerlas "
+"públicas para todos en todo el mundo."
 
 #: ../../usage/geostory/index.rst:9 ec1b9894552d485e8dfa4ea08821face
 msgid ""
-"To build a new GeoStory go to :guilabel:`Add Resource` option on the *All"
-" Resources* page and choose option *Create geostory* or select "
+"To build a new GeoStory go to :guilabel:`Add Resource` option on the *All "
+"Resources* page and choose option *Create geostory* or select "
 ":guilabel:`New` option on the *Geostories* page"
 msgstr ""
+"Para crear una nueva GeoHistory, vaya a la opción :guilabel:`Agregar "
+"recurso` en la página *Todos los recursos* y elija la opción *Crear "
+"GeoHistory* o seleccione la opción :guilabel:`Nuevo` en la página "
+"*Geostories*"
 
 #: ../../usage/geostory/index.rst:14 040c1471e76444069fb0bf69b1e46ab6
 msgid "*Create geostory from All Resources page*"
-msgstr ""
+msgstr "*Crear geohistory desde la página Todos los recursos*"
 
 #: ../../usage/geostory/index.rst:19 32e7d7fdbb2b4141b85568db54f840f2
 msgid "*Create geostory from Geostories page*"
-msgstr ""
+msgstr "*Crear geohistory desde la página Geostories*"
 
 #: ../../usage/geostory/index.rst:21 b18a90443b1544c594e611a33b54545f
 msgid ""
 "Now you landed on the GeoStory edition page that is composed of the "
 "following sections:"
 msgstr ""
+"Ahora has llegado a la página de la edición GeoStory que se compone de las "
+"siguientes secciones:"
 
 #: ../../usage/geostory/index.rst:26 afd20d111520455db609b0c2ad531e60
 msgid "*New GeoStory Apps option*"
-msgstr ""
+msgstr "*Nueva opción de aplicaciones GeoStory*"
 
 #: ../../usage/geostory/index.rst:33 cc3a534cb024407f99643ef8e80b3e39
 msgid ""
-"The GeoStory content is organized in Sections, that can be added with the"
-" |add_section| button in the *Container* area. In particular, the user "
-"can add to the story the following kind of sections:"
+"The GeoStory content is organized in Sections, that can be added with the "
+"|add_section| button in the *Container* area. In particular, the user can "
+"add to the story the following kind of sections:"
 msgstr ""
+"El contenido de GeoStory está organizado en Secciones, que se pueden agregar"
+" con |add_section| en el área *Contenedor*. En particular, el usuario puede "
+"añadir a la historia el siguiente tipo de secciones:"
 
 #: ../../usage/geostory/index.rst:28 d2ed7c84a6974f338b35e69bf06d5ad7
 msgid "add_section"
-msgstr ""
+msgstr "add_section"
 
 #: ../../usage/geostory/index.rst:38 5a75b2e65810436ca1a9a884d23ec1c0
 msgid "*GeoStory Sections Types*"
-msgstr ""
+msgstr "*Tipos de secciones de GeoStory*"
 
 #: ../../usage/geostory/index.rst:40 ad81c057fd604a0eb98a4db31c39c29f
 msgid ""
-"For more information on these specific section please follow the official"
-" MapStore documentation:"
+"For more information on these specific section please follow the official "
+"MapStore documentation:"
 msgstr ""
+"Para obtener más información sobre esta sección específica, siga la "
+"documentación oficial de MapStore:"
 
 #: ../../usage/geostory/index.rst:42 d6b3c41fca454f658a433f7c2b1365a2
 msgid ""
-"`Title Section <https://mapstore.readthedocs.io/en/latest/user-guide"
-"/title-section/>`_"
+"`Title Section <https://mapstore.readthedocs.io/en/latest/user-guide/title-"
+"section/>`_"
 msgstr ""
+"`Sección de título <https://mapstore.readthedocs.io/en/latest/user-"
+"guide/title-section/>`_"
 
 #: ../../usage/geostory/index.rst:43 7570f8626e12471b8e8f91dd69221c28
 msgid ""
-"`Banner Section <https://mapstore.readthedocs.io/en/latest/user-guide"
-"/banner-section/>`_"
+"`Banner Section <https://mapstore.readthedocs.io/en/latest/user-"
+"guide/banner-section/>`_"
 msgstr ""
+"`Sección de banner <https://mapstore.readthedocs.io/en/latest/user-"
+"guide/banner-section/>`_"
 
 #: ../../usage/geostory/index.rst:44 2905429c633249a684ccb470a2418ae0
 msgid ""
-"`Paragraph Section <https://mapstore.readthedocs.io/en/latest/user-guide"
-"/paragraph-section/>`_"
+"`Paragraph Section <https://mapstore.readthedocs.io/en/latest/user-"
+"guide/paragraph-section/>`_"
 msgstr ""
+"`Sección de párrafo <https://mapstore.readthedocs.io/en/latest/user-"
+"guide/paragraph-section/>`_"
 
 #: ../../usage/geostory/index.rst:45 40f87d0014c34f3284fd28cab03fa62e
 msgid ""
-"`Immersive Section <https://mapstore.readthedocs.io/en/latest/user-guide"
-"/immersive-section/>`_"
+"`Immersive Section <https://mapstore.readthedocs.io/en/latest/user-"
+"guide/immersive-section/>`_"
 msgstr ""
+"`Sección inmersiva <https://mapstore.readthedocs.io/en/latest/user-"
+"guide/immersive-section/>`_"
 
 #: ../../usage/geostory/index.rst:46 ada0e67e77b94b07ae970216d6eef398
 msgid ""
-"`Media Section <https://mapstore.readthedocs.io/en/latest/user-guide"
-"/media-section/>`_"
+"`Media Section <https://mapstore.readthedocs.io/en/latest/user-guide/media-"
+"section/>`_"
 msgstr ""
+"`Sección de medios <https://mapstore.readthedocs.io/en/latest/user-"
+"guide/media-section/>`_"
 
 #: ../../usage/geostory/index.rst:47 4057eb3b631c4336994b04645ad9ee09
 msgid ""
-"`Web Page Section <https://mapstore.readthedocs.io/en/latest/user-guide"
-"/web-section/>`_"
+"`Web Page Section <https://mapstore.readthedocs.io/en/latest/user-guide/web-"
+"section/>`_"
 msgstr ""
+"`Sección de página web <https://mapstore.readthedocs.io/en/latest/user-"
+"guide/web-section/>`_"
 
 #: ../../usage/geostory/index.rst:50 90e0e1869aed4249bfca5451db7f3710
 msgid "Add GeoNode content to GeoStory"
-msgstr ""
+msgstr "Agregar contenido de GeoNode a GeoStory"
 
 #: ../../usage/geostory/index.rst:52 3c5ba31493d24a0db40858d4fc2bef43
 msgid ""
 "With GeoNode you can add content to your GeoStory using internal GeoNode "
-"documents and maps as well external sources. This ability to add internal"
-" GeoNode content makes the GeoStory creation a very usefull feature."
+"documents and maps as well external sources. This ability to add internal "
+"GeoNode content makes the GeoStory creation a very usefull feature."
 msgstr ""
+"Con GeoNode puedes agregar contenido a tu GeoStory utilizando documentos y "
+"mapas internos de GeoNode, así como fuentes externas. Esta capacidad de "
+"agregar contenido interno de GeoNode hace que la creación de GeoStory sea "
+"una característica muy útil."
 
 #: ../../usage/geostory/index.rst:60 1504c2329d8142c295db4f18f50cec4a
 msgid ""
-"To add GeoNode content to your GeoStory use the |edit_mode| button on top"
-" of your GeoStory section."
+"To add GeoNode content to your GeoStory use the |edit_mode| button on top of"
+" your GeoStory section."
 msgstr ""
+"Para agregar contenido de GeoNode a su GeoStory usa el botón |edit_mode| en "
+"la parte superior de la sección GeoStory."
 
 #: ../../usage/geostory/index.rst:55 f09ab906dd6947bea6cfcf97c79c2f4d
 msgid "edit_mode"
-msgstr ""
+msgstr "edit_mode"
 
 #: ../../usage/geostory/index.rst:62 38b22a098d5344b48bc7e7eea3501fe2
 msgid ""
 "From here you can add :guilabel:`Images`, :guilabel:`Videos` and "
 ":guilabel:`Maps`. To enable GeoNode internal catalog, on "
-":guilabel:`Services` dropdown choose :guilabel:`GeoNode` as shown in "
-"picture down. On the left you get a list of media documents available "
-"with a complementary text filter feature on top."
+":guilabel:`Services` dropdown choose :guilabel:`GeoNode` as shown in picture"
+" down. On the left you get a list of media documents available with a "
+"complementary text filter feature on top."
 msgstr ""
+"Desde aquí puedes añadir :guilabel:`Imágenes`, :guilabel:`Vídeos` y "
+":guilabel:`Mapas`. Para habilitar el catálogo interno de GeoNode, en el menú"
+" desplegable :guilabel:`Servicios` elije :guilabel:`GeoNode` como se muestra"
+" en la imagen de abajo. A la izquierda aparece una lista de documentos "
+"multimedia disponibles con una función de filtro de texto complementaria en "
+"la parte superior."
 
 #: ../../usage/geostory/index.rst:69 cb488861b1fe47818ddf2ea8d013cfc6
 msgid "*Add Media to GeoStory*"
-msgstr ""
+msgstr "*Agregar medios a GeoStory*"
 
 #: ../../usage/geostory/index.rst:71 6242d5d68a3b48209b6a26d07639d268
 msgid ""
 "To save your GeoStory, on the top your Geostory content choose "
 ":guilabel:`Save` and then :guilabel:`Save as...`"
 msgstr ""
+"Para guardar tu GeoStory, en la parte superior del contenido de tu Geostory "
+"elije :guilabel:`Guardar` y luego :guilabel:`Guardar como...`"
 
 #: ../../usage/geostory/index.rst:73 0d1e9a9abf8e4ff4a7584de1bf54a5b8
 msgid "Now your GeoStory can be shared with everyone!"
-msgstr ""
+msgstr "¡Ahora tu GeoStory se puede compartir con todos!"
 
 #: ../../usage/geostory/index.rst:76 79cbdc3f30844a49adff34fc3ee9d7e0
 msgid "Further Reading"
-msgstr ""
+msgstr "Otras lecturas"
 
 #: ../../usage/geostory/index.rst:78 fa61ca68a0fd48fb980bad4f534e535d
 msgid ""
-"Follow the link below to get more detailed information about the usage of"
-" GeoStory."
+"Follow the link below to get more detailed information about the usage of "
+"GeoStory."
 msgstr ""
+"Sigue el enlace a continuación para obtener información más detallada sobre "
+"el uso de GeoStory."
 
 #: ../../usage/geostory/index.rst:80 68f8244500b24ad0a684070585831706
 msgid ""
 "`GeoStory Documentation <https://mapstore.readthedocs.io/en/latest/user-"
 "guide/exploring-stories>`_"
 msgstr ""
-
+"`Documentación de GeoStory <https://mapstore.readthedocs.io/en/latest/user-"
+"guide/exploring-stories>`_"

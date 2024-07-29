@@ -195,9 +195,9 @@ msgid ""
 "dataset to the map. You can decide to show a subset of the features, through"
 " filters, and you can select one or more columns/attributes."
 msgstr ""
-"A través de los *Widgets de tabla* puedes agregar la :ref:`attributes-table`"
-" del conjunto de datos al mapa. Puedes decidir mostrar un subconjunto de las"
-" funciones, a través de filtros, y puedes seleccionar una o más "
+"A través de los *Widgets de tabla* puedes agregar los :ref:`attributes-"
+"table` del conjunto de datos al mapa. Puedes decidir mostrar un subconjunto "
+"de las funciones, a través de filtros, y puedes seleccionar una o más "
 "columnas/atributos."
 
 #: ../../usage/managing_maps/maps_configuration/creating_widgets.rst:93

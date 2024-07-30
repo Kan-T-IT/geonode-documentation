@@ -76,6 +76,7 @@ Suppose that a resource heve the following metadata:
 By default GeoNode will convert this metadata info in facets available for the resource
 
 The facet will convert:
+
 - `filter_header`: used as the header filter
 - `field_value`: used to perform the search
 - `field_name`: used for calculate the unique values (along with `field_value`)

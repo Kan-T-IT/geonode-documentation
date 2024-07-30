@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"POT-Creation-Date: 2024-07-30 11:39-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -78,60 +78,51 @@ msgstr ""
 msgid "Follow an example of an basic class for define the download handler:"
 msgstr ""
 
-#: ../../usage/download_handlers/index.rst:62 774264bc554a4021bbfa399a54dd66e6
-msgid "class DatasetDownloadHandler:"
-msgstr ""
-
-#: ../../usage/download_handlers/index.rst:41 2c78fed83d82440c97973d23c7cd2413
-msgid "def __str__(self):"
-msgstr ""
-
-#: ../../usage/download_handlers/index.rst:41 289787210d77436bbb8afca4bf69c6df
-msgid "return f\"{self.__module__}.{self.__class__.__name__}\""
-msgstr ""
-
-#: ../../usage/download_handlers/index.rst:44 1fcf741a32c44290b570715bf981e00f
-msgid "def __repr__(self):"
-msgstr ""
-
-#: ../../usage/download_handlers/index.rst:44 f034902740db4ca88c0297bd74a7743a
-msgid "return self.__str__()"
-msgstr ""
-
-#: ../../usage/download_handlers/index.rst:49 51f9ab184ebd4262b02b5a3b6f703691
-msgid "def __init__(self, request, resource_name) -> None:"
-msgstr ""
-
-#: ../../usage/download_handlers/index.rst:47 c279415e5afe4bc48061f0863f6ccbdd
-msgid ""
-"self.request = request self.resource_name = resource_name self._resource "
-"= None"
-msgstr ""
-
-#: ../../usage/download_handlers/index.rst:56 ab0c1f22b01b4f2c9117a4427dc100f3
-msgid "def get_download_response(self):"
-msgstr ""
-
-#: ../../usage/download_handlers/index.rst:52 33f1fddd1abd489ca601249d724df36f
-msgid ""
-"\"\"\" Main method used, this method should return the response object "
-"\"\"\" return response @property"
-msgstr ""
-
-#: ../../usage/download_handlers/index.rst:62 20361e4f70f84a5c8d20ee800e3b2243
-msgid "def download_url(self):"
-msgstr ""
-
-#: ../../usage/download_handlers/index.rst:59 3000d0a483b24ea3be427f38d1c7702d
-msgid ""
-"\"\"\" Used by the API, it should return the URL where the resource can "
-"be downloaded from \"\"\" return reverse(\"dataset_download\", "
-"args=[resource.alternate])"
-msgstr ""
-
 #: ../../usage/download_handlers/index.rst:64 d2e85de1dff14f5ab81f9973cc4a8e92
 msgid ""
 "If you prefer to inherit from the already existing one, the response is "
 "generated in the `process_dowload` method"
 msgstr ""
+
+#~ msgid "class DatasetDownloadHandler:"
+#~ msgstr ""
+
+#~ msgid "def __str__(self):"
+#~ msgstr ""
+
+#~ msgid "return f\"{self.__module__}.{self.__class__.__name__}\""
+#~ msgstr ""
+
+#~ msgid "def __repr__(self):"
+#~ msgstr ""
+
+#~ msgid "return self.__str__()"
+#~ msgstr ""
+
+#~ msgid "def __init__(self, request, resource_name) -> None:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "self.request = request self.resource_name ="
+#~ " resource_name self._resource = None"
+#~ msgstr ""
+
+#~ msgid "def get_download_response(self):"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\"\"\" Main method used, this method "
+#~ "should return the response object \"\"\""
+#~ " return response @property"
+#~ msgstr ""
+
+#~ msgid "def download_url(self):"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\"\"\" Used by the API, it should"
+#~ " return the URL where the resource"
+#~ " can be downloaded from \"\"\" return"
+#~ " reverse(\"dataset_download\", args=[resource.alternate])"
+#~ msgstr ""
 

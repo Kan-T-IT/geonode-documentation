@@ -2,85 +2,99 @@
 # Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-30 11:39-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/download_handlers/index.rst:4 079d692cd8b94bff80fe9be38653691a
 msgid "Download Handlers"
-msgstr ""
+msgstr "Manejadores de Descargas"
 
 #: ../../usage/download_handlers/index.rst:6 25140768771943a3966302a0a5cf662f
 msgid ""
-"With GeoNode 4.2.x has been introduced the concept of Download Handler "
-"and ofc GeoNode provides a default implementation of it which process the"
-" download via WPS"
+"With GeoNode 4.2.x has been introduced the concept of Download Handler and "
+"ofc GeoNode provides a default implementation of it which process the "
+"download via WPS"
 msgstr ""
+"Con GeoNode 4.2.x se ha introducido el concepto de Manejador de Descargas y,"
+" por supuesto, GeoNode proporciona una implementación predeterminada que "
+"procesa la descarga a través de WPS."
 
 #: ../../usage/download_handlers/index.rst:8 46f7503819834c8f940651900767842e
 msgid ""
-"Follow an example of how to create a custom download handler and to "
-"replace the default one or add an additional one."
+"Follow an example of how to create a custom download handler and to replace "
+"the default one or add an additional one."
 msgstr ""
+"Sigue un ejemplo de cómo crear un controlador de descarga personalizado y "
+"reemplazar el predeterminado o agregar uno adicional."
 
 #: ../../usage/download_handlers/index.rst:12 a57c02273beb4249aeb0bfa253406d8b
 msgid "Settings"
-msgstr ""
+msgstr "Ajustes"
 
 #: ../../usage/download_handlers/index.rst:15 bb42c7d7234045f1a6da56963b0775b3
 msgid "DEFAULT_DATASET_DOWNLOAD_HANDLER"
-msgstr ""
+msgstr "DEFAULT_DATASET_DOWNLOAD_HANDLER"
 
 #: ../../usage/download_handlers/index.rst:17 28bb09ff6dc34a1c8fa16dc2cb33bc29
 msgid "Default: ``geonode.layers.download_handler.DatasetDownloadHandler``"
 msgstr ""
+"Predeterminado: ``geonode.layers.download_handler.DatasetDownloadHandler``"
 
 #: ../../usage/download_handlers/index.rst:19 fa906b7157b14c489b31e3d0bf8aa26e
 msgid "path to the download handler location"
-msgstr ""
+msgstr "ruta a la ubicación del controlador de descarga"
 
 #: ../../usage/download_handlers/index.rst:22 51d37b8748fc411d9b50f87e59a3d3f8
 msgid "DATASET_DOWNLOAD_HANDLERS"
-msgstr ""
+msgstr "DATASET_DOWNLOAD_HANDLERS"
 
 #: ../../usage/download_handlers/index.rst:24 04f8c356bb254593a75d25700b217a89
 msgid "Default: ``[]``"
-msgstr ""
+msgstr "Predeterminado: ``[]``"
 
 #: ../../usage/download_handlers/index.rst:26 c1df565a1b664f3ba24708fca6562813
 msgid "List of paths of the additional download handlers"
-msgstr ""
+msgstr "Lista de rutas de los controladores de descarga adicionales"
 
 #: ../../usage/download_handlers/index.rst:30 0690ec1dd7384bbcaebd7287db28fc0f
 msgid "CODE"
-msgstr ""
+msgstr "CODE"
 
 #: ../../usage/download_handlers/index.rst:33 f4706b5688e44fbca2206dcf98040ef6
 msgid ""
 "The default download handler is placed under the `geonode.layers` "
 "[package](https://github.com/GeoNode/geonode/blob/master/geonode/layers/download_handler.py)"
 msgstr ""
+"El controlador de descarga predeterminado se coloca en el `geonode.layers` "
+"[package](https://github.com/GeoNode/geonode/blob/master/geonode/layers/download_handler.py)"
 
 #: ../../usage/download_handlers/index.rst:35 819ff2017ade448bbe4563067ed03e14
 msgid "Follow an example of an basic class for define the download handler:"
 msgstr ""
+"A continuación un ejemplo de una clase básica para definir el controlador de"
+" descarga:"
 
 #: ../../usage/download_handlers/index.rst:64 d2e85de1dff14f5ab81f9973cc4a8e92
 msgid ""
 "If you prefer to inherit from the already existing one, the response is "
 "generated in the `process_dowload` method"
 msgstr ""
-
+"Si prefieres heredar del ya existente, la respuesta se genera en el método "
+"`process_dowload`"

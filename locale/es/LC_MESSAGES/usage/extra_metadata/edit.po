@@ -2,9 +2,10 @@
 # Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# 
 # Translators:
 # Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,15 +14,13 @@ msgstr ""
 "POT-Creation-Date: 2024-07-30 10:16-0300\n"
 "PO-Revision-Date: 2024-07-19 20:53+0000\n"
 "Last-Translator: Hernán Javier López, 2024\n"
-"Language: es\n"
-"Language-Team: Spanish "
-"(https://app.transifex.com/kantit/teams/125753/es/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/extra_metadata/edit.rst:4 bab42274eaa544a097e9b72cdedd6f6e
 msgid "Metadata manipulation"
@@ -29,7 +28,8 @@ msgstr "Manipulación de metadatos"
 
 #: ../../usage/extra_metadata/edit.rst:6 d2b8b1cf801347e3bd019f8e6ba56a74
 msgid "There are two possible ways to manipulate extra metadata in geonode:"
-msgstr "Hay dos formas posibles de manipular metadatos adicionales en GeoNode:"
+msgstr ""
+"Hay dos formas posibles de manipular metadatos adicionales en GeoNode:"
 
 #: ../../usage/extra_metadata/edit.rst:8 8b9c0d298e994073905388be080daa80
 msgid "via Metadata Editor (Wizard and advanced)"
@@ -45,11 +45,11 @@ msgstr "Editor de metadatos (asistente/avanzado):"
 
 #: ../../usage/extra_metadata/edit.rst:15 7062f7ba95ec4f22a65cbd8078e171b6
 msgid ""
-"The metadata section is placed under the OPTIONAL METADATA section "
-"available for all the GeoNode resources."
+"The metadata section is placed under the OPTIONAL METADATA section available"
+" for all the GeoNode resources."
 msgstr ""
-"La sección de metadatos se coloca debajo de la sección METADATOS "
-"OPCIONALES disponible para todos los recursos de GeoNode."
+"La sección de metadatos se coloca debajo de la sección METADATOS OPCIONALES "
+"disponible para todos los recursos de GeoNode."
 
 #: ../../usage/extra_metadata/edit.rst:17 70dd0401ebef47b1bcd1e8e0b6ef9bf8
 msgid "The metadata must follow two specific rules to save to the resource:"
@@ -59,11 +59,11 @@ msgstr ""
 
 #: ../../usage/extra_metadata/edit.rst:19 cfaa8a3af09146aeac1c6a776a777771
 msgid ""
-"Must always be a list of JSON. This permits to add of more than one "
-"metadata for each resource"
+"Must always be a list of JSON. This permits to add of more than one metadata"
+" for each resource"
 msgstr ""
-"Siempre debe ser una lista de JSON. Esto permite agregar más de un "
-"metadato para cada recurso."
+"Siempre debe ser una lista de JSON. Esto permite agregar más de un metadato "
+"para cada recurso."
 
 #: ../../usage/extra_metadata/edit.rst:20 617169ce97214025a96382ffbda7a1ee
 msgid ""
@@ -90,16 +90,16 @@ msgid ""
 "After pressing the save button, the system will perform the following "
 "checks:"
 msgstr ""
-"Después de presionar el botón guardar, el sistema realizará las "
-"siguientes comprobaciones:"
+"Después de presionar el botón guardar, el sistema realizará las siguientes "
+"comprobaciones:"
 
 #: ../../usage/extra_metadata/edit.rst:31 2b933c9c9bde4af084e7194dc9087fbe
 msgid ""
-"Check if the text provided is a valid JSON. In case of wrong format "
-"input, the following error is shown:"
+"Check if the text provided is a valid JSON. In case of wrong format input, "
+"the following error is shown:"
 msgstr ""
-"Comprueba si el texto proporcionado es un JSON válido. En caso de entrada"
-" de formato incorrecto, se muestra el siguiente error:"
+"Comprueba si el texto proporcionado es un JSON válido. En caso de entrada de"
+" formato incorrecto, se muestra el siguiente error:"
 
 #: ../../usage/extra_metadata/edit.rst:36 a2f945ab9af447618c2d0bbfcc62c5ce
 msgid "*invalid JSON error*"
@@ -107,11 +107,11 @@ msgstr "*error JSON no válido*"
 
 #: ../../usage/extra_metadata/edit.rst:38 aeb99bc360904690b73a158da12a856c
 msgid ""
-"Check if the metadata schema is provided for the resource if not will "
-"raise the following error"
+"Check if the metadata schema is provided for the resource if not will raise "
+"the following error"
 msgstr ""
-"Comprueba si se proporciona el esquema de metadatos para el recurso; de "
-"lo contrario, se generará el siguiente error"
+"Comprueba si se proporciona el esquema de metadatos para el recurso; de lo "
+"contrario, se generará el siguiente error"
 
 #: ../../usage/extra_metadata/edit.rst:43 d8b4e553e7c345c8bcf67ddd8920ad6b
 msgid "*missing schema error*"
@@ -120,11 +120,11 @@ msgstr "*falta error de esquema*"
 #: ../../usage/extra_metadata/edit.rst:45 0a7b23f5decd48ba82fe98d646294108
 msgid ""
 "Check if the metadata schema is coherent with the schema defined in the "
-"settings. In case of wrong format input, the error will print the missing"
-" JSON keys"
+"settings. In case of wrong format input, the error will print the missing "
+"JSON keys"
 msgstr ""
-"Comprueba si el esquema de metadatos es coherente con el esquema definido"
-" en la configuración. En caso de entrada de formato incorrecto, el error "
+"Comprueba si el esquema de metadatos es coherente con el esquema definido en"
+" la configuración. En caso de entrada de formato incorrecto, el error "
 "imprimirá las claves JSON que faltan"
 
 #: ../../usage/extra_metadata/edit.rst:50 be509a98ec7149c0aeff29e362485476
@@ -137,11 +137,11 @@ msgstr "Filtrado de facetas"
 
 #: ../../usage/extra_metadata/edit.rst:55 2cc7647270ea4b80802eb5733317f983
 msgid ""
-"Automatically the web interface will create dynamically the facets if "
-"there is at least 1 metadata defined for the resource."
+"Automatically the web interface will create dynamically the facets if there "
+"is at least 1 metadata defined for the resource."
 msgstr ""
-"Automáticamente, la interfaz web creará dinámicamente las facetas si hay "
-"al menos 1 metadato definido para el recurso."
+"Automáticamente, la interfaz web creará dinámicamente las facetas si hay al "
+"menos 1 metadato definido para el recurso."
 
 #: ../../usage/extra_metadata/edit.rst:57 fc9524a06ec0495984e42cec61a565e3
 msgid "Suppose that a resource heve the following metadata:"
@@ -149,31 +149,32 @@ msgstr "Supongamos que un recurso tiene los siguientes metadatos:"
 
 #: ../../usage/extra_metadata/edit.rst:76 8a83dff0327041c1ac33a8492a5b98db
 msgid ""
-"By default GeoNode will convert this metadata info in facets available "
-"for the resource"
+"By default GeoNode will convert this metadata info in facets available for "
+"the resource"
 msgstr ""
-"De forma predeterminada, GeoNode convertirá esta información de metadatos"
-" en facetas disponibles para el recurso."
+"De forma predeterminada, GeoNode convertirá esta información de metadatos en"
+" facetas disponibles para el recurso."
 
 #: ../../usage/extra_metadata/edit.rst:78 b6ecef376b724559867783ca88eca77a
 msgid "The facet will convert:"
-msgstr ""
+msgstr "La faceta convertirá:"
 
 #: ../../usage/extra_metadata/edit.rst:80 88259ccf571a474e844457625fd1709f
 msgid "`filter_header`: used as the header filter"
-msgstr ""
+msgstr "`filter_header`: utilizado como filtro de encabezado"
 
 #: ../../usage/extra_metadata/edit.rst:81 cd9825578475420f9e6e9f4a92fdaf15
 msgid "`field_value`: used to perform the search"
-msgstr ""
+msgstr "`field_value`: utilizado para realizar la búsqueda"
 
 #: ../../usage/extra_metadata/edit.rst:82 9b195b146c93484685a28620cea730d0
 msgid ""
 "`field_name`: used for calculate the unique values (along with "
 "`field_value`)"
 msgstr ""
+"`field_name`: utilizado para calcular los valores únicos (junto con "
+"`field_value`)"
 
 #: ../../usage/extra_metadata/edit.rst:84 a087fb5f91de41cb96f2042d30b88528
 msgid "After says that, the facet will be the follow:"
 msgstr "Después de dicho eso, la faceta será la siguiente:"
-

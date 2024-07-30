@@ -36,29 +36,29 @@ Follow an example of an basic class for define the download handler:
 
 .. code-block:: python
 
-class DatasetDownloadHandler:
-    def __str__(self):
-        return f"{self.__module__}.{self.__class__.__name__}"
+    class DatasetDownloadHandler:
+        def __str__(self):
+            return f"{self.__module__}.{self.__class__.__name__}"
 
-    def __repr__(self):
-        return self.__str__()
+        def __repr__(self):
+            return self.__str__()
 
-    def __init__(self, request, resource_name) -> None:
-        self.request = request
-        self.resource_name = resource_name
-        self._resource = None
+        def __init__(self, request, resource_name) -> None:
+            self.request = request
+            self.resource_name = resource_name
+            self._resource = None
 
-    def get_download_response(self):
-        """
-        Main method used, this method should return the response object 
-        """
-        return response
-        @property
+        def get_download_response(self):
+            """
+            Main method used, this method should return the response object
+            """
+            return response
+            @property
 
-    def download_url(self):
-        """
-        Used by the API, it should return the URL where the resource can be downloaded from
-        """
-        return reverse("dataset_download", args=[resource.alternate])
+        def download_url(self):
+            """
+            Used by the API, it should return the URL where the resource can be downloaded from
+            """
+            return reverse("dataset_download", args=[resource.alternate])
 
 If you prefer to inherit from the already existing one, the response is generated in the `process_dowload` method

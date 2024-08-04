@@ -416,7 +416,7 @@ The script accepts several parameters to create the file, in detail:
 
 .. note:: if the same configuration is passed in the json file and as an argument, the CLI one will overwrite the one in the JSON file. If some value is not provided, a random string is used
 
-      Example USAGE
+Example USAGE
       
 .. code-block:: shell
 

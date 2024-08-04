@@ -670,22 +670,23 @@ msgstr ""
 #: ../../install/advanced/project/index.rst:419
 #: a4a70f283d74467e81d3e61d868d5c93
 msgid "Example USAGE"
-msgstr ""
+msgstr "Ejemplo de USO"
 
 #: ../../install/advanced/project/index.rst:437
 #: 4b524f51105e4213941893c1f01a8b56
 msgid "Example JSON expected:"
-msgstr ""
+msgstr "Ejemplo de JSON esperado:"
 
 #: ../../install/advanced/project/index.rst:456
 #: 4ace3d1011da46ff83771128a594f092
 msgid "Modify the code and the templates and rebuild the Docker Containers"
 msgstr ""
+"Modifica el código y las plantillas y reconstruye los contenedores Docker."
 
 #: ../../install/advanced/project/index.rst:462
 #: 832df3f007a04a1c9f0f02826900d5b4
 msgid "Finally, run the containers"
-msgstr ""
+msgstr "Finalmente, ejecuta los contenedores."
 
 #: ../../install/advanced/project/index.rst:469
 #: b0411ebe6be64f2fa07815b905f775d1
@@ -693,6 +694,8 @@ msgid ""
 "Deploy an instance of a geonode-project Django template with Docker on a "
 "domain"
 msgstr ""
+"Despliega una instancia de una plantilla Django de geonode-project con "
+"Docker en un dominio"
 
 #: ../../install/advanced/project/index.rst:471
 #: d4289f59b091428bb5d633c596a67c8f
@@ -700,22 +703,25 @@ msgid ""
 "We will use ``www.example.org`` as an example. You can change the name at "
 "your convenience."
 msgstr ""
+"Usaremos ``www.example.org`` como ejemplo. Puedes cambiar el nombre a tu "
+"conveniencia."
 
 #: ../../install/advanced/project/index.rst:473
 #: d26ddba690384dcca6ecfccaad35622f
 msgid "Stop the containers"
-msgstr ""
+msgstr "Detén los contenedores"
 
 #: ../../install/advanced/project/index.rst:481
 #: 148e2c27a3ae4ddda7124d3de844d381
 msgid ""
 "Edit the ``ENV`` override file in order to deploy on ``www.example.org``"
 msgstr ""
+"Edita el archivo de sobrecarga ``ENV`` para desplegar en ``www.example.org``"
 
 #: ../../install/advanced/project/index.rst:483
 #: 51849c7e66a246cd8b3ba60a6d3d7ff8
 msgid "Replace everywhere ``localhost`` with ``www.example.org``"
-msgstr ""
+msgstr "Reemplaza en todas partes ``localhost`` con ``www.example.org``"
 
 #: ../../install/advanced/project/index.rst:493
 #: 8ad0f67f16034c1eaf705b152facd73f
@@ -724,16 +730,19 @@ msgid ""
 " instance. See the ``GeoNode Settings`` section in order to get a list of "
 "the available options."
 msgstr ""
+"Es posible anular aquí aún más variables para personalizar la instancia de "
+"GeoNode. Consulta la sección ``Configuración de GeoNode`` para obtener una "
+"lista de las opciones disponibles."
 
 #: ../../install/advanced/project/index.rst:495
 #: c0052dec1ff0438bad76c227facf7d15
 msgid "Run the containers in daemon mode"
-msgstr ""
+msgstr "Ejecuta los contenedores en modo demonio."
 
 #: ../../install/advanced/project/index.rst:502
 #: d839c68b4adb4d09b37afc680da64aa5
 msgid "Test geonode-project with vagrant"
-msgstr ""
+msgstr "Prueba geonode-project con Vagrant"
 
 #: ../../install/advanced/project/index.rst:504
 #: d6b3176a142a4916bf667128b4820ce0
@@ -742,6 +751,9 @@ msgid ""
 "`Vagrantfile.compose` and one named `Vagrantfile.stack`, copy one of them "
 "onto file `Vagrantfile` to use them with vagrant."
 msgstr ""
+"Dentro de los archivos del proyecto geonode encontrarás un archivo llamado "
+"`Vagrantfile.compose` y otro llamado `Vagrantfile.stack`, copia uno de ellos"
+" en el archivo `Vagrantfile` para usarlos con vagrant."
 
 #: ../../install/advanced/project/index.rst:523
 #: 9abe38c758f44ad29b379ca0a77517de
@@ -750,3 +762,7 @@ msgid ""
 "starting with the geonode-project codebase, this way it is possible to test "
 "inside vagrant almost instantly what one modifies into geonode-project"
 msgstr ""
+"Vagrant generará un proyecto dummi llamado \"antani\" dentro de vagrant, "
+"comenzando con el código base de geonode-project, de esta manera es posible "
+"probar dentro de vagrant casi instantáneamente lo que uno modifica en el "
+"proyecto geonode."

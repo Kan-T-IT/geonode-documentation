@@ -751,7 +751,7 @@ msgid ""
 "`Vagrantfile.compose` and one named `Vagrantfile.stack`, copy one of them "
 "onto file `Vagrantfile` to use them with vagrant."
 msgstr ""
-"Dentro de los archivos del proyecto geonode encontrarás un archivo llamado "
+"Dentro de los archivos de geonode-project encontrarás un archivo llamado "
 "`Vagrantfile.compose` y otro llamado `Vagrantfile.stack`, copia uno de ellos"
 " en el archivo `Vagrantfile` para usarlos con vagrant."
 

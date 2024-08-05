@@ -337,7 +337,7 @@ AVATAR_PROVIDERS
 
     .. code-block::
 
-    'avatar.providers.PrimaryAvatarProvider','avatar.providers.GravatarAvatarProvider','avatar.providers.DefaultAvatarProvider'
+        'avatar.providers.PrimaryAvatarProvider','avatar.providers.GravatarAvatarProvider','avatar.providers.DefaultAvatarProvider'
 
   | Env: ``AVATAR_PROVIDERS``
   | Options: ``Avatar provider object``
@@ -348,7 +348,7 @@ AVATAR_PROVIDERS
 
     .. code-block::
 
-    'avatar.providers.PrimaryAvatarProvider','avatar.providers.DefaultAvatarProvider','avatar.providers.GravatarAvatarProvider'
+        'avatar.providers.PrimaryAvatarProvider','avatar.providers.DefaultAvatarProvider','avatar.providers.GravatarAvatarProvider'
 
   (DefaultAvatarProvider before GravatarAvatarProvider)
 

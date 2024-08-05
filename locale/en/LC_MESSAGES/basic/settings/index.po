@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"POT-Creation-Date: 2024-08-05 19:49-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,8 +124,7 @@ msgstr ""
 #: 1071741aabb64da99df14b9e2009a1f1 18ee4a78ff2944efb5b80417773f2f91
 #: 280c8cac9e874fc7aba2372803f96ff4 39776dabba0546a28641f4cb42513988
 #: 5dbc2df37d39423b89e6b15b570fe7dd 680c21a9d1ab43b59eee857ac0be3a15
-#: 891cdc140bb84db7b1b2d716b1db0e90 bf0eeade794540f0a4c51b67bcf2c853
-#: e344f4f29ad641de8521dfd535f63379
+#: bf0eeade794540f0a4c51b67bcf2c853 e344f4f29ad641de8521dfd535f63379
 msgid "Default: ``True``"
 msgstr ""
 
@@ -591,10 +590,6 @@ msgstr ""
 msgid "AVATAR_PROVIDERS"
 msgstr ""
 
-#: ../../basic/settings/index.rst:340 26b213943a304d239643b9929847c0de
-msgid "'avatar.providers.PrimaryAvatarProvider','avatar.providers.GravatarAvatarProvider','avatar.providers.DefaultAvatarProvider'"
-msgstr ""
-
 #: ../../basic/settings/index.rst b951376eed0b4a28b9f9d97d40e49c0f
 msgid "Env: ``AVATAR_PROVIDERS``"
 msgstr ""
@@ -608,10 +603,6 @@ msgid ""
 "This setting configures in which order gravatar images are loaded. A "
 "common use case is the use of a local image over a fallback image loaded "
 "from gravatar.com. To do so you would change the order like:"
-msgstr ""
-
-#: ../../basic/settings/index.rst:351 38e19553bddb42e6bed3216119e32721
-msgid "'avatar.providers.PrimaryAvatarProvider','avatar.providers.DefaultAvatarProvider','avatar.providers.GravatarAvatarProvider'"
 msgstr ""
 
 #: ../../basic/settings/index.rst:353 66203cd32bca4eedbd35e04869bb4488
@@ -672,10 +663,7 @@ msgstr ""
 #: ../../basic/settings/index.rst:571 ../../basic/settings/index.rst:578
 #: ../../basic/settings/index.rst:599 ../../basic/settings/index.rst:607
 #: ../../basic/settings/index.rst:615 ../../basic/settings/index.rst:622
-#: 010ef78f59144de69c53a5ace5e5112e 0e939797a67a461a82f606ddb2417d36
-#: 270b3075dd2e4ca6aa21c875f11e7fd8 3aa7cfdfaa07457b93e328139d8d3215
-#: 77f85b2139c0462cb5cddf318276bd5b bdb201f97654441389903e1721bf06fb
-#: ec6eba4902954152a4080f5807821a39
+#: 3aa7cfdfaa07457b93e328139d8d3215
 msgid ""
 "This is a `Celery setting "
 "<https://docs.celeryproject.org/en/latest/userguide/configuration.html"
@@ -3644,4 +3632,3 @@ msgid ""
 "<https://docs.djangoproject.com/en/3.2/ref/clickjacking/#setting-x-frame-"
 "options-for-all-responses>`__"
 msgstr ""
-

@@ -3793,13 +3793,3 @@ msgid ""
 "<https://docs.djangoproject.com/en/3.2/ref/clickjacking/#setting-x-frame-"
 "options-for-all-responses>`__"
 msgstr ""
-
-#~ msgid ""
-#~ "ENGINE: The CSW backend (default is "
-#~ "``geonode.catalogue.backends.pycsw_local``) URL: The "
-#~ "FULLY QUALIFIED base URL to the "
-#~ "CSW instance for this GeoNode USERNAME:"
-#~ " login credentials (if required) PASSWORD:"
-#~ " login credentials (if required)"
-#~ msgstr ""
-

@@ -601,8 +601,8 @@ CELERY_TASK_RESULT_EXPIRES
 CELERY_TASK_SERIALIZER
 ----------------------
 
-    Default: ``json``
-    Env: ``CELERY_TASK_SERIALIZER``
+    | Default: ``json``
+    | Env: ``CELERY_TASK_SERIALIZER``
 
     This is a `Celery setting <https://docs.celeryproject.org/en/latest/userguide/configuration.html#new-lowercase-settings>`__.
 

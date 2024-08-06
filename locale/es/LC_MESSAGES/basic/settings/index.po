@@ -2,25 +2,26 @@
 # Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-# 
+#
 # Translators:
 # Hernán Javier López, 2024
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-06 18:40-0300\n"
+"POT-Creation-Date: 2024-08-06 19:11-0300\n"
 "PO-Revision-Date: 2024-07-19 20:53+0000\n"
 "Last-Translator: Hernán Javier López, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
+"Language: es\n"
+"Language-Team: Spanish "
+"(https://app.transifex.com/kantit/teams/125753/es/)\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
+"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../basic/settings/index.rst:5 bd233193d9544914be02bb608354aa1c
 msgid "Settings"
@@ -28,38 +29,38 @@ msgstr "Ajustes"
 
 #: ../../basic/settings/index.rst:7 d6ff8524a9f64f4bae66adbfe9184a95
 msgid ""
-"Here’s a list of settings available in GeoNode and their default values.  "
-"This includes settings for some external applications that GeoNode depends "
-"on."
+"Here’s a list of settings available in GeoNode and their default values."
+"  This includes settings for some external applications that GeoNode "
+"depends on."
 msgstr ""
-"Aquí hay una lista de configuraciones disponibles en GeoNode y sus valores "
-"predeterminados.  Esto incluye configuraciones para algunas aplicaciones "
-"externas de las que depende GeoNode."
+"Aquí hay una lista de configuraciones disponibles en GeoNode y sus "
+"valores predeterminados.  Esto incluye configuraciones para algunas "
+"aplicaciones externas de las que depende GeoNode."
 
 #: ../../basic/settings/index.rst:10 d84320a2a0bc4b5cb7dd254a81d0c5f5
 msgid ""
-"For most of them, default values are good. Those should be changed only for "
-"advanced configurations in production or heavily hardened systems."
+"For most of them, default values are good. Those should be changed only "
+"for advanced configurations in production or heavily hardened systems."
 msgstr ""
 "Para la mayoría de ellos, los valores predeterminados son buenos. Estos "
-"deben cambiarse sólo para configuraciones avanzadas en producción o sistemas"
-" muy reforzados."
+"deben cambiarse sólo para configuraciones avanzadas en producción o "
+"sistemas muy reforzados."
 
 #: ../../basic/settings/index.rst:12 fb5c217c52d54b50b7e3e461e812196f
 msgid ""
-"The most common ones can be set through ``environment`` variables to avoid "
-"touching the ``settings.py`` file at all. This is a good practice and also "
-"the preferred one to configure GeoNode (and Django apps in general). "
-"Whenever you need to change them, set the environment variable accordingly "
-"(where it is available) instead of overriding it through the "
+"The most common ones can be set through ``environment`` variables to "
+"avoid touching the ``settings.py`` file at all. This is a good practice "
+"and also the preferred one to configure GeoNode (and Django apps in "
+"general). Whenever you need to change them, set the environment variable "
+"accordingly (where it is available) instead of overriding it through the "
 "``local_settings``."
 msgstr ""
-"Los más comunes se pueden configurar a través de variables de entorno para "
-"evitar modificar el archivo ``settings.py``. Esta es una buena práctica y "
-"también la preferida para configurar GeoNode (y aplicaciones Django en "
-"general). Siempre que necesites cambiar estos valores, ajusta la variable de"
-" entorno correspondiente (donde esté disponible) en lugar de sobreescribirlo"
-" a través de ``local_settings``."
+"Los más comunes se pueden configurar a través de variables de entorno "
+"para evitar modificar el archivo ``settings.py``. Esta es una buena "
+"práctica y también la preferida para configurar GeoNode (y aplicaciones "
+"Django en general). Siempre que necesites cambiar estos valores, ajusta "
+"la variable de entorno correspondiente (donde esté disponible) en lugar "
+"de sobreescribirlo a través de ``local_settings``."
 
 #: ../../basic/settings/index.rst:21 80ddb5cea4ae4c4f97a50147617d52bb
 msgid "A"
@@ -79,8 +80,8 @@ msgstr "Env: ``ACCESS_TOKEN_EXPIRE_SECONDS``"
 
 #: ../../basic/settings/index.rst:29 32b05468ebe44fb381dd099b0bcc36de
 msgid ""
-"When a user logs into GeoNode, if no ``ACCESS_TOKEN`` exists, a new one will"
-" be created with a default expiration time of "
+"When a user logs into GeoNode, if no ``ACCESS_TOKEN`` exists, a new one "
+"will be created with a default expiration time of "
 "``ACCESS_TOKEN_EXPIRE_SECONDS`` seconds (1 day by default)."
 msgstr ""
 "Cuando un usuario inicia sesión en GeoNode, si no existe un "
@@ -98,8 +99,7 @@ msgstr "Valor predeterminado: ``geonode.people.adapters.LocalAccountAdapter``"
 
 #: ../../basic/settings/index.rst:36 a3ffd799bd664e4ea381dd02797a9e1e
 msgid "Custom GeoNode People (Users) Account Adapter."
-msgstr ""
-"Adaptador de Cuentas de Personas (Usuarios) Personalizado para GeoNode."
+msgstr "Adaptador de Cuentas de Personas (Usuarios) Personalizado para GeoNode."
 
 #: ../../basic/settings/index.rst:39 a81837772f93480f8a3b17cdbc42eaab
 msgid "ACCOUNT_APPROVAL_REQUIRED"
@@ -130,8 +130,8 @@ msgid ""
 "access GeoNode."
 msgstr ""
 "Si ``ACCOUNT_APPROVAL_REQUIRED`` es igual a ``True``,los usuarios recién "
-"registrados deben ser activados por un superusuario a través de la interfaz "
-"de administración antes de poder acceder a GeoNode."
+"registrados deben ser activados por un superusuario a través de la "
+"interfaz de administración antes de poder acceder a GeoNode."
 
 #: ../../basic/settings/index.rst:47 9fcb3f13a39e4b6ba9fb949a146ec6b8
 msgid "ACCOUNT_CONFIRM_EMAIL_ON_GET"
@@ -171,14 +171,14 @@ msgstr "ACCOUNT_EMAIL_REQUIRED"
 #: ../../basic/settings/index.rst:59 350a8250cfd34237b32c115c4a36a424
 msgid ""
 "This is a `django-allauth setting <https://django-"
-"allauth.readthedocs.io/en/latest/configuration.html#configuration>`__ which "
-"controls whether the user is required to provide an e-mail address upon "
-"registration."
+"allauth.readthedocs.io/en/latest/configuration.html#configuration>`__ "
+"which controls whether the user is required to provide an e-mail address "
+"upon registration."
 msgstr ""
 "Esta es una `configuración de django-allauth <https://django-"
-"allauth.readthedocs.io/en/latest/configuration.html#configuration>`__ que "
-"controla si el usuario debe proporcionar una dirección de correo electrónico"
-" al registrarse."
+"allauth.readthedocs.io/en/latest/configuration.html#configuration>`__ que"
+" controla si el usuario debe proporcionar una dirección de correo "
+"electrónico al registrarse."
 
 #: ../../basic/settings/index.rst:63 1a2ccee64db14d05b08603e612d89b16
 msgid "ACCOUNT_EMAIL_VERIFICATION"
@@ -212,12 +212,13 @@ msgstr "Env: ``LOGIN_REDIRECT_URL``"
 #: ../../basic/settings/index.rst:75 9ccdd63d4c0f4f5ebaec38ce31b256b1
 msgid ""
 "This is a `django-user-accounts setting <https://django-user-"
-"accounts.readthedocs.io/en/latest/settings.html>`__ It allows specifying the"
-" default redirect URL after a successful login."
+"accounts.readthedocs.io/en/latest/settings.html>`__ It allows specifying "
+"the default redirect URL after a successful login."
 msgstr ""
 "Esta es una configuración de `django-user-accounts <https://django-user-"
-"accounts.readthedocs.io/en/latest/settings.html>`__ que permite especificar "
-"la URL de redirección predeterminada después de un inicio de sesión exitoso."
+"accounts.readthedocs.io/en/latest/settings.html>`__ que permite "
+"especificar la URL de redirección predeterminada después de un inicio de "
+"sesión exitoso."
 
 #: ../../basic/settings/index.rst:79 302c79783c384638adb2a5e0124ca4d3
 msgid "ACCOUNT_LOGOUT_REDIRECT_URL"
@@ -230,12 +231,13 @@ msgstr "Env: ``LOGOUT_REDIRECT_URL``"
 #: ../../basic/settings/index.rst:84 71ab36076ddf42409edbec7280ef9042
 msgid ""
 "This is a `django-user-accounts setting <https://django-user-"
-"accounts.readthedocs.io/en/latest/settings.html>`__ It allows specifying the"
-" default redirect URL after a successful logout."
+"accounts.readthedocs.io/en/latest/settings.html>`__ It allows specifying "
+"the default redirect URL after a successful logout."
 msgstr ""
 "Esta es una `configuración de django-user-accounts <https://django-user-"
-"accounts.readthedocs.io/en/latest/settings.html>`__ que permite especificar "
-"la URL de redirección predeterminada después de un cierre de sesión exitoso."
+"accounts.readthedocs.io/en/latest/settings.html>`__ que permite "
+"especificar la URL de redirección predeterminada después de un cierre de "
+"sesión exitoso."
 
 #: ../../basic/settings/index.rst:88 91fd3b99fa414f568fb11ef47e48a100
 msgid "ACCOUNT_NOTIFY_ON_PASSWORD_CHANGE"
@@ -265,8 +267,8 @@ msgstr "Env: ``ACCOUNT_OPEN_SIGNUP``"
 #: ../../basic/settings/index.rst:101 9710a2ecebc847d3a68c14eddc27ae58
 msgid ""
 "This is a `django-user-accounts setting <https://django-user-"
-"accounts.readthedocs.io/en/latest/settings.html>`__ Whether or not people "
-"are allowed to self-register to GeoNode or not."
+"accounts.readthedocs.io/en/latest/settings.html>`__ Whether or not people"
+" are allowed to self-register to GeoNode or not."
 msgstr ""
 "Esta es una `configuración de django-user-accounts <https://django-user-"
 "accounts.readthedocs.io/en/latest/settings.html>`__ que determina si se "
@@ -279,8 +281,7 @@ msgstr "ACCOUNT_SIGNUP_FORM_CLASS"
 #: ../../basic/settings/index.rst 71cb2e98b7c0478ba8cba775430801ce
 #: a65f8a5cd5474689a1d14f876402b122
 msgid "Default: ``geonode.people.forms.AllauthReCaptchaSignupForm``"
-msgstr ""
-"Valor predeterminado: ``geonode.people.forms.AllauthReCaptchaSignupForm``"
+msgstr "Valor predeterminado: ``geonode.people.forms.AllauthReCaptchaSignupForm``"
 
 #: ../../basic/settings/index.rst 63740c08735c4d1e9ce4469958adb166
 #: b4af08e6467d482cbdb37fda2913ab93
@@ -291,7 +292,8 @@ msgstr "Env: ``ACCOUNT_SIGNUP_FORM_CLASS``"
 #: 94c96cad079b4254891b790eca10f849 d380c5ea3776418aa93a7ffcb8c7f502
 msgid "Enabled only when the :ref:`recaptcha_enabled` option is ``True``."
 msgstr ""
-"Habilitado solo cuando la opción :ref:`recaptcha_enabled` está en ``True``."
+"Habilitado solo cuando la opción :ref:`recaptcha_enabled` está en "
+"``True``."
 
 #: ../../basic/settings/index.rst:112 ../../basic/settings/index.rst:2012
 #: ../../basic/settings/index.rst:2022 0aa64eb25b994d4db0d1183e4eef1a8f
@@ -318,8 +320,8 @@ msgstr "ADDITIONAL_DATASET_FILE_TYPES"
 
 #: ../../basic/settings/index.rst:134 e46cd27f558e4408b39fcae5d8261ce8
 msgid ""
-"External application can define additional supported file type other than "
-"the default one declared in the `SUPPORTED_DATASET_FILE_TYPES` ."
+"External application can define additional supported file type other than"
+" the default one declared in the `SUPPORTED_DATASET_FILE_TYPES` ."
 msgstr ""
 "Las aplicaciones externas pueden definir tipos de archivos adicionales "
 "soportados, además de los predeterminados declarados en "
@@ -330,15 +332,14 @@ msgid ""
 "The variable should be declared in this way in `settings.py` (or via "
 "application hook):"
 msgstr ""
-"La variable debe declararse de esta manera en `settings.py` (o a través del "
-"hook de la aplicación):"
+"La variable debe declararse de esta manera en `settings.py` (o a través "
+"del hook de la aplicación):"
 
 #: ../../basic/settings/index.rst:149 57d86aadbb364d65af8860ba91d58a49
-msgid ""
-"Please rely on geonode.tests.test_utils.TestSupportedTypes for an example"
+msgid "Please rely on geonode.tests.test_utils.TestSupportedTypes for an example"
 msgstr ""
-"Por favor, consulta geonode.tests.test_utils.TestSupportedTypes para ver un "
-"ejemplo."
+"Por favor, consulta geonode.tests.test_utils.TestSupportedTypes para ver "
+"un ejemplo."
 
 #: ../../basic/settings/index.rst:152 93a50a7711a049c780568c6c6bdcd6b0
 msgid "ADMIN_IP_WHITELIST"
@@ -353,12 +354,12 @@ msgstr "Valor predeterminado: ``[]``"
 #: ../../basic/settings/index.rst:156 3eef2f456db842809e6b017cb380b229
 msgid ""
 "When this list is popuplated with a list of IPs or IP ranges (e.g. "
-"192.168.1.0/24) requests from and admin user will be allowe only from IPs "
-"matching with the list."
+"192.168.1.0/24) requests from and admin user will be allowe only from IPs"
+" matching with the list."
 msgstr ""
 "Cuando esta lista se completa con una lista de IPs o rangos de IPs (por "
-"ejemplo, 192.168.1.0/24), las solicitudes de un usuario administrador solo "
-"serán permitidas desde IPs que coincidan con la lista."
+"ejemplo, 192.168.1.0/24), las solicitudes de un usuario administrador "
+"solo serán permitidas desde IPs que coincidan con la lista."
 
 #: ../../basic/settings/index.rst:159 e69c99e6209a47ad8e902d350b95db20
 msgid "ADMIN_MODERATE_UPLOADS"
@@ -369,31 +370,31 @@ msgid ""
 "When this variable is set to ``True``, every uploaded resource must be "
 "approved before becoming visible to the public users."
 msgstr ""
-"Cuando esta variable está establecida en ``True``, cada recurso subido debe "
-"ser aprobado antes de volverse visible para los usuarios públicos."
+"Cuando esta variable está establecida en ``True``, cada recurso subido "
+"debe ser aprobado antes de volverse visible para los usuarios públicos."
 
 #: ../../basic/settings/index.rst:165 40eb90aad2cf4270a50882fcd43e1c17
 msgid ""
 "Until a resource is in ``PENDING APPROVAL`` state, only the superusers, "
-"owner and group members can access it, unless specific edit permissions have"
-" been set for other users or groups."
+"owner and group members can access it, unless specific edit permissions "
+"have been set for other users or groups."
 msgstr ""
 "Mientras un recurso esté en estado ``PENDING APPROVAL``, solo los "
-"superusuarios, el propietario y los miembros del grupo pueden acceder a él, "
-"a menos que se hayan establecido permisos de edición específicos para otros "
-"usuarios o grupos."
+"superusuarios, el propietario y los miembros del grupo pueden acceder a "
+"él, a menos que se hayan establecido permisos de edición específicos para"
+" otros usuarios o grupos."
 
 #: ../../basic/settings/index.rst:167 fc779cab9a134815a8539975d7dbb43a
 msgid ""
 "A ``Group Manager`` *can* approve the resource, but he cannot publish it "
-"whenever the setting ``RESOURCE_PUBLISHING`` is set to ``True``. Otherwise, "
-"if ``RESOURCE_PUBLISHING`` is set to ``False``, the resource becomes "
-"accessible as soon as it is approved."
+"whenever the setting ``RESOURCE_PUBLISHING`` is set to ``True``. "
+"Otherwise, if ``RESOURCE_PUBLISHING`` is set to ``False``, the resource "
+"becomes accessible as soon as it is approved."
 msgstr ""
-"Un ``Group Manager`` *puede* aprobar el recurso, pero no puede publicarlo si"
-" la configuración ``RESOURCE_PUBLISHING`` está establecida en ``True``. De "
-"lo contrario, si ``RESOURCE_PUBLISHING`` está establecida en ``False``, el "
-"recurso se vuelve accesible tan pronto como sea aprobado."
+"Un ``Group Manager`` *puede* aprobar el recurso, pero no puede publicarlo"
+" si la configuración ``RESOURCE_PUBLISHING`` está establecida en "
+"``True``. De lo contrario, si ``RESOURCE_PUBLISHING`` está establecida en"
+" ``False``, el recurso se vuelve accesible tan pronto como sea aprobado."
 
 #: ../../basic/settings/index.rst:171 eca1d6febb2e41f0936a6a5a4f0b0e84
 msgid "ADMINS_ONLY_NOTICE_TYPES"
@@ -405,11 +406,11 @@ msgstr "Valor predeterminado: ``['monitoring_alert',]``"
 
 #: ../../basic/settings/index.rst:175 eb83a76789f44dff85ca7db6782b1a27
 msgid ""
-"A list of notification labels that standard users should not either see or "
-"set."
+"A list of notification labels that standard users should not either see "
+"or set."
 msgstr ""
-"Una lista de etiquetas de notificación que los usuarios estándar no deberían"
-" ver ni configurar."
+"Una lista de etiquetas de notificación que los usuarios estándar no "
+"deberían ver ni configurar."
 
 #: ../../basic/settings/index.rst:177 620c3a0ed0ba46ffb7af68d78f8e6341
 msgid ""
@@ -417,8 +418,8 @@ msgid ""
 "automatically set to false for non-superusers."
 msgstr ""
 "Dichas notificaciones se ocultarán en la página de configuración de "
-"notificaciones y se establecerán automáticamente en falso para los que no "
-"sean superusuarios."
+"notificaciones y se establecerán automáticamente en falso para los que no"
+" sean superusuarios."
 
 #: ../../basic/settings/index.rst:181 fd6c24c20394474d9d1be307faa23dba
 msgid "ADVANCED_EDIT_EXCLUDE_FIELD"
@@ -465,8 +466,8 @@ msgstr "ALLOWED_DOCUMENT_TYPES"
 
 #: ../../basic/settings/index.rst:218 b6961cfc9f35444684a319bec39c6ac0
 msgid ""
-"A list of acceptable file extensions that can be uploaded to the Documents "
-"app."
+"A list of acceptable file extensions that can be uploaded to the "
+"Documents app."
 msgstr ""
 "Una lista de extensiones de archivo aceptables que se pueden subir a la "
 "aplicación de Documentos."
@@ -503,8 +504,8 @@ msgid ""
 "If set to ``True``, a counter with the total number of available regions "
 "will be added to the API JSON Serializer."
 msgstr ""
-"Si se establece en ``True``, se añadirá un contador con el número total de "
-"regiones disponibles al serializador JSON de la API."
+"Si se establece en ``True``, se añadirá un contador con el número total "
+"de regiones disponibles al serializador JSON de la API."
 
 #: ../../basic/settings/index.rst:237 71cd8d02af364668be212c5713b2114d
 msgid "API_LIMIT_PER_PAGE"
@@ -520,13 +521,13 @@ msgstr "Env: ``API_LIMIT_PER_PAGE``"
 
 #: ../../basic/settings/index.rst:242 d39c937f87b6491aa460287dfa7e6a43
 msgid ""
-"The Number of items returned by the APIs 0 equals no limit. Different from "
-"``CLIENT_RESULTS_LIMIT``, affecting the number of items per page in the "
-"resource list."
+"The Number of items returned by the APIs 0 equals no limit. Different "
+"from ``CLIENT_RESULTS_LIMIT``, affecting the number of items per page in "
+"the resource list."
 msgstr ""
 "El número de elementos devueltos por las APIs. 0 significa sin límite. "
-"Diferente de ``CLIENT_RESULTS_LIMIT``, que afecta el número de elementos por"
-" página en la lista de recursos."
+"Diferente de ``CLIENT_RESULTS_LIMIT``, que afecta el número de elementos "
+"por página en la lista de recursos."
 
 #: ../../basic/settings/index.rst:245 ae4d2e45af3b4dba93a93f91ecf6d714
 msgid "API_LOCKDOWN"
@@ -538,18 +539,20 @@ msgstr "Env: ``API_LOCKDOWN``"
 
 #: ../../basic/settings/index.rst:250 240f3ee6273d4dd1b26f135c8089ec99
 msgid ""
-"If this is set to ``True`` users must be authenticated to get search results"
-" when search for for users, groups, categories, regions, tags etc. Filtering"
-" search results of Resourcebase-objects like Layers, Maps or Documents by "
-"one of the above types does not work. Attention: If API_LOCKDOWN is set to "
-"``False`` all details can be accessed by anonymous users."
+"If this is set to ``True`` users must be authenticated to get search "
+"results when search for for users, groups, categories, regions, tags etc."
+" Filtering search results of Resourcebase-objects like Layers, Maps or "
+"Documents by one of the above types does not work. Attention: If "
+"API_LOCKDOWN is set to ``False`` all details can be accessed by anonymous"
+" users."
 msgstr ""
 "Si esto se establece en ``True``, los usuarios deben autenticarse para "
-"obtener resultados de búsqueda cuando busquen usuarios, grupos, categorías, "
-"regiones, etiquetas, etc. Filtrar resultados de búsqueda de objetos de "
-"Resourcebase como capas, mapas o documentos por uno de los Los tipos "
-"anteriores no funcionan. Atención: Si API_LOCKDOWN está configurado en "
-"``False``, los usuarios anónimos pueden acceder a todos los detalles."
+"obtener resultados de búsqueda cuando busquen usuarios, grupos, "
+"categorías, regiones, etiquetas, etc. Filtrar resultados de búsqueda de "
+"objetos de Resourcebase como capas, mapas o documentos por uno de los Los"
+" tipos anteriores no funcionan. Atención: Si API_LOCKDOWN está "
+"configurado en ``False``, los usuarios anónimos pueden acceder a todos "
+"los detalles."
 
 #: ../../basic/settings/index.rst:255 27d9594a21e44eceb6571faad2fe8947
 msgid "ASYNC_SIGNALS"
@@ -561,10 +564,10 @@ msgstr "AUTH_EXEMPT_URLS"
 
 #: ../../basic/settings/index.rst:275 1c799b9d20ac4542af221393c343b95e
 msgid ""
-"A tuple of URL patterns that the user can visit without being authenticated."
-" This setting has no effect if ``LOCKDOWN_GEONODE`` is not True.  For "
-"example, ``AUTH_EXEMPT_URLS = ('/maps',)`` will allow unauthenticated users "
-"to browse maps."
+"A tuple of URL patterns that the user can visit without being "
+"authenticated. This setting has no effect if ``LOCKDOWN_GEONODE`` is not "
+"True.  For example, ``AUTH_EXEMPT_URLS = ('/maps',)`` will allow "
+"unauthenticated users to browse maps."
 msgstr ""
 "Una tupla de patrones de URL que el usuario puede visitar sin estar "
 "autenticado. Esta configuración no tiene ningún efecto si "
@@ -581,9 +584,9 @@ msgstr "Env: ``AUTO_ASSIGN_REGISTERED_MEMBERS_TO_CONTRIBUTORS``"
 
 #: ../../basic/settings/index.rst:286 d60898c2b90e4c04bd57b8a156171c23
 msgid ""
-"Assign **new** registered users to the contributors group. If set to `False`"
-" new registered members will not obtain automatic permissions to create and "
-"edit resources."
+"Assign **new** registered users to the contributors group. If set to "
+"`False` new registered members will not obtain automatic permissions to "
+"create and edit resources."
 msgstr ""
 "Asigna **nuevos** usuarios registrados al grupo de contribuyentes. Si se "
 "establece en \"False\", los nuevos miembros registrados no obtendrán "
@@ -594,10 +597,8 @@ msgid "AUTO_ASSIGN_REGISTERED_MEMBERS_TO_REGISTERED_MEMBERS_GROUP_NAME"
 msgstr "AUTO_ASSIGN_REGISTERED_MEMBERS_TO_REGISTERED_MEMBERS_GROUP_NAME"
 
 #: ../../basic/settings/index.rst 027fb563a1ef4fe08aa3b16c4ecec6ec
-msgid ""
-"Env: ``AUTO_ASSIGN_REGISTERED_MEMBERS_TO_REGISTERED_MEMBERS_GROUP_NAME``"
-msgstr ""
-"Env: ``AUTO_ASSIGN_REGISTERED_MEMBERS_TO_REGISTERED_MEMBERS_GROUP_NAME``"
+msgid "Env: ``AUTO_ASSIGN_REGISTERED_MEMBERS_TO_REGISTERED_MEMBERS_GROUP_NAME``"
+msgstr "Env: ``AUTO_ASSIGN_REGISTERED_MEMBERS_TO_REGISTERED_MEMBERS_GROUP_NAME``"
 
 #: ../../basic/settings/index.rst:294 68022b992695458cb98d467de5b322d7
 msgid ""
@@ -619,8 +620,7 @@ msgstr "Valor predeterminado: ``activation``"
 
 #: ../../basic/settings/index.rst af1cbee1ca81421b805e58ce1c079f4e
 msgid "Env: ``AUTO_ASSIGN_REGISTERED_MEMBERS_TO_REGISTERED_MEMBERS_GROUP_AT``"
-msgstr ""
-"Env: ``AUTO_ASSIGN_REGISTERED_MEMBERS_TO_REGISTERED_MEMBERS_GROUP_AT``"
+msgstr "Env: ``AUTO_ASSIGN_REGISTERED_MEMBERS_TO_REGISTERED_MEMBERS_GROUP_AT``"
 
 #: ../../basic/settings/index.rst 5e18a4bbc1ec4dce86b2c31f3a9d282f
 msgid "Options: ``\"registration\" | \"activation\" | \"login\"``"
@@ -638,14 +638,14 @@ msgstr ""
 #: ../../basic/settings/index.rst:305 503b094001f9405f8ed7d87379b985dd
 msgid ""
 "Notice that whenever ``ACCOUNT_EMAIL_VERIFICATION == True`` and "
-"``ACCOUNT_APPROVAL_REQUIRED == False``, users will be able to register and "
-"they became ``active`` already, even if they won't be able to login until "
-"the email has been verified."
+"``ACCOUNT_APPROVAL_REQUIRED == False``, users will be able to register "
+"and they became ``active`` already, even if they won't be able to login "
+"until the email has been verified."
 msgstr ""
 "Ten en cuenta que, cuando ``ACCOUNT_EMAIL_VERIFICATION == True`` y "
-"``ACCOUNT_APPROVAL_REQUIRED == False``, los usuarios podrán registrarse y se"
-" convertirán en ``activos`` de inmediato, aunque no podrán iniciar sesión "
-"hasta que el correo electrónico haya sido verificado."
+"``ACCOUNT_APPROVAL_REQUIRED == False``, los usuarios podrán registrarse y"
+" se convertirán en ``activos`` de inmediato, aunque no podrán iniciar "
+"sesión hasta que el correo electrónico haya sido verificado."
 
 #: ../../basic/settings/index.rst:308 bd5816fb68204128b6e5e34f1e08c3d2
 msgid "AUTO_GENERATE_AVATAR_SIZES"
@@ -654,7 +654,8 @@ msgstr "AUTO_GENERATE_AVATAR_SIZES"
 #: ../../basic/settings/index.rst 5a293b17e58c4b8eb09886fdcff450c7
 msgid "Default: ``20, 30, 32, 40, 50, 65, 70, 80, 100, 140, 200, 240``"
 msgstr ""
-"Valor predeterminado: ``20, 30, 32, 40, 50, 65, 70, 80, 100, 140, 200, 240``"
+"Valor predeterminado: ``20, 30, 32, 40, 50, 65, 70, 80, 100, 140, 200, "
+"240``"
 
 #: ../../basic/settings/index.rst:312 52ba04aed0954557a54748cf91c8fb02
 msgid ""
@@ -662,9 +663,10 @@ msgid ""
 "upload. This can save rendering time later on if you pre-generate the "
 "resized versions."
 msgstr ""
-"Un iterable de números enteros que representan los tamaños de los avatares "
-"que se generarán al cargarlos. Esto puede ahorrar tiempo de renderizado más "
-"adelante si genera previamente las versiones redimensionadas."
+"Un iterable de números enteros que representan los tamaños de los "
+"avatares que se generarán al cargarlos. Esto puede ahorrar tiempo de "
+"renderizado más adelante si genera previamente las versiones "
+"redimensionadas."
 
 #: ../../basic/settings/index.rst:315 52336c15cd1e4190943dfa660b498926
 msgid "AVATAR_GRAVATAR_SSL"
@@ -699,8 +701,8 @@ msgid ""
 "Allows to set a custom fallback image in case a User has not uploaded a "
 "profile image. Needs ``AVATAR_PROVIDERS`` to be set correctly."
 msgstr ""
-"Permite establecer una imagen alternativa personalizada en caso de que un "
-"usuario no haya subido una imagen de perfil. Necesita que "
+"Permite establecer una imagen alternativa personalizada en caso de que un"
+" usuario no haya subido una imagen de perfil. Necesita que "
 "``AVATAR_PROVIDERS`` esté configurado correctamente."
 
 #: ../../basic/settings/index.rst:334 505897a0ec7a4359863fd050332c1c40
@@ -717,14 +719,14 @@ msgstr "Opciones: ``Objeto proveedor de avatar``"
 
 #: ../../basic/settings/index.rst:346 d5c978bb1f2c4f249d1f4001dc181bb6
 msgid ""
-"This setting configures in which order gravatar images are loaded. A common "
-"use case is the use of a local image over a fallback image loaded from "
-"gravatar.com. To do so you would change the order like:"
+"This setting configures in which order gravatar images are loaded. A "
+"common use case is the use of a local image over a fallback image loaded "
+"from gravatar.com. To do so you would change the order like:"
 msgstr ""
 "Esta configuración determina el orden en que se cargan las imágenes de "
 "gravatar. Un caso de uso común es usar una imagen local en lugar de una "
-"imagen de respaldo cargada desde gravatar.com. Para hacerlo, cambiarías el "
-"orden de la siguiente manera:"
+"imagen de respaldo cargada desde gravatar.com. Para hacerlo, cambiarías "
+"el orden de la siguiente manera:"
 
 #: ../../basic/settings/index.rst:353 66203cd32bca4eedbd35e04869bb4488
 msgid "(DefaultAvatarProvider before GravatarAvatarProvider)"
@@ -752,8 +754,8 @@ msgstr "Esta propiedad permite habilitar un fondo aéreo de Bing."
 
 #: ../../basic/settings/index.rst:367 30905939188740c9a034435f8d0a34f5
 msgid ""
-"If using ``mapstore`` client library, make sure the ``MAPSTORE_BASELAYERS`` "
-"include the following:"
+"If using ``mapstore`` client library, make sure the "
+"``MAPSTORE_BASELAYERS`` include the following:"
 msgstr ""
 "Si utiliza la biblioteca cliente ``mapstore``, asegúrese de que "
 "``MAPSTORE_BASELAYERS`` incluya lo siguiente:"
@@ -770,14 +772,14 @@ msgstr "Valor predeterminado: ``0``"
 msgid ""
 "Heartbeats are used both by the client and the broker to detect if a "
 "connection was closed. This is a `Celery setting "
-"<https://docs.celeryproject.org/en/latest/userguide/configuration.html#broker-"
-"heartbeat>`__."
+"<https://docs.celeryproject.org/en/latest/userguide/configuration.html"
+"#broker-heartbeat>`__."
 msgstr ""
 "Los heartbeats (latidos) son utilizados tanto por el cliente como por el "
 "intermediario para detectar si una conexión fue cerrada. Esta es una "
 "configuración de `Celery "
-"<https://docs.celeryproject.org/en/latest/userguide/configuration.html#broker-"
-"heartbeat>`__."
+"<https://docs.celeryproject.org/en/latest/userguide/configuration.html"
+"#broker-heartbeat>`__."
 
 #: ../../basic/settings/index.rst:394 2b79a81036b5442c8ce0163f848c2992
 msgid "BROKER_TRANSPORT_OPTIONS"
@@ -794,12 +796,12 @@ msgstr "BROKER_TRANSPORT_OPTIONS"
 #: 3aa7cfdfaa07457b93e328139d8d3215
 msgid ""
 "This is a `Celery setting "
-"<https://docs.celeryproject.org/en/latest/userguide/configuration.html#new-"
-"lowercase-settings>`__."
+"<https://docs.celeryproject.org/en/latest/userguide/configuration.html"
+"#new-lowercase-settings>`__."
 msgstr ""
 " Esta es una configuración de `Celery "
-"<https://docs.celeryproject.org/en/latest/userguide/configuration.html#new-"
-"lowercase-settings>`__."
+"<https://docs.celeryproject.org/en/latest/userguide/configuration.html"
+"#new-lowercase-settings>`__."
 
 #: ../../basic/settings/index.rst:409 2729262177f84b3bab8bae171ffc7813
 msgid "C"
@@ -811,28 +813,30 @@ msgstr "CACHES"
 
 #: ../../basic/settings/index.rst:429 254df04c1c4d4dd799c4b9957b73d925
 msgid ""
-"A dictionary containing the settings for all caches to be used with Django. "
-"This is a `Django setting "
-"<https://docs.djangoproject.com/en/3.2/ref/settings/#std:setting-CACHES>`__"
+"A dictionary containing the settings for all caches to be used with "
+"Django. This is a `Django setting "
+"<https://docs.djangoproject.com/en/3.2/ref/settings/#std:setting-"
+"CACHES>`__"
 msgstr ""
-"Un diccionario que contiene las configuraciones de todos los cachés que se "
-"usarán con Django. Esta es una `configuración de Django "
-"<https://docs.djangoproject.com/en/3.2/ref/settings/#std:setting-CACHES>`__"
+"Un diccionario que contiene las configuraciones de todos los cachés que "
+"se usarán con Django. Esta es una `configuración de Django "
+"<https://docs.djangoproject.com/en/3.2/ref/settings/#std:setting-"
+"CACHES>`__"
 
 #: ../../basic/settings/index.rst:432 d2e786ac8251492ebd30481bc8f220e9
 msgid ""
 "The ``'default'`` cache is disabled because we don't have a mechanism to "
-"discriminate between client sessions right now, and we don't want all users "
-"fetch the same api results."
+"discriminate between client sessions right now, and we don't want all "
+"users fetch the same api results."
 msgstr ""
 "La caché ``'predeterminada'`` está deshabilitada porque no tenemos un "
-"mecanismo para discriminar entre sesiones de clientes en este momento y no "
-"queremos que todos los usuarios obtengan los mismos resultados de API."
+"mecanismo para discriminar entre sesiones de clientes en este momento y "
+"no queremos que todos los usuarios obtengan los mismos resultados de API."
 
 #: ../../basic/settings/index.rst:434 907df2e5a33f4913aa32ffc0ed83c7d5
 msgid ""
-"The ``'resources'`` is not currently used. It might be helpful for `caching "
-"Django template fragments "
+"The ``'resources'`` is not currently used. It might be helpful for "
+"`caching Django template fragments "
 "<https://docs.djangoproject.com/en/3.2/topics/cache/#template-fragment-"
 "caching>`__ and/or `Tastypie API Caching <https://django-"
 "tastypie.readthedocs.io/en/latest/caching.html>`__."
@@ -859,11 +863,12 @@ msgid ""
 "CompressedManifestStaticFilesStorage storage``. This works only on a "
 "production system."
 msgstr ""
-"Esta es una `configuración de almacenamiento comprimido de Django provista "
-"por WhiteNoise <http://whitenoise.evans.io/en/stable/django.html#add-"
-"compression-and-caching-support>`__. Un booleano que te permite habilitar el"
-" almacenamiento ``WhiteNoise CompressedManifestStaticFilesStorage``. Esto "
-"funciona solo en un sistema de producción."
+"Esta es una `configuración de almacenamiento comprimido de Django "
+"provista por WhiteNoise <http://whitenoise.evans.io/en/stable/django.html"
+"#add-compression-and-caching-support>`__. Un booleano que te permite "
+"habilitar el almacenamiento ``WhiteNoise "
+"CompressedManifestStaticFilesStorage``. Esto funciona solo en un sistema "
+"de producción."
 
 #: ../../basic/settings/index.rst:446 cd7059cc80eb49d9ab91f70588dec8fc
 msgid "This works only if ``DEBUG = False``"
@@ -911,8 +916,8 @@ msgstr "PASSWORD: credenciales de inicio de sesión (si es necesario)"
 
 #: ../../basic/settings/index.rst:466 48493fe4f6064e13ae5509dedc707d63
 msgid ""
-"pycsw is the default CSW enabled in GeoNode. pycsw configuration directives "
-"are managed in the PYCSW entry."
+"pycsw is the default CSW enabled in GeoNode. pycsw configuration "
+"directives are managed in the PYCSW entry."
 msgstr ""
 "pycsw es el CSW predeterminado habilitado en GeoNode. Las directivas de "
 "configuración de pycsw se administran en la entrada PYCSW."
@@ -927,8 +932,7 @@ msgstr "Valor predeterminado: ``catalogue/full_metadata.xml``"
 
 #: ../../basic/settings/index.rst:474 6f2ff5e306864148999cb2d751796e0c
 msgid "A string with the catalogue xml file needed for the metadata."
-msgstr ""
-"Una cadena con el archivo xml del catálogo necesario para los metadatos."
+msgstr "Una cadena con el archivo xml del catálogo necesario para los metadatos."
 
 #: ../../basic/settings/index.rst:477 9c1757cc780e4ddc8ce669178b3d964f
 msgid "CATALOGUE_METADATA_XSL"
@@ -940,11 +944,11 @@ msgstr "Valor predeterminado: ``'/static/metadataxsl/metadata.xsl``"
 
 #: ../../basic/settings/index.rst:481 62c8fb16c7464ca7a04524bd20b4e36a
 msgid ""
-"A string pointing to the XSL used to transform the metadata XML into human "
-"readable HTML."
+"A string pointing to the XSL used to transform the metadata XML into "
+"human readable HTML."
 msgstr ""
-"Una cadena que apunta al XSL utilizado para transformar los metadatos XML en"
-" HTML legible por humanos."
+"Una cadena que apunta al XSL utilizado para transformar los metadatos XML"
+" en HTML legible por humanos."
 
 #: ../../basic/settings/index.rst:484 5566516bcefd425d851885b1f438f058
 msgid "CELERYD_POOL_RESTARTS"
@@ -1012,8 +1016,8 @@ msgstr "CELERY_RESULT_PERSISTENT"
 msgid "CELERY_RESULT_SERIALIZER"
 msgstr "CELERY_RESULT_SERIALIZER"
 
-#: ../../basic/settings/index.rst:547 ../../basic/settings/index.rst:2450
-#: dc66e6f71ef24acdb230895cbb060748
+#: ../../basic/settings/index.rst ../../basic/settings/index.rst:547
+#: ../../basic/settings/index.rst:2450 dc66e6f71ef24acdb230895cbb060748
 msgid "Default: ``json``"
 msgstr "Valor predeterminado: ``json``"
 
@@ -1023,16 +1027,16 @@ msgstr "CELERY_SEND_TASK_SENT_EVENT"
 
 #: ../../basic/settings/index.rst:556 cfa0f55aea984dee83caaa4a910f0870
 msgid ""
-"If enabled, a task-sent event will be sent for every task so tasks can be "
-"tracked before they are consumed by a worker. This is a `Celery setting "
-"<https://docs.celeryproject.org/en/latest/userguide/configuration.html#new-"
-"lowercase-settings>`__."
+"If enabled, a task-sent event will be sent for every task so tasks can be"
+" tracked before they are consumed by a worker. This is a `Celery setting "
+"<https://docs.celeryproject.org/en/latest/userguide/configuration.html"
+"#new-lowercase-settings>`__."
 msgstr ""
-"Si está habilitado, se enviará un evento de tarea-enviada para cada tarea "
-"para que puedan ser rastreadas antes de ser consumidas por un trabajador. "
-"Esta es una `configuración de Celery "
-"<https://docs.celeryproject.org/en/latest/userguide/configuration.html#new-"
-"lowercase-settings>`__."
+"Si está habilitado, se enviará un evento de tarea-enviada para cada tarea"
+" para que puedan ser rastreadas antes de ser consumidas por un "
+"trabajador. Esta es una `configuración de Celery "
+"<https://docs.celeryproject.org/en/latest/userguide/configuration.html"
+"#new-lowercase-settings>`__."
 
 #: ../../basic/settings/index.rst:560 ec69dcccc95b462695945e009776ffff
 msgid "CELERY_TASK_ALWAYS_EAGER"
@@ -1040,8 +1044,7 @@ msgstr "CELERY_TASK_ALWAYS_EAGER"
 
 #: ../../basic/settings/index.rst:562 dc4dd949d9734967a9e676685c5bae2d
 msgid "Default: ``False if ASYNC_SIGNALS else True``"
-msgstr ""
-"Valor predeterminado: ``False si ASYNC_SIGNALS en caso contrario es True``"
+msgstr "Valor predeterminado: ``False si ASYNC_SIGNALS en caso contrario es True``"
 
 #: ../../basic/settings/index.rst:567 2cb25570b51f4efdbaaef13e02db05f3
 msgid "CELERY_TASK_CREATE_MISSING_QUEUES"
@@ -1075,9 +1078,10 @@ msgstr "Env: ``CELERY_TASK_RESULT_EXPIRES``"
 msgid "CELERY_TASK_SERIALIZER"
 msgstr "CELERY_TASK_SERIALIZER"
 
-#: ../../basic/settings/index.rst:604 2b087263b162437b96a5cc6dabacd413
-msgid "Default: ``json`` Env: ``CELERY_TASK_SERIALIZER``"
-msgstr ""
+#: ../../basic/settings/index.rst 2b087263b162437b96a5cc6dabacd413
+#, fuzzy
+msgid "Env: ``CELERY_TASK_SERIALIZER``"
+msgstr "CELERY_TASK_SERIALIZER"
 
 #: ../../basic/settings/index.rst:610 a59e992551564850b3f158422818d9d2
 msgid "CELERY_TIMEZONE"
@@ -1101,8 +1105,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:629 a4fdef3d4b0c4b44bb2b7ba4f00c8e47
 msgid ""
-"Disable the worker rate limits (number of tasks that can be run in a given "
-"time frame)."
+"Disable the worker rate limits (number of tasks that can be run in a "
+"given time frame)."
 msgstr ""
 
 #: ../../basic/settings/index.rst:632 371b48b2a0b8467182bf44d07281b8e6
@@ -1128,9 +1132,9 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:644 fb84b82cc3bb4212abf175a4df52dbfd
 msgid ""
-"The Number of results per page listed in the GeoNode search pages. Different"
-" from ``API_LIMIT_PER_PAGE``, affecting the number of items returned by the "
-"APIs."
+"The Number of results per page listed in the GeoNode search pages. "
+"Different from ``API_LIMIT_PER_PAGE``, affecting the number of items "
+"returned by the APIs."
 msgstr ""
 
 #: ../../basic/settings/index.rst:647 6660a8ae358544269623fdb949088697
@@ -1146,9 +1150,10 @@ msgid ""
 "If set to true `Access-Control-Allow-Origin: *` header is set for any "
 "response. A safer option (not managed through env vars at the moment) is "
 "`CORS_ALLOWED_ORIGINS`, where a list of hosts can be configured, o "
-"`CORS_ALLOWED_ORIGIN_REGEXES`, where the list can contain regexes. Notice "
-"that the Nginx in front of GeoNode always includes `Access-Control-Allow-"
-"Credentials true`. This must also taken into account when CORS is enabled."
+"`CORS_ALLOWED_ORIGIN_REGEXES`, where the list can contain regexes. Notice"
+" that the Nginx in front of GeoNode always includes `Access-Control-"
+"Allow-Credentials true`. This must also taken into account when CORS is "
+"enabled."
 msgstr ""
 
 #: ../../basic/settings/index.rst:656 1d148d2d32664f2a819997f32a857c2d
@@ -1169,11 +1174,12 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:674 375825004bc3443aa5ae1542678c4715
 msgid ""
-"A list of dictionaries that are used to generate the links to CKAN instances"
-" displayed in the Share tab.  For each origin, the name and abstract format "
-"parameters are replaced by the actual values of the ResourceBase object "
-"(layer, map, document).  This is not enabled by default.  To enable, "
-"uncomment the following line: SOCIAL_ORIGINS.extend(CKAN_ORIGINS)."
+"A list of dictionaries that are used to generate the links to CKAN "
+"instances displayed in the Share tab.  For each origin, the name and "
+"abstract format parameters are replaced by the actual values of the "
+"ResourceBase object (layer, map, document).  This is not enabled by "
+"default.  To enable, uncomment the following line: "
+"SOCIAL_ORIGINS.extend(CKAN_ORIGINS)."
 msgstr ""
 
 #: ../../basic/settings/index.rst:677 5a1ab5a44b534b3bab34563e08e4624d
@@ -1187,9 +1193,9 @@ msgstr ""
 #: ../../basic/settings/index.rst:682 a581f4d08e764e2c9655639bebf21603
 msgid ""
 "Whether to use HttpOnly flag on the CSRF cookie. If this is set to True, "
-"client-side JavaScript will not be able to access the CSRF cookie. This is a"
-" `Django Setting <https://docs.djangoproject.com/en/3.2/ref/settings/#csrf-"
-"cookie-httponly>`__"
+"client-side JavaScript will not be able to access the CSRF cookie. This "
+"is a `Django Setting <https://docs.djangoproject.com/en/3.2/ref/settings"
+"/#csrf-cookie-httponly>`__"
 msgstr ""
 
 #: ../../basic/settings/index.rst:685 0d03a16204ab4313a38b81bb3e450944
@@ -1202,10 +1208,11 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:690 acda08681abe40249705b8a5106e7a4d
 msgid ""
-"Whether to use a secure cookie for the CSRF cookie. If this is set to True, "
-"the cookie will be marked as “secure,” which means browsers may ensure that "
-"the cookie is only sent with an HTTPS connection. This is a `Django Setting "
-"<https://docs.djangoproject.com/en/3.2/ref/settings/#csrf-cookie-secure>`__"
+"Whether to use a secure cookie for the CSRF cookie. If this is set to "
+"True, the cookie will be marked as “secure,” which means browsers may "
+"ensure that the cookie is only sent with an HTTPS connection. This is a "
+"`Django Setting <https://docs.djangoproject.com/en/3.2/ref/settings"
+"/#csrf-cookie-secure>`__"
 msgstr ""
 
 #: ../../basic/settings/index.rst:693 a90860856b134969a2ea11787aacb049
@@ -1219,8 +1226,8 @@ msgstr ""
 #: ../../basic/settings/index.rst:697 a525a55153b147628e7d35fb220c11e4
 msgid ""
 "If present, will extend the available metadata schema used for store new "
-"value for each resource. By default override the existing one. The expected "
-"schema is the same as the default"
+"value for each resource. By default override the existing one. The "
+"expected schema is the same as the default"
 msgstr ""
 
 #: ../../basic/settings/index.rst:702 a4172a986a844ddb91579faaf2b1a022
@@ -1244,8 +1251,7 @@ msgid "DATASET_DOWNLOAD_HANDLERS"
 msgstr ""
 
 #: ../../basic/settings/index.rst:717 6b95e8622c0743feafcb40c45a33aa3f
-msgid ""
-"Additional download handlers that provides a link to download the resource"
+msgid "Additional download handlers that provides a link to download the resource"
 msgstr ""
 
 #: ../../basic/settings/index.rst:720 d8e58fed816446db99d7ea38b0d17aec
@@ -1322,8 +1328,8 @@ msgstr ""
 msgid ""
 "from GeoNode 4.2.x has bee introduced with this issue #11296 and later "
 "improved with this issue #11421 the concept of Download Handler and ofc "
-"GeoNode provides a default implementation of it which process the download "
-"via WPS"
+"GeoNode provides a default implementation of it which process the "
+"download via WPS"
 msgstr ""
 
 #: ../../basic/settings/index.rst:769 a485eab5b64544f281a0c3dc16fd49ad
@@ -1337,20 +1343,20 @@ msgstr ""
 #: ../../basic/settings/index.rst:783 721f7887cacd4419ba8c89b29dd16720
 msgid ""
 "Define the default metadata schema used for add to the resource extra "
-"metadata without modify the actual model. This schema is used as validation "
-"for the input metadata provided by the user"
+"metadata without modify the actual model. This schema is used as "
+"validation for the input metadata provided by the user"
 msgstr ""
 
 #: ../../basic/settings/index.rst:786 71f8aa0c19b1473bb59c118b9e80a326
 msgid ""
-"`id`: (optional int): the identifier of the metadata. Optional for creation,"
-" required in Upgrade phase"
+"`id`: (optional int): the identifier of the metadata. Optional for "
+"creation, required in Upgrade phase"
 msgstr ""
 
 #: ../../basic/settings/index.rst:787 937f3a96dd054b679a7b68769867eafe
 msgid ""
-"`filter_header`: (required object): Can be any type, is used to generate the"
-" facet filter header. Is also an identifier."
+"`filter_header`: (required object): Can be any type, is used to generate "
+"the facet filter header. Is also an identifier."
 msgstr ""
 
 #: ../../basic/settings/index.rst:788 59fa1843c7e04218823b27a19373fede
@@ -1359,8 +1365,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:789 ec0d3f68f9ef4786938061c1027dc96c
 msgid ""
-"`field_label`: (required object): verbose string of the name. Is used as a "
-"label in the facet filters."
+"`field_label`: (required object): verbose string of the name. Is used as "
+"a label in the facet filters."
 msgstr ""
 
 #: ../../basic/settings/index.rst:790 e51c81af02ad41e4a1112625898563ad
@@ -1401,8 +1407,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:827 47304a48f2394833aa0a9acda1637b2c
 msgid ""
-"A 2-tuple with the latitude/longitude coordinates of the center-point to use"
-" in newly created maps."
+"A 2-tuple with the latitude/longitude coordinates of the center-point to "
+"use in newly created maps."
 msgstr ""
 
 #: ../../basic/settings/index.rst:831 1370aeba20ba45bfa67f77d57dd655db
@@ -1431,9 +1437,9 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:844 35a59dc5d1ac4c6db373de40fbaa0521
 msgid ""
-"The zoom-level to use in newly created maps.  This works like the OpenLayers"
-" zoom level setting; 0 is at the world extent and each additional level cuts"
-" the viewport in half in each direction."
+"The zoom-level to use in newly created maps.  This works like the "
+"OpenLayers zoom level setting; 0 is at the world extent and each "
+"additional level cuts the viewport in half in each direction."
 msgstr ""
 
 #: ../../basic/settings/index.rst:849 dd6fbf840553413092cc279aa2e0f896
@@ -1450,11 +1456,11 @@ msgstr ""
 #: ../../basic/settings/index.rst:856 b9b9d169564f4a3d9fd93871cd30c85a
 msgid ""
 "The parallelism limit is set during installation using the value of this "
-"variable. After installation, only an user with administrative rights can "
-"change it. These limits can be changed in the `admin panel "
-"<../../admin/upload-parallelism-limit/index.html#upload-parallelism-"
-"limit>`__ or `accessing by api <../../devel/api/V2/index.html#get--"
-"api-v2-upload-parallelism-limits->`__."
+"variable. After installation, only an user with administrative rights can"
+" change it. These limits can be changed in the `admin panel <../../admin"
+"/upload-parallelism-limit/index.html#upload-parallelism-limit>`__ or "
+"`accessing by api <../../devel/api/V2/index.html#get--api-v2-upload-"
+"parallelism-limits->`__."
 msgstr ""
 
 #: ../../basic/settings/index.rst:864 5116cc1b9f084db1bbe7d5c90c471420
@@ -1477,11 +1483,10 @@ msgstr ""
 #: ../../basic/settings/index.rst:872 869c5cb334af4c698405f80ccc0aec79
 msgid ""
 "The size limits are set during installation using the value of this "
-"variable. After installation, only an user with administrative rights can "
-"change it. These limits can be changed in the `admin panel "
-"<../../admin/upload-size-limits/index.html#upload-size-limits>`__ or "
-"`accessing by api <../../devel/api/V2/index.html#get--api-v2-upload-size-"
-"limits->`__."
+"variable. After installation, only an user with administrative rights can"
+" change it. These limits can be changed in the `admin panel <../../admin"
+"/upload-size-limits/index.html#upload-size-limits>`__ or `accessing by "
+"api <../../devel/api/V2/index.html#get--api-v2-upload-size-limits->`__."
 msgstr ""
 
 #: ../../basic/settings/index.rst:879 4859a2de655b48f1994c2447b41685b0
@@ -1525,15 +1530,15 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:900 58c1adfcaa7345d3bd77eae31d7eddf9
 msgid ""
-"This setting only works when ``GEOFENCE_SECURITY_ENABLED`` has been set to "
-"``True`` and GeoNode is making use of the ``GeoServer BACKEND``."
+"This setting only works when ``GEOFENCE_SECURITY_ENABLED`` has been set "
+"to ``True`` and GeoNode is making use of the ``GeoServer BACKEND``."
 msgstr ""
 
 #: ../../basic/settings/index.rst:902 878927af705a4543b7f3a1a54cbf0858
 msgid ""
 "By setting this to ``True``, every time the permissions will be "
-"updated/changed for a Layer, they won't be applied immediately but only and "
-"only if either:"
+"updated/changed for a Layer, they won't be applied immediately but only "
+"and only if either:"
 msgstr ""
 
 #: ../../basic/settings/index.rst:905 b7ccdcca972648c080a183593b47889a
@@ -1546,8 +1551,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:908 cbdafeaffe8b498db7ef27d846e9b5cf
 msgid ""
-"A periodic ``cron`` job runs the ``sync_security_rules`` management command,"
-" or either it is manually executed from the Django shell."
+"A periodic ``cron`` job runs the ``sync_security_rules`` management "
+"command, or either it is manually executed from the Django shell."
 msgstr ""
 
 #: ../../basic/settings/index.rst:910 cb33d93de9ba4c55a9c2a94f0eedb18a
@@ -1558,8 +1563,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:912 563059c89b3741408fc04006e45c3837
 msgid ""
-"Layers won't be accessible to public users anymore until the Security Rules "
-"are not synchronized!"
+"Layers won't be accessible to public users anymore until the Security "
+"Rules are not synchronized!"
 msgstr ""
 
 #: ../../basic/settings/index.rst:915 5b017e8b3d1a4de0a436e20d2168a1b0
@@ -1636,7 +1641,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:969 c38db69471624afaa49c5a4beb9783f3
 msgid ""
-"Specifies which formats for vector data are available for users to download."
+"Specifies which formats for vector data are available for users to "
+"download."
 msgstr ""
 
 #: ../../basic/settings/index.rst:979 ce463ec8c1584b38911c9b33db0c3eed
@@ -1645,7 +1651,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:981 3c0abb8b32ab4bd5a82f1511fcdd7675
 msgid ""
-"Specifies which formats for raster data are available for users to download."
+"Specifies which formats for raster data are available for users to "
+"download."
 msgstr ""
 
 #: ../../basic/settings/index.rst:990 ea63eb699b0842a0b3a5bc608b4e6221
@@ -1724,11 +1731,11 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1049 bc1ffe73c2af4eb99f1b14ca26dec00d
 msgid ""
-"Supported projections human readable descriptions associated to their EPSG "
-"Codes. This list will be presented to the user during the upload process "
-"whenever GeoNode won't be able to recognize a suitable projection. Those "
-"codes should be aligned to the `UPLOADER` ones and available in GeoServer "
-"also."
+"Supported projections human readable descriptions associated to their "
+"EPSG Codes. This list will be presented to the user during the upload "
+"process whenever GeoNode won't be able to recognize a suitable "
+"projection. Those codes should be aligned to the `UPLOADER` ones and "
+"available in GeoServer also."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1054 be62412aa0944fa38d961d9a723fb68c
@@ -1738,8 +1745,8 @@ msgstr ""
 #: ../../basic/settings/index.rst:1067 230b140ab65d4a70a02928e8dcf6fcc4
 msgid ""
 "Variable used to actually get the expected metadata schema for each "
-"resource_type. In this way, each resource type can have a different metadata"
-" schema"
+"resource_type. In this way, each resource type can have a different "
+"metadata schema"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1071 b0eef56887254319877a1d633746dfa8
@@ -1756,7 +1763,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1079 5e78cd413528445f848ad3efd0d586ff
 msgid ""
-"Make Free-Text Keywords writable from users. Or read-only when set to False."
+"Make Free-Text Keywords writable from users. Or read-only when set to "
+"False."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1083 505897a0ec7a4359863fd050332c1c40
@@ -1773,9 +1781,9 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1088 6a144bdf68d241029ca1bd170119bcbe
 msgid ""
-"Contains the list of the providers available to perform an serve the facets."
-" In case the user wants remove a facets, is enough to remove the path of the"
-" proider from the list"
+"Contains the list of the providers available to perform an serve the "
+"facets. In case the user wants remove a facets, is enough to remove the "
+"path of the proider from the list"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1094 3f405d9b60a541988e046fb350d168fa
@@ -1812,8 +1820,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1110 35a0b4a48a264795a980a77dc0901501
 msgid ""
-"The local path where GeoIPCities.dat is written to. Make sure your user has "
-"to have write permissions."
+"The local path where GeoIPCities.dat is written to. Make sure your user "
+"has to have write permissions."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1113 eb1fc825daaa4c079cc555c7c034d88b
@@ -1822,9 +1830,9 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1117 55c2ba85e5b54f78a43e62707528e757
 msgid ""
-"If enabled contrib apps are used. If disabled: - the geoapps URLs are not "
-"included in the routing paths - the geoapps resources are excluded from the "
-"search - the resource detail are forwarded to the homepage"
+"If enabled contrib apps are used. If disabled: - the geoapps URLs are not"
+" included in the routing paths - the geoapps resources are excluded from "
+"the search - the resource detail are forwarded to the homepage"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1123 a0ac2974ab5c4fa19ae626a9c04561ed
@@ -1833,8 +1841,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1125 18befa3dbe61425db949fc442f690bf5
 msgid ""
-"This should be done if the geoapps were enabled in an environment where they"
-" are not needed."
+"This should be done if the geoapps were enabled in an environment where "
+"they are not needed."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1127 14496fa8e1c94ad89c5e2af2e02e1915
@@ -1843,8 +1851,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1129 63088ec503294001b75a42a8e6c0852f
 msgid ""
-"It should be done only once to enable geoapps in an environment where are "
-"needed"
+"It should be done only once to enable geoapps in an environment where are"
+" needed"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1132 baf08c2dfc9d466eb4a5c4ae845e9413
@@ -1857,8 +1865,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1136 553f960c8ccb473aa2b194d24444de5b
 msgid ""
-"The library to use for display preview images of layers. The library choices"
-" are:"
+"The library to use for display preview images of layers. The library "
+"choices are:"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1138 b38a865ce0a84549abd77f69f8ca2889
@@ -1875,10 +1883,10 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1147 b2153c3b69e445c6a3b57102ac61622b
 msgid ""
-"The definition of Exchanges published by geonode. Find more about Exchanges "
-"at `celery docs "
-"<https://docs.celeryproject.org/en/latest/userguide/routing.html#exchanges-"
-"queues-and-routing-keys>`__."
+"The definition of Exchanges published by geonode. Find more about "
+"Exchanges at `celery docs "
+"<https://docs.celeryproject.org/en/latest/userguide/routing.html"
+"#exchanges-queues-and-routing-keys>`__."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1150 016a103206bd4e84b469592947db0254
@@ -1939,8 +1947,8 @@ msgstr ""
 msgid ""
 "The definition of Exchanges published by GeoServer. Find more about "
 "Exchanges at `celery docs "
-"<https://docs.celeryproject.org/en/latest/userguide/routing.html#exchanges-"
-"queues-and-routing-keys>`__."
+"<https://docs.celeryproject.org/en/latest/userguide/routing.html"
+"#exchanges-queues-and-routing-keys>`__."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1181 83790eab875942ce971e3b31e0ccdbf8
@@ -2026,8 +2034,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1227 0d9c9af1c82d4e74b8d559148fb4b4ae
 msgid ""
-"If this option is enabled, Resources belonging to a Group won't be visible "
-"by others"
+"If this option is enabled, Resources belonging to a Group won't be "
+"visible by others"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1230 115462b239c742b5ad3c63474b6e0daa
@@ -2189,8 +2197,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1412 7c68cafb04694e74a50f021d7f461938
 msgid ""
-"Is possible to define multiple XML parsers for ingest XML during the layer "
-"upload."
+"Is possible to define multiple XML parsers for ingest XML during the "
+"layer upload."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1414 ../../basic/settings/index.rst:2133
@@ -2217,8 +2225,7 @@ msgid "If not set, the system will use the `__DEFAULT__` parser."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1425 c6251454601e41edb63cfda5ed711798
-msgid ""
-"The custom parsing function must be accept in input 6 parameter that are:"
+msgid "The custom parsing function must be accept in input 6 parameter that are:"
 msgstr ""
 
 #: ../../basic/settings/index.rst b53af0a8961740069a6eabb1151104cb
@@ -2269,8 +2276,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst 5bfc6b05af6145bcab1257b624692b33
 msgid ""
-"- keywords: List of dict of keywords already divided between free-text and "
-"thesarus"
+"- keywords: List of dict of keywords already divided between free-text "
+"and thesarus"
 msgstr ""
 
 #: ../../basic/settings/index.rst 8b5a8b79ac6c42c0b479c1b036211e64
@@ -2279,8 +2286,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1443 3bda5a6380d642759a645ac186f00af3
 msgid ""
-"NOTE: the keywords must be in a specific format, since later this dict, will"
-" be ingested by the `KeywordHandler` which will assign the "
+"NOTE: the keywords must be in a specific format, since later this dict, "
+"will be ingested by the `KeywordHandler` which will assign the "
 "keywords/thesaurus to the layer."
 msgstr ""
 
@@ -2315,8 +2322,7 @@ msgid "NOTE: By default the Layer is always saved with the default behaviour."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1475 30634fc9373e46b0888ac5ff08b95638
-msgid ""
-"The custom storer function must be accept in input 2 parameter that are:"
+msgid "The custom storer function must be accept in input 2 parameter that are:"
 msgstr ""
 
 #: ../../basic/settings/index.rst 1f571f1cf1ad4916ac298f6bdf9c3b93
@@ -2341,8 +2347,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1493 cafaf81127914aeb98c9678fcec43e7e
 msgid ""
-"For more information, please rely to `TestMetadataStorers` which contain a "
-"smoke test to explain the functionality"
+"For more information, please rely to `TestMetadataStorers` which contain "
+"a smoke test to explain the functionality"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1497 224acfe19a0d436182e78a4035f65a7f
@@ -2385,20 +2391,21 @@ msgstr ""
 msgid ""
 "Metadata Topic Categories list should not be modified, as it is strictly "
 "defined by ISO (See: "
-"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml and check "
-"the <CodeListDictionary gml:id=\"MD_MD_TopicCategoryCode\"> element)."
+"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml and "
+"check the <CodeListDictionary gml:id=\"MD_MD_TopicCategoryCode\"> "
+"element)."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1527 94bb2825e0ee40a781956abb2be0c258
 msgid ""
-"Some customization is still possible changing the is_choice and the GeoNode "
-"description fields."
+"Some customization is still possible changing the is_choice and the "
+"GeoNode description fields."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1530 226af70f17264579a11ab3fcde2d909e
 msgid ""
-"In case it is necessary to add/delete/update categories, it is possible to "
-"set the MODIFY_TOPICCATEGORY setting to True."
+"In case it is necessary to add/delete/update categories, it is possible "
+"to set the MODIFY_TOPICCATEGORY setting to True."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1534 5ed79e56385847d2b7c5afdaa06f95c1
@@ -2421,8 +2428,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1565 c5943485955e4a45a6a1d29221363902
 msgid ""
-"Configure aggregation of past data to control data resolution. It lists data"
-" age and aggregation in reverse order, by default:"
+"Configure aggregation of past data to control data resolution. It lists "
+"data age and aggregation in reverse order, by default:"
 msgstr ""
 
 #: ../../basic/settings/index.rst 18d65f47817c4e71bee3509972e9716c
@@ -2472,8 +2479,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1589 186657b2d2ab44be902dfe8a5fda4060
 msgid ""
-"Set this to true to disable csrf check for notification config views, use "
-"with caution - for dev purpose only."
+"Set this to true to disable csrf check for notification config views, use"
+" with caution - for dev purpose only."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1594 06c67673e49449bb8439901aa96b7214
@@ -2528,14 +2535,13 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1642 1f668fc283bb4fdfa19a727d69969178
 msgid ""
-"In order to protect oauth2 REST endpoints, used by GeoServer to fetch user "
-"roles and infos, you should set this key and configure the ``geonode REST "
-"role service`` accordingly. Keep it secret!"
+"In order to protect oauth2 REST endpoints, used by GeoServer to fetch "
+"user roles and infos, you should set this key and configure the ``geonode"
+" REST role service`` accordingly. Keep it secret!"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1644 7e757543e1a24872822b6b8d939f5f92
-msgid ""
-"If not set, the endpoint can be accessed by users without authorization."
+msgid "If not set, the endpoint can be accessed by users without authorization."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1647 fafbec5816584a70a8b76501082f4bbe
@@ -2601,10 +2607,11 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1691 a1d95e4853c6410b917d62a414dbb54b
 msgid ""
-"A dictionary of OGC servers and their options.  The main server should be "
-"listed in the 'default' key.  If there is no 'default' key or if the "
+"A dictionary of OGC servers and their options.  The main server should be"
+" listed in the 'default' key.  If there is no 'default' key or if the "
 "``OGC_SERVER`` setting does not exist, Geonode will raise an Improperly "
-"Configured exception.  Below is an example of the ``OGC_SERVER`` setting::"
+"Configured exception.  Below is an example of the ``OGC_SERVER`` "
+"setting::"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1705 ../../basic/settings/index.rst:2597
@@ -2630,8 +2637,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1717 912787db3a42427b82bf3611cceb8204
 msgid ""
-"Specifies whether the OGC server can be written to.  If False, actions that "
-"modify data on the OGC server will not execute."
+"Specifies whether the OGC server can be written to.  If False, actions "
+"that modify data on the OGC server will not execute."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1720 a4b1a698d9474a579199281fc9d1bfbb
@@ -2645,9 +2652,9 @@ msgstr ""
 #: ../../basic/settings/index.rst:1724 d256abb2e1964acdb946dd625f8af617
 msgid ""
 "An optional string that represents the name of a vector datastore, where "
-"Geonode uploads are imported into. To support vector datastore imports there"
-" also needs to be an entry for the datastore in the ``DATABASES`` dictionary"
-" with the same name.  Example::"
+"Geonode uploads are imported into. To support vector datastore imports "
+"there also needs to be an entry for the datastore in the ``DATABASES`` "
+"dictionary with the same name.  Example::"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1751 d13e70d3f7cb4c6282a5faa86a1334e8
@@ -2656,7 +2663,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1755 7be735ade9f9409290743f44d879910d
 msgid ""
-"A boolean that represents whether GeoNode's security application is enabled."
+"A boolean that represents whether GeoNode's security application is "
+"enabled."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1757 cc1baf22d77d45669e21c581693ab94c
@@ -2671,10 +2679,10 @@ msgstr ""
 #: ../../basic/settings/index.rst:1761 90d361534f434daab6f401f9da3a015a
 msgid ""
 "A base URL from which GeoNode can construct OGC service URLs. If using "
-"GeoServer you can determine this by visiting the GeoServer administration "
-"home page without the /web/ at the end.  For example, if your GeoServer "
-"administration app is at http://example.com/geoserver/web/, your server's "
-"location is http://example.com/geoserver."
+"GeoServer you can determine this by visiting the GeoServer administration"
+" home page without the /web/ at the end.  For example, if your GeoServer "
+"administration app is at http://example.com/geoserver/web/, your server's"
+" location is http://example.com/geoserver."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1767 e3704bea64db4f18bf3a402c2f58af3a
@@ -2683,8 +2691,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1771 b8a157b0a3c8496192e5a8e2b47af65a
 msgid ""
-"A boolean that represents whether the MapFish printing extension is enabled "
-"on the server."
+"A boolean that represents whether the MapFish printing extension is "
+"enabled on the server."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1773 29d8d98aebcb466180f099ad63a325e3
@@ -2704,8 +2712,7 @@ msgid "PRINT_NG_ENABLED"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1783 d7283aab5cb34ed69a939ee227a06680
-msgid ""
-"A boolean that represents whether printing of maps and layers is enabled."
+msgid "A boolean that represents whether printing of maps and layers is enabled."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1785 af5e4aed77d642bd8d9ee7c356511eb2
@@ -2714,9 +2721,9 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1789 137daa2ae466445eb3b57ae7c6e34895
 msgid ""
-"The URL used to in most public requests from Geonode.  This setting allows a"
-" user to write to one OGC server (the LOCATION setting) and read from a "
-"separate server or the PUBLIC_LOCATION."
+"The URL used to in most public requests from Geonode.  This setting "
+"allows a user to write to one OGC server (the LOCATION setting) and read "
+"from a separate server or the PUBLIC_LOCATION."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1792 ac1230f9c4684987bb835ff46e2540e1
@@ -2779,8 +2786,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1829 5db73956021d46dea3caacc5630d0c04
 msgid ""
-"A boolean that specifies whether Open Graph is enabled.  Open Graph is used "
-"by Facebook and Slack."
+"A boolean that specifies whether Open Graph is enabled.  Open Graph is "
+"used by Facebook and Slack."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1832 45a1425c532d4a1a9b86e6ffc1e0d60e
@@ -2797,8 +2804,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1839 a5eefe73d3c44770b1d5aed1f1817cf3
 msgid ""
-"Used notification backend. This is a `pinax notification setting: "
-"<https://django-notification.readthedocs.io/en/latest/settings.html#pinax-"
+"Used notification backend. This is a `pinax notification setting: <https"
+"://django-notification.readthedocs.io/en/latest/settings.html#pinax-"
 "notifications-backends>`__"
 msgstr ""
 
@@ -2812,9 +2819,9 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1847 3ecb3a12cc3041f1801eb2f093f5ef00
 msgid ""
-"It defines how long to wait for the lock to become available. Default of -1 "
-"means to never wait for the lock to become available. This is a `pinax "
-"notification setting: <https://django-"
+"It defines how long to wait for the lock to become available. Default of "
+"-1 means to never wait for the lock to become available. This is a `pinax"
+" notification setting: <https://django-"
 "notification.readthedocs.io/en/latest/settings.html#pinax-notifications-"
 "lock-wait-timeout>`__"
 msgstr ""
@@ -2827,10 +2834,11 @@ msgstr ""
 msgid ""
 "By default, calling notification.send will send the notification "
 "immediately, however, if you set this setting to True, then the default "
-"behavior of the send method will be to queue messages in the database for "
-"sending via the emit_notices command. This is a `pinax notification setting:"
-" <https://django-notification.readthedocs.io/en/latest/settings.html#pinax-"
-"notifications-queue-all>`__"
+"behavior of the send method will be to queue messages in the database for"
+" sending via the emit_notices command. This is a `pinax notification "
+"setting: <https://django-"
+"notification.readthedocs.io/en/latest/settings.html#pinax-notifications-"
+"queue-all>`__"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1860 7e895573b1144e7f92e9e438dbf81203
@@ -2859,19 +2867,21 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1893 46c69edc039445c9887d3629ffabd5d4
 msgid ""
-"A tuple of strings representing the host/domain names that GeoNode can proxy"
-" requests to. This is a security measure to prevent an attacker from using "
-"the GeoNode proxy to render malicious code or access internal sites."
+"A tuple of strings representing the host/domain names that GeoNode can "
+"proxy requests to. This is a security measure to prevent an attacker from"
+" using the GeoNode proxy to render malicious code or access internal "
+"sites."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1896 92262d982b4541568ca3b300460108aa
 msgid ""
-"Values in this tuple can be fully qualified names (e.g. 'www.geonode.org'), "
-"in which case they will be matched against the request’s Host header exactly"
-" (case-insensitive, not including port). A value beginning with a period can"
-" be used as a subdomain wildcard: ``.geonode.org`` will match geonode.org, "
-"www.geonode.org, and any other subdomain of geonode.org. A value of '*' will"
-" match anything and is not recommended for production deployments."
+"Values in this tuple can be fully qualified names (e.g. "
+"'www.geonode.org'), in which case they will be matched against the "
+"request’s Host header exactly (case-insensitive, not including port). A "
+"value beginning with a period can be used as a subdomain wildcard: "
+"``.geonode.org`` will match geonode.org, www.geonode.org, and any other "
+"subdomain of geonode.org. A value of '*' will match anything and is not "
+"recommended for production deployments."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1903 00a63c65ae3540a0aed9d8365d34fdca
@@ -2885,8 +2895,8 @@ msgstr ""
 #: ../../basic/settings/index.rst:1907 73322a134b4e4c6db3da5f41b9a76178
 msgid ""
 "The URL to a proxy that will be used when making client-side requests in "
-"GeoNode.  By default, the internal GeoNode proxy is used but administrators "
-"may favor using their own, less restrictive proxies."
+"GeoNode.  By default, the internal GeoNode proxy is used but "
+"administrators may favor using their own, less restrictive proxies."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1912 f4b9fa5f580f4e728a4d990f5d0bc20d
@@ -2895,24 +2905,24 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1914 b227f2a3cf1141a099e32aa046cf884e
 msgid ""
-"A dict with pycsw's configuration with two possible keys CONFIGURATION and "
-"FILTER."
+"A dict with pycsw's configuration with two possible keys CONFIGURATION "
+"and FILTER."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1916 19546bab6dda48d0a465b6b7d9fd614b
 msgid ""
-"CONFIGURATION Of note are the sections ``metadata:main`` to set CSW server "
-"metadata and ``metadata:inspire`` to set INSPIRE options.  Setting "
-"``metadata:inspire['enabled']`` to ``true`` will enable INSPIRE support.   "
-"Server level configurations can be overridden in the ``server`` section.  "
-"See http://docs.pycsw.org/en/latest/configuration.html for full pycsw "
-"configuration details."
+"CONFIGURATION Of note are the sections ``metadata:main`` to set CSW "
+"server metadata and ``metadata:inspire`` to set INSPIRE options.  Setting"
+" ``metadata:inspire['enabled']`` to ``true`` will enable INSPIRE support."
+"   Server level configurations can be overridden in the ``server`` "
+"section.  See http://docs.pycsw.org/en/latest/configuration.html for full"
+" pycsw configuration details."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1923 cd57ff7c52394794b679aca336559cf0
 msgid ""
-"FILTER Optional settings in order to add a filter to the CSW filtering. The "
-"filter follow the django orm structure and must be a `ResourceBase` "
+"FILTER Optional settings in order to add a filter to the CSW filtering. "
+"The filter follow the django orm structure and must be a `ResourceBase` "
 "field/related field. By default CSW will filter only for `layer` "
 "resource_type"
 msgstr ""
@@ -2952,16 +2962,16 @@ msgstr ""
 #: ../../basic/settings/index.rst:1955 38ba6f3a94254feeb02560e29f0d94a8
 msgid ""
 "Allows enabling reCaptcha field on signup form. Valid Captcha Public and "
-"Private keys will be needed as specified here "
-"https://pypi.org/project/django-recaptcha/#installation"
+"Private keys will be needed as specified here https://pypi.org/project"
+"/django-recaptcha/#installation"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1958 ../../basic/settings/index.rst:1985
 #: ../../basic/settings/index.rst:1997 ../../basic/settings/index.rst:2010
 #: ../../basic/settings/index.rst:2020 7b1bbaaa5f684b2fa5d24840978655d6
 msgid ""
-"You will need to generate a keys pair for ``reCaptcha v2`` for your domain "
-"from https://www.google.com/recaptcha/admin/create"
+"You will need to generate a keys pair for ``reCaptcha v2`` for your "
+"domain from https://www.google.com/recaptcha/admin/create"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1960 2e0f38a3fd02407e985e82c6aa7d024a
@@ -2978,8 +2988,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:1971 5b4ee03b624848c2bb97e46610c89bf1
 msgid ""
-"The ``captcha`` must be present on ``INSTALLED_APPS``, otherwise you'll get "
-"an error."
+"The ``captcha`` must be present on ``INSTALLED_APPS``, otherwise you'll "
+"get an error."
 msgstr ""
 
 #: ../../basic/settings/index.rst:1973 2df3cd489f4644aeb7b7b2190fef0e93
@@ -3014,8 +3024,8 @@ msgstr ""
 #: ../../basic/settings/index.rst:1990 ../../basic/settings/index.rst:2002
 #: 4483a559f2404d909dca19cf11da4f11
 msgid ""
-"https://pypi.org/project/django-recaptcha/#local-development-and-functional-"
-"testing"
+"https://pypi.org/project/django-recaptcha/#local-development-and-"
+"functional-testing"
 msgstr ""
 
 #: ../../basic/settings/index.rst:1992 f61f0fa1876240e89a217fc89fbd2d5e
@@ -3065,7 +3075,8 @@ msgstr ""
 #: ../../basic/settings/index.rst:2037 ../../basic/settings/index.rst:2045
 #: d5b2220182cb47518e97e4855a000d21
 msgid ""
-"Used by ``AUTO_ASSIGN_REGISTERED_MEMBERS_TO_REGISTERED_MEMBERS_GROUP_NAME`` "
+"Used by "
+"``AUTO_ASSIGN_REGISTERED_MEMBERS_TO_REGISTERED_MEMBERS_GROUP_NAME`` "
 "settings."
 msgstr ""
 
@@ -3087,8 +3098,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:2052 a213656348474114abcc89b84250cfe2
 msgid ""
-"A boolean that specifies whether users can self-register for an account on "
-"your site."
+"A boolean that specifies whether users can self-register for an account "
+"on your site."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2055 30c077e522ab43c39328286f1583e764
@@ -3099,8 +3110,8 @@ msgstr ""
 msgid ""
 "By default, the GeoNode application allows GeoNode staff members to "
 "publish/unpublish resources. By default, resources are published when "
-"created. When this setting is set to True the staff members will be able to "
-"unpublish a resource (and eventually publish it back)."
+"created. When this setting is set to True the staff members will be able "
+"to unpublish a resource (and eventually publish it back)."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2066 b41779d5214f4cdeaf8eb2a2f1bb4277
@@ -3177,10 +3188,10 @@ msgstr ""
 #: ../../basic/settings/index.rst:2119 0dad2bc2a464479493f49b22c25e6497
 msgid ""
 "This is `Django settings: "
-"<https://docs.djangoproject.com/en/3.2/ref/settings/#secure-hsts-seconds>`__"
-" If set to a non-zero integer value, the SecurityMiddleware sets the HTTP "
-"Strict Transport Security header on all responses that do not already have "
-"it."
+"<https://docs.djangoproject.com/en/3.2/ref/settings/#secure-hsts-"
+"seconds>`__ If set to a non-zero integer value, the SecurityMiddleware "
+"sets the HTTP Strict Transport Security header on all responses that do "
+"not already have it."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2123 e959a0383c774b75b2e6d24d297b00dc
@@ -3189,10 +3200,11 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:2125 feeb3329acd540e2840f1ccc5dbd6901
 msgid ""
-"If True, the SecurityMiddleware redirects all non-HTTPS requests to HTTPS "
-"(except for those URLs matching a regular expression listed in "
+"If True, the SecurityMiddleware redirects all non-HTTPS requests to HTTPS"
+" (except for those URLs matching a regular expression listed in "
 "SECURE_REDIRECT_EXEMPT). This is `Django settings: "
-"<https://docs.djangoproject.com/en/3.2/ref/settings/#secure-ssl-redirect>`__"
+"<https://docs.djangoproject.com/en/3.2/ref/settings/#secure-ssl-"
+"redirect>`__"
 msgstr ""
 
 #: ../../basic/settings/index.rst:2129 f596f72f1f7c4fd88fe0b061fe609f11
@@ -3201,8 +3213,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:2131 58023608588940cd8382fcc2dcda6244
 msgid ""
-"It's possible to define multiple Service Types Modules for custom service "
-"type with it's own Handler."
+"It's possible to define multiple Service Types Modules for custom service"
+" type with it's own Handler."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2139 4f4377a308a744518482a927286fc216
@@ -3215,12 +3227,12 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:2154 b43e38036a1a48878f6f1adddd5f0989
 msgid ""
-"the key_of_service_type is just an identifier to assign at the service type."
-" OWS is True if the service type is an OGC Service Compliant. The handler "
-"key must contain the path to the class who will provide all methods to "
-"manage the service type The label is what is shown in the service form when "
-"adding a new service. The management_view, if exists, must contain the path "
-"to the method where the management page is opened."
+"the key_of_service_type is just an identifier to assign at the service "
+"type. OWS is True if the service type is an OGC Service Compliant. The "
+"handler key must contain the path to the class who will provide all "
+"methods to manage the service type The label is what is shown in the "
+"service form when adding a new service. The management_view, if exists, "
+"must contain the path to the method where the management page is opened."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2161 0cf13c7d0fd145ce99785529ce4c4b15
@@ -3257,9 +3269,10 @@ msgstr ""
 #: ../../basic/settings/index.rst:2181 a7ffe8e0d18a46d28f6b38f02b59a4e6
 msgid ""
 "By enabling this variable, a new middleware "
-"``geonode.security.middleware.SessionControlMiddleware`` will be added to "
-"the ``MIDDLEWARE_CLASSES``. The class will check every request to GeoNode "
-"and it will force a log out whenever one of the following conditions occurs:"
+"``geonode.security.middleware.SessionControlMiddleware`` will be added to"
+" the ``MIDDLEWARE_CLASSES``. The class will check every request to "
+"GeoNode and it will force a log out whenever one of the following "
+"conditions occurs:"
 msgstr ""
 
 #: ../../basic/settings/index.rst:2184 c3f56ca7e5de428fb250d22574024c5c
@@ -3276,14 +3289,14 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:2188 47daf8c9c2f04b31bd1d9e056c5137ab
 msgid ""
-"The user has been deactivated for some reason; an Admin has disabled it or "
-"its password has expired."
+"The user has been deactivated for some reason; an Admin has disabled it "
+"or its password has expired."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2190 486b692338a745a5998f4bbc4160bbb3
 msgid ""
-"Whenever the middleware terminates the session and the user forced to log "
-"out, a message will appear to the GeoNode interface."
+"Whenever the middleware terminates the session and the user forced to log"
+" out, a message will appear to the GeoNode interface."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2193 823c175694414c59a99dade5a9bb6186
@@ -3334,8 +3347,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:2220 0ba96960c24d43f28451899901800bf7
 msgid ""
-"A base URL for use in creating absolute links to Django views and generating"
-" links in metadata."
+"A base URL for use in creating absolute links to Django views and "
+"generating links in metadata."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2223 bef17c0f625e44409b8556bf25d24a1c
@@ -3409,8 +3422,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:2314 ee1294c858bf406f997fb96bba8f8d7a
 msgid ""
-"A dictionary with provider ids as keys and path to custom profile extractor "
-"classes as values."
+"A dictionary with provider ids as keys and path to custom profile "
+"extractor classes as values."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2318 bce624ed76364cc89f4ad143f859ae1d
@@ -3429,10 +3442,10 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:2347 b1b4f368c39e447f83549c8745f8ece5
 msgid ""
-"A list of dictionaries that are used to generate the social links displayed "
-"in the Share tab.  For each origin, the name and URL format parameters are "
-"replaced by the actual values of the ResourceBase object (layer, map, "
-"document)."
+"A list of dictionaries that are used to generate the social links "
+"displayed in the Share tab.  For each origin, the name and URL format "
+"parameters are replaced by the actual values of the ResourceBase object "
+"(layer, map, document)."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2350 3a9dc9fff25d489da34347376a605926
@@ -3455,9 +3468,9 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:2370 c64cb412ac1a44d3a3505de59c8508c2
 msgid ""
-"This will extend search with additinoal properties. By default its on and "
-"search engine will check resource title or purpose or abstract. When set to "
-"False just title lookup is performed."
+"This will extend search with additinoal properties. By default its on and"
+" search engine will check resource title or purpose or abstract. When set"
+" to False just title lookup is performed."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2374 ca696c04f7f245e0b63e22c74f3b4753
@@ -3488,8 +3501,8 @@ msgstr ""
 msgid ""
 "This setting allows you to globally configure the list of allowed "
 "serialization formats for your entire site. This is a `tastypie setting: "
-"<https://django-tastypie.readthedocs.io/en/v0.9.14/settings.html#tastypie-"
-"default-formats>`__"
+"<https://django-tastypie.readthedocs.io/en/v0.9.14/settings.html"
+"#tastypie-default-formats>`__"
 msgstr ""
 
 #: ../../basic/settings/index.rst:2456 a3831f7466f043798592b70df694efef
@@ -3502,8 +3515,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:2460 16082076c1964a5dbfee7d093e26754e
 msgid ""
-"This email address is added to the bottom of the password reset page in case"
-" users have trouble unlocking their account."
+"This email address is added to the bottom of the password reset page in "
+"case users have trouble unlocking their account."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2463 ac2abce7e25946c28b7d7ee8014e563e
@@ -3531,8 +3544,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:2476 bd2f4282cf8544fca834e212965a513a
 msgid ""
-"If this option is enabled, Topic Categories will become strictly Mandatory "
-"on Metadata Wizard"
+"If this option is enabled, Topic Categories will become strictly "
+"Mandatory on Metadata Wizard"
 msgstr ""
 
 #: ../../basic/settings/index.rst:2479 ecde02a6c4db4035ad60a4a8fe2fbbb3
@@ -3599,9 +3612,9 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:2559 af964bc20840459ea70812cda870f4d1
 msgid ""
-"If this option is enabled, the input selected (we are referring to the one "
-"present in the optional Metadata-Tab on the Metadata-Wizard) will become "
-"mandatory."
+"If this option is enabled, the input selected (we are referring to the "
+"one present in the optional Metadata-Tab on the Metadata-Wizard) will "
+"become mandatory."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2561 0e4d2e61dbcb4ba28a292a59c17707c8
@@ -3617,13 +3630,11 @@ msgid "id_resource-purpose => Label: Purpose"
 msgstr ""
 
 #: ../../basic/settings/index.rst 3451731cc5214eb6b857c939357166f4
-msgid ""
-"id_resource-supplemental_information =>  Label: Supplemental information"
+msgid "id_resource-supplemental_information =>  Label: Supplemental information"
 msgstr ""
 
 #: ../../basic/settings/index.rst be7a4c945d6b4517a193a19fc90c1041
-msgid ""
-"id_resource-temporal_extent_start_pickers => Label: temporal extent start"
+msgid "id_resource-temporal_extent_start_pickers => Label: temporal extent start"
 msgstr ""
 
 #: ../../basic/settings/index.rst 918ea5a34919492ea0ea641066de409b
@@ -3636,8 +3647,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst 5c20ded3cb6047f28e79832d96273238
 msgid ""
-"id_resource-spatial_representation_type => Label:  Spatial representation "
-"type"
+"id_resource-spatial_representation_type => Label:  Spatial representation"
+" type"
 msgstr ""
 
 #: ../../basic/settings/index.rst:2571 dc1f70a1036d419780be2547eb3137bc
@@ -3690,8 +3701,8 @@ msgstr ""
 
 #: ../../basic/settings/index.rst:2615 ffe2ad6ddad64a27b5e00809e0dfbd46
 msgid ""
-"A boolean that specifies whether the upload should allow the user to enable "
-"time support when uploading data."
+"A boolean that specifies whether the upload should allow the user to "
+"enable time support when uploading data."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2618 fffc80934f4a4ad99f9f2c5b1d0b6e2b
@@ -3721,9 +3732,9 @@ msgstr ""
 #: ../../basic/settings/index.rst:2632 2e0ed73984bd40afbc794225ca8b7f46
 msgid ""
 "List of callables that will be called the deletion of a user account is "
-"requested. The deletion will fail if any of the callables return ``False``. "
-"New rules can be added, as a string path to the callable, as long as they "
-"take as parameter the user object and return a boolean."
+"requested. The deletion will fail if any of the callables return "
+"``False``. New rules can be added, as a string path to the callable, as "
+"long as they take as parameter the user object and return a boolean."
 msgstr ""
 
 #: ../../basic/settings/index.rst:2641 f707151195fc437aa1bb4ef69bf1d8e4
@@ -3797,3 +3808,7 @@ msgid ""
 "<https://docs.djangoproject.com/en/3.2/ref/clickjacking/#setting-x-frame-"
 "options-for-all-responses>`__"
 msgstr ""
+
+#~ msgid "Default: ``json`` Env: ``CELERY_TASK_SERIALIZER``"
+#~ msgstr ""
+

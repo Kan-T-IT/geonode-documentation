@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-06 18:40-0300\n"
+"POT-Creation-Date: 2024-08-06 19:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -856,8 +856,8 @@ msgstr ""
 msgid "CELERY_RESULT_SERIALIZER"
 msgstr ""
 
-#: ../../basic/settings/index.rst:547 ../../basic/settings/index.rst:2450
-#: dc66e6f71ef24acdb230895cbb060748
+#: ../../basic/settings/index.rst ../../basic/settings/index.rst:547
+#: ../../basic/settings/index.rst:2450 dc66e6f71ef24acdb230895cbb060748
 msgid "Default: ``json``"
 msgstr ""
 
@@ -913,8 +913,8 @@ msgstr ""
 msgid "CELERY_TASK_SERIALIZER"
 msgstr ""
 
-#: ../../basic/settings/index.rst:604 2b087263b162437b96a5cc6dabacd413
-msgid "Default: ``json`` Env: ``CELERY_TASK_SERIALIZER``"
+#: ../../basic/settings/index.rst 2b087263b162437b96a5cc6dabacd413
+msgid "Env: ``CELERY_TASK_SERIALIZER``"
 msgstr ""
 
 #: ../../basic/settings/index.rst:610 a59e992551564850b3f158422818d9d2
@@ -3643,4 +3643,6 @@ msgid ""
 "options-for-all-responses>`__"
 msgstr ""
 
+#~ msgid "Default: ``json`` Env: ``CELERY_TASK_SERIALIZER``"
+#~ msgstr ""
 

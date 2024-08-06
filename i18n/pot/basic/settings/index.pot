@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-05 19:49-0300\n"
+"POT-Creation-Date: 2024-08-06 18:40-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -116,7 +116,7 @@ msgstr ""
 #: 86cd54c7403b4d65a4cb145b1d9600e1
 #: 86cd54c7403b4d65a4cb145b1d9600e1
 #: 86cd54c7403b4d65a4cb145b1d9600e1
-#: eaa45277e3f049fe852c74452932da7b
+#: 86cd54c7403b4d65a4cb145b1d9600e1
 #: 86cd54c7403b4d65a4cb145b1d9600e1
 #: 86cd54c7403b4d65a4cb145b1d9600e1
 #: 86cd54c7403b4d65a4cb145b1d9600e1
@@ -913,9 +913,24 @@ msgstr ""
 msgid "A dict with the following keys:"
 msgstr ""
 
-#: ../../basic/settings/index.rst:461
-#: 0a23f6c7307b4fd9aa217f8aca5ec756
-msgid "ENGINE: The CSW backend (default is ``geonode.catalogue.backends.pycsw_local``) URL: The FULLY QUALIFIED base URL to the CSW instance for this GeoNode USERNAME: login credentials (if required) PASSWORD: login credentials (if required)"
+#: ../../basic/settings/index.rst:0
+#: 84f81ec7a8b149bd8c36570a6c494104
+msgid "ENGINE: The CSW backend (default is ``geonode.catalogue.backends.pycsw_local``)"
+msgstr ""
+
+#: ../../basic/settings/index.rst:0
+#: 46bd598785cd4b06a057cc4e95a467ff
+msgid "URL: The FULLY QUALIFIED base URL to the CSW instance for this GeoNode"
+msgstr ""
+
+#: ../../basic/settings/index.rst:0
+#: bc15f96bf5b247f080bdc6a8a54d3300
+msgid "USERNAME: login credentials (if required)"
+msgstr ""
+
+#: ../../basic/settings/index.rst:0
+#: a8785bd48ff241f993472097945ee35b
+msgid "PASSWORD: login credentials (if required)"
 msgstr ""
 
 #: ../../basic/settings/index.rst:466

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-05 19:49-0300\n"
+"POT-Creation-Date: 2024-08-06 18:40-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,7 +93,7 @@ msgstr ""
 #: ../../basic/settings/index.rst:2195 ../../basic/settings/index.rst:2613
 #: 292d13f15758483bad077c9bb72bbebf 2c5865dddcb24ecdae280af75ad3b442
 #: 6f96b40292cd49d7acaa93b0e91dfbbc 86cd54c7403b4d65a4cb145b1d9600e1
-#: 9f2dc9f780e14f1990589989e93c7b42 eaa45277e3f049fe852c74452932da7b
+#: 9f2dc9f780e14f1990589989e93c7b42
 msgid "Default: ``False``"
 msgstr ""
 
@@ -743,12 +743,22 @@ msgstr ""
 msgid "A dict with the following keys:"
 msgstr ""
 
-#: ../../basic/settings/index.rst:461 0a23f6c7307b4fd9aa217f8aca5ec756
+#: ../../basic/settings/index.rst 84f81ec7a8b149bd8c36570a6c494104
 msgid ""
 "ENGINE: The CSW backend (default is "
-"``geonode.catalogue.backends.pycsw_local``) URL: The FULLY QUALIFIED base"
-" URL to the CSW instance for this GeoNode USERNAME: login credentials (if"
-" required) PASSWORD: login credentials (if required)"
+"``geonode.catalogue.backends.pycsw_local``)"
+msgstr ""
+
+#: ../../basic/settings/index.rst 46bd598785cd4b06a057cc4e95a467ff
+msgid "URL: The FULLY QUALIFIED base URL to the CSW instance for this GeoNode"
+msgstr ""
+
+#: ../../basic/settings/index.rst bc15f96bf5b247f080bdc6a8a54d3300
+msgid "USERNAME: login credentials (if required)"
+msgstr ""
+
+#: ../../basic/settings/index.rst a8785bd48ff241f993472097945ee35b
+msgid "PASSWORD: login credentials (if required)"
 msgstr ""
 
 #: ../../basic/settings/index.rst:466 48493fe4f6064e13ae5509dedc707d63
@@ -3632,3 +3642,13 @@ msgid ""
 "<https://docs.djangoproject.com/en/3.2/ref/clickjacking/#setting-x-frame-"
 "options-for-all-responses>`__"
 msgstr ""
+
+#~ msgid ""
+#~ "ENGINE: The CSW backend (default is "
+#~ "``geonode.catalogue.backends.pycsw_local``) URL: The "
+#~ "FULLY QUALIFIED base URL to the "
+#~ "CSW instance for this GeoNode USERNAME:"
+#~ " login credentials (if required) PASSWORD:"
+#~ " login credentials (if required)"
+#~ msgstr ""
+

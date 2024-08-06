@@ -458,10 +458,10 @@ CATALOGUE
 
     A dict with the following keys:
 
-     ENGINE: The CSW backend (default is ``geonode.catalogue.backends.pycsw_local``)
-     URL: The FULLY QUALIFIED base URL to the CSW instance for this GeoNode
-     USERNAME: login credentials (if required)
-     PASSWORD: login credentials (if required)
+     | ENGINE: The CSW backend (default is ``geonode.catalogue.backends.pycsw_local``)
+     | URL: The FULLY QUALIFIED base URL to the CSW instance for this GeoNode
+     | USERNAME: login credentials (if required)
+     | PASSWORD: login credentials (if required)
 
     pycsw is the default CSW enabled in GeoNode. pycsw configuration directives
     are managed in the PYCSW entry.

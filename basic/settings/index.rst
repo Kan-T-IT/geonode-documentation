@@ -1115,10 +1115,12 @@ GEONODE_APPS_ENABLED
     | Default: ``True``
 
     If enabled contrib apps are used.
+
     If disabled:
-    - the geoapps URLs are not included in the routing paths
-    - the geoapps resources are excluded from the search
-    - the resource detail are forwarded to the homepage
+
+        * the geoapps URLs are not included in the routing paths
+        * the geoapps resources are excluded from the search
+        * the resource detail are forwarded to the homepage
 
     ``ENABLE -> DISABLE`` transition:
     

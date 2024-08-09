@@ -1,224 +1,293 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2023-07-10 11:11+0200\n"
+"PO-Revision-Date: 2024-07-19 20:53+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.12.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../basic/permissions/index.rst:5 cdb7bfb5b51e43edb54b62d612c1f337
+#: ../../basic/permissions/index.rst:5 aee748bb691944758d385f72d11e98b4
 msgid "Permissions"
-msgstr ""
+msgstr "Permisos"
 
-#: ../../basic/permissions/index.rst:7 8279a5b8cde5491a9970c94176c63899
+#: ../../basic/permissions/index.rst:7 be6225288d7c464795af2ad03feb24b2
 msgid ""
 "Permissions in GeoNode are set per resource, where a resource can be a "
-"dataset, a map, a document, a service or a geoapp. The way the "
-"permissions are set is the same for all of them."
+"dataset, a map, a document, a service or a geoapp. The way the permissions "
+"are set is the same for all of them."
 msgstr ""
+"Los permisos en GeoNode se configuran por recurso, donde un recurso puede "
+"ser un conjunto de datos, un mapa, un documento, un servicio o una geoapp. "
+"La forma en que se configuran los permisos es la misma para todos ellos."
 
-#: ../../basic/permissions/index.rst:11 b2285159803b41b0b56a9a0bdf41e7a9
+#: ../../basic/permissions/index.rst:11 57d399e201e34fb188ee66201575e9ec
 msgid ""
 "GeoNode has a set of default permissions that are applied on resource "
-"creation **when** you don't explicitly declare them. This is particularly"
-" relevant when creating and saving a map, where you won't have the "
-"possibility to set the its permissions during the creation phase. GeoNode"
-" can be tuned to make sure that by default the new created resource are "
-"not public, this can be done by changing two settings, see `Default view "
-"permissions <../settings/index.html#default-anonymous-view-permission>`_ "
-"and `Default download permissions <../settings/index.html#default-"
-"anonymous-download-permission>`_"
+"creation **when** you don't explicitly declare them. This is particularly "
+"relevant when creating and saving a map, where you won't have the "
+"possibility to set the its permissions during the creation phase. GeoNode "
+"can be tuned to make sure that by default the new created resource are not "
+"public, this can be done by changing two settings, see `Default view "
+"permissions <../settings/index.html#default-anonymous-view-permission>`_ and"
+" `Default download permissions <../settings/index.html#default-anonymous-"
+"download-permission>`_"
 msgstr ""
+"GeoNode tiene un conjunto de permisos predeterminados que se aplican en la "
+"creación de recursos **cuando** no los declaras explícitamente. Esto es "
+"particularmente relevante al crear y guardar un mapa, donde no tendrás la "
+"posibilidad de configurar sus permisos durante la fase de creación. GeoNode "
+"se puede ajustar para asegurarse de que, de manera predeterminada, los "
+"nuevos recursos creados no sean públicos. Esto se puede hacer modificando "
+"dos configuraciones; consulta `Permisos de visualización predeterminados "
+"<../settings/index.html#default-anonymous-view-permission>`_ y `Permisos de "
+"descarga predeterminados <../settings/index.html#default-anonymous-download-"
+"permission>`_"
 
-#: ../../basic/permissions/index.rst:16 b01526f593784a1ba975d6e31b4fa8ab
+#: ../../basic/permissions/index.rst:16 0755cfb1c45249e6a80707a3c2a258c2
 msgid "Single Resource permissions"
-msgstr ""
+msgstr "Permisos de recurso único"
 
-#: ../../basic/permissions/index.rst:18 f3e2ec121a41432fa346d000debff2e2
+#: ../../basic/permissions/index.rst:18 911275a695c8485581b438069517c2ad
 msgid ""
-"Resource permissions can be generally set from the *resource detail* "
-"page. The detail page has a menu item *Share* which is visible to people "
-"who are permitted to set permissions on a resource."
+"Resource permissions can be generally set from the *resource detail* page. "
+"The detail page has a menu item *Share* which is visible to people who are "
+"permitted to set permissions on a resource."
 msgstr ""
+"Los permisos de los recursos se pueden configurar en general desde la página"
+" de *detalles del recurso*. La página de detalles tiene un elemento de menú "
+"*Compartir* que es visible para las personas que tienen permiso para "
+"configurar permisos sobre un recurso."
 
-#: ../../basic/permissions/index.rst:20 8850c2368a9c421e80f462bc1d165fab
+#: ../../basic/permissions/index.rst:19 d7f0926615764d80a082377e8b8d28a4
 msgid ""
-"The share link opens a page on the right with a provision to edit user "
-"and group permissions on the resource. see picture below"
+"The share link opens a page on the right with a provision to edit user and "
+"group permissions on the resource. see picture below"
 msgstr ""
+"El enlace para compartir abre una página a la derecha con una disposición "
+"para editar los permisos de usuario y grupo en el recurso. Ver imagen a "
+"continuación"
 
-#: ../../basic/permissions/index.rst:26 bc05fb8849bd49a99e9d78c70ba2c150
+#: ../../basic/permissions/index.rst:25 0a4608da53ec41c994611b057be83c49
 msgid "*Change Dataset Permissions*"
-msgstr ""
+msgstr "*Cambiar permisos del conjunto de datos*"
 
-#: ../../basic/permissions/index.rst:28 f8cb35e450434980b23f95c2f4d8465a
+#: ../../basic/permissions/index.rst:27 202e676cb8204eb2a3d783a364c114d1
 msgid ""
-"The page for setting the permissions, allows addition of users/groups and"
-" selection of a permission to assign each of them."
+"The page for setting the permissions, allows addition of users/groups and "
+"selection of a permission to assign each of them."
 msgstr ""
+"La página para configurar los permisos, permite agregar usuarios/grupos y "
+"seleccionar un permiso para asignar a cada uno de ellos."
 
-#: ../../basic/permissions/index.rst:34 59f5e6433af74b21a2e591c45fe44af4
+#: ../../basic/permissions/index.rst:33 59d360ff7d544ca6a6dc0c06714f4d27
 msgid "*Resource Permission Dialogue*"
-msgstr ""
+msgstr "*Diálogo de permiso de recursos*"
 
-#: ../../basic/permissions/index.rst:36 b948ad39c4a64f6e81e77f4af00d423d
+#: ../../basic/permissions/index.rst:35 24036a637e9a4f699285a8c9064c40c4
 msgid "You can set the following types of permissions:"
-msgstr ""
+msgstr "Puede configurar los siguientes tipos de permisos:"
 
-#: ../../basic/permissions/index.rst:38 89d0c50e6c454feb8de111d6b0ea7241
+#: ../../basic/permissions/index.rst:37 93dd20f654364937ba8b102f1edf7e91
 msgid "*View:* allows to view the resource;"
-msgstr ""
+msgstr "*View:* permite ver el recurso;"
 
-#: ../../basic/permissions/index.rst:39 2ab1c62b4a844ca5ab456e763059ff0a
+#: ../../basic/permissions/index.rst:38 1283b6a882984c5b9e8d6fbf6828f521
 msgid "*Download* allows to download the resource;"
-msgstr ""
+msgstr "*Descargar* permite descargar el recurso;"
 
-#: ../../basic/permissions/index.rst:40 b57350d68cdc4c3594fb8c320f19f9c2
+#: ../../basic/permissions/index.rst:39 31e172e9e8d944ffafe7ade6368e5938
 msgid ""
-"*Edit:* allows to change attributes, properties of the datasets features,"
-" styles and metadata for the specified resource;"
+"*Edit:* allows to change attributes, properties of the datasets features, "
+"styles and metadata for the specified resource;"
 msgstr ""
+"*Edición:* permite cambiar atributos, propiedades de las características, "
+"estilos y metadatos del conjunto de datos para el recurso especificado;"
 
-#: ../../basic/permissions/index.rst:41 6b18546a55bf48e4b289fabe3da7a675
+#: ../../basic/permissions/index.rst:40 01790d5f4dd045bcb113a4c59c936f93
 msgid ""
 "*Manage:* allows to update, delete, change permissions, publish and "
 "unpublish the resource."
 msgstr ""
+"*Administrar:* permite actualizar, eliminar, cambiar permisos, publicar y "
+"anular la publicación del recurso."
 
-#: ../../basic/permissions/index.rst:43 bfbc89defe4d40f88f57a59d6204af36
+#: ../../basic/permissions/index.rst:42 43bdd6e6c9294a208bae3b3e684ddde3
 msgid ""
-"When assigning permissions to a group, all the group members will have "
-"those permissions. Be careful in case of editing permissions."
+"When assigning permissions to a group, all the group members will have those"
+" permissions. Be careful in case of editing permissions."
 msgstr ""
+"Al asignar permisos a un grupo, todos los miembros del grupo tendrán esos "
+"permisos. Tenga cuidado en caso de permisos de edición."
 
-#: ../../basic/permissions/index.rst:46 156bff8a943d4e919e11892a1a143484
+#: ../../basic/permissions/index.rst:45 6c744dd963ea43e6957dbe8a2c38b464
 msgid "Geo Limits permissions"
-msgstr ""
+msgstr "Permisos de límites geográficos"
 
-#: ../../basic/permissions/index.rst:48 3b9ee5d5afc840a3a68ebce3e2dccd76
+#: ../../basic/permissions/index.rst:47 c7b84c03c3794e6899701bcd39646705
 msgid ""
 "This feature is available **only** when enabling ```GeoServer``` as "
 "geospatial backend. Also make sure that the properties "
 "```GEONODE_SECURITY_ENABLED```, ```GEOFENCE_SECURITY_ENABLED``` and "
 "```GEOFENCE_URL``` are correctly set for the ```OGC_SERVER```."
 msgstr ""
+"Esta función está disponible **solo** cuando se habilita ```GeoServer``` "
+"como backend geoespacial. Asegúrese también de que las propiedades "
+"```GEONODE_SECURITY_ENABLED```, ```GEOFENCE_SECURITY_ENABLED``` y "
+"```GEOFENCE_URL``` estén configuradas correctamente para ```OGC_SERVER```."
 
-#: ../../basic/permissions/index.rst:50 fe1f5b1e506c44cf98cfca3c9fe71499
+#: ../../basic/permissions/index.rst:49 c019cb6dd1c1427aae6e442ee7ed593e
 msgid ""
-":guilabel:`Geo Limits` are an extension of the GeoNode standard "
-"permissions. :guilabel:`Geo Limits` allows the owner of the resource, or "
-"the administrator, to restrict users or groups to a specific geographical"
-" area, in order to limit the access to the dataset to only the portions "
-"contained within that geographic restriction, excluding data outside of "
-"it."
+":guilabel:`Geo Limits` are an extension of the GeoNode standard permissions."
+" :guilabel:`Geo Limits` allows the owner of the resource, or the "
+"administrator, to restrict users or groups to a specific geographical area, "
+"in order to limit the access to the dataset to only the portions contained "
+"within that geographic restriction, excluding data outside of it."
 msgstr ""
+":guilabel:`Geo Limits` son una extensión de los permisos estándar de "
+"GeoNode. :guilabel:`Geo Limits` permite al propietario del recurso, o al "
+"administrador, restringir usuarios o grupos a un área geográfica específica,"
+" con el fin de limitar el acceso al conjunto de datos solo a las partes "
+"contenidas dentro de esa restricción geográfica, excluyendo los datos fuera "
+"de ella."
 
-#: ../../basic/permissions/index.rst:52 3209a750f30143d08e959510865d7941
+#: ../../basic/permissions/index.rst:51 6ea6722e3020477980c4321b3a513400
 msgid ""
 "In order to be able to set :guilabel:`Geo Limits` you must be an "
-"```administrator``` of the system or the ```owner``` of the resource or "
-"you must have ```Manage Permissions``` rights to the resource."
+"```administrator``` of the system or the ```owner``` of the resource or you "
+"must have ```Manage Permissions``` rights to the resource."
 msgstr ""
+"Para poder establecer :guilabel:`Geo Limits`, debe ser un "
+"```administrador``` del sistema o el ```propietario``` del recurso o debe "
+"tener derechos de ```Administrar permisos``` para el recurso."
 
-#: ../../basic/permissions/index.rst:54 f974e72cb57743659a6fd156ac5a0f0f
+#: ../../basic/permissions/index.rst:53 110739d4a18049058be16e9809410285
 msgid ""
-"If you have the permissions to set the :guilabel:`Geo Limits`, you should"
-" be able to see the permissions section and the globe icon on each user "
-"or group."
+"If you have the permissions to set the :guilabel:`Geo Limits`, you should be"
+" able to see the permissions section and the globe icon on each user or "
+"group."
 msgstr ""
+"Si tienes los permisos para establecer los :guilabel:`Geo Limits`, deberías "
+"poder ver la sección de permisos y el ícono del globo en cada usuario o "
+"grupo."
 
-#: ../../basic/permissions/index.rst:60 c7e0f321584a47399a3d9eb38bc9daad
+#: ../../basic/permissions/index.rst:59 bf4c539a7871497d9b6090f037bb7598
 msgid "*Geo Limits Icon*"
-msgstr ""
+msgstr "*Icono de Geo Limits*"
 
-#: ../../basic/permissions/index.rst:62 3b6904f4c82b4e8c89c824d834c3ae38
+#: ../../basic/permissions/index.rst:61 3574b0c1f60643b1a3b73ac344626912
 msgid ""
-"You should be able to see an interactive preview of the resource along "
-"with few small drawing tools, that allows you to start creating limits on"
-" the map manually if you want."
+"You should be able to see an interactive preview of the resource along with "
+"few small drawing tools, that allows you to start creating limits on the map"
+" manually if you want."
 msgstr ""
+"Deberías poder ver una vista previa interactiva del recurso junto con "
+"algunas pequeñas herramientas de dibujo, que te permiten comenzar a crear "
+"límites en el mapa manualmente si lo deseas."
 
-#: ../../basic/permissions/index.rst:64 6ec384c1717148cea385dee92ffe798b
+#: ../../basic/permissions/index.rst:63 5f8fcce200274c38870a136886e34ad5
 msgid "This opens a map dialog, with 3 options at the top:"
 msgstr ""
+"Esto abre un cuadro de diálogo de mapa, con 3 opciones en la parte superior:"
 
-#: ../../basic/permissions/index.rst:70 c4f7747c349943f19b7377bdfacea7b0
+#: ../../basic/permissions/index.rst:69 e526636cd76e4b028a53e87e814574f5
 msgid "*Geo Limits: Preview Window with Drawing Tools*"
-msgstr ""
+msgstr "*Geo Limits: ventana de vista previa con herramientas de dibujo*"
 
-#: ../../basic/permissions/index.rst:73 144fe5efd1704d01b322206ca1628304
+#: ../../basic/permissions/index.rst:72 f75d3c14af06404d88a5d7dfd8b7e108
 msgid ""
 "The |edit_icon| icon allows you to draw limits on a map for which a user "
-"will be able to see. Click on it to start drawing on the map. Once you "
-"are done drawing, click on it again to deactivate drawing mode."
+"will be able to see. Click on it to start drawing on the map. Once you are "
+"done drawing, click on it again to deactivate drawing mode."
 msgstr ""
+"El icono |edit_icon| permite dibujar límites en un mapa que el usuario podrá"
+" ver. Haz clic en él para comenzar a dibujar en el mapa. Una vez que hayas "
+"terminado de dibujar, haz clic en él nuevamente para desactivar el modo de "
+"dibujo."
 
-#: ../../basic/permissions/index.rst:75 b5330aed2f2444b09ef1cfca773cabdd
+#: ../../basic/permissions/index.rst:74 44dc50fa0ce14c3fa1c127816a920dac
+#: 693ef55aed824c3f8f7d5fd786df6e5a
 msgid "edit_icon"
-msgstr ""
+msgstr "edit_icon"
 
-#: ../../basic/permissions/index.rst:80 d472c64e34504082a7ed1d0b2da61104
+#: ../../basic/permissions/index.rst:79 d8e0e3dcbc21493a88fd2a1bd1c2bde9
 msgid ""
 "The |delete_icon| icon enables you to remove the limits you have drawn. "
 "Click on the limit drawn, and then click the delete icon."
 msgstr ""
+"El icono |delete_icon| te permite eliminar los límites que has dibujado. Haz"
+" clic en el límite dibujado y, a continuación, haga clic en el icono de "
+"eliminar."
 
-#: ../../basic/permissions/index.rst:82 be17b31891824541aad24f5c4d5d4116
+#: ../../basic/permissions/index.rst:81 095348ab28064247a46d504d5a5c4729
+#: ebccfef744324bf097281a39139d6995
 msgid "delete_icon"
-msgstr ""
+msgstr "delete_icon"
 
-#: ../../basic/permissions/index.rst:87 210b6d44c1154f7c9dcc7bf5c58dca6c
+#: ../../basic/permissions/index.rst:86 a862b0f15ecb48029a113fc9b8693570
 msgid "The |refresh_icon| icon removes all changes that are not saved."
-msgstr ""
+msgstr "El icono |refresh_icon| elimina todos los cambios que no se guardan."
 
-#: ../../basic/permissions/index.rst:89 16e071ac74824eb2953ff1715003761b
+#: ../../basic/permissions/index.rst:88 6f62f5bbd73b46a3bf626b35de78507e
+#: 9b30c3388e464b038b5255aaf45d60eb
 msgid "refresh_icon"
-msgstr ""
+msgstr "refresh_icon"
 
-#: ../../basic/permissions/index.rst:99 50c18a7ed4cb43928b10197e931ccb27
+#: ../../basic/permissions/index.rst:98 30f57c6e817a41bb8a57ea92fd5158ba
 msgid "*Geo Limits: Editing the Geometries*"
-msgstr ""
+msgstr "*Geo Limits: Edición de geometrías*"
 
-#: ../../basic/permissions/index.rst:101 b2b3ed5cb2cf401a9f14e8e39506cfc2
+#: ../../basic/permissions/index.rst:100 70acdce229c640b8b677293a499ca8c6
 msgid ""
-"Once you finished editing your geometries, save them into the DB using "
-"the *Save* link in the resource menu."
+"Once you finished editing your geometries, save them into the DB using the "
+"*Save* link in the resource menu."
 msgstr ""
+"Una vez que hayas terminado de editar las geometrías, guárdalas en la base "
+"de datos utilizando el enlace *Guardar* en el menú de recursos."
 
-#: ../../basic/permissions/index.rst:103 bc070f17eca94c51a15de6f04c122178
+#: ../../basic/permissions/index.rst:102 8b2a335f4db745c98ba61777c424a1f2
 msgid ""
-"The user with the specified geometries won't be able from now on to "
-"access the whole dataset data."
+"The user with the specified geometries won't be able from now on to access "
+"the whole dataset data."
 msgstr ""
+"El usuario con las geometrías especificadas a partir de ahora no podrá "
+"acceder a todo el conjunto de datos."
 
-#: ../../basic/permissions/index.rst:109 d6e307936f3b4305b465f879466715f9
+#: ../../basic/permissions/index.rst:108 97e0729365c843bab35c3af6711a403e
 msgid "*Geo Limits: Geospatial restrictions applies for the user*"
-msgstr ""
+msgstr "*Geo Limits: Se aplican restricciones geoespaciales para el usuario*"
 
-#: ../../basic/permissions/index.rst:111 a9d3200287d5481f990601383ec2a564
+#: ../../basic/permissions/index.rst:110 326b16255cce479b80e371328567d796
 msgid ""
 "The :guilabel:`Geo Limits` will be persisted on GeoNode DB for that "
-"resource. That means that everytime you will update the general "
-"permissions, also the geospatial restrictions will be applied."
+"resource. That means that everytime you will update the general permissions,"
+" also the geospatial restrictions will be applied."
 msgstr ""
+"El campo :guilabel:`Geo Limits` se guardará en la base de datos de GeoNode "
+"para ese recurso. Esto significa que cada vez que actualices los permisos "
+"generales, también se aplicarán las restricciones geoespaciales."
 
-#: ../../basic/permissions/index.rst:113 ece5b1d94d5c46fcb60a6439ca43a561
+#: ../../basic/permissions/index.rst:112 6a109f7de36e4d0081b52dad1b8df5c6
 msgid ""
-"In order to remove the :guilabel:`Geo Limits` for a certain user or "
-"group, you can just :guilabel:`Save` an **empty geometry**. This will "
-"**delete** the entry from the DB also."
+"In order to remove the :guilabel:`Geo Limits` for a certain user or group, "
+"you can just :guilabel:`Save` an **empty geometry**. This will **delete** "
+"the entry from the DB also."
 msgstr ""
-
+"Para eliminar los :guilabel:`Geo Limits` de un usuario o grupo específico, "
+"simplemente puedes :guilabel:`Guardar` una **geometría vacía**. Esto "
+"**borrará** la entrada de la base de datos también."

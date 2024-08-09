@@ -1,125 +1,152 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2021-06-03 17:10+0200\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.9.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../intermediate/modes/index.rst:3 43b18a3347014d39b7075867edb5982b
+#: ../../intermediate/modes/index.rst:3 b84c89c4c37942c8abafe85b4a4c04e1
 msgid "Read-Only and Maintenance Modes"
-msgstr ""
+msgstr "Modos de solo lectura y mantenimiento"
 
-#: ../../intermediate/modes/index.rst:6 980b1ab313384f84805662c0fc441167
+#: ../../intermediate/modes/index.rst:6 4b52fc2226154b059138f63e0bb66f31
 msgid "Overview"
-msgstr ""
+msgstr "Descripción general"
 
-#: ../../intermediate/modes/index.rst:8 d45bed8b7fa445aa89241378d3dd36f0
+#: ../../intermediate/modes/index.rst:8 fbeb53601e144de5b13ba4fdc9d1ef25
 msgid ""
 "GeoNode gives an option to operate in different modes, according to the "
 "needs and demands of the certain application system."
 msgstr ""
+"GeoNode ofrece la opción de operar en diferentes modos, según las "
+"necesidades y demandas de cada sistema de aplicación."
 
-#: ../../intermediate/modes/index.rst:10 a91a38af259848e68559811fad6ffb91
+#: ../../intermediate/modes/index.rst:10 767c47093d794124bc01309be9967a14
 msgid ""
-"Changing the currently used mode can be done in the admin panel by the "
-"user with super-user privileges, by modifying ``Configuration`` singleton"
-" model in the ``BASE`` application:"
+"Changing the currently used mode can be done in the admin panel by the user "
+"with super-user privileges, by modifying ``Configuration`` singleton model "
+"in the ``BASE`` application:"
 msgstr ""
+"El cambio del modo actualmente utilizado se puede realizar en el panel de "
+"administración por un usuario con privilegios de superusuario, modificando "
+"el modelo singleton de ``Configuración`` en la aplicación ``BASE``."
 
-#: ../../intermediate/modes/index.rst:16 223e9688e2af435fb6f80150db6cf43a
+#: ../../intermediate/modes/index.rst:16 0973a5a5732d439fb196c30b0ab1eef0
 msgid "*Configuration change in the admin panel*"
-msgstr ""
+msgstr "*Cambio de configuración en el panel de administración*"
 
-#: ../../intermediate/modes/index.rst:19 fbbd31ef70274b80b866a40b87095df1
+#: ../../intermediate/modes/index.rst:19 66cc0d7275d9449baa42099d8afc9101
 msgid "Read-Only Mode"
-msgstr ""
+msgstr "Modo de solo lectura"
 
-#: ../../intermediate/modes/index.rst:21 556c54cc63004cf5bf1ee1d32e647ec8
+#: ../../intermediate/modes/index.rst:21 8dd9bb766b5643b6ad9f60abb94b164d
 msgid ""
 "Activating the Read-Only Mode (by setting ``Read only`` True in the "
-"``Configuration``) activates a middleware rejecting all modifying "
-"requests (POST/PUT/DELETE), with an exception for:"
+"``Configuration``) activates a middleware rejecting all modifying requests "
+"(POST/PUT/DELETE), with an exception for:"
 msgstr ""
+"Al activar el modo de solo lectura (estableciendo ``Read only`` como True en"
+" ``Configuración``) se activa un middleware que rechaza todas las "
+"solicitudes de modificación (POST/PUT/DELETE), con una excepción para:"
 
-#: ../../intermediate/modes/index.rst:24 f54a592e2b9a469c8e00b71a8a757ca5
+#: ../../intermediate/modes/index.rst:24 25ccd2a9b2ab41f08d83ed45c16e27f4
 msgid "POST to login view"
-msgstr ""
+msgstr "POST para ver el inicio de sesión"
 
-#: ../../intermediate/modes/index.rst:25 78dcc8ad3bd74892a15d15f180085c0d
+#: ../../intermediate/modes/index.rst:25 aba3c2e510b0463e9e2937d2f2cd67c4
 msgid "POST to logout view"
-msgstr ""
+msgstr "POST para ver el cierre de sesión"
 
 #: ../../intermediate/modes/index.rst:26 ../../intermediate/modes/index.rst:42
-#: 102c74314c084f97ac83c378df7d1767 825c4d5475794d6d9f6d6da2e416471f
+#: 830400fd2b22483298e963e73deffc5b d244f19a9f8c4ae4a9dbca482e06328a
 msgid "POST to admin login view"
-msgstr ""
+msgstr "POST en la vista de inicio de sesión de administrador"
 
 #: ../../intermediate/modes/index.rst:27 ../../intermediate/modes/index.rst:43
-#: 4a9e7fe65b234fbc8c55e23570efda7e c2981e46c2b24e1582ad8afe960833c9
+#: 5603e4be4be14bd289b9a03baabd8e6b b1647914bda94c5aa0a5d9c862be21ac
 msgid "POST to admin logout view"
-msgstr ""
+msgstr "POST en la vista de cierre de sesión del administrador"
 
-#: ../../intermediate/modes/index.rst:28 c2cb7ae7cb5f4372b3c46f848663a127
+#: ../../intermediate/modes/index.rst:28 dc4ef495cc2a4d37ac6bf05e92dfddb1
 msgid "all requests to OWS endpoint"
-msgstr ""
+msgstr "Todas las solicitudes al punto de acceso OWS"
 
 #: ../../intermediate/modes/index.rst:29 ../../intermediate/modes/index.rst:44
-#: 025101019364467f821ef2c7b8ca8fb0 a866fd30438b4355b7a5683ae537ac38
+#: afa656f187014813b4b96386b779fcae bce67ae5c26d445b88928f68b64d2c73
 msgid "all requests ordered by a super-user"
-msgstr ""
+msgstr "todas las solicitudes ordenadas por un superusuario"
 
-#: ../../intermediate/modes/index.rst:31 636b27d15b0c4fe08a641cfc9d31f9b3
+#: ../../intermediate/modes/index.rst:31 07527e4865ea4b3484262165c006896f
 msgid ""
 "Additionally, all UI elements allowing modifying GeoNode's content are "
 "hidden, so e.g. the button \"Upload Layer\" is not rendered in the "
 "templates."
 msgstr ""
+"Además, todos los elementos de la interfaz de usuario que permiten modificar"
+" el contenido de GeoNode están ocultos, por ejemplo, el botón \"Cargar "
+"capa\" no se muestra en las plantillas."
 
-#: ../../intermediate/modes/index.rst:33 ad7bb0a6aa9d4eafbea364c218bf9e71
+#: ../../intermediate/modes/index.rst:33 657f5b62ff574801bb3db58b988e591d
 msgid ""
-"In case a user tries to perform a forbidden request, they will be "
-"presented with a static HTML page informing them, the GeoNode is in the "
-"Read-Only mode and this action is currently forbidden."
+"In case a user tries to perform a forbidden request, they will be presented "
+"with a static HTML page informing them, the GeoNode is in the Read-Only mode"
+" and this action is currently forbidden."
 msgstr ""
+"En caso que un usuario intente realizar una solicitud prohibida, se le "
+"presentará una página HTML estática informándole que GeoNode está en modo de"
+" solo lectura y que esta acción está actualmente prohibida."
 
-#: ../../intermediate/modes/index.rst:37 1a600bf20de644a08359a447c0b92f4a
+#: ../../intermediate/modes/index.rst:37 bc8ee8d8a1a14d9d90154984e62c8456
 msgid "Maintenance Mode"
-msgstr ""
+msgstr "Modo de mantenimiento"
 
-#: ../../intermediate/modes/index.rst:39 2a445b2412b04c549404d5396199f799
+#: ../../intermediate/modes/index.rst:39 d97fe0af220c4a9cb4bd9293cfe34258
 msgid ""
 "Activating the Maintenance Mode (by setting ``Maintenance`` True in the "
-"``Configuration``) activates the highest level middleware (the one "
-"executed as the first) rejecting all requests to the GeoNode instance, "
-"with an exception for:"
+"``Configuration``) activates the highest level middleware (the one executed "
+"as the first) rejecting all requests to the GeoNode instance, with an "
+"exception for:"
 msgstr ""
+"Al activar el modo de mantenimiento (estableciendo ``Maintenance`` como True"
+" en ``Configuración``) se activa el middleware de nivel más alto (el que se "
+"ejecuta como primero) y rechaza todas las solicitudes a la instancia de "
+"GeoNode, con una excepción para:"
 
-#: ../../intermediate/modes/index.rst:46 47cd7e83836245c18e363fd7313af10c
+#: ../../intermediate/modes/index.rst:46 b1a042de36cf455c90f85ca8974361cc
 msgid ""
-"In case a user tries to perform any request against the GeoNode "
-"(including GET requests), they will be presented with a static HTML page "
-"informing them, the maintenance actions are taken on the GeoNode "
-"instance, and asking them to try again soon."
+"In case a user tries to perform any request against the GeoNode (including "
+"GET requests), they will be presented with a static HTML page informing "
+"them, the maintenance actions are taken on the GeoNode instance, and asking "
+"them to try again soon."
 msgstr ""
+"En caso que un usuario intente realizar cualquier solicitud contra GeoNode "
+"(incluidas las solicitudes GET), se le presentará una página HTML estática "
+"informándole que se tomaron acciones de mantenimiento en la instancia del "
+"GeoNode y solicitándole que lo intente nuevamente pronto."
 
-#: ../../intermediate/modes/index.rst:49 d0e8befe602744e0955dc912eeb670fc
+#: ../../intermediate/modes/index.rst:49 2bc65c68ac9f4fbc846d4770635bc35d
 msgid ""
 "The maintenance mode was implemented with a thought of the backup and "
-"restore procedures without a necessity to put down the instance, but at "
-"the same time with a restriction of any outer interference."
+"restore procedures without a necessity to put down the instance, but at the "
+"same time with a restriction of any outer interference."
 msgstr ""
-
+"El modo de mantenimiento se implementó pensando en los procedimientos de "
+"backup y restauración sin necesidad de apagar la instancia, pero al mismo "
+"tiempo con una restricción de cualquier interferencia externa."

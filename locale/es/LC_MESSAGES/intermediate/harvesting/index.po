@@ -265,8 +265,8 @@ msgid ""
 "service that it gets data from. Harvester workers may accept their own "
 "additional configuration parameters."
 msgstr ""
-"Los trabajadores de Harvester implementan la recuperación de datos para "
-"tipos de servicios remotos concretos. Cada Harvester utiliza un trabajador "
+"Los trabajadores de cosecha implementan la recuperación de datos para tipos "
+"de servicios remotos concretos. Cada Harvester utiliza un trabajador "
 "específico, según el tipo de servicio remoto del que obtiene los datos. Los "
 "trabajadores de Harvester pueden aceptar sus propios parámetros de "
 "configuración adicionales."
@@ -278,7 +278,7 @@ msgid ""
 "object on the ``harvester_type_specific_configuration`` attribute of the "
 "harvester."
 msgstr ""
-"Los trabajadores de la cosechadora se configuran como el atributo "
+"Los trabajadores de cosecha se configuran como el atributo "
 "``harvester_type`` en un :ref:`harvester <harvester-label>`. Su "
 "configuración se configura como un objeto JSON en el atributo "
 "``harvester_type_specific_configuration`` de la cosechadora."
@@ -838,6 +838,11 @@ msgid ""
 "<refresh-session-label>` and uses it to track the progress of this "
 "operation."
 msgstr ""
+"Dado que esta operación puede tardar mucho tiempo en completarse (ya que no "
+"sabemos cuántos recursos pueden existir en el servicio remoto), se ejecuta "
+"mediante un proceso en segundo plano. GeoNode crea una nueva sesión de "
+"actualización <refresh-session-label> y la utiliza para realizar un "
+"seguimiento del progreso de esta operación."
 
 #: ../../intermediate/harvesting/index.rst:285
 #: 5db6b37e342641f49529844e9e999aeb
@@ -846,6 +851,9 @@ msgid ""
 "to ``updating-harvestable-resources``. As the operation finishes, the "
 "harvester's status transitions back to ``ready``."
 msgstr ""
+"Cuando se activa, esta operación hace que el estado del recolector cambie a "
+"``updating-harvestable-resources``. Cuando la operación finaliza, el estado "
+"del recolector vuelve a cambiar a ``ready``"
 
 #: ../../intermediate/harvesting/index.rst:288
 #: adab194d1c7343f2a20be21d7aa46ce7
@@ -853,11 +861,14 @@ msgid ""
 "Invocation via the GeoNode admin is performed by selecting the ``Update "
 "harvestable resources for selected harvesters`` command."
 msgstr ""
+"La invocación a través del administrador de GeoNode se realiza seleccionando"
+" el comando ``Actualizar recursos aprovechables para los recolectores "
+"seleccionados``."
 
 #: ../../intermediate/harvesting/index.rst:298
 #: 4a7e6338095c4993b688f840d495e93c
 msgid "Perform harvesting operation"
-msgstr ""
+msgstr "Realizar la operación de cosecha"
 
 #: ../../intermediate/harvesting/index.rst:300
 #: 5520916bff3241138a63c12436546680
@@ -866,6 +877,9 @@ msgid ""
 " currently marked as being harvestable and then, for each one, harvest the "
 "resource from the remote server."
 msgstr ""
+"Esta operación hace que el recolector verifique qué recursos recolectables "
+"están actualmente marcados como recolectables y luego, para cada uno, "
+"recolecta el recurso del servidor remoto."
 
 #: ../../intermediate/harvesting/index.rst:303
 #: e5e9221bc35045e0a6d6bda4cbc8b094
@@ -876,6 +890,11 @@ msgid ""
 "<harvesting-session-label>` and uses it to track the progress of this "
 "operation."
 msgstr ""
+"Dado que esta operación puede tardar mucho tiempo en completarse (ya que no "
+"sabemos cuántos recursos pueden existir en el servicio remoto), se ejecuta "
+"mediante un proceso en segundo plano. GeoNode crea una nueva sesión de "
+"recolección <harvesting-session-label>` y la utiliza para realizar un "
+"seguimiento del progreso de esta operación."
 
 #: ../../intermediate/harvesting/index.rst:307
 #: 8a71286120154fe3a89277c7e54092dc
@@ -884,6 +903,9 @@ msgid ""
 "to ``harvesting-resources``. As the operation finishes, the harvester's "
 "status transitions back to ``ready``."
 msgstr ""
+"Cuando se activa, esta operación hace que el estado del recolector cambie a "
+"``recolección de recursos``. Cuando la operación finaliza, el estado del "
+"recolector vuelve a cambiar a ``ready``."
 
 #: ../../intermediate/harvesting/index.rst:310
 #: 5d81f744b43d4ba8b56528e90cd1cfdb
@@ -891,11 +913,13 @@ msgid ""
 "Invocation via the GeoNode admin is performed by selecting the ``Perform "
 "harvesting on selected harvesters`` command."
 msgstr ""
+"La invocación a través del administrador de GeoNode se realiza seleccionando"
+" el comando ``Perform harvesting on selected harvesters``."
 
 #: ../../intermediate/harvesting/index.rst:319
 #: 728139c29ed147bfac3ddf0736c8922d
 msgid "Abort update of harvestable resources operation"
-msgstr ""
+msgstr "Cancelar la operación de actualización de recursos aprovechables"
 
 #: ../../intermediate/harvesting/index.rst:321
 #: ca57d2b4b8814801afdfa9bfe28657b4
@@ -904,6 +928,9 @@ msgid ""
 "of harvestable resources operation <update-harvestable-resources-action-"
 "label>`."
 msgstr ""
+"Esta operación provoca que el cosechador aborte una operación en curso de "
+":ref:`actualización de la lista de recursos cosechables <update-harvestable-"
+"resources-action-label>`."
 
 #: ../../intermediate/harvesting/index.rst:324
 #: 7f117180c47a4831aeb8354c78ec7259
@@ -912,6 +939,9 @@ msgid ""
 "to ``aborting-update-harvestable-resources``. As the operation finishes, the"
 " harvester's status transitions back to ``ready``."
 msgstr ""
+"Cuando se activa, esta operación hace que el estado del recolector cambie a "
+"``aborting-update-harvestable-resources``. Cuando la operación finaliza, el "
+"estado del recolector vuelve a cambiar a ``ready``."
 
 #: ../../intermediate/harvesting/index.rst:327
 #: 00f614d595ae4baeaa24f715e68494a5
@@ -919,11 +949,14 @@ msgid ""
 "Invocation via the GeoNode admin is performed by selecting the ``Abort on-"
 "going update of harvestable resources for selected harvesters`` command."
 msgstr ""
+"La invocación a través del administrador de GeoNode se realiza seleccionando"
+" el comando ``Abort on-going update of harvestable resources for selected "
+"harvesters``."
 
 #: ../../intermediate/harvesting/index.rst:337
 #: 346f2df283c2442295f5ed5292e8fd03
 msgid "Abort harvesting operation"
-msgstr ""
+msgstr "Cancelar la operación de recolección"
 
 #: ../../intermediate/harvesting/index.rst:339
 #: de667b7bd4b645dc887fd3d3b5b7a828
@@ -931,6 +964,9 @@ msgid ""
 "This operation causes the harvester to abort an on-going :ref:`perform "
 "harvesting operation <perform-harvesting-action-label>`."
 msgstr ""
+"Esta operación provoca que el cosechador aborte una operación en curso de "
+":ref:`realización de la operación de cosecha <perform-harvesting-action-"
+"label>`."
 
 #: ../../intermediate/harvesting/index.rst:342
 #: 0a0bbf2292b248ac8d30538d171c254b
@@ -939,6 +975,9 @@ msgid ""
 "to ``aborting-performing-harvesting``. As the operation finishes, the "
 "harvester's status transitions back to ``ready``."
 msgstr ""
+"Cuando se activa, esta operación hace que el estado del recolector cambie a "
+"``aborting-performing-harvesting``. Cuando la operación finaliza, el estado "
+"del recolector vuelve a cambiar a ``ready``."
 
 #: ../../intermediate/harvesting/index.rst:345
 #: 486b4dace7444018ab04cd5285bb2c64
@@ -946,11 +985,13 @@ msgid ""
 "Invocation via the GeoNode admin is performed by selecting the ``Abort on-"
 "going harvesting sessions for selected harvesters`` command."
 msgstr ""
+"La invocación a través del administrador de GeoNode se realiza seleccionando"
+" el comando ``Abort on-going harvesting sessions for selected harvesters``."
 
 #: ../../intermediate/harvesting/index.rst:355
 #: 987345a9da3b44bd879abe94165a53ed
 msgid "Reset harvester operation"
-msgstr ""
+msgstr "Restablecer el funcionamiento de la cosechadora"
 
 #: ../../intermediate/harvesting/index.rst:357
 #: 4655dc896a52417ea29d13cba3cb92c7
@@ -960,6 +1001,10 @@ msgid ""
 " harvesters that may get stuck in a non-actionable status when some "
 "unforeseen error occurs."
 msgstr ""
+"Esta operación hace que el estado de la cosechadora vuelva a ser ``ready``. "
+"Es útil principalmente para solucionar posibles errores, con el fin de "
+"desbloquear cosechadoras que pueden quedar atrapadas en un estado no "
+"procesable cuando ocurre algún error imprevisto."
 
 #: ../../intermediate/harvesting/index.rst:361
 #: ea88a0f8e51a4f0baf96e106cdf28f54
@@ -967,6 +1012,8 @@ msgid ""
 "When triggered, this operation causes the harvester's status to transition "
 "to ``ready`` immediately."
 msgstr ""
+"Cuando se activa, esta operación hace que el estado del recolector pase a "
+"``ready`` inmediatamente."
 
 #: ../../intermediate/harvesting/index.rst:363
 #: fc72514f1c284be6b61dbe61422f5300
@@ -974,16 +1021,18 @@ msgid ""
 "Invocation via the GeoNode admin is performed by selecting the ``Reset "
 "harvester status`` command."
 msgstr ""
+"La invocación a través del administrador de GeoNode se realiza seleccionando"
+" el comando ``Reset harvester status``."
 
 #: ../../intermediate/harvesting/index.rst:365
 #: 9da8dbdd0ab24df1b19bc8cff865a07c
 msgid "This operation cannot be called via the GeoNode API."
-msgstr ""
+msgstr "Esta operación no se puede realizar a través de la API de GeoNode."
 
 #: ../../intermediate/harvesting/index.rst:371
 #: 932ccac368844d96859bf165ac37e729
 msgid "Standard harvester workers"
-msgstr ""
+msgstr "Trabajadores de cosechadoras estándar"
 
 #: ../../intermediate/harvesting/index.rst:374
 #: 7aaf308877714f49bf706ed53baa3f02
@@ -993,6 +1042,10 @@ msgid ""
 "``harvester_type_specific_configuration`` attributes on the :ref:`harvester "
 "<harvester-label>`."
 msgstr ""
+"Recuerda que, como se indicó anteriormente, un trabajador recolector se "
+"configura mediante la configuración de los atributos ``harvester_type`` y "
+"``harvester_type_specific_configuration`` en :ref:`harvester <harvester-"
+"label>`."
 
 #: ../../intermediate/harvesting/index.rst:377
 #: 9f5ac20532cf4420bfc8e8ecafcd56d8
@@ -1000,11 +1053,13 @@ msgid ""
 "Moreover, the format of the ``harvester_type_specific_configuration`` "
 "attribute must be a JSON object."
 msgstr ""
+"Además, el formato del atributo ``harvester_type_specific_configuration`` "
+"debe ser un objeto JSON."
 
 #: ../../intermediate/harvesting/index.rst:383
 #: 37c698c98e7340478fd8d1019e070a27
 msgid "GeoNode harvester worker"
-msgstr ""
+msgstr "Trabajador recolector de GeoNode"
 
 #: ../../intermediate/harvesting/index.rst:385
 #: fbb0efb065364d22add8d9b7ad70a0d8
@@ -1015,6 +1070,11 @@ msgid ""
 "that this harvester can even be used in order to generate replicated GeoNode"
 " instances."
 msgstr ""
+"Este trabajador puede recopilar implementaciones de GeoNode remoto. Además "
+"de crear recursos locales recuperando metadatos remotos, este recolector "
+"también puede copiar conjuntos de datos remotos al GeoNode local. Esto "
+"significa que este recolector puede incluso usarse para generar instancias "
+"de GeoNode replicadas."
 
 #: ../../intermediate/harvesting/index.rst:389
 #: 336f67949ff247b38d611bfba05d4a66
@@ -1023,6 +1083,9 @@ msgid ""
 "``harvester_type=geonode.harvesting.harvesters.geonodeharvester.GeonodeUnifiedHarvesterWorker``"
 " in the harvester configuration."
 msgstr ""
+"Esta cosechadora se puede utilizar configurando "
+"``harvester_type=geonode.harvesting.harvesters.geonodeharvester.GeonodeUnifiedHarvesterWorker``"
+" en la configuración de la cosechadora."
 
 #: ../../intermediate/harvesting/index.rst:392
 #: ../../intermediate/harvesting/index.rst:440
@@ -1033,11 +1096,13 @@ msgid ""
 "It recognizes the following ``harvester_type_specific_configuration`` "
 "parameters:"
 msgstr ""
+"Reconoce los siguientes parámetros de "
+"``harvester_type_specific_configuration``:"
 
 #: ../../intermediate/harvesting/index.rst:395
 #: de0d2f70ad644dc2969977a89f2002c4
 msgid "harvest_datasets"
-msgstr ""
+msgstr "harvest_datasets"
 
 #: ../../intermediate/harvesting/index.rst:395
 #: bb41a0af0b054f35be7582be966bda5b
@@ -1045,11 +1110,13 @@ msgid ""
 "Whether to harvest remote resources of type ``dataset`` or not. Acceptable "
 "values: ``true`` (the default) or ``false``."
 msgstr ""
+"Si se deben recolectar o no recursos remotos del tipo «conjunto de datos». "
+"Valores aceptables: «true» (predeterminado) o «false»."
 
 #: ../../intermediate/harvesting/index.rst:398
 #: e1f1a1e69668485a9e04c36efc7a03f7
 msgid "copy_datasets"
-msgstr ""
+msgstr "copy_datasets"
 
 #: ../../intermediate/harvesting/index.rst:398
 #: c52c910f29a64c4297474faafeb3d159
@@ -1057,11 +1124,13 @@ msgid ""
 "Whether to copy remote resources of type ``dataset`` over to the local "
 "GeoNode. Acceptable values: ``true`` or ``false`` (the default)."
 msgstr ""
+"Si se deben copiar recursos remotos del tipo ``dataset`` al GeoNode local. "
+"Valores aceptables: ``true`` o ``false`` (el valor predeterminado)."
 
 #: ../../intermediate/harvesting/index.rst:401
 #: a21beb0a45034919877b4b207ee7bafd
 msgid "harvest_documents"
-msgstr ""
+msgstr "harvest_documents"
 
 #: ../../intermediate/harvesting/index.rst:401
 #: a8c22df1fbe94fc79a703126ac149933
@@ -1069,11 +1138,13 @@ msgid ""
 "Whether to harvest remote resources of type ``document`` or not. Acceptable "
 "values: ``true`` (the default) or ``false``."
 msgstr ""
+"Si se deben recopilar o no recursos remotos de tipo ``documento``. Valores "
+"aceptables: ``true`` (predeterminado) o ``false``."
 
 #: ../../intermediate/harvesting/index.rst:404
 #: 15facac05b794b61965125a160c82846
 msgid "copy_documents"
-msgstr ""
+msgstr "copy_documents"
 
 #: ../../intermediate/harvesting/index.rst:404
 #: 6ef43b4de84c46d6afbfca8205b11858
@@ -1081,11 +1152,13 @@ msgid ""
 "Whether to copy remote resources of type ``document`` over to the local "
 "GeoNode. Acceptable values: ``true`` or ``false`` (the default)."
 msgstr ""
+"Si se deben copiar recursos remotos de tipo ``documento`` al GeoNodo local. "
+"Valores aceptables: ``true`` o ``false`` (predeterminado)."
 
 #: ../../intermediate/harvesting/index.rst:413
 #: 2d2cd1202a484e2aa0df35f74872fddd
 msgid "resource_title_filter"
-msgstr ""
+msgstr "resource_title_filter"
 
 #: ../../intermediate/harvesting/index.rst:407
 #: bb834576f8c94f3ba3f6102846b97bf4
@@ -1095,6 +1168,10 @@ msgid ""
 "out resources that are not relevant. Acceptable values: any alphanumeric "
 "value."
 msgstr ""
+"Cadena que debe estar presente en el ``título`` de los recursos remotos para"
+" que se los reconozca como recursos aprovechables. Esto permite filtrar los "
+"recursos que no son relevantes. Valores aceptables: cualquier valor "
+"alfanumérico."
 
 #: ../../intermediate/harvesting/index.rst:411
 #: 2f6bb01d06fa459cab22a36a7d5278e7
@@ -1105,11 +1182,16 @@ msgid ""
 "generate harvestable resources for remote resources whose title does not "
 "contain the word *water*."
 msgstr ""
+"Ejemplo: establecer esto en un valor de ``\"water\"`` significaría que el "
+"recolector generaría recursos aprovechables para recursos remotos titulados "
+"*water basins*, *Water territories*, etc. El recolector no generaría "
+"recursos aprovechables para recursos remotos cuyo título no contenga la "
+"palabra *water*."
 
 #: ../../intermediate/harvesting/index.rst:418
 #: 88d73a77ff834d6a8f6baca09dc1414b
 msgid "start_date_filter"
-msgstr ""
+msgstr "start_date_filter"
 
 #: ../../intermediate/harvesting/index.rst:416
 #: f904e90d8dc74fb3b99c2e8a71e0b265
@@ -1120,11 +1202,17 @@ msgid ""
 " which means that it accepts many different formats (e.g. "
 "`2021-06-31T13:04:05Z`)"
 msgstr ""
+"Una cadena que especifica una fecha y hora que se utiliza para filtrar "
+"recursos por su fecha de inicio. Esto se analiza con "
+"`dateutil.parser.parse() "
+"<https://dateutil.readthedocs.io/en/stable/parser.html#dateutil.parser.parse>`_,"
+" lo que significa que acepta muchos formatos diferentes (por ejemplo "
+"`2021-06-31T13:04:05Z`)"
 
 #: ../../intermediate/harvesting/index.rst:421
 #: 8c002f1c76b64cf8911555a50ca6b077
 msgid "end_date_filter"
-msgstr ""
+msgstr "end_date_filter"
 
 #: ../../intermediate/harvesting/index.rst:421
 #: 697c71f65c1d45379b9f90d849efb0bd
@@ -1132,36 +1220,41 @@ msgid ""
 "Similar to ``start_date_filter`` but uses resources' `end_date` as a filter "
 "parameter."
 msgstr ""
+"Similar a ``start_date_filter`` pero utiliza el recurso ``end_date` como "
+"parámetro de filtro."
 
 #: ../../intermediate/harvesting/index.rst:424
 #: 880e3ef03548464d83ada160aafb9c58
 msgid "keywords_filter"
-msgstr ""
+msgstr "keywords_filter"
 
 #: ../../intermediate/harvesting/index.rst:424
 #: 78f7f04dc2f445d2829a7492d0448f47
 msgid "A list of keywords that are used to filter remote resources."
 msgstr ""
+"Una lista de palabras clave que se utilizan para filtrar recursos remotos."
 
 #: ../../intermediate/harvesting/index.rst:428
 #: e745783db2ba41bbae97c059a50c7b5f
 msgid "categories_filter"
-msgstr ""
+msgstr "categories_filter"
 
 #: ../../intermediate/harvesting/index.rst:427
 #: 90d1a74a74614d858b1a5db029b5f4ac
 msgid "A list of categories that are used to filter remote resources."
 msgstr ""
+"Una lista de categorías que se utilizan para filtrar recursos remotos."
 
 #: ../../intermediate/harvesting/index.rst:433
 #: e660d318f25741a0b49843155c3ecbd1
 msgid "WMS harvester worker"
-msgstr ""
+msgstr "Trabajador de cosechadora WMS"
 
 #: ../../intermediate/harvesting/index.rst:435
 #: e20f96de15a74cde90afefcbb123a135
 msgid "This worker is able to harvest from remote OGC WMS servers."
 msgstr ""
+"Este trabajador puede recolectar información de servidores WMS OGC remotos."
 
 #: ../../intermediate/harvesting/index.rst:437
 #: 1c8fd019f4a3409daba60b10bd24f6d0
@@ -1170,11 +1263,14 @@ msgid ""
 "``harvester_type=geonode.harvesting.harvesters.wms.OgcWmsHarvester`` in the "
 "harvester configuration."
 msgstr ""
+"Esta cosechadora se puede utilizar configurando "
+"``harvester_type=geonode.harvesting.harvesters.wms.OgcWmsHarvester`` en la "
+"configuración de la cosechadora."
 
 #: ../../intermediate/harvesting/index.rst:445
 #: 92eb8af4180a49eba69584fdab66f707
 msgid "dataset_title_filter"
-msgstr ""
+msgstr "dataset_title_filter"
 
 #: ../../intermediate/harvesting/index.rst:443
 #: 88d17b4faaec4808ab5f0893cc24174e
@@ -1183,22 +1279,27 @@ msgid ""
 "property. If a remote layer's title contains the string defined by this "
 "parameter, then the layer is recognized by the harvester worker."
 msgstr ""
+"Cadena que se utiliza para filtrar capas WMS remotas por su propiedad "
+"``título``. Si el título de una capa remota contiene la cadena definida por "
+"este parámetro, el trabajador recolector reconoce la capa."
 
 #: ../../intermediate/harvesting/index.rst:450
 #: 5d9568bdb74545faa282563d7da9a472
 msgid "ArcGIS REST Services harvester worker"
-msgstr ""
+msgstr "Trabajador recolector de servicios REST de ArcGIS"
 
 #: ../../intermediate/harvesting/index.rst:452
 #: aee1c9567cb34e07b6578c822349f2d1
 msgid ""
 "This worker is able to harvest from remote ArcGIS REST Services catalogs."
 msgstr ""
+"Este trabajador puede recopilar datos de catálogos de servicios REST de "
+"ArcGIS remotos."
 
 #: ../../intermediate/harvesting/index.rst:454
 #: ed1e5ba70ebf4aa0b9aa067b7d2e1efd
 msgid "This worker is able to recognize two types of ``remote_url``:"
-msgstr ""
+msgstr "Este trabajador puede reconocer dos tipos de ``remote_url``:"
 
 #: ../../intermediate/harvesting/index.rst:456
 #: 3d751c841c2d48779343abfc80ea19cb
@@ -1208,6 +1309,10 @@ msgid ""
 "harvester worker is able to descend into the available ArcGIS Rest services "
 "and retrieve their respective resources. Example::"
 msgstr ""
+"URL del catálogo de servicios REST de ArcGIS. Esta URL suele terminar en "
+"``rest/services``. Un catálogo puede exponer varios servicios diferentes. "
+"Este trabajador recolector puede descender a los servicios REST de ArcGIS "
+"disponibles y recuperar sus respectivos recursos. Ejemplo::"
 
 #: ../../intermediate/harvesting/index.rst:462
 #: 177de86cbbc948cbab873c2623bc534b
@@ -1215,6 +1320,9 @@ msgid ""
 "URL of the ArcGIS REST services Service. This URL usually takes the form "
 "``{base-url}/rest/services/{service-name}/{service-type}``. Example::"
 msgstr ""
+"URL del servicio de servicios REST de ArcGIS. Esta URL suele tener el "
+"formato ``{base-url}/rest/services/{service-name}/{service-type}``. "
+"Ejemplo::"
 
 #: ../../intermediate/harvesting/index.rst:466
 #: c7b8811836794a98b3e899054750bcff
@@ -1223,11 +1331,14 @@ msgid ""
 "``harvester_type=geonode.harvesting.harvesters.arcgis.ArcgisHarvesterWorker``"
 " in the harvester configuration."
 msgstr ""
+"Este trabajador recolector se puede utilizar configurando "
+"``harvester_type=geonode.harvesting.harvesters.arcgis.ArcgisHarvesterWorker``"
+" en la configuración del recolector."
 
 #: ../../intermediate/harvesting/index.rst:472
 #: c8bc69f3ef83427d8444e2b3e96885d3
 msgid "harvest_map_services"
-msgstr ""
+msgstr "harvest_map_services"
 
 #: ../../intermediate/harvesting/index.rst:472
 #: 0cbb0c2e30744ccca1381eec79f77e7b
@@ -1235,11 +1346,13 @@ msgid ""
 "Whether services of type `MapServer` ought to be harvested. Defaults to "
 "``True``."
 msgstr ""
+"Si se deben recopilar servicios del tipo `MapServer`. El valor "
+"predeterminado es ``True``."
 
 #: ../../intermediate/harvesting/index.rst:475
 #: 490f038570474e9983884fef7814de79
 msgid "harvest_image_services"
-msgstr ""
+msgstr "harvest_image_services"
 
 #: ../../intermediate/harvesting/index.rst:475
 #: 2340be93456b40e1a381a43484c510bf
@@ -1247,11 +1360,13 @@ msgid ""
 "Whether services of type `ImageServer` ought to be harvested. Defaults to "
 "``True``."
 msgstr ""
+"Si se deben recopilar servicios del tipo `ImageServer`. El valor "
+"predeterminado es ``True``."
 
 #: ../../intermediate/harvesting/index.rst:479
 #: 2f4318d6a5014c859bce6ea7a8112d07
 msgid "resource_name_filter"
-msgstr ""
+msgstr "resource_name_filter"
 
 #: ../../intermediate/harvesting/index.rst:478
 #: b7dc4cc81a5c4bf49e2b6c0d0e44e2b1
@@ -1260,21 +1375,26 @@ msgid ""
 "property. If a remote layer's name contains the string defined by this "
 "parameter, then the layer is recognized by the harvester worker."
 msgstr ""
+"Cadena que se utiliza para filtrar capas WMS remotas por su propiedad "
+"``título``. Si el nombre de una capa remota contiene la cadena definida por "
+"este parámetro, el trabajador recolector reconoce la capa."
 
 #: ../../intermediate/harvesting/index.rst:483
 #: 238b65eceb734f91871f55e5583e0803
 msgid "service_names_filter"
-msgstr ""
+msgstr "service_names_filter"
 
 #: ../../intermediate/harvesting/index.rst:482
 #: 5151a8eb449d4f6db8db387e411783e3
 msgid "A list of names that are used to filter the remote ArcGIS catalog."
 msgstr ""
+"Una lista de nombres que se utilizan para filtrar el catálogo de ArcGIS "
+"remoto."
 
 #: ../../intermediate/harvesting/index.rst:488
 #: 1219b3786d4b4512aee80be736049b28
 msgid "Creating new harvesting workers"
-msgstr ""
+msgstr "Creación de nuevos trabajadores de cosecha"
 
 #: ../../intermediate/harvesting/index.rst:490
 #: 382552b0ccca42be93e653965cce81d3
@@ -1288,6 +1408,14 @@ msgid ""
 "GeoNode harvester worker classes in order to gain insight on how to "
 "implement custom ones."
 msgstr ""
+"Nuevos trabajadores de cosecha pueden ser creados escribiendo clases "
+"derivadas de `geonode.harvesting.harvesters.base.BaseGeonodeHarvesterWorker "
+"<https://github.com/GeoNode/geonode/blob/master/geonode/harvesting/harvesters/base.py#L66>`_."
+" Esta clase define una interfaz abstracta que debe ser implementada. Todos "
+"los métodos decorados con ``abc.abstractmethod`` deben ser implementados en "
+"la clase personalizada del trabajador de cosecha. Estudia la implementación "
+"de las clases estándar de trabajadores de cosecha de GeoNode para obtener "
+"una idea de cómo implementar los personalizados."
 
 #: ../../intermediate/harvesting/index.rst:496
 #: ac6846fc1b5a4b64aa873b9eb4630125
@@ -1297,6 +1425,11 @@ msgid ""
 "setting. This setting is a list of strings, containing the Python class path"
 " to each harvester worker class. It has a default value of::"
 msgstr ""
+"Después de escribir una clase personalizada de trabajador de cosecha, esta "
+"se puede añadir a la lista de trabajadores de cosecha conocidos definiendo "
+"la configuración ``HARVESTER_CLASSES`` en GeoNode. Esta configuración es una"
+" lista de cadenas que contiene la ruta de la clase en Python para cada clase"
+" de trabajador de cosecha. Tiene un valor predeterminado de::"
 
 #: ../../intermediate/harvesting/index.rst:506
 #: 1f13c1d694414b25836aed4cea0961e6
@@ -1306,3 +1439,7 @@ msgid ""
 "means that it is not possible to disable the standard worker classes, only "
 "to add new ones."
 msgstr ""
+"Estas son las clases estándar de trabajadores de cosecha incluidas en "
+"GeoNode. Si se define esta configuración, su valor simplemente ampliará la "
+"lista predeterminada. Esto significa que no es posible desactivar las clases"
+" de trabajadores estándar, solo añadir nuevas."

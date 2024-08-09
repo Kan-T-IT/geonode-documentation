@@ -1,259 +1,336 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2023-07-10 11:11+0200\n"
+"PO-Revision-Date: 2024-07-19 20:53+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.12.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../basic/theme/index.rst:2 e5f2d62d4dda4aafbe5708222ee51f1a
+#: ../../basic/theme/index.rst:2 47f0a49f77c34bf0bc13693f5ce8e628
 msgid "GeoNode Themes"
-msgstr ""
+msgstr "Temas de GeoNode"
 
-#: ../../basic/theme/index.rst:5 36e07c5a5b2a490fbf946501ac5706dd
+#: ../../basic/theme/index.rst:5 d6dc260a952f4662bc5eeec825440a85
 msgid ""
-"We have already explained in :ref:`simple-theming` how to change the "
-"GeoNode theme directly from the *Admin Interface*. This is an easy way "
-"for customizing GeoNode appearance but, in some cases, you might want to "
-"have more control on it."
+"We have already explained in :ref:`simple-theming` how to change the GeoNode"
+" theme directly from the *Admin Interface*. This is an easy way for "
+"customizing GeoNode appearance but, in some cases, you might want to have "
+"more control on it."
 msgstr ""
+"Ya hemos explicado en :ref:`simple-theming` cómo cambiar el tema de GeoNode "
+"directamente desde la *Interfaz de administración*. Esta es una manera fácil"
+" de personalizar la apariencia de GeoNode pero, en algunos casos, es posible"
+" que desees tener más control sobre ella."
 
-#: ../../basic/theme/index.rst:7 dba4dd490aa244e49fb8df9d8c8617ce
+#: ../../basic/theme/index.rst:7 c0d7a6f3ca534142ac683810fc864d29
 msgid ""
 "In those cases, you have to venture into the code and it is highly "
-"recommended to use a GeoNode Project and customize it instead of the "
-"GeoNode default HTML/CSS code. See the following sections to learn more "
-"about that."
+"recommended to use a GeoNode Project and customize it instead of the GeoNode"
+" default HTML/CSS code. See the following sections to learn more about that."
 msgstr ""
+"En esos casos, es necesario adentrarse en el código y se recomienda "
+"encarecidamente utilizar un proyecto de GeoNode personalizado en lugar del "
+"código HTML/CSS predeterminado de GeoNode. Consulta las siguientes secciones"
+" para obtener más información al respecto."
 
-#: ../../basic/theme/index.rst:10 83151e4fd41c471ca75ee8954ea9d7b5
+#: ../../basic/theme/index.rst:10 69861ef070384112a487e896da52172d
 msgid "Theming your GeoNode Project"
-msgstr ""
+msgstr "Personalización del tema de tu Proyecto GeoNode"
 
-#: ../../basic/theme/index.rst:12 20bae181094844f5b20895a90e152242
+#: ../../basic/theme/index.rst:12 828515b96e7b4c03a626ae42b5ec5cfc
 msgid ""
 "There are a range of options available to you if you want to change the "
 "default look and feel of your :ref:`geonode-project`."
 msgstr ""
+"Hay una variedad de opciones disponibles si deseas cambiar la apariencia "
+"predeterminada de tu :ref:`geonode-project`."
 
-#: ../../basic/theme/index.rst:15 e5c3d30d4a8f45a5a0ebf0a2f8e41bb9
+#: ../../basic/theme/index.rst:15 5c777a3141f748138954db43796c9e90
 msgid "Logos and graphics"
-msgstr ""
+msgstr "Logotipos y gráficos"
 
-#: ../../basic/theme/index.rst:17 b746919a89174d10a57bea7be89119dc
+#: ../../basic/theme/index.rst:17 42c1459bc3214e5e8ee0fa876d5549f8
 msgid ""
-"GeoNode intentionally does not include a large number of graphics files "
-"in its interface. This keeps page loading time to a minimum and makes for"
-" a more responsive interface. That said, you are free to customize your "
-"GeoNode’s interface by simply changing the default logo, or by adding "
-"your own images and graphics to deliver a GeoNode experience the way you "
-"envision it."
+"GeoNode intentionally does not include a large number of graphics files in "
+"its interface. This keeps page loading time to a minimum and makes for a "
+"more responsive interface. That said, you are free to customize your "
+"GeoNode’s interface by simply changing the default logo, or by adding your "
+"own images and graphics to deliver a GeoNode experience the way you envision"
+" it."
 msgstr ""
+"GeoNode intencionalmente no incluye una gran cantidad de archivos gráficos "
+"en su interfaz. Esto mantiene el tiempo de carga de las páginas al mínimo y "
+"ofrece una interfaz más receptiva. Dicho esto, tienes la libertad de "
+"personalizar la interfaz de tu GeoNode simplemente cambiando el logo "
+"predeterminado o añadiendo tus propias imágenes y gráficos para ofrecer una "
+"experiencia de GeoNode tal como la imaginas."
 
-#: ../../basic/theme/index.rst:21 03fecd0728624c8286e92198a3e2f1ea
+#: ../../basic/theme/index.rst:21 44fa51b19c07415d8ace3f60e1f11825
 msgid ""
 "Your GeoNode project has a directory already set up for storing your own "
-"images at ``<my_geonode>/static/img``. You should place any image files "
-"that you intend to use for your project in this directory."
+"images at ``<my_geonode>/static/img``. You should place any image files that"
+" you intend to use for your project in this directory."
 msgstr ""
+"Tu proyecto GeoNode ya tiene un directorio configurado para almacenar tus "
+"propias imágenes en ``<my_geonode>/static/img``. Debes colocar cualquier "
+"archivo de imagen que planees usar para tu proyecto en este directorio."
 
-#: ../../basic/theme/index.rst:24 6fdabcb51d7845c38700d06413858929
+#: ../../basic/theme/index.rst:24 b4f3231961fa443c8d5a67d71a66dcd9
 msgid ""
-"Let’s walk through an example of the steps necessary to change the "
-"default logo."
+"Let’s walk through an example of the steps necessary to change the default "
+"logo."
 msgstr ""
+"Vamos a recorrer un ejemplo de los pasos necesarios para cambiar el logo "
+"predeterminado."
 
-#: ../../basic/theme/index.rst:26 2da57fc8ef2e414a935675e461404248
+#: ../../basic/theme/index.rst:26 a9c43572c3df48a9a0bcb427b9e242ec
 msgid "Change to the :file:`img` directory:"
-msgstr ""
+msgstr "Cambie al directorio :file:`img`:"
 
-#: ../../basic/theme/index.rst:32 672b33ae74694d83abd347e1e344c289
+#: ../../basic/theme/index.rst:32 64420aa02bfc4eecb1e8c1365c673f10
 msgid ""
 "If you haven't already, obtain your logo image. The URL below is just an "
-"example, so you will need to change this URL to match the location of "
-"your file or copy it to this location:"
+"example, so you will need to change this URL to match the location of your "
+"file or copy it to this location:"
 msgstr ""
+"Si aún no lo has hecho, obtén la imagen de tu logo. La URL a continuación es"
+" solo un ejemplo, por lo que deberás cambiar esta URL para que coincida con "
+"la ubicación de tu archivo o copiarlo a esta ubicación:"
 
-#: ../../basic/theme/index.rst:39 e15baedd5c9b4ee18b6677dea791d41b
+#: ../../basic/theme/index.rst:39 537f1f5d8648451bb4ee354ed99660c6
 msgid "Create snippets directory :"
-msgstr ""
+msgstr "Crea el directorio de fragmentos snippets:"
 
-#: ../../basic/theme/index.rst:47 01042313031c41c4b0f175cc25200682
+#: ../../basic/theme/index.rst:47 3eaa88e39df04bd3803beddda948b185
 msgid "Create a new HTML file named :file:`brand_navbar.html`"
-msgstr ""
+msgstr "Crea un nuevo archivo HTML llamado :file:`brand_navbar.html`"
 
-#: ../../basic/theme/index.rst:71 303bd47e1c354cc79eb46cacef97147d
+#: ../../basic/theme/index.rst:71 218f28e9240b4c1a9d8f1d67e24c3c10
 msgid "Restart your GeoNode project and look at the page in your browser:"
-msgstr ""
+msgstr "Reinicia tu proyecto GeoNode y observa la página en tu navegador:"
 
-#: ../../basic/theme/index.rst:81 149367e91e724e2a879fa8a550ffb698
+#: ../../basic/theme/index.rst:81 7c504f7b0a254aafae47e923ef8f22ed
 msgid ""
-"It is a good practice to cleanup the **static_folder** and the Browser "
-"Cache before reloading in order to be sure that the changes have been "
-"correctly taken and displayed on the screen."
+"It is a good practice to cleanup the **static_folder** and the Browser Cache"
+" before reloading in order to be sure that the changes have been correctly "
+"taken and displayed on the screen."
 msgstr ""
+"Es una buena práctica limpiar la **static_folder** y la caché del navegador "
+"antes de recargar para asegurarte de que los cambios se han aplicado y se "
+"muestran correctamente en la pantalla."
 
-#: ../../basic/theme/index.rst:83 c8516f321996463db5ab7f57475b1290
+#: ../../basic/theme/index.rst:83 6ef945983d62480ea3206fdcff5251c8
 msgid "Visit your site at http://localhost/ or the remote URL for your site."
-msgstr ""
+msgstr "Visite tu sitio en http://localhost/ o la URL remota de tu sitio."
 
-#: ../../basic/theme/index.rst:88 d8771c3718ae42a0abd1537a28b7debb
+#: ../../basic/theme/index.rst:88 db49234010844a3a99930dda4dd6b768
 msgid "*Custom logo*"
-msgstr ""
+msgstr "*Logotipo personalizado*"
 
-#: ../../basic/theme/index.rst:90 7c0c1dc81a474a63b7efbfae182585eb
+#: ../../basic/theme/index.rst:90 9375c602740945df8f485f14e3530c2c
 msgid ""
 "In the following sections you will learn how to customize this header to "
 "make it as you want."
 msgstr ""
+"En las siguientes secciones aprenderás a personalizar este encabezado para "
+"dejarlo como quieras."
 
-#: ../../basic/theme/index.rst:92 c5cdb55803e449deb40ff2916f3ecce1
+#: ../../basic/theme/index.rst:92 f87674b25623452bac0052fd9a9600d3
 msgid ""
-"You should commit these changes to your repository as you progress "
-"through this section, and get in the habit of committing early and often "
-"so that you and others can track your project on GitHub. Making many "
-"atomic commits and staying in sync with a remote repository makes it "
-"easier to collaborate with others on your project."
+"You should commit these changes to your repository as you progress through "
+"this section, and get in the habit of committing early and often so that you"
+" and others can track your project on GitHub. Making many atomic commits and"
+" staying in sync with a remote repository makes it easier to collaborate "
+"with others on your project."
 msgstr ""
+"Debes comprometer estos cambios en tu repositorio a medida que avances en "
+"esta sección, y adquirir el hábito de hacer commits frecuentes para que tú y"
+" otros puedan seguir el progreso de tu proyecto en GitHub. Realizar muchos "
+"commits atómicos y mantener la sincronización con un repositorio remoto "
+"facilita la colaboración con otros en tu proyecto."
 
-#: ../../basic/theme/index.rst:96 9c68acef1b33433e91ca036c8d5513a8
+#: ../../basic/theme/index.rst:96 c64a015e7a6e43a1b454442c93f43dce
 msgid "Cascading Style Sheets"
-msgstr ""
+msgstr "Hojas de estilo en cascada"
 
-#: ../../basic/theme/index.rst:98 0ff880cb74d04bf8b218182fa2cdc4ca
+#: ../../basic/theme/index.rst:98 cd300f2b836747c290b385af3d47b929
 msgid ""
-"In the last section you already learned how to override GeoNode’s default"
-" CSS rules to include your own logo. You are able to customize any aspect"
-" of GeoNode’s appearance this way. In the last screenshot, you saw that "
-"the main area in the homepage is covered up by the expanded header."
+"In the last section you already learned how to override GeoNode’s default "
+"CSS rules to include your own logo. You are able to customize any aspect of "
+"GeoNode’s appearance this way. In the last screenshot, you saw that the main"
+" area in the homepage is covered up by the expanded header."
 msgstr ""
+"En la sección anterior ya aprendiste cómo sobrescribir las reglas CSS "
+"predeterminadas de GeoNode para incluir tu propio logo. De esta manera, "
+"puedes personalizar cualquier aspecto de la apariencia de GeoNode. En la "
+"última captura de pantalla, viste que el área principal en la página de "
+"inicio está cubierta por el encabezado expandido."
 
-#: ../../basic/theme/index.rst:102 a201c797fd09450aa87e8523e8316ae3
+#: ../../basic/theme/index.rst:102 c24c526683394573a76970a43c2978fc
 msgid ""
-"First, we’ll walk through the steps necessary to displace it downward so "
-"it is no longer hidden, then change the background color of the header to"
-" match the color in our logo graphic."
+"First, we’ll walk through the steps necessary to displace it downward so it "
+"is no longer hidden, then change the background color of the header to match"
+" the color in our logo graphic."
 msgstr ""
+"Primero, revisaremos los pasos necesarios para desplazar el encabezado hacia"
+" abajo para que ya no quede oculto, y luego cambiaremos el color de fondo "
+"del encabezado para que coincida con el color de nuestro gráfico de logo."
 
-#: ../../basic/theme/index.rst:104 adcbdb41120b4913a3391e984ab15bf1
-msgid "Reopen :file:`<my_geonode>/static/css/brand_navbar.html` in your editor:"
-msgstr ""
-
-#: ../../basic/theme/index.rst:112 bde32858bb514e40963caaa0a9e2cc13
+#: ../../basic/theme/index.rst:104 73773797ad7f4cdaa4665e5e5bc20287
 msgid ""
-"Append a rule to change the background color of the header to match the "
-"logo graphic:"
+"Reopen :file:`<my_geonode>/static/css/brand_navbar.html` in your editor:"
 msgstr ""
+"Vuelve a abrir el archivo :file:`<my_geonode>/static/css/brand_navbar.html` "
+"en tu editor:"
 
-#: ../../basic/theme/index.rst:120 af94055eef9e4230a600b88c6ce30300
+#: ../../basic/theme/index.rst:112 9402e7b5816b4e9ba63ed097220f4b8b
+msgid ""
+"Append a rule to change the background color of the header to match the logo"
+" graphic:"
+msgstr ""
+"Agregue una regla para cambiar el color de fondo del encabezado para que "
+"coincida con el gráfico del logotipo:"
+
+#: ../../basic/theme/index.rst:121 cb85ca1c51fe478ca23663a03e941d3a
 msgid "Create new file to manipulate *hero*  section:"
-msgstr ""
+msgstr "Crear nuevo archivo para manipular la sección *hero*:"
 
-#: ../../basic/theme/index.rst:127 4e668475e25e4771ad90484c03191919
+#: ../../basic/theme/index.rst:128 3191b43969de487a9b15dc6836d2b0bb
 msgid ""
 "Add the following code to change the background image and font for the "
 "*hero* section:"
 msgstr ""
+"Agrega el siguiente código para cambiar la imagen de fondo y la fuente de la"
+" sección *hero*:"
 
-#: ../../basic/theme/index.rst:153 68c3c772c3814f32a17d673bb1a65e7f
+#: ../../basic/theme/index.rst:154 953472451dd747e8bd0df3868e90b598
 msgid ""
-"Collect the static files into STATIC_ROOT, restart the development server"
-" and reload the page:"
+"Collect the static files into STATIC_ROOT, restart the development server "
+"and reload the page:"
 msgstr ""
+"Recopile los archivos estáticos en STATIC_ROOT, reinicie el servidor de "
+"desarrollo y vuelva a cargar la página:"
 
-#: ../../basic/theme/index.rst:163 2a3614bef5254410826646e9d4a9a7b6
+#: ../../basic/theme/index.rst:164 8b9375576ca04a73bb509faabf9641ab
 msgid "*CSS override*"
-msgstr ""
+msgstr "*Anulación de CSS*"
 
-#: ../../basic/theme/index.rst:165 aec24127df344211840491b5702ae66c
+#: ../../basic/theme/index.rst:166 e8e13ecf7f044b43a8d896bd38025bd7
 msgid ""
-"You can continue adding rules to this file to override the styles that "
-"are in the GeoNode base CSS file which is built from `base.less "
+"You can continue adding rules to this file to override the styles that are "
+"in the GeoNode base CSS file which is built from `base.less "
 "<https://github.com/GeoNode/geonode/blob/master/geonode/static/geonode/less/base.less>`_."
 msgstr ""
+"Puedes seguir añadiendo reglas a este archivo para sobrescribir los estilos "
+"que están en el archivo CSS base de GeoNode, el cual se construye a partir "
+"de `base.less "
+"<https://github.com/GeoNode/geonode/blob/master/geonode/static/geonode/less/base.less>`_."
 
-#: ../../basic/theme/index.rst:167 38f7cfca659042ea9598a18d29d11758
+#: ../../basic/theme/index.rst:168 51d5d419d5e848eca1940a81951ffb58
 msgid ""
-"You may find it helpful to use your browser's development tools to "
-"inspect elements of your site that you want to override to determine "
-"which rules are already applied. See the screenshot below."
+"You may find it helpful to use your browser's development tools to inspect "
+"elements of your site that you want to override to determine which rules are"
+" already applied. See the screenshot below."
 msgstr ""
+"Puede ser útil utilizar las herramientas de desarrollo de tu navegador para "
+"inspeccionar los elementos de tu sitio que deseas modificar y determinar qué"
+" reglas ya están aplicadas. Consulta la captura de pantalla a continuación."
 
-#: ../../basic/theme/index.rst:172 90a96e3053a84fc7a5c5bc2664b4341d
+#: ../../basic/theme/index.rst:173 01e32d3f5cd94726b190705d25367f42
 msgid "*Screenshot of using browser debugger to inspect the CSS overrides*"
 msgstr ""
+"*Captura de pantalla del uso del depurador del navegador para inspeccionar "
+"las modificaciones de CSS*"
 
-#: ../../basic/theme/index.rst:175 fc336db024e541789ff9bb28e9615561
+#: ../../basic/theme/index.rst:176 38834ff9ec154e1880e21f01cc764dd5
 msgid "Modify GeoNode Homepage"
-msgstr ""
+msgstr "Modificar la página de inicio de GeoNode"
 
-#: ../../basic/theme/index.rst:177 9979e427aba64d76967f824bad565861
+#: ../../basic/theme/index.rst:178 e4f169e7530e41a9b174888f86594aff
 msgid ""
-"So far we learned how to modify some template sections of your GeoNode "
-"main page. You can do it individually per section template, adding a new "
-"page under :file:`<my_geonode>/templates/geonode-mapstore-"
-"client/snippets` folder with the section name (ex: "
-":file:`brand_navbar.html`) or by extending the base template file "
-":file:`custom_theme.html` where you can add different theme settings in "
-"one place."
+"So far we learned how to modify some template sections of your GeoNode main "
+"page. You can do it individually per section template, adding a new page "
+"under :file:`<my_geonode>/templates/geonode-mapstore-client/snippets` folder"
+" with the section name (ex: :file:`brand_navbar.html`) or by extending the "
+"base template file :file:`custom_theme.html` where you can add different "
+"theme settings in one place."
 msgstr ""
+"Hasta ahora hemos aprendido cómo modificar algunas secciones de la plantilla"
+" de la página principal de tu GeoNode. Puedes hacerlo individualmente por "
+"sección de la plantilla, agregando una nueva página en la carpeta "
+":file:`<my_geonode>/templates/geonode-mapstore-client/snippets` con el "
+"nombre de la sección (por ejemplo, :file:`brand_navbar.html`), o extendiendo"
+" el archivo de plantilla base :file:`custom_theme.html`, donde puedes "
+"agregar diferentes configuraciones de tema en un solo lugar."
 
-#: ../../basic/theme/index.rst:183 3879d30621054f6abe0d561271803ca1
+#: ../../basic/theme/index.rst:184 7c14e63590404131a26125ad1b85f6f3
 msgid "Remove the previous `hero` section :file:`hero.html` file:"
 msgstr ""
+"Elimina el archivo de la sección `hero` anterior :file:archivo`hero.html`:"
 
-#: ../../basic/theme/index.rst:189 ae6c286bc66b4e9dafca1ed6073b1b94
+#: ../../basic/theme/index.rst:190 82ac6d3460d9447db12de1c250af1d91
 msgid "Create a new :file:`custom_theme.html` file:"
-msgstr ""
+msgstr "Crea un nuevo archivo :file:`custom_theme.html`:"
 
-#: ../../basic/theme/index.rst:197 d7ac0c123cf94fc5959795b36b8a4fec
+#: ../../basic/theme/index.rst:198 f4c120dfa3d1447283e3460dbfc76c14
 msgid "Add the following content to this page:"
-msgstr ""
+msgstr "Añade el siguiente contenido a esta página:"
 
-#: ../../basic/theme/index.rst:239 9b6b6caccca64b5b9ee2e0bb5aacdc0d
+#: ../../basic/theme/index.rst:240 85b17c2efe074c3da941367ed77bf5df
 msgid "Restart httpd server"
-msgstr ""
+msgstr "Reinicia el servidor httpd"
 
-#: ../../basic/theme/index.rst:246 86872f5880dd4bd299b9508ae1868c5d
+#: ../../basic/theme/index.rst:247 1496a8c0b1a84815b5bdefd2316e0736
 msgid "Your customized layout should be similar to the next picture:"
-msgstr ""
+msgstr "Tu diseño personalizado debe ser similar a la siguiente imagen:"
 
-#: ../../basic/theme/index.rst:251 872f04becdd94a93881ce169658776bc
+#: ../../basic/theme/index.rst:252 51c46e6efb75431a9483269012c3e2e5
 msgid "Edit title and intro message"
-msgstr ""
+msgstr "Edita el título y mensaje de introducción"
 
-#: ../../basic/theme/index.rst:253 b9d660e93c984f4298e3b6c742cfc2d6
+#: ../../basic/theme/index.rst:254 80ae28057fac44bbbe480ab023d16217
 msgid "Login as administrator on GeoNode and go to ``Admin`` page:"
 msgstr ""
+"Inicia sesión como administrador en GeoNode y ve a la página "
+"\"Administrador\":"
 
-#: ../../basic/theme/index.rst:258 7222e9f0ff024632b500ee0480a1a535
+#: ../../basic/theme/index.rst:259 7c616e46f8c444c8b1bb3abee8b52fc1
 msgid "Create a new theme under `GeoNode Themes Library` and ``Themes``:"
-msgstr ""
+msgstr "Crea un nuevo tema en ``Biblioteca de temas de GeoNode`` y ``Temas``:"
 
-#: ../../basic/theme/index.rst:263 5ec2cdbfe4ac4cfba743a027e8e4b68d
+#: ../../basic/theme/index.rst:264 97efbcc9965340d39e1f44190382d909
 msgid ""
-"Add a ``Name``, ``Description`` and turn on ``Is enabled`` option. At the"
-" bottom, add a ``Jumbotron title`` and ``Jumbotron content``. This will "
-"override the default GeoNode welcome title and message. Click ``Save`` at"
-" the bottom in the end."
+"Add a ``Name``, ``Description`` and turn on ``Is enabled`` option. At the "
+"bottom, add a ``Jumbotron title`` and ``Jumbotron content``. This will "
+"override the default GeoNode welcome title and message. Click ``Save`` at "
+"the bottom in the end."
 msgstr ""
+"Agrega un ``Name`` (Nombre), ``Description`` (Descripción) y activa la "
+"opción ``Is enabled`` (Esta habilitado). En la parte inferior, agregue un "
+"``Jumbotron title`` y un ``Jumbotron content``. Esto anulará el título y el "
+"mensaje de bienvenida predeterminados de GeoNode. Haga clic en ``Guardar`` "
+"en la parte inferior al final."
 
-#: ../../basic/theme/index.rst:274 b351bba858724784898057072db13c34
+#: ../../basic/theme/index.rst:275 4e6a117765e34e499b9b2baa1370b40d
 msgid ""
-"After this, reload your GeoNode homepage. The output should be similar to"
-" this:"
+"After this, reload your GeoNode homepage. The output should be similar to "
+"this:"
 msgstr ""
-
+"Después de esto, vuelva a cargar la página de inicio de GeoNode. El "
+"resultado debería ser similar a esto:"

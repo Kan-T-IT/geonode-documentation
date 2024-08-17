@@ -1,43 +1,53 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2023-07-10 11:11+0200\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.12.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../advanced/hardening/index.rst:4 2111db8bbb9146b3ae6eef9aad8fe65c
+#: ../../advanced/hardening/index.rst:4 1796914b6aa24d31b17a79871329fc85
 msgid "Publish on other than HTTP port (for e.g. 8082)"
-msgstr ""
+msgstr "Publicar en un puerto distinto al HTTP (por ejemplo, 8082)"
 
-#: ../../advanced/hardening/index.rst:6 8baf2620ca9740d4b99189b08c47e42f
+#: ../../advanced/hardening/index.rst:6 6acc4b65083a4d98b85829dba26e7177
 msgid ""
-"By default geonode will be installed in the port 80 (i.e. HTTP) port. But"
-" what if you want to change the port of the geonode to other than HTTP "
-"port (For this example, I am taking 8082 port)? We need to edit couple of"
-" things in the web configuration. First things is, we need to update the "
+"By default geonode will be installed in the port 80 (i.e. HTTP) port. But "
+"what if you want to change the port of the geonode to other than HTTP port "
+"(For this example, I am taking 8082 port)? We need to edit couple of things "
+"in the web configuration. First things is, we need to update the "
 "`/etc/uwsgi/apps-enabled/geonode.ini` file,"
 msgstr ""
+"De forma predeterminada, GeoNode se instalará en el puerto 80 (es decir, "
+"HTTP). Pero, ¿qué sucede si desea cambiar el puerto de GeoNode a otro que no"
+" sea el puerto HTTP? (para este ejemplo, estoy utilizando el puerto 8082) "
+"Necesitamos editar un par de cosas en la configuración web. Lo primero es "
+"actualizar el archivo `/etc/uwsgi/apps-enabled/geonode.ini`,"
 
 #: ../../advanced/hardening/index.rst:12 ../../advanced/hardening/index.rst:32
-#: 0fba49ff79104ecf898a4f2998746082 d3e609ddd1684cc9973481145ba046dd
+#: 634b8c49cf934a7c9bf03d6ca92c469a 8ba49d6ab5b54384918be583f654b358
 msgid "Edit the following lines,"
-msgstr ""
+msgstr "Edita las siguientes líneas,"
 
-#: ../../advanced/hardening/index.rst:26 8a0e0bcb455543db970b1d26858d16d1
-msgid "After that we need to update the `/etc/nginx/sites-enabled/geonode` file,"
+#: ../../advanced/hardening/index.rst:26 369a04f16e434d3fb699e13e8899fc73
+msgid ""
+"After that we need to update the `/etc/nginx/sites-enabled/geonode` file,"
 msgstr ""
-
+"Después de eso necesitamos actualizar el archivo `/etc/nginx/sites-"
+"enabled/geonode`,"

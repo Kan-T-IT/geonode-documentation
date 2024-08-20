@@ -1,167 +1,207 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2023-07-10 12:04+0200\n"
+"PO-Revision-Date: 2024-07-19 20:53+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.12.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../advanced/social/index.rst:2 41a7a96ce9ef4d5c9d9844c23378029b
+#: ../../advanced/social/index.rst:2 ac9419609a694f88b8b4ec69508410db
 msgid "GeoNode Social Accounts"
-msgstr ""
+msgstr "Cuentas sociales en GeoNode"
 
-#: ../../advanced/social/index.rst:5 18b3e69be3034ea08cac2f2a7f553579
+#: ../../advanced/social/index.rst:5 c47cda1fc70148c090adf1f631aef6a3
 msgid "Contents"
-msgstr ""
+msgstr "Contenido"
 
-#: ../../advanced/social/index.rst:8 98aa4ad4b3564ad09ca70205d78db1b1
+#: ../../advanced/social/index.rst:8 34cf287dfff84c68a0d1df166043fd03
 msgid "Allow GeoNode to Login throguh Social Accounts (OIDC)"
 msgstr ""
+"Permitir que GeoNode inicie sesión a través de cuentas sociales (OIDC)"
 
-#: ../../advanced/social/index.rst:11 795926595dde49a8bc003bf13c53a082
+#: ../../advanced/social/index.rst:11 7038a90777ba4919853f2573e41fb78f
 msgid "Introduction"
-msgstr ""
+msgstr "Introducción"
 
-#: ../../advanced/social/index.rst:13 bcb43b8145794b1780c208a44794b208
+#: ../../advanced/social/index.rst:13 0e336f2603724481b49ae508e3db7230
 msgid ""
 "Through the so-called \"social accounts,\" GeoNode allows authentication "
-"through external providers that support the OIDC (OpenID Connect) "
-"protocol, such as Google and Microsoft Azure."
+"through external providers that support the OIDC (OpenID Connect) protocol, "
+"such as Google and Microsoft Azure."
 msgstr ""
+"A través de las llamadas “cuentas sociales”, GeoNode permite la "
+"autenticación a través de proveedores externos que soportan el protocolo "
+"OIDC (OpenID Connect), como Google y Microsoft Azure."
 
-#: ../../advanced/social/index.rst:15 e2eee25a221f4447a929569828259c6c
+#: ../../advanced/social/index.rst:15 f53cd2f13da64a5aba86cb5564dd550d
 msgid ""
-"How does it work? Once the authentication provider is configured, "
-"GeoNode's sign-on will display a new login button that redirects the user"
-" to the external authentication page. After successfully authenticating "
-"with the external provider and accepting privacy consents, the browser "
-"will redirect the user back to the GeoNode page, prompting them to enter "
-"any missing information the first time and automatically authenticating "
-"them on subsequent occasions."
+"How does it work? Once the authentication provider is configured, GeoNode's "
+"sign-on will display a new login button that redirects the user to the "
+"external authentication page. After successfully authenticating with the "
+"external provider and accepting privacy consents, the browser will redirect "
+"the user back to the GeoNode page, prompting them to enter any missing "
+"information the first time and automatically authenticating them on "
+"subsequent occasions."
 msgstr ""
+"¿Cómo funciona? Una vez que el proveedor de autenticación está configurado, "
+"la página de inicio de sesión de GeoNode mostrará un nuevo botón de acceso "
+"que redirige al usuario a la página de autenticación externa. Después de "
+"autenticarse exitosamente con el proveedor externo y aceptar los "
+"consentimientos de privacidad, el navegador redirigirá al usuario de vuelta "
+"a la página de GeoNode, solicitándole que ingrese cualquier información "
+"faltante la primera vez y autenticándolo automáticamente en ocasiones "
+"posteriores."
 
-#: ../../advanced/social/index.rst:19 e8c065a6ad134e84a1eb267e2d2c8a91
+#: ../../advanced/social/index.rst:19 eb4b4fa33c7e4643ab70d66371f87002
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
-#: ../../advanced/social/index.rst:21 74b978f98b7f44f2b555395f788e21e7
+#: ../../advanced/social/index.rst:21 ec4ab48d45c44e8ab26ffa7e5944ee02
 msgid ""
-"Once the provider has been correctly configured (see below), GeoNode will"
-" allow the user to login through it."
+"Once the provider has been correctly configured (see below), GeoNode will "
+"allow the user to login through it."
 msgstr ""
+"Una vez que el proveedor ha sido configurado correctamente (ver más abajo), "
+"GeoNode permitirá que el usuario inicie sesión a través de él."
 
-#: ../../advanced/social/index.rst:23 3d740a6b0bbe429a87f25d4b920fbb12
+#: ../../advanced/social/index.rst:23 a46599058a504e0ca21b47cdb5916721
 msgid ""
-"The first time you login you will probably need to confirm you `e-mail` "
-"and other fields of the `profile`."
+"The first time you login you will probably need to confirm you `e-mail` and "
+"other fields of the `profile`."
 msgstr ""
+"La primera vez que inicies sesión, probablemente necesitarás confirmar tu "
+"`e-mail` y otros campos del `perfil`."
 
-#: ../../advanced/social/index.rst:27 32dfe5a5f20541b9a02bfc141b635a8a
+#: ../../advanced/social/index.rst:27 f68c9febb6494b858207f63cb2aa0bf2
 msgid ""
-"If you want a user to be automatically signed as a member of a group, you"
-" will need to:"
+"If you want a user to be automatically signed as a member of a group, you "
+"will need to:"
 msgstr ""
+"Si deseas que un usuario se registre automáticamente como miembro de un "
+"grupo, deberás:"
 
-#: ../../advanced/social/index.rst:29 85c45bb78adf429aaa39a855e45edb74
+#: ../../advanced/social/index.rst:29 fc86d88db457444a9df0efe12fdc7b27
 msgid "Create the `GroupProfile` in GeoNode"
-msgstr ""
+msgstr "Crear el `GroupProfile` en GeoNode."
 
-#: ../../advanced/social/index.rst:30 772d7803b0a3479397e7aaa99e6933f9
+#: ../../advanced/social/index.rst:30 5d8fd462cacd44c19e42ff2b429fe3ee
 msgid ""
-"Provide the `groups` or `roles` the user belongs to throguh the "
-"`id_token` or `user_info` metadata from the `OIDC` provider itself."
+"Provide the `groups` or `roles` the user belongs to throguh the `id_token` "
+"or `user_info` metadata from the `OIDC` provider itself."
 msgstr ""
+"Proporcionar los `groups` o `roles` a los que pertenece el usuario a través "
+"del `id_token` o `user_info` metadata del propio proveedor `OIDC`."
 
-#: ../../advanced/social/index.rst:32 6f409c0d8ef640f0b24277feda3d05c0
+#: ../../advanced/social/index.rst:32 b0bf12b8064047b8801149930f8ffd16
 msgid ""
-"Notice that, in the case you would like to benefit from this "
-"functionality:"
-msgstr ""
+"Notice that, in the case you would like to benefit from this functionality:"
+msgstr "Ten en cuenta que, si deseas beneficiarte de esta funcionalidad:"
 
-#: ../../advanced/social/index.rst:34 74aa395b741f404496589618ebbc18c3
+#: ../../advanced/social/index.rst:34 151262f565b549968bd040008dac2f0b
 msgid ""
 "Every time the user sing-in again, the groups will be automatically re-"
 "assigned by GeoNode, and therefore it won't be possible to assign them "
 "manually anymore."
 msgstr ""
+"Cada vez que el usuario vuelva a iniciar sesión, los grupos se reasignarán "
+"automáticamente por GeoNode, por lo que no será posible asignarlos "
+"manualmente."
 
-#: ../../advanced/social/index.rst:35 3204892f3ecd421a9e87a97d8437e5ab
+#: ../../advanced/social/index.rst:35 a40a1b7a3e404622b0fda6b846cc2cb4
 msgid ""
-"If you need a user to be recognized as a `manager` of the `groups` "
-"declared from the provider, you will need to send a claim `is_manager: "
-"True` on the user info metadata."
+"If you need a user to be recognized as a `manager` of the `groups` declared "
+"from the provider, you will need to send a claim `is_manager: True` on the "
+"user info metadata."
 msgstr ""
+"Si necesitas que un usuario sea reconocido como `manager` de los `groups` "
+"declarados por el proveedor, deberás enviar una reclamación `is_manager: "
+"True` en los metadatos de información del usuario."
 
-#: ../../advanced/social/index.rst:38 95754334b8664bcc939b78991b99bef8
+#: ../../advanced/social/index.rst:38 f85030e96fbf408388f49d4fdedb5cc0
 msgid "Quick Configuration"
-msgstr ""
+msgstr "Configuración rápida"
 
-#: ../../advanced/social/index.rst:40 4d7b792a8222497f98dbf92aa35cf787
+#: ../../advanced/social/index.rst:40 7f9dcfb629534090ae484c7753008754
 msgid ""
-"Currently GeoNode comes with two predefined configurations that you can "
-"use to enable either Google or Microsoft Azure."
+"Currently GeoNode comes with two predefined configurations that you can use "
+"to enable either Google or Microsoft Azure."
 msgstr ""
+"Actualmente, GeoNode viene con dos configuraciones predefinidas que puedes "
+"usar para habilitar Google o Microsoft Azure."
 
-#: ../../advanced/social/index.rst:42 807fce83ad6f4be5a1c56b87bc9b2a7f
+#: ../../advanced/social/index.rst:42 6674a238f5624c2a98c35c198803f670
 msgid "**Google**"
-msgstr ""
+msgstr "**Google**"
 
 #: ../../advanced/social/index.rst:44 ../../advanced/social/index.rst:61
-#: 62158d6739c0487aab84ad7dba7c479d
+#: 8600551b37e8423a9ccda8428e101582
 msgid "Add to your `.env` the following settings"
-msgstr ""
+msgstr "Añade a tu `.env` las siguientes configuraciones"
 
 #: ../../advanced/social/index.rst:52 ../../advanced/social/index.rst:69
-#: c1991ff6b50f4793a64f33c1f1aa32df ea0fae4f95b84e65b9f7a4f7c43b638d
+#: 15d7ed4575444acba14dc48fda17ead6
 msgid ""
 "Login into GeoNode as an `admin`, go to the `Social Account` settings, "
 "create a new `geonode_openid_connect` provider and insert the"
 msgstr ""
+"Inicia sesión en GeoNode como `admin`, ve a la configuración de `Social "
+"Account`, crea un nuevo proveedor `geonode_openid_connect` e inserta el"
 
-#: ../../advanced/social/index.rst:59 7f4320334ef2436f96c1e2d5a404deb6
+#: ../../advanced/social/index.rst:59 a53eea1e97174663a4817da6b6540b90
 msgid "**Microsoft Azure**"
-msgstr ""
+msgstr "**Microsoft Azure**"
 
-#: ../../advanced/social/index.rst:77 7d893562a908414e9db28fbb20e2d00a
+#: ../../advanced/social/index.rst:77 bd95dc4d2af4431ca35a0bd804425f8d
 msgid "Advanced Configuration"
-msgstr ""
+msgstr "Configuración avanzada"
 
-#: ../../advanced/social/index.rst:79 6dcbd03527524d7691b7ba6c8ebac53a
+#: ../../advanced/social/index.rst:79 364eece5b4ec4f5d8b928a53a21e3480
 msgid ""
 "In the case you need to change the default behavior of GeoNode or add a "
-"new/custom OIDC provider, you will need to update the `settings` manually"
-" as follows."
+"new/custom OIDC provider, you will need to update the `settings` manually as"
+" follows."
 msgstr ""
+"En caso de que necesites cambiar el comportamiento predeterminado de GeoNode"
+" o agregar un proveedor OIDC nuevo/personalizado, deberás actualizar la "
+"`configuración` manualmente de la siguiente manera."
 
-#: ../../advanced/social/index.rst:104 a4c1fe1bfcae447aae63b715e73ddddf
+#: ../../advanced/social/index.rst:104 213e468bdf994821aa07e4b01fdcf838
 msgid ""
-"If you specify the \"ID_TOKEN_ISSUER\" this will take precedence trying "
-"to fetch the user info metadata from the `id_token`."
+"If you specify the \"ID_TOKEN_ISSUER\" this will take precedence trying to "
+"fetch the user info metadata from the `id_token`."
 msgstr ""
+"Si especificas \"ID_TOKEN_ISSUER\", esto tendrá prioridad al intentar "
+"obtener los metadatos de información del usuario del `id_token`."
 
-#: ../../advanced/social/index.rst:106 bc09cd3182a44103b55e6ef2344e132d
+#: ../../advanced/social/index.rst:106 79f25dcaf8734cdfa416912bbd728a53
 msgid ""
 "If the `id_token` won't be available, it will try to fallback to the "
 "\"PROFILE_URL\" uri."
 msgstr ""
+"Si el `id_token` no está disponible, intentará volver a la URI "
+"\"PROFILE_URL\"."
 
-#: ../../advanced/social/index.rst:108 9ba7302cb0f84544b62699c476039a89
+#: ../../advanced/social/index.rst:108 efa36043ff0741eab499c9b03677f16d
 msgid ""
-"In the case you will need to customzie how the `Adapter` works and "
-"manages the `Groups` registration, you can inject a new class throguh the"
-" settings:"
+"In the case you will need to customzie how the `Adapter` works and manages "
+"the `Groups` registration, you can inject a new class throguh the settings:"
 msgstr ""
-
+"En caso de que necesites personalizar cómo funciona el `Adapter` y cómo "
+"gestiona el registro de `Groups`, puedes inyectar una nueva clase a través "
+"de la configuración:"

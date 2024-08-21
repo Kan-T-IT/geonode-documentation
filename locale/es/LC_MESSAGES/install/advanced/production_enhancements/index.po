@@ -2,25 +2,27 @@
 # Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
+#
 # Translators:
 # Hernán Javier López, 2024
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: 2024-07-19 20:53+0000\n"
+"PO-Revision-Date: 2024-08-21 14:10-0300\n"
 "Last-Translator: Hernán Javier López, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
 "Generated-By: Babel 2.13.1\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: Poedit 3.4.3\n"
 
 #: ../../install/advanced/production_enhancements/index.rst:4
 #: 8c26c2aa99424710b4ae30a0cafd1bf4
@@ -63,19 +65,19 @@ msgstr "``-Djava.awt.headless (true)``"
 #: 3a5fcf7563a94b5197e5f17332144e80
 msgid ""
 "Work with graphics-based applications in Java without an actual display, "
-"keyboard, or mouse A typical use case of UI components running in a headless"
-" environment could be an image converter app. Though it needs graphics data "
-"for image processing, a display is not really necessary. The app could be "
-"run on a server and converted files saved or sent over the network to "
-"another machine for display."
+"keyboard, or mouse A typical use case of UI components running in a "
+"headless environment could be an image converter app. Though it needs "
+"graphics data for image processing, a display is not really necessary. The "
+"app could be run on a server and converted files saved or sent over the "
+"network to another machine for display."
 msgstr ""
 "Trabajar con aplicaciones gráficas en Java sin necesidad de una pantalla, "
 "teclado o mouse físicos. Un caso de uso típico para componentes de interfaz "
 "de usuario en un entorno sin interfaz gráfica podría ser una aplicación de "
 "conversión de imágenes. Aunque requiere datos gráficos para procesar las "
 "imágenes, no necesita una pantalla. La aplicación podría ejecutarse en un "
-"servidor, y los archivos convertidos guardarse o enviarse a través de la red"
-" a otra máquina para su visualización."
+"servidor, y los archivos convertidos guardarse o enviarse a través de la "
+"red a otra máquina para su visualización."
 
 #: ../../install/advanced/production_enhancements/index.rst:30
 #: 7f6db203e9da44d79ad43ed58f182c3a
@@ -105,25 +107,25 @@ msgstr "``-DGEOSERVER_CSRF_DISABLED (True)``"
 #: 35cec6fe3be14bf9bb00a116f0e06008
 msgid ""
 "The GeoServer web admin employs a CSRF (Cross-Site Request Forgery) "
-"protection filter that will block any form submissions that didn’t appear to"
-" originate from GeoServer. This can sometimes cause problems for certain "
+"protection filter that will block any form submissions that didn’t appear "
+"to originate from GeoServer. This can sometimes cause problems for certain "
 "proxy configurations. You can disable the CSRF filter by setting the "
-"GEOSERVER_CSRF_DISABLED property to true. "
-"https://docs.geoserver.org/stable/en/user/security/webadmin/csrf.html"
+"GEOSERVER_CSRF_DISABLED property to true. https://docs.geoserver.org/stable/"
+"en/user/security/webadmin/csrf.html"
 msgstr ""
 "El administrador web de GeoServer emplea un filtro de protección CSRF "
-"(falsificación de solicitudes entre sitios) que bloqueará cualquier envío de"
-" formulario que no parezca originarse en GeoServer. En ocasiones, esto puede"
-" causar problemas con determinadas configuraciones de proxy. Puedes "
+"(falsificación de solicitudes entre sitios) que bloqueará cualquier envío "
+"de formulario que no parezca originarse en GeoServer. En ocasiones, esto "
+"puede causar problemas con determinadas configuraciones de proxy. Puedes "
 "deshabilitar el filtro CSRF configurando la propiedad "
-"GEOSERVER_CSRF_DISABLED en TRUE. "
-"https://docs.geoserver.org/stable/en/user/security/webadmin/csrf.html"
+"GEOSERVER_CSRF_DISABLED en TRUE. https://docs.geoserver.org/stable/en/user/"
+"security/webadmin/csrf.html"
 
 #: ../../install/advanced/production_enhancements/index.rst:40
 #: a4180eb9636049ae8ec8484bc7cead69
 msgid ""
-"Whenever you need to change one or more of the JVM options, you will need to"
-" restart the GeoServer Docker container."
+"Whenever you need to change one or more of the JVM options, you will need "
+"to restart the GeoServer Docker container."
 msgstr ""
 "Cada vez que necesites cambiar una o más opciones de la JVM, tendrás que "
 "reiniciar el contenedor Docker de GeoServer."
@@ -140,9 +142,9 @@ msgstr ""
 #: ../../install/advanced/production_enhancements/index.rst:49
 #: 65ddd13febe844a0bd32beed18f26f17
 msgid ""
-"Nevertheless, any change you have made manually to the container, e.g. added"
-" a new plugin to GeoServer or updated some JARs into the ``WEB-INF/lib`` "
-"library folder, will be lost."
+"Nevertheless, any change you have made manually to the container, e.g. "
+"added a new plugin to GeoServer or updated some JARs into the ``WEB-INF/"
+"lib`` library folder, will be lost."
 msgstr ""
 "Sin embargo, cualquier cambio que hayas hecho manualmente en el contenedor, "
 "como agregar un nuevo plugin a GeoServer o actualizar algunos JARs en la "
@@ -176,8 +178,8 @@ msgstr "*Estado de GeoServer*"
 #: f1e173dcd5414a0daf37bbc7ed195512
 msgid ""
 "GeoServer :guilabel:`Global Settings`; make sure the ``Proxy Base Url`` "
-"points to the publlc URL and the ``LOGGING`` levels are set to "
-":guilabel:`Production Mode`"
+"points to the publlc URL and the ``LOGGING`` levels are set to :guilabel:"
+"`Production Mode`"
 msgstr ""
 "GeoServer :guilabel:`Global Settings`; asegúrese de que ``Proxy Base Url`` "
 "apunte a la URL pública y que los niveles de ``LOGGING`` estén configurados "
@@ -201,13 +203,11 @@ msgstr ""
 #: ../../install/advanced/production_enhancements/index.rst:80
 #: f469e0781f5c46f0b4be73cc8a766cbb
 msgid ""
-"Further details at "
-"https://docs.geoserver.org/stable/en/user/configuration/image_processing/index.html#image-"
-"processing"
+"Further details at https://docs.geoserver.org/stable/en/user/configuration/"
+"image_processing/index.html#image-processing"
 msgstr ""
-"Más detalles en "
-"https://docs.geoserver.org/stable/en/user/configuration/image_processing/index.html#image-"
-"processing"
+"Más detalles en https://docs.geoserver.org/stable/en/user/configuration/"
+"image_processing/index.html#image-processing"
 
 #: ../../install/advanced/production_enhancements/index.rst:86
 #: db9cf3afe0cb4a8db5a3c5356f5790dd
@@ -217,11 +217,11 @@ msgstr "*Configuración de procesamiento de imágenes*"
 #: ../../install/advanced/production_enhancements/index.rst:88
 #: 23fbce9a1420446a823f197969402e60
 msgid ""
-"Tune up :guilabel:`GeoServer Services Configuration`; :guilabel:`WCS`, "
-":guilabel:`WFS`, :guilabel:`WMS` and :guilabel:`WPS`;"
+"Tune up :guilabel:`GeoServer Services Configuration`; :guilabel:`WCS`, :"
+"guilabel:`WFS`, :guilabel:`WMS` and :guilabel:`WPS`;"
 msgstr ""
-"Puesta a punto :guilabel:`Configuración de Servicios GeoServer`; "
-":guilabel:`WCS`, :guilabel:`WFS`, :guilabel:`WMS` y :guilabel:`WPS`;"
+"Puesta a punto :guilabel:`Configuración de Servicios GeoServer`; :guilabel:"
+"`WCS`, :guilabel:`WFS`, :guilabel:`WMS` y :guilabel:`WPS`;"
 
 #: ../../install/advanced/production_enhancements/index.rst:90
 #: 57697d84e9324802823dcf7c34c1d4f4
@@ -240,9 +240,9 @@ msgstr "*Límites de consumo de recursos de WCS*"
 #: ../../install/advanced/production_enhancements/index.rst:98
 #: 5ed89fa7aa484dba8ccdb5c3e2d3c706
 msgid ""
-"**WMS**: Specify here the SRS List you are going to use. Empty means all the"
-" ones supported by GeoServer, but be carefull since the ``GetCapabilities`` "
-"output will become huge."
+"**WMS**: Specify here the SRS List you are going to use. Empty means all "
+"the ones supported by GeoServer, but be carefull since the "
+"``GetCapabilities`` output will become huge."
 msgstr ""
 "**WMS**: Especifica aquí la Lista SRS que vas a utilizar. Vacío significa "
 "todos los soportados por GeoServer, pero tenga cuidado ya que la salida "
@@ -271,9 +271,9 @@ msgid ""
 "general recommendation is to **never** upload a non-processed GeoTIFF image "
 "to GeoNode."
 msgstr ""
-"Las imágenes raster siempre deben ser optimizadas antes de ser ingresadas en"
-" GeoNode. La recomendación general es **nunca** subir una imagen GeoTIFF no "
-"procesada a GeoNode."
+"Las imágenes raster siempre deben ser optimizadas antes de ser ingresadas "
+"en GeoNode. La recomendación general es **nunca** subir una imagen GeoTIFF "
+"no procesada a GeoNode."
 
 #: ../../install/advanced/production_enhancements/index.rst:110
 #: 23b6e63702c040889d70616d0205360f
@@ -288,11 +288,11 @@ msgstr "https://geoserver.geo-solutions.it/edu/en/enterprise/raster.html"
 #: ../../install/advanced/production_enhancements/index.rst:113
 #: a0ae9d0c4c7542f3a4eb19d16ae27dbc
 msgid ""
-"https://geoserver.geo-"
-"solutions.it/edu/en/raster_data/advanced_gdal/index.html"
+"https://geoserver.geo-solutions.it/edu/en/raster_data/advanced_gdal/index."
+"html"
 msgstr ""
-"https://geoserver.geo-"
-"solutions.it/edu/en/raster_data/advanced_gdal/index.html"
+"https://geoserver.geo-solutions.it/edu/en/raster_data/advanced_gdal/index."
+"html"
 
 #: ../../install/advanced/production_enhancements/index.rst:119
 #: 47539a09f2314bb0a3f15bd3f4b46361
@@ -346,7 +346,7 @@ msgid ""
 "layers"
 msgstr ""
 "En primer lugar, asegúrese de que :guilabel:`Tile Caching` esté habilitado "
-"en todas las capas disponibles."
+"en todas las capas disponibles"
 
 #: ../../install/advanced/production_enhancements/index.rst:138
 #: 215a6c130b584fa9870b2cd361cd8fee
@@ -368,8 +368,8 @@ msgid ""
 "Configure :guilabel:`Disk Quota` by providing the connection string to the "
 "DB Docker Container as specified in the :guilabel:`.env` file"
 msgstr ""
-"Configure :guilabel:`Cuota de disco` proporcionando la cadena de conexión al"
-" DB Docker Container como se especifica en el archivo :guilabel:`.env`"
+"Configure :guilabel:`Cuota de disco` proporcionando la cadena de conexión "
+"al DB Docker Container como se especifica en el archivo :guilabel:`.env`"
 
 #: ../../install/advanced/production_enhancements/index.rst:152
 #: 5ac3fa217ec0444e9a71304566df8f0c
@@ -386,8 +386,8 @@ msgstr "Reglas de seguridad de GeoFence en Postgis"
 #: 6fd5d7794fd842f3b0ed01166584112f
 msgid "By default GeoFence stores the security rules on an :guilabel:`H2` db."
 msgstr ""
-"Por defecto, GeoFence almacena las reglas de seguridad en una base de datos "
-":guilabel:`H2`."
+"Por defecto, GeoFence almacena las reglas de seguridad en una base de "
+"datos :guilabel:`H2`."
 
 #: ../../install/advanced/production_enhancements/index.rst:159
 #: eece010dbd8644d7a98f48eeb9059a6d
@@ -408,11 +408,11 @@ msgstr "Para hacer eso, sigue el procedimiento a continuación:"
 #: ../../install/advanced/production_enhancements/index.rst:175
 #: 6ed4634a970746539ae3ddcf3b65603b
 msgid ""
-"Make sure to provide the same connection parameters specified in the "
-":guilabel:`.env` file"
+"Make sure to provide the same connection parameters specified in the :"
+"guilabel:`.env` file"
 msgstr ""
-"Asegúrate de proporcionar los mismos parámetros de conexión especificados en"
-" el archivo :guilabel:`.env`"
+"Asegúrate de proporcionar los mismos parámetros de conexión especificados "
+"en el archivo :guilabel:`.env`"
 
 #: ../../install/advanced/production_enhancements/index.rst:195
 #: 7d7bc318810e4c02ae8146a72b5a8114
@@ -426,7 +426,7 @@ msgid ""
 "reset to the original state"
 msgstr ""
 "Recuerda realizar un **reinicio suave**; de lo contrario, los archivos JAR "
-"WEB-INF/lib se restablecerán al estado original."
+"WEB-INF/lib se restablecerán al estado original"
 
 #: ../../install/advanced/production_enhancements/index.rst:207
 #: 3ea0441864bc4964aa2e88bf840e14cd
@@ -454,11 +454,11 @@ msgstr "Corregir los permisos de los conjuntos de datos de GeoNode"
 #: ../../install/advanced/production_enhancements/index.rst:216
 #: e4b1eccf11a84919b0bfe6be20bbb193
 msgid ""
-"The list of the GeoFence Security Rules is available from the "
-":guilabel:`GeoFence Data Rules` section."
+"The list of the GeoFence Security Rules is available from the :guilabel:"
+"`GeoFence Data Rules` section."
 msgstr ""
-"La lista de reglas de seguridad de GeoFence está disponible en la sección "
-":guilabel:`GeoFence Data Rules`."
+"La lista de reglas de seguridad de GeoFence está disponible en la sección :"
+"guilabel:`GeoFence Data Rules`."
 
 #: ../../install/advanced/production_enhancements/index.rst:218
 #: 8cc31a4e1f9d42f89a45c2919ad368e7
@@ -467,8 +467,8 @@ msgid ""
 "empty, no layer will be accessible by standard users other than admin."
 msgstr ""
 "Siempre verifica que la lista sea accesible y que las reglas de datos estén "
-"presentes. Si está vacía, ningún usuario estándar, aparte del administrador,"
-" podrá acceder a ninguna capa."
+"presentes. Si está vacía, ningún usuario estándar, aparte del "
+"administrador, podrá acceder a ninguna capa."
 
 #: ../../install/advanced/production_enhancements/index.rst:224
 #: 4c34ef4f07a9487bbe0f618a8aebde2b
@@ -543,13 +543,12 @@ msgstr "Migrar GeoNode a un nuevo nombre de host"
 #: 8c84a4f4cfad46d8a62a088a5e86bc1d
 msgid ""
 "In the case you will need to move your instance to another domain, as an "
-"example from ``https://my_geonode.geonode.org/`` to "
-"``https://prod_geonode.geonode.org/``, follow the procedure below:"
+"example from ``https://my_geonode.geonode.org/`` to ``https://prod_geonode."
+"geonode.org/``, follow the procedure below:"
 msgstr ""
 "En el caso de que necesite mover su instancia a otro dominio, como por "
-"ejemplo de ``https://my_geonode.geonode.org/`` a "
-"``https://prod_geonode.geonode.org/``, siga las instrucciones procedimiento "
-"a continuación:"
+"ejemplo de ``https://my_geonode.geonode.org/`` a ``https://prod_geonode."
+"geonode.org/``, siga las instrucciones procedimiento a continuación:"
 
 #: ../../install/advanced/production_enhancements/index.rst:290
 #: 8a76570cf5054d939fba693dee270951
@@ -584,8 +583,8 @@ msgid ""
 "Uploaing huge datasets, or DB tables, to GeoNode from the :guilabel:`Web "
 "Upload Interface` is not really possible sometimes."
 msgstr ""
-"A veces, no es posible subir conjuntos de datos grandes o tablas de bases de"
-" datos a GeoNode desde la  :guilabel:`Interfaz de Carga Web`."
+"A veces, no es posible subir conjuntos de datos grandes o tablas de bases "
+"de datos a GeoNode desde la  :guilabel:`Interfaz de Carga Web`."
 
 #: ../../install/advanced/production_enhancements/index.rst:317
 #: 3cac6b39db0247f0947db07d1b2539c4
@@ -605,9 +604,9 @@ msgid ""
 "first and then adding manually the layer throught the :guilabel:`GeoServer "
 "Admin GUI`."
 msgstr ""
-"Debes subir los datos al volumen estático del contenedor Docker de GeoServer"
-" y luego añadir manualmente la capa a través de la :guilabel:`GeoServer "
-"Admin GUI`."
+"Debes subir los datos al volumen estático del contenedor Docker de "
+"GeoServer y luego añadir manualmente la capa a través de la :guilabel:"
+"`GeoServer Admin GUI`."
 
 #: ../../install/advanced/production_enhancements/index.rst:323
 #: 73dcffcc33254e179865623e7d7f4695

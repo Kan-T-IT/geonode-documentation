@@ -2,25 +2,27 @@
 # Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-# 
+#
 # Translators:
 # Hernán Javier López, 2024
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 09:15-0300\n"
-"PO-Revision-Date: 2024-07-19 20:53+0000\n"
+"PO-Revision-Date: 2024-08-21 14:17-0300\n"
 "Last-Translator: Hernán Javier López, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
 "Generated-By: Babel 2.13.1\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: Poedit 3.4.3\n"
 
 #: ../../start/index.rst:4 f5f79b89b64e4b1da23b09f3f2f3e7f8
 msgid "GeoNode Basics"
@@ -54,8 +56,8 @@ msgstr "Almacenamiento de datos geoespaciales"
 
 #: ../../start/index.rst:30 56ec0532c6d144049af37701bf5237bc
 msgid ""
-"GeoNode allows users to upload vector data (currently shapefiles, json, csv,"
-" kml and kmz) and raster data in their original projections using a web "
+"GeoNode allows users to upload vector data (currently shapefiles, json, "
+"csv, kml and kmz) and raster data in their original projections using a web "
 "form."
 msgstr ""
 "GeoNode permite a los usuarios cargar datos vectoriales (actualmente "
@@ -73,8 +75,8 @@ msgstr ""
 
 #: ../../start/index.rst:35 743cb64daac94135bf5a074d9818ba53
 msgid ""
-"Special importance is given to standard metadata formats like ISO 19139:2007"
-" / ISO 19115 metadata standards."
+"Special importance is given to standard metadata formats like ISO "
+"19139:2007 / ISO 19115 metadata standards."
 msgstr ""
 "Se da especial importancia a los formatos de metadatos estándar como los "
 "estándares de metadatos ISO 19139:2007 / ISO 19115."
@@ -100,8 +102,8 @@ msgstr ""
 
 #: ../../start/index.rst:42 b185d9c466ba4f8288e8ebe4f1e0c6ec
 msgid ""
-"Similarly, GeoNode provides a web based styler that lets the users to change"
-" the data portrayals and preview the changes at real time."
+"Similarly, GeoNode provides a web based styler that lets the users to "
+"change the data portrayals and preview the changes at real time."
 msgstr ""
 "De manera similar, GeoNode proporciona un estilizador basado en web que "
 "permite a los usuarios cambiar las representaciones de datos y obtener una "
@@ -109,7 +111,7 @@ msgstr ""
 
 #: ../../start/index.rst:48 f11a497eb15d4f60a4fb156d34a7edab
 msgid "Data mixing, maps creation"
-msgstr "Mezcla de datos, creación de mapas."
+msgstr "Mezcla de datos, creación de mapas"
 
 #: ../../start/index.rst:50 a5b43796768a44dcafddf1598c52668e
 msgid ""
@@ -126,16 +128,17 @@ msgid ""
 "Open Street Map, Google Satellite or Bing datasets."
 msgstr ""
 "Todos los conjuntos de datos se reproyectan automáticamente a Web Mercator "
-"para la visualización en mapas, lo que permite utilizar diferentes conjuntos"
-" de datos base populares, como OpenStreetMap, Google Satellite o Bing."
+"para la visualización en mapas, lo que permite utilizar diferentes "
+"conjuntos de datos base populares, como OpenStreetMap, Google Satellite o "
+"Bing."
 
 #: ../../start/index.rst:55 6af90e2bea474d36a019bf212bedacc2
 msgid ""
-"Once the maps are saved, it is possible to embed them in any web page or get"
-" a PDF version for printing."
+"Once the maps are saved, it is possible to embed them in any web page or "
+"get a PDF version for printing."
 msgstr ""
-"Una vez guardados los mapas, es posible incrustarlos en cualquier página web"
-" u obtener una versión PDF para imprimir."
+"Una vez guardados los mapas, es posible incrustarlos en cualquier página "
+"web u obtener una versión PDF para imprimir."
 
 #: ../../start/index.rst:58 c75fca52b6d04cb7aacbfef13076bc44
 msgid "GeoNode as a building block"
@@ -159,11 +162,11 @@ msgstr ""
 
 #: ../../start/index.rst:64 38c1030ba6154a8e9434261494facef9
 msgid ""
-"The development community is very supportive of new projects and contributes"
-" ideas and guidance for newcomers."
+"The development community is very supportive of new projects and "
+"contributes ideas and guidance for newcomers."
 msgstr ""
-"La comunidad de desarrollo apoya mucho los nuevos proyectos y aporta ideas y"
-" orientación para los recién llegados."
+"La comunidad de desarrollo apoya mucho los nuevos proyectos y aporta ideas "
+"y orientación para los recién llegados."
 
 #: ../../start/index.rst:67 21eaf2a1b39a403abae9fcc70c14e31c
 msgid "Convinced! Where do I sign?"
@@ -187,8 +190,8 @@ msgstr ""
 
 #: ../../start/index.rst:75 76180b8a677d4a99888edcd5673f01ec
 msgid ""
-"Read the documentation starting from the :doc:`user guide </usage/index>` to"
-" the :doc:`admin guide </admin/index>`"
+"Read the documentation starting from the :doc:`user guide </usage/index>` "
+"to the :doc:`admin guide </admin/index>`"
 msgstr ""
 "Lea la documentación desde la :doc:`guía del usuario </usage/index>` hasta "
 "la :doc:`guía de administración </admin/index>`"
@@ -198,9 +201,9 @@ msgid ""
 "Subscribe to the `geonode-users`_ and/or `geonode-devel`_ mailing lists to "
 "join the community. See also the section :ref:`get_in_touch` for more info."
 msgstr ""
-"Suscríbase a las listas de correo `geonode-users`_ y/o `geonode-devel`_ para"
-" unirse a la comunidad. Consulte también la sección :ref:`get_in_touch` para"
-" obtener más información."
+"Suscríbase a las listas de correo `geonode-users`_ y/o `geonode-devel`_ "
+"para unirse a la comunidad. Consulte también la sección :ref:`get_in_touch` "
+"para obtener más información."
 
 #: ../../start/index.rst:80 dafb53dce8cf4f968d324840fe666cf9
 msgid "Thanks for your interest!"
@@ -248,15 +251,15 @@ msgstr "Demostración en línea"
 
 #: ../../start/index.rst:106 21fcab2da60149ea80534c02cd393ee8
 msgid ""
-"**Disclaimer** we do not guarantee for any data published on this Demo Site."
-" Publish the data at your own risk. Every dataset will be removed "
+"**Disclaimer** we do not guarantee for any data published on this Demo "
+"Site. Publish the data at your own risk. Every dataset will be removed "
 "automatically every Sunday. If you find some dataset that shouldn't be "
 "there, please write suddenly to developers and maintainers."
 msgstr ""
 "**Descargo de responsabilidad** No garantizamos la precisión de los datos "
 "publicados en este sitio de demostración. Publica los datos bajo tu propio "
-"riesgo. Cada conjunto de datos se eliminará automáticamente cada domingo. Si"
-" encuentras algún conjunto de datos que no debería estar allí, por favor, "
+"riesgo. Cada conjunto de datos se eliminará automáticamente cada domingo. "
+"Si encuentras algún conjunto de datos que no debería estar allí, por favor, "
 "comunícalo de inmediato a los desarrolladores y mantenedores."
 
 #: ../../start/index.rst:110 8ee278c159b0428d8e486ccb1bbc1185
@@ -265,8 +268,8 @@ msgstr "Consulte la sección :ref:`get_in_touch` para obtener más detalles."
 
 #: ../../start/index.rst:112 dac786888e704337ac7c8ad48d57d3ce
 msgid ""
-"A live demo of the latest stable build is available at "
-"https://demo.geonode.org/."
+"A live demo of the latest stable build is available at https://demo.geonode."
+"org/."
 msgstr ""
 "Una demostración en vivo de la última versión estable está disponible en "
 "https://demo.geonode.org/."
@@ -288,8 +291,9 @@ msgid ""
 "Since it is a demo site, every sunday all the datasets will be wiped out. "
 "Users, passwords and groups will be preserved."
 msgstr ""
-"Dado que es un sitio de demostración, todos los domingos se eliminarán todos"
-" los conjuntos de datos. Se conservarán los usuarios, contraseñas y grupos."
+"Dado que es un sitio de demostración, todos los domingos se eliminarán "
+"todos los conjuntos de datos. Se conservarán los usuarios, contraseñas y "
+"grupos."
 
 #: ../../start/index.rst:123 5a543490ec6a42ff8c70111d96ba08e3
 msgid ""
@@ -302,12 +306,12 @@ msgstr ""
 #: ../../start/index.rst:125 0391c1e38afd4afa921d8bec89cb505e
 msgid ""
 "This GeoNode instance is configured with standards settings and a very low "
-"security level. This is a demo only not to be considered a really production"
-" ready system. For a complete list of settings, refer to the section: "
-":ref:`settings`"
+"security level. This is a demo only not to be considered a really "
+"production ready system. For a complete list of settings, refer to the "
+"section: :ref:`settings`"
 msgstr ""
-"Esta instancia de GeoNode está configurada con configuraciones estándar y un"
-" nivel de seguridad muy bajo. Esta es una demostración, pero no debe "
+"Esta instancia de GeoNode está configurada con configuraciones estándar y "
+"un nivel de seguridad muy bajo. Esta es una demostración, pero no debe "
 "considerarse un sistema realmente listo para producción. Para obtener una "
 "lista completa de configuraciones, consulte la sección: :ref:`settings`"
 

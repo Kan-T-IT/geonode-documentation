@@ -1,188 +1,265 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2021-06-03 17:10+0200\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.9.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../contribute/documentation/index.rst:5 7294677b4bbc42dcb5a64b19601afbb2
+#: ../../contribute/documentation/index.rst:5 61d9564a5f5b4e05aabd65a4a0e0a7c6
 msgid "How to contribute to GeoNode's Documentation"
-msgstr ""
+msgstr "Cómo contribuir a la documentación de GeoNode"
 
-#: ../../contribute/documentation/index.rst:8 e709a32cd1c44895a2b8ddd77fe6e6a6
+#: ../../contribute/documentation/index.rst:8 60dd69496ebf4c048d2e7b3f60625809
 msgid ""
-"If you feel like adding or changing something in the GeoNode "
-"documentation you are very welcome to do so. The documentation always "
-"needs improvement as the development of the software is going quite fast."
+"If you feel like adding or changing something in the GeoNode documentation "
+"you are very welcome to do so. The documentation always needs improvement as"
+" the development of the software is going quite fast."
 msgstr ""
+"Si deseas agregar o cambiar algo en la documentación de GeoNode, puedes "
+"hacerlo. La documentación siempre necesita mejoras, ya que el desarrollo del"
+" software avanza bastante rápido."
 
-#: ../../contribute/documentation/index.rst:10 959a21c6266a40cbb0e1dfb122f2eed9
+#: ../../contribute/documentation/index.rst:10
+#: 9631dde0ee274b8293f004b431abb31e
 msgid "To contribute to the GeoNode documentation you should:"
-msgstr ""
+msgstr "Para contribuir a la documentación de GeoNode debes:"
 
-#: ../../contribute/documentation/index.rst:12 467fbbe8c81a49e6b250d6b455779fd8
+#: ../../contribute/documentation/index.rst:12
+#: 3762102beb5e4f398b3725122616061a
 msgid "Read the GeoServer Style Guidelines"
-msgstr ""
+msgstr "Lea las pautas de estilo de GeoServer"
 
 #: ../../contribute/documentation/index.rst:13
-#: ../../contribute/documentation/index.rst:25 4966a6d1df4f43dca8f46a5381a97e46
-#: d981bb1bda914c34b9f76c946372105e
+#: ../../contribute/documentation/index.rst:25
+#: 32c4549a36b441ef9ba06dfc59691259 6c521223f8914c49b4e583f570ffa8e0
 msgid "Create an account on GitHub"
-msgstr ""
+msgstr "Crea una cuenta en GitHub"
 
-#: ../../contribute/documentation/index.rst:14 c247ddc2cdef4a1ba5a7a7a92d240066
+#: ../../contribute/documentation/index.rst:14
+#: 0b47227d990f43239db05fd2ce80edf3
 msgid "Fork the GeoNode repository"
-msgstr ""
+msgstr "Bifurcar el repositorio GeoNode"
 
-#: ../../contribute/documentation/index.rst:15 75e0d06dfbd84913bac19364df2e6ab1
+#: ../../contribute/documentation/index.rst:15
+#: a73cb5c8faa1472287fcf3aa612d52c2
 msgid "Edit the files"
-msgstr ""
+msgstr "Editar los archivos"
 
-#: ../../contribute/documentation/index.rst:16 b97a42db777a4b8b878eb26acde2c8e4
+#: ../../contribute/documentation/index.rst:16
+#: ca237ef712cb4510a6d837e5d12c575a
 msgid "Submit pull requests"
-msgstr ""
+msgstr "Enviar solicitudes de extracción"
 
-#: ../../contribute/documentation/index.rst:18 7a3055bf61704ca59b4c22ad88e8fac7
+#: ../../contribute/documentation/index.rst:18
+#: eb048f96cfc74bd7b9eb9099c974dde5
 msgid ""
-"All these things can generally be done within your browser, you won't "
-"need to download anything. However, if you need to add images or planning"
-" bigger changes working locally is recommended."
+"All these things can generally be done within your browser, you won't need "
+"to download anything. However, if you need to add images or planning bigger "
+"changes working locally is recommended."
 msgstr ""
+"En general, todo esto se puede hacer desde el navegador, no es necesario "
+"descargar nada. Sin embargo, si necesitas agregar imágenes o planeas hacer "
+"cambios más grandes, se recomienda trabajar de forma local."
 
-#: ../../contribute/documentation/index.rst:21 a3e3d6c0994f48ebac71397222920156
+#: ../../contribute/documentation/index.rst:21
+#: 13b4cd5ec9454971b37febd9e06e627d
 msgid "Style Guidelines"
-msgstr ""
+msgstr "Pautas de estilo"
 
-#: ../../contribute/documentation/index.rst:22 5eece37fa2b64281bb7346766f048ca5
+#: ../../contribute/documentation/index.rst:22
+#: eda844c58e044711838f7e7369e69e8d
 msgid ""
-"While we do not have strict rules for writing docs, we encourage you to "
-"read GeoServer Style Guidelines before you start writing: "
+"While we do not have strict rules for writing docs, we encourage you to read"
+" GeoServer Style Guidelines before you start writing: "
 "https://docs.geoserver.org/latest/en/docguide/style.html"
 msgstr ""
+"Si bien no tenemos reglas estrictas para escribir documentos, te "
+"recomendamos leer las Pautas de estilo de GeoServer antes de comenzar a "
+"escribir: https://docs.geoserver.org/latest/en/docguide/style.html"
 
-#: ../../contribute/documentation/index.rst:27 b4b1e570203649f7af437daf0e0549a3
+#: ../../contribute/documentation/index.rst:27
+#: 9527d10f82784d5bb6264c425aaa4ca7
 msgid ""
 "The first step is to create an account on GitHub. Just go to `Github "
-"<https://github.com>`_, find a username that suits you, enter your email "
-"and a password and hit *Sign up for GitHub*. After you've signed in, "
-"visit the geonode_documentation repository "
-"https://github.com/geonode/documentation."
+"<https://github.com>`_, find a username that suits you, enter your email and"
+" a password and hit *Sign up for GitHub*. After you've signed in, visit the "
+"geonode_documentation repository https://github.com/geonode/documentation."
 msgstr ""
+"El primer paso es crear una cuenta en GitHub. Solo tienes que ir a `Github "
+"<https://github.com>`_, buscar un nombre de usuario que te convenga, "
+"introducir tu correo electrónico y una contraseña y pulsar *Registrarse en "
+"GitHub*. Una vez que hayas iniciado sesión, visita el repositorio "
+"geonode_documentation https://github.com/geonode/documentation."
 
-#: ../../contribute/documentation/index.rst:31 57433a4cdbfc4b7eb1c5692c055d54d7
+#: ../../contribute/documentation/index.rst:31
+#: 7f87e7d9d781471daf62477a30aaacd1
 msgid "Fork the documentation repository"
-msgstr ""
+msgstr "Bifurcar el repositorio de documentación"
 
-#: ../../contribute/documentation/index.rst:33 9c3d53d719704b4d9b433a2e06f267b1
+#: ../../contribute/documentation/index.rst:33
+#: 1f6528f7af7b4cf09b6c2f317f0a01c3
 msgid ""
-"In order to make changes, you first have to fork the repository. On the "
-"top right of the website, you will find a button named \"fork\" to do so."
+"In order to make changes, you first have to fork the repository. On the top "
+"right of the website, you will find a button named \"fork\" to do so."
 msgstr ""
+"Para realizar cambios, primero debes bifurcar el repositorio. En la parte "
+"superior derecha del sitio web, encontrarás un botón llamado \"fork\" para "
+"hacerlo."
 
-#: ../../contribute/documentation/index.rst:35 9d5c068a8b464f6caefe775f9ffed21a
+#: ../../contribute/documentation/index.rst:35
+#: 8fc762ae68a6498f85d0a6d6148acf1e
 msgid ""
 "If you want to read more about forking please visit the official GitHub "
 "docs: https://help.github.com/articles/fork-a-repo."
 msgstr ""
+"Si deseas leer más sobre la bifurcación, visite la documentación oficial de "
+"GitHub: https://help.github.com/articles/fork-a-repo."
 
-#: ../../contribute/documentation/index.rst:39 e46ea20ca8874e7ea45544cfa8c0f747
+#: ../../contribute/documentation/index.rst:39
+#: 68b55e156e3e4464887be360c2456af0
 msgid "Edit files on Github"
-msgstr ""
+msgstr "Editar archivos en Github"
 
-#: ../../contribute/documentation/index.rst:41 6c13a0ae67ed498b9d9c72f62d2d2cdd
+#: ../../contribute/documentation/index.rst:41
+#: 16338a59d13c485ea9c2c3eab4e88342
 msgid ""
-"For smaller changes you can use the GitHub website. Navigate your Browser"
-" to your forked repository. To make changes to files, navigate to the "
-"file in question and hit the *edit* button on the right top."
+"For smaller changes you can use the GitHub website. Navigate your Browser to"
+" your forked repository. To make changes to files, navigate to the file in "
+"question and hit the *edit* button on the right top."
 msgstr ""
+"Para realizar cambios menores, puedes utilizar el sitio web de GitHub. "
+"Navega en tu navegador hasta el repositorio bifurcado. Para realizar cambios"
+" en los archivos, navega hasta el archivo en cuestión y presiona el botón "
+"*editar* en la parte superior derecha."
 
-#: ../../contribute/documentation/index.rst:44 adc2028b0501423eb54ad6b3c59b7159
+#: ../../contribute/documentation/index.rst:44
+#: 87f8a24192bc49c4bca1e5853b4d88a3
 msgid ""
 "The documentation is written in *reStructeredText*, a lightweight markup "
 "language. To learn how to use it see: "
 "https://docutils.sourceforge.net/docs/user/rst/quickref.html."
 msgstr ""
+"La documentación está escrita en *reStructeredText*, un lenguaje de marcado "
+"ligero. Para aprender a usarlo, consulte: "
+"https://docutils.sourceforge.net/docs/user/rst/quickref.html."
 
-#: ../../contribute/documentation/index.rst:46 3b2048dffd814260942ea6f48eb1de82
+#: ../../contribute/documentation/index.rst:46
+#: 4747e4ad26284b4bb7610741d7a81432
 msgid ""
 "By hitting the *preview* button you will be able to see how your changes "
 "will look like. To save your changes, click on *Commit Changes* at the "
 "bottom of the site."
 msgstr ""
+"Al hacer clic en el botón *vista previa* podrás ver cómo se verán sus "
+"cambios. Para guardar los cambios, haz clic en *Confirmar cambios* en la "
+"parte inferior del sitio."
 
-#: ../../contribute/documentation/index.rst:48 6ef9a3bee316400486da10923c6fab7a
+#: ../../contribute/documentation/index.rst:48
+#: ac3fc2ed561c42c2bc7cbb4b0362b3a5
 msgid ""
-"To ask the documentation maintainers to integrate your changes the "
-"creation of a *Pull Request* is needed. Therefore use the *new pull "
-"request* button to start the process. Find more about Pull requests at "
-"the official GitHub documentation: https://help.github.com/en/github"
-"/collaborating-with-issues-and-pull-requests/about-pull-requests ."
+"To ask the documentation maintainers to integrate your changes the creation "
+"of a *Pull Request* is needed. Therefore use the *new pull request* button "
+"to start the process. Find more about Pull requests at the official GitHub "
+"documentation: https://help.github.com/en/github/collaborating-with-issues-"
+"and-pull-requests/about-pull-requests ."
 msgstr ""
+"Para solicitar a los encargados de la documentación que integren tus "
+"cambios, es necesario crear una *Pull Request*. Por lo tanto, utiliza el "
+"botón *new pull request* para iniciar el proceso. Encuentra más información "
+"sobre las solicitudes de incorporación de cambios en la documentación "
+"oficial de GitHub: https://help.github.com/en/github/collaborating-with-"
+"issues-and-pull-requests/about-pull-requests ."
 
-#: ../../contribute/documentation/index.rst:53 641374b220a04c5b8e1b34ac1e2b89ae
+#: ../../contribute/documentation/index.rst:53
+#: fff9a5de75f94d2280242f4754fc6b37
 msgid "Edit files locally"
-msgstr ""
+msgstr "Editar archivos localmente"
 
-#: ../../contribute/documentation/index.rst:55 c6f62b7eb86045bf93c91d1e258588c3
+#: ../../contribute/documentation/index.rst:55
+#: fa37ffc7aed84f528be7840e3fd5e210
 msgid ""
-"If you're planning bigger changes on the structure of the documentation, "
-"it is advisable to make your changes locally. Further, while you can work"
-" on your master branch, it is recommended to create a dedicated branch "
-"for your changes."
+"If you're planning bigger changes on the structure of the documentation, it "
+"is advisable to make your changes locally. Further, while you can work on "
+"your master branch, it is recommended to create a dedicated branch for your "
+"changes."
 msgstr ""
+"Si planeas realizar cambios más importantes en la estructura de la "
+"documentación, es recomendable realizar los cambios de forma local. Además, "
+"si bien puedes trabajar en tu rama maestra, se recomienda crear una rama "
+"dedicada a los cambios."
 
-#: ../../contribute/documentation/index.rst:57 5cbb26dd7762468b8b93e7956acfeeb2
+#: ../../contribute/documentation/index.rst:57
+#: 09414e5e50814bf19f7aa28ec6f24c9d
 msgid ""
 "Start by navigating to a folder where you like to keep your repository "
 "locally and install the needed dependencies ::"
 msgstr ""
+"Comienza navegando a una carpeta donde deseas mantener tu repositorio "
+"localmente e instala las dependencias necesarias::"
 
-#: ../../contribute/documentation/index.rst:76 418cd279f16d4c659cc585846d7f5e6e
+#: ../../contribute/documentation/index.rst:76
+#: 08f5520a02084eb1965fbaa50204e0a3
 msgid ""
 "Your repository should now be up to date! For more information on those "
-"commands go to https://git-scm.com/docs. Let's install the dependencies "
+"commands go to https://git-scm.com/docs. Let's install the dependencies ::"
+msgstr ""
+"¡Tu repositorio ya debería estar actualizado! Para obtener más información "
+"sobre esos comandos, visita https://git-scm.com/docs. Instalemos las "
+"dependencias:"
+
+#: ../../contribute/documentation/index.rst:84
+#: a79659f6e71f4a8c8f4e22303ff32fc8
+msgid ""
+"You can now start the sphinx development server which will serve and live-"
+"reload your docs at https://localhost:8000 ::"
+msgstr ""
+"Ahora puedes iniciar el servidor de desarrollo de Sphinx que servirá y "
+"recargará en vivo sus documentos en https://localhost:8000 ::"
+
+#: ../../contribute/documentation/index.rst:88
+#: ef1b89c860d043d0849d86a2fc7a150c
+msgid "When finished create a build with following command ::"
+msgstr "Cuando termine, crea una compilación con el siguiente comando::"
+
+#: ../../contribute/documentation/index.rst:95
+#: 1e54649a374342af9ca1d5a61e7b5962
+msgid "Create a pull request"
+msgstr "Crear una solicitud de extracción"
+
+#: ../../contribute/documentation/index.rst:97
+#: 58b630c52db24358bee2d205cb6be5c2
+msgid ""
+"As with directly editing files in your browser, you will need to create a "
+"Pull request to ask for integrating your changes into the main repository. "
 "::"
 msgstr ""
-
-#: ../../contribute/documentation/index.rst:84 c4398141e4ce445b9ccb2fb04678d361
-msgid ""
-"You can now start the sphinx development server which will serve and "
-"live-reload your docs at https://localhost:8000 ::"
-msgstr ""
-
-#: ../../contribute/documentation/index.rst:88 242e73ec6ebe4fac99acfb68ebc5c119
-msgid "When finished create a build with following command ::"
-msgstr ""
-
-#: ../../contribute/documentation/index.rst:95 4a580bc7fc0b4778aa50080d4b95d262
-msgid "Create a pull request"
-msgstr ""
-
-#: ../../contribute/documentation/index.rst:97 66987ed25afd4fbab4a9e7725cee3707
-msgid ""
-"As with directly editing files in your browser, you will need to create a"
-" Pull request to ask for integrating your changes into the main "
-"repository. ::"
-msgstr ""
+"Al igual que con la edición directa de archivos en tu navegador, deberás "
+"crear una solicitud de extracción para solicitar la integración de tus "
+"cambios en el repositorio principal. ::"
 
 #: ../../contribute/documentation/index.rst:111
-#: 0a3db50ccdb74c3ca875097bb188daf7
+#: a9f4586503ea4988b5fda3d3ce1e4222
 msgid ""
 "After running these commands, navigate your browser to your GitHub "
 "repository and create a pull request as explained above."
 msgstr ""
-
+"Después de ejecutar estos comandos, navega con tu navegador hasta tu "
+"repositorio de GitHub y crea una solicitud de extracción como se explicó "
+"anteriormente."

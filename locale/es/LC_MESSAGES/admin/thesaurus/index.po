@@ -1,29 +1,32 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2023-07-10 11:11+0200\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.12.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../admin/thesaurus/index.rst:2 2b685c5d29534758aba8666da60c94c5
+#: ../../admin/thesaurus/index.rst:2 294eea7bccf247938d6383d0e68d7363
 msgid "Introduction"
-msgstr ""
+msgstr "Introducción"
 
-#: ../../admin/thesaurus/index.rst:4 e0cba66278744234b8ddbeeb08050fbf
+#: ../../admin/thesaurus/index.rst:4 e1e2e39e0f7842db9295f0ae701ada11
 msgid ""
 "GeoNode can import a thesaurus (or multiple thesauri) in order to index "
 "resources against subject terms or keywords. Thesauri can be managed "
@@ -31,279 +34,361 @@ msgid ""
 "<https://www.w3.org/2004/02/skos/>`_ using either the admin panel or the "
 "command-line:"
 msgstr ""
+"GeoNode puede importar un tesauro (o varios) para indexar recursos en "
+"función de términos temáticos o palabras clave. Los tesauros se pueden "
+"gestionar manualmente en el panel de administración o se pueden importar "
+"como `SKOS RDF <https://www.w3.org/2004/02/skos/>`_ mediante el panel de "
+"administración o la línea de comandos:"
 
-#: ../../admin/thesaurus/index.rst:9 e0ca8f2908df49fcacdfb1aa3cf37650
+#: ../../admin/thesaurus/index.rst:9 70b0919daf6c494b87fa5fce309a7431
 msgid "Upload via the Admin panel"
-msgstr ""
+msgstr "Subir a través del panel de administración"
 
-#: ../../admin/thesaurus/index.rst:11 ec02b05ff8d143afb2bd0bf908456efa
+#: ../../admin/thesaurus/index.rst:11 35e447c963824381ad31e30923732799
 msgid ""
 "Navigate to the thesaurus page in the admin panel "
-"``http://<your_geonode_host>/admin/base/thesaurus``. On the top-right of "
-"the page a button named :guilabel:`Upload thesaurus` will be available:"
+"``http://<your_geonode_host>/admin/base/thesaurus``. On the top-right of the"
+" page a button named :guilabel:`Upload thesaurus` will be available:"
 msgstr ""
+"Ve a la página del tesauro en el panel de administración "
+"``http://<your_geonode_host>/admin/base/thesaurus``. En la parte superior "
+"derecha de la página, estará disponible un botón llamado :guilabel:`Upload "
+"thesaurus`:"
 
-#: ../../admin/thesaurus/index.rst:16 d433411a2fd24942b127d928b7928d08
+#: ../../admin/thesaurus/index.rst:16 9b323e38f4d94c9f8e48a21daa14a6e4
 msgid ""
-"After clicking on it, a simple form for the upload will be shown which "
-"will allow you to select your desired RDF file:"
+"After clicking on it, a simple form for the upload will be shown which will "
+"allow you to select your desired RDF file:"
 msgstr ""
+"Después de hacer clic en él, se mostrará un formulario simple para la carga "
+"que le permitirá seleccionar el archivo RDF deseado:"
 
-#: ../../admin/thesaurus/index.rst:21 7da6499abb064da698031f10931bc567
+#: ../../admin/thesaurus/index.rst:21 4ee13314e55f41e5bc94eaff0e8527cb
 msgid ""
-"By clicking on `Upload RDF`, the system will load the thesaurus and "
-"assign it a \"slugified\" name based on the file name. The name can be "
-"easily change later in the edit page."
+"By clicking on `Upload RDF`, the system will load the thesaurus and assign "
+"it a \"slugified\" name based on the file name. The name can be easily "
+"change later in the edit page."
 msgstr ""
+"Al hacer clic en \"Upload RDF\", el sistema cargará el diccionario de "
+"sinónimos y le asignará un nombre \"slugified\" basado en el nombre del "
+"archivo. El nombre se puede cambiar fácilmente más adelante en la página de "
+"edición."
 
-#: ../../admin/thesaurus/index.rst:24 067bb8d178ce4b3783a662b9acac8b57
+#: ../../admin/thesaurus/index.rst:24 e11628a006804d69b8749eb6740a30dc
 msgid "If everything goes fine, a success message will be shown:"
-msgstr ""
+msgstr "Si todo va bien, se mostrará un mensaje de éxito:"
 
-#: ../../admin/thesaurus/index.rst:29 2d58f086467c4354aad52713552bb1e3
+#: ../../admin/thesaurus/index.rst:29 c7eb224b075e433285829331d368094c
 msgid "Otherwise the UI will show the error message:"
-msgstr ""
+msgstr "De lo contrario, la interfaz de usuario mostrará el mensaje de error:"
 
-#: ../../admin/thesaurus/index.rst:38 d48c4dd7f10b40a08e207a4e11c5cc26
+#: ../../admin/thesaurus/index.rst:38 ba8556559c1d482990aa33765f523bc0
 msgid "Import via the ``load_thesaurus`` command"
-msgstr ""
+msgstr "Importar mediante el comando ``load_thesaurus``"
 
-#: ../../admin/thesaurus/index.rst:40 31eefaa7ccf04e9abe9966c3f64f77fe
+#: ../../admin/thesaurus/index.rst:40 4ffec5fea61c45e483b050f9502c438f
 msgid ""
-"A thesaurus can also be loaded into GeoNode by using the "
-"``load_thesaurus`` management command:"
+"A thesaurus can also be loaded into GeoNode by using the ``load_thesaurus`` "
+"management command:"
 msgstr ""
+"También se puede cargar un tesauro en GeoNode utilizando el comando de "
+"administración ``load_thesaurus``:"
 
-#: ../../admin/thesaurus/index.rst:50 fd75256a04874e0c9766ea5d2f9376b9
+#: ../../admin/thesaurus/index.rst:50 fc4a5859952f49f3be58544c937ad0b3
 msgid ""
 "For example, in order add the `INSPIRE Spatial Data Themes "
-"<https://www.eionet.europa.eu/gemet/en/inspire-themes/>`_ thesaurus into "
-"a GeoNode instance, download it as file ``inspire-theme.rdf``  with the "
+"<https://www.eionet.europa.eu/gemet/en/inspire-themes/>`_ thesaurus into a "
+"GeoNode instance, download it as file ``inspire-theme.rdf``  with the "
 "command:"
 msgstr ""
+"Por ejemplo, para agregar el tesauro `INSPIRE Spatial Data Themes "
+"<https://www.eionet.europa.eu/gemet/en/inspire-themes/>`_ a una instancia de"
+" GeoNode, descárgalo como archivo ``inspire-theme.rdf`` con el comando:"
 
-#: ../../admin/thesaurus/index.rst:56 d714993596e7437db2bec891e7b39c6c
+#: ../../admin/thesaurus/index.rst:56 2ae30fc0c48c4c27b288b271530c822a
 msgid "and then issue the command:"
-msgstr ""
+msgstr "y luego emita el comando:"
 
-#: ../../admin/thesaurus/index.rst:62 c81508788816436bb3f0089ce6d333af
+#: ../../admin/thesaurus/index.rst:62 1f466fecf2dc49a28ca3ee33b96b0cc6
 msgid ""
-"The ``name`` is the identifier you'll use to refer to this thesaurus in "
-"your GeoNode instance."
+"The ``name`` is the identifier you'll use to refer to this thesaurus in your"
+" GeoNode instance."
 msgstr ""
+"El «nombre» es el identificador que utilizará para hacer referencia a este "
+"tesauro en su instancia de GeoNode."
 
-#: ../../admin/thesaurus/index.rst:65 a8731aa31cec4842be597608ac2d5367
+#: ../../admin/thesaurus/index.rst:65 3a476fb760a443c8acb1ddf2d0127281
 msgid ""
-"If you only want to make sure that a thesaurus file will be properly "
-"parsed, give the ``--dry-run`` parameter, so that nothing will be added "
-"to the DB."
+"If you only want to make sure that a thesaurus file will be properly parsed,"
+" give the ``--dry-run`` parameter, so that nothing will be added to the DB."
 msgstr ""
+"Si solo deseas asegurarte que un archivo de diccionario de sinónimos se "
+"analizará correctamente, proporciona el parámetro ``--dry-run``, para que no"
+" se agregue nada a la base de datos."
 
-#: ../../admin/thesaurus/index.rst:67 d4a0024d7e5e447f9c2221b1b8bb04fa
+#: ../../admin/thesaurus/index.rst:67 c56139d4686b44bf945fb0d9d3f3e015
 msgid ""
-"*Note*: if the ``name`` starts with the string ``fake``, the file will "
-"not be accessed at all, and some test keywords will be added to a fake "
-"new thesaurus. In this case the ``dry-run`` param will not be used."
+"*Note*: if the ``name`` starts with the string ``fake``, the file will not "
+"be accessed at all, and some test keywords will be added to a fake new "
+"thesaurus. In this case the ``dry-run`` param will not be used."
 msgstr ""
+"*Nota*: si el ``nombre`` comienza con la cadena ``fake``, no se accederá al "
+"archivo y se agregarán algunas palabras clave de prueba a un nuevo tesauro "
+"falso. En este caso, no se utilizará el parámetro ``dry-run``."
 
-#: ../../admin/thesaurus/index.rst:71 f0c01fac09684adc985548b096addd1c
+#: ../../admin/thesaurus/index.rst:71 b91c2af06fb542b29a8623102dc06ad7
 msgid "Configure a thesaurus in GeoNode"
-msgstr ""
+msgstr "Configurar un tesauro en GeoNode"
 
-#: ../../admin/thesaurus/index.rst:74 df960110afc04dc39db45c9dbd8b6ef2
+#: ../../admin/thesaurus/index.rst:74 8fae611efd0c4942a0eea237847a9b16
 msgid "Configuration from `Admin`"
-msgstr ""
+msgstr "Configuración desde `Admin`"
 
-#: ../../admin/thesaurus/index.rst:76 6776a1f3851040b6ba86fbb38d0ee378
+#: ../../admin/thesaurus/index.rst:76 d4b39272719e42728383566dd8626492
 msgid ""
-"After you loaded a thesaurus into GeoNode, it should be configured in the"
-" :guilabel:`Admin` panel."
+"After you loaded a thesaurus into GeoNode, it should be configured in the "
+":guilabel:`Admin` panel."
 msgstr ""
+"Después de cargar un tesauro en GeoNode, debe configurarse en el panel de "
+"administración."
 
-#: ../../admin/thesaurus/index.rst:78 eb51f3b59a294f758c38ad5e2b7b5b9b
+#: ../../admin/thesaurus/index.rst:78 de6ae0fa34e940e6b622042b8034c1a7
 msgid ""
-"The panel can be reached from :guilabel:`Admin` link of the *User Menu* "
-"in the navigation bar or through this URL: "
+"The panel can be reached from :guilabel:`Admin` link of the *User Menu* in "
+"the navigation bar or through this URL: "
 "``http://<your_geonode_host>/admin/base/thesaurus``."
 msgstr ""
+"Se puede acceder al panel desde el enlace :guilabel:`Admin` del *User Menu* "
+"en la barra de navegación o a través de esta URL: "
+"``http://<your_geonode_host>/admin/base/thesaurus``."
 
-#: ../../admin/thesaurus/index.rst:80 49852234352346e58487607788259a32
+#: ../../admin/thesaurus/index.rst:80 bada4991050d4f699b339d7a07e46b31
 msgid ""
-"Once you are on the Thesaurus lists, select one thesaurus to open the "
-"Edit page"
+"Once you are on the Thesaurus lists, select one thesaurus to open the Edit "
+"page"
 msgstr ""
+"Una vez que esté en las listas de tesauros, selecciona un tesauro para abrir"
+" la página Editar"
 
-#: ../../admin/thesaurus/index.rst:85 8039babfc6f54d93b7be08092092e83c
+#: ../../admin/thesaurus/index.rst:85 d572b4a1c397412694bfcf903ffabee5
 msgid "*The GeoNode Thesaurus edit Interface*"
-msgstr ""
+msgstr "*La interfaz de edición del tesauro GeoNode*"
 
-#: ../../admin/thesaurus/index.rst:88 baaa4ea8f7584684af55fbb0a6f55161
+#: ../../admin/thesaurus/index.rst:88 929d59cbd8a347139e6374bfec73e0ed
 msgid ""
 "``identifier``: (mandatory string) the identifier you used in the "
 "``load_thesaurus`` commands."
 msgstr ""
+"``identifier``: (cadena obligatoria) el identificador que utilizó en los "
+"comandos ``load_thesaurus``."
 
-#: ../../admin/thesaurus/index.rst:89 db46f3f21fad400aaed8c07d58f263a8
+#: ../../admin/thesaurus/index.rst:89 ba1a3ee0d5af42eebc2869dee56a6f0b
 msgid ""
-"``title``: (mandatory string) The title of the thesaurus, set initially "
-"by the ``load_thesaurus`` command."
-msgstr ""
-
-#: ../../admin/thesaurus/index.rst:90 bcebceabc96f4d43b28e94af9e6ca247
-msgid ""
-"``date``: (mandatory date) The Date of the thesaurus, set initially by "
+"``title``: (mandatory string) The title of the thesaurus, set initially by "
 "the ``load_thesaurus`` command."
 msgstr ""
+"``title``: (cadena obligatoria) El título del tesauro, establecido "
+"inicialmente por el comando ``load_thesaurus``."
 
-#: ../../admin/thesaurus/index.rst:91 815817618d804ad89d2bf82b77ece13c
+#: ../../admin/thesaurus/index.rst:90 50f051d68672460f9d49704fa5081c4f
 msgid ""
-"``description``: (mandatory string) The description of the thesaurus, set"
-" initially by the ``load_thesaurus`` command."
+"``date``: (mandatory date) The Date of the thesaurus, set initially by the "
+"``load_thesaurus`` command."
 msgstr ""
+"``date``: (fecha obligatoria) La fecha del tesauro, establecida inicialmente"
+" por el comando ``load_thesaurus``."
 
-#: ../../admin/thesaurus/index.rst:92 44ed91310c224404a32ed40ff6ae5308
+#: ../../admin/thesaurus/index.rst:91 483f9dd53d004128b2be8e162465c83a
 msgid ""
-"``slug``: (mandatory string) The slug of the thesaurus, set initially by "
+"``description``: (mandatory string) The description of the thesaurus, set "
+"initially by the ``load_thesaurus`` command."
+msgstr ""
+"``description``: (cadena obligatoria) La descripción del tesauro, "
+"establecida inicialmente por el comando ``load_thesaurus``."
+
+#: ../../admin/thesaurus/index.rst:92 d481da86320c4af1b45ef669fdb2cc16
+msgid ""
+"``slug``: (mandatory string) The slug of the thesaurus, set initially by the"
+" ``load_thesaurus`` command."
+msgstr ""
+"``slug``: (cadena obligatoria) El slug del tesauro, establecido inicialmente"
+" por el comando ``load_thesaurus``."
+
+#: ../../admin/thesaurus/index.rst:93 e2347c6639fa4f60adcee72011c6f3f6
+msgid ""
+"``about``: (optional string) The about of the thesaurus, set initially by "
 "the ``load_thesaurus`` command."
 msgstr ""
+"``about``: (cadena opcional) La información acerca del tesauro, establecida "
+"inicialmente por el comando ``load_thesaurus``."
 
-#: ../../admin/thesaurus/index.rst:93 42ce488fb82c4f0e9e816ad0b508b47c
-msgid ""
-"``about``: (optional string) The about of the thesaurus, set initially by"
-" the ``load_thesaurus`` command."
-msgstr ""
-
-#: ../../admin/thesaurus/index.rst:94 2a48be9b09d9439db88574365deddf61
+#: ../../admin/thesaurus/index.rst:94 0dca34654e084cb385fe0e6c989a9150
 msgid "``card min``: (optional integer) The minimum cardinality, default = 0"
 msgstr ""
+"``card min``: (entero opcional) La cardinalidad mínima, predeterminado = 0"
 
-#: ../../admin/thesaurus/index.rst:95 ef5b0cf501df4ed99a4c137f9c1d4ab6
+#: ../../admin/thesaurus/index.rst:95 4a0ad93fde55466fafff3ef0f6d77ffa
 msgid "``card max``: (optional integer) The maximum cardinality, default = -1"
 msgstr ""
+"``card max``: (entero opcional) La cardinalidad máxima, predeterminado = -1"
 
-#: ../../admin/thesaurus/index.rst:96 8d949ecff92c4e4787090514371c34a9
+#: ../../admin/thesaurus/index.rst:96 8eb2dd58e7e944f59c4608ff34719992
 msgid ""
 "``facet``: (boolean) Decide if the thesaurus will be shown in the facet "
 "list, default: True"
 msgstr ""
+"``facet``: (booleano) Decide si el tesauro se mostrará en la lista de "
+"facetas, valor predeterminado: True"
 
-#: ../../admin/thesaurus/index.rst:97 c678b17fc00545ea86f0cf8a4a943e97
+#: ../../admin/thesaurus/index.rst:97 aacc8f5ff00f490fbe44e8b12b33ceb7
 msgid ""
-"``order``: (integer) Decide the listing order of the thesaurus in the "
-"facet list and in the metadata editor, default: 0, asc order from 0 to N"
+"``order``: (integer) Decide the listing order of the thesaurus in the facet "
+"list and in the metadata editor, default: 0, asc order from 0 to N"
 msgstr ""
+"``order``: (entero) Decide el orden de listado del tesauro en la lista de "
+"facetas y en el editor de metadatos, predeterminado: 0, orden ascendente de "
+"0 a N"
 
-#: ../../admin/thesaurus/index.rst:99 e88858cd603b47e39786521db4c56d61
+#: ../../admin/thesaurus/index.rst:99 e34c62aa518e46cd8c8b3c7c458611fc
 msgid "Cardinality:"
-msgstr ""
+msgstr "Cardinalidad:"
 
-#: ../../admin/thesaurus/index.rst:101 733f41cd04b046df9e20b43f4349c702
+#: ../../admin/thesaurus/index.rst:101 a365d17c66294cad8d2189225b860d84
 msgid "`card_max=0` --> Disabled, The Thesaurus will not appear in the GUI"
-msgstr ""
+msgstr "`card_max=0` --> Deshabilitado, el tesauro no aparecerá en la GUI"
 
-#: ../../admin/thesaurus/index.rst:102 698f52e2b0e744d6b136e47eb96272cd
+#: ../../admin/thesaurus/index.rst:102 ecf4f9226a3140ac9fd5dbebe9037f90
 msgid "`card_max=1` & `card_min = 0` --> Single choice, optional."
-msgstr ""
+msgstr "`card_max=1` & `card_min = 0` --> Opción única, opcional."
 
-#: ../../admin/thesaurus/index.rst:103 ff0f017b047343adb75236d3f7913e40
+#: ../../admin/thesaurus/index.rst:103 bb276b7bd9ec48c7a530f04f27746a87
 msgid "`card_max=1` & `card_min = 1` --> Single choice, required"
-msgstr ""
+msgstr "`card_max=1` & `card_min = 1` --> Opción única, obligatoria"
 
-#: ../../admin/thesaurus/index.rst:104 886b5500e9dd4f8e97b23ec6a4eab5f3
+#: ../../admin/thesaurus/index.rst:104 4e378cf99f6e45ffb2a768377c9e4309
 msgid "`card_max=-1` & `card_min = 0`  --> [0..N] Multiple choices, optional"
 msgstr ""
+"`card_max=-1` & `card_min = 0` --> [0..N] Opciones múltiples, opcional"
 
-#: ../../admin/thesaurus/index.rst:105 765e3ddf252e41e1b295a39bd1f48d2d
+#: ../../admin/thesaurus/index.rst:105 e9584eb53ae1418b9b2d1b7ee868c688
 msgid "`card_max=-1` & `card_min = 1` --> [1..N] Multiple choices, required"
 msgstr ""
+"`card_max=-1` & `card_min = 1` --> [1..N] Opciones múltiples, obligatorias"
 
-#: ../../admin/thesaurus/index.rst:107 22dcf0c501aa467b93f0676c17e7e551
+#: ../../admin/thesaurus/index.rst:107 59f897f26c8640e1a4e50d634ebeefdf
 msgid ""
 "After the setup, in `Editing Tools -> Metadata -> Wizard` the thesaurus "
 "block will be shown like the following image:"
 msgstr ""
+"Después de la configuración, en `Editing Tools -> Metadata -> Wizard` el "
+"bloque de tesauro se mostrará como en la siguiente imagen:"
 
-#: ../../admin/thesaurus/index.rst:113 e90b5d669faa47308d75042ba644ba53
+#: ../../admin/thesaurus/index.rst:113 5941f105301a442688304ef67380a831
 msgid "*The metadata interface with the Thesaurus enabled*"
-msgstr ""
+msgstr "*La interfaz de metadatos con el Tesauro habilitado*"
 
-#: ../../admin/thesaurus/index.rst:117 8f548703f48244abb289cb8dcbfed2da
+#: ../../admin/thesaurus/index.rst:117 9090a9ca5fd34d38bb05b5f6b57e323d
 msgid "Configuration via `settings.py`"
-msgstr ""
+msgstr "Configuración a través de `settings.py`"
 
-#: ../../admin/thesaurus/index.rst:119 1b52826f72e84605a1a3f2a8cc818a3c
+#: ../../admin/thesaurus/index.rst:119 8eda6d7df9ad412ca4d4c6f7d01dc711
 msgid ""
-"*Deprecated* The Thesaurus configuration via settings is deprecated, will"
-" be removed in the future."
+"*Deprecated* The Thesaurus configuration via settings is deprecated, will be"
+" removed in the future."
 msgstr ""
+"*Obsoleto* La configuración del Tesauro a través de los ajustes está "
+"obsoleta y será eliminada en el futuro."
 
-#: ../../admin/thesaurus/index.rst:121 9103484b80074724be69edc787217fdd
+#: ../../admin/thesaurus/index.rst:121 92bf34adcdb94f9c8581f2621c3e3d6a
 msgid ""
-"After you loaded a thesaurus into GeoNode, it should be configured in the"
-" ``settings.py`` file (or in the ``local_settings``) in this way:"
+"After you loaded a thesaurus into GeoNode, it should be configured in the "
+"``settings.py`` file (or in the ``local_settings``) in this way:"
 msgstr ""
+"Después de cargar un tesauro en GeoNode, debe configurarse en el archivo "
+"``settings.py`` (o en ``local_settings``) de esta manera:"
 
-#: ../../admin/thesaurus/index.rst:127 52efb93064a4482e928c019687fe319f
+#: ../../admin/thesaurus/index.rst:127 16c4787956e24840a16aed3f4f498ae5
 msgid ""
 "``name``: (mandatory string) the identifier you used in the "
 "``load_thesaurus`` commands."
 msgstr ""
+"``name``: (cadena obligatoria) el identificador que utilizó en los comandos "
+"``load_thesaurus``."
 
-#: ../../admin/thesaurus/index.rst:128 f90167d60abf48d5a2c9fce743a5b52a
+#: ../../admin/thesaurus/index.rst:128 da63e37f3f1d428b9279af23140714ce
 msgid ""
-"``required``: (optional boolean) if ``True``, a keyword of this thesaurus"
-" is mandatory to complete the metadata. *Currently not implemented.*"
+"``required``: (optional boolean) if ``True``, a keyword of this thesaurus is"
+" mandatory to complete the metadata. *Currently not implemented.*"
 msgstr ""
+"``required``: (booleano opcional) si es ``True``, una palabra clave de este "
+"tesauro es obligatoria para completar los metadatos. *Actualmente no "
+"implementado.*"
 
-#: ../../admin/thesaurus/index.rst:129 054ab0fdbfa34c11bf7b5ef3629c1d7e
+#: ../../admin/thesaurus/index.rst:129 3f028500be7b4303ab7e2fb0cc35c722
 msgid ""
-"``filter``: (optional boolean) if ``True``, a faceted list of keywords of"
-" this thesaurus will be presented on the search page."
+"``filter``: (optional boolean) if ``True``, a faceted list of keywords of "
+"this thesaurus will be presented on the search page."
 msgstr ""
+"``filter``: (booleano opcional) si es ``True``, se presentará una lista por "
+"facetas de palabras clave de este tesauro en la página de búsqueda."
 
-#: ../../admin/thesaurus/index.rst:131 6f50a9932ca746be96c299edeb0bcdcd
+#: ../../admin/thesaurus/index.rst:131 37cbf885b2ea4971bbd7ee0908db877e
 msgid ""
 "So, in order to set up the INSPIRE themes thesaurus you may set the "
 "THESAURUS value as:"
 msgstr ""
+"Entonces, para configurar el tesauro de temas de INSPIRE, puede establecer "
+"el valor de TESAURO como:"
 
-#: ../../admin/thesaurus/index.rst:138 a81ef4b199634c01b7bbb6bcebf90701
+#: ../../admin/thesaurus/index.rst:138 b256c1020d2243978d340a75114fe43e
 msgid "Apply a thesaurus to a resource"
-msgstr ""
+msgstr "Aplicar un tesauro a un recurso"
 
-#: ../../admin/thesaurus/index.rst:140 d4efaffab9304d9d97e95b99db70d011
+#: ../../admin/thesaurus/index.rst:140 c28b9ce3312f4fae91749c34756ebe03
 msgid ""
-"After you've finished the setup you should find a new input widget in "
-"each resource metadata wizard allowing you to choose a thesaurus for your"
-" resource."
+"After you've finished the setup you should find a new input widget in each "
+"resource metadata wizard allowing you to choose a thesaurus for your "
+"resource."
 msgstr ""
+"Una vez que haya terminado la configuración, deberías encontrar un nuevo "
+"widget de entrada en cada asistente de metadatos de recursos que le "
+"permitirá elegir un tesauro para su recurso."
 
-#: ../../admin/thesaurus/index.rst:142 eb6e0d67e80e4aab9b4e157a28098d60
+#: ../../admin/thesaurus/index.rst:142 f06f5d0a6f274cdf8beecdaab9c928a6
 msgid ""
-"After applying a thesaurus to resources those should be listed in the "
-"filter section in GeoNode's resource list views:"
+"After applying a thesaurus to resources those should be listed in the filter"
+" section in GeoNode's resource list views:"
 msgstr ""
+"Después de aplicar un tesauro a los recursos, estos deberían aparecer en la "
+"sección de filtro en las vistas de lista de recursos de GeoNode:"
 
-#: ../../admin/thesaurus/index.rst:-1 b0357816675a46feac46a0792a0fd405
+#: 28ed1e5a4cf441bbbe1483007f655114
 msgid "thesauarus"
-msgstr ""
+msgstr "tesauro"
 
-#: ../../admin/thesaurus/index.rst:153 a928d331dc2a47029318fa26a86b2a61
+#: ../../admin/thesaurus/index.rst:153 f054beada23443d38eb9393a775a5bca
 msgid "Exporting a thesaurus as RDF via the ``dump_thesaurus`` command"
-msgstr ""
+msgstr "Exportar un tesauro como RDF mediante el comando ``dump_thesaurus``"
 
-#: ../../admin/thesaurus/index.rst:155 d10932e15b944dc2ae47c437f5443cb8
+#: ../../admin/thesaurus/index.rst:155 e9c111858c5e4b7285cc45d2beeeabd3
 msgid ""
 "GeoNode thesauri can be exported as RDF using the ``dump_thesaurus`` "
 "command:"
 msgstr ""
+"Los tesauros de GeoNode se pueden exportar como RDF utilizando el comando "
+"``dump_thesaurus``:"
 
-#: ../../admin/thesaurus/index.rst:168 678bf0beff3040c8ae9d5d826bad11f5
+#: ../../admin/thesaurus/index.rst:168 8156d2e080fc45a1a7a740a53fe32d9f
 msgid ""
-"The ``-n|--name`` argument refers, like the ``load_thesaurus`` command, "
-"to the thesaurus's identifier in GeoNode, as opposed to its title. If "
-"uploaded via the admin interface this is derived automatically from its "
-"file name. Information about thesauri can be shown on the command-line "
-"using ``dump_thesaurus`` with just the ``-l|--list`` option."
+"The ``-n|--name`` argument refers, like the ``load_thesaurus`` command, to "
+"the thesaurus's identifier in GeoNode, as opposed to its title. If uploaded "
+"via the admin interface this is derived automatically from its file name. "
+"Information about thesauri can be shown on the command-line using "
+"``dump_thesaurus`` with just the ``-l|--list`` option."
 msgstr ""
-
+"El argumento ``-n|--name`` se refiere, al igual que el comando "
+"``load_thesaurus``, al identificador del tesauro en GeoNode, en lugar de a "
+"su título. Si se carga a través de la interfaz de administración, esto se "
+"deriva automáticamente de su nombre de archivo. La información sobre los "
+"tesauros se puede mostrar en la línea de comandos utilizando "
+"``dump_thesaurus`` con solo la opción ``-l|--list``."

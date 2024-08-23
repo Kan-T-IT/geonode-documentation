@@ -2,27 +2,25 @@
 # Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
 # Translators:
 # Hernán Javier López, 2024
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-03 17:10+0200\n"
-"PO-Revision-Date: 2024-08-21 14:30-0300\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
 "Last-Translator: Hernán Javier López, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
-"1 : 2;\n"
 "Generated-By: Babel 2.9.0\n"
-"X-Generator: Poedit 3.4.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/other_apps/qgis/index.rst:4 c178646ebeae4fb6acf3213bbc465cb1
 msgid "QGIS Desktop"
@@ -32,8 +30,8 @@ msgstr "Escritorio QGIS"
 msgid ""
 "QGIS is a professional GIS application that is built on top of and proud to "
 "be itself Free and Open Source Software (FOSS). QGIS is a volunteer driven "
-"project if you are interested you can find more information at https://www."
-"qgis.org."
+"project if you are interested you can find more information at "
+"https://www.qgis.org."
 msgstr ""
 "QGIS es una aplicación SIG profesional que está construida sobre software "
 "libre y de código abierto (FOSS) y se enorgullece de serlo. QGIS es un "
@@ -55,10 +53,10 @@ msgid ""
 "related to Geonode. This is because Geonode is recognized as a data source "
 "inside QGIS."
 msgstr ""
-"Abra QGIS Desktop y vaya a **Menú Capa > Administrador de fuente de "
-"datos**. En la parte inferior del Administrador de fuentes de datos, puede "
-"ver una pestaña con el nombre y un ícono relacionado con Geonode. Esto se "
-"debe a que Geonode se reconoce como una fuente de datos dentro de QGIS."
+"Abra QGIS Desktop y vaya a **Menú Capa > Administrador de fuente de datos**."
+" En la parte inferior del Administrador de fuentes de datos, puede ver una "
+"pestaña con el nombre y un ícono relacionado con Geonode. Esto se debe a que"
+" Geonode se reconoce como una fuente de datos dentro de QGIS."
 
 #: ../../usage/other_apps/qgis/index.rst:22 a43e4c5797a34bb890894fb96e150ba7
 msgid "*Data Source Manager Dialog*"
@@ -93,9 +91,9 @@ msgid ""
 "successful connection dialog:"
 msgstr ""
 "En el cuadro de diálogo completa el nombre que desees y en la URL coloca el "
-"enlace de la instancia de Geonode. Es posible editar algunas opciones de "
-"WFS y WMS para optimizar la conexión. Si todo está bien, recibirás el "
-"siguiente cuadro de diálogo de conexión exitosa:"
+"enlace de la instancia de Geonode. Es posible editar algunas opciones de WFS"
+" y WMS para optimizar la conexión. Si todo está bien, recibirás el siguiente"
+" cuadro de diálogo de conexión exitosa:"
 
 #: ../../usage/other_apps/qgis/index.rst:41 1d1fa81ea47f4864a3e46c2d176f7ef6
 msgid "*Successful connection Dialog*"
@@ -134,11 +132,10 @@ msgid ""
 "**Data Source Manager**) along with basic auth method and specific "
 "endpoints."
 msgstr ""
-"Este procedimiento solo funciona con capas públicas. Si las capas son de "
-"uso privado, es necesario realizar el procedimiento estándar de agregar "
-"capas WMS/WFS remotas en QGIS (a través del **Administrador de Fuentes de "
-"Datos**) junto con el método de autenticación básica y los endpoints "
-"específicos."
+"Este procedimiento solo funciona con capas públicas. Si las capas son de uso"
+" privado, es necesario realizar el procedimiento estándar de agregar capas "
+"WMS/WFS remotas en QGIS (a través del **Administrador de Fuentes de Datos**)"
+" junto con el método de autenticación básica y los endpoints específicos."
 
 #: ../../usage/other_apps/qgis/index.rst:62 122235f0f9e8461399eea309b19321ca
 msgid "Connect to Private layers by using OAuth2"
@@ -161,22 +158,21 @@ msgstr "Ve a :guilabel:`http://<geonode>/o/applications/`"
 msgid ""
 "Create a new specific app or, better, edit the existing one (“GeoServer”) "
 "based on `OAuth2 Authorization Code Grant Type <https://oauth.net/2/grant-"
-"types/authorization-code/#:~:text=The%20Authorization%20Code%20grant%20type,"
-"to%20request%20an%20access%20token.>`_"
+"types/authorization-"
+"code/#:~:text=The%20Authorization%20Code%20grant%20type,to%20request%20an%20access%20token.>`_"
 msgstr ""
 "Crea una nueva aplicación específica o, mejor, edita la existente "
 "(“GeoServer”) según el `Tipo de concesión del código de autorización OAuth2 "
-"<https://oauth.net/2/grant-types/authorization-code/#:~:text=The"
-"%20Authorization%20Code%20grant%20type,to%20request%20an%20access%20token."
-">`_"
+"<https://oauth.net/2/grant-types/authorization-"
+"code/#:~:text=The%20Authorization%20Code%20grant%20type,to%20request%20an%20access%20token.>`_"
 
 #: ../../usage/other_apps/qgis/index.rst:79 ce3868bc77f94468bc5190fd35d8e95f
 msgid ""
-"Click on “Edit” and add the Redirect URI :guilabel:`http://127.0.0.1:7070/"
-"qgis-client` as shown below"
+"Click on “Edit” and add the Redirect URI "
+":guilabel:`http://127.0.0.1:7070/qgis-client` as shown below"
 msgstr ""
-"Haz clic en \"Editar\" y agregue el URI de redireccionamiento: guilabel:"
-"`http://127.0.0.1:7070/qgis-client` como se muestra a continuación"
+"Haz clic en \"Editar\" y agregue el URI de redireccionamiento: "
+"guilabel:`http://127.0.0.1:7070/qgis-client` como se muestra a continuación"
 
 #: ../../usage/other_apps/qgis/index.rst:82 2409a9eb418443e98e172b75165b7243
 msgid ""
@@ -223,7 +219,7 @@ msgstr ""
 msgid "When finished click on “+” in order to add a new auth configuration"
 msgstr ""
 "Cuando termines, haz clic en \"+\" para agregar una nueva configuración de "
-"autenticación"
+"autenticación."
 
 #: ../../usage/other_apps/qgis/index.rst:115 d10cbce62d5d49588200218f19eb6b2d
 msgid "Provide the needed information as shown below:"
@@ -248,8 +244,8 @@ msgstr "URL de solicitud: *debe terminar en* :guilabel:`/o/authorize/`"
 #: ../../usage/other_apps/qgis/index.rst:121 ab84c63f14e449659c2df73aa143d52d
 msgid "Token URL and Refresh URL: *must end with* :guilabel:`/o/token/`"
 msgstr ""
-"URL del token y URL de actualización: *debe terminar en* :guilabel:`/o/"
-"token/`"
+"URL del token y URL de actualización: *debe terminar en* "
+":guilabel:`/o/token/`"
 
 #: ../../usage/other_apps/qgis/index.rst:122 8bf24f851c8b4ad0984ef9457263b8a0
 msgid "Redirect URL: *must match with the one defined on GeoNode above*"
@@ -275,12 +271,12 @@ msgstr "Habilite la sesión de token persistente a través de encabezados"
 
 #: ../../usage/other_apps/qgis/index.rst:130 20d5700a10464d968fe823147688cca1
 msgid ""
-"Save and click on :guilabel:`“Connect”`. QGis will redirect you on a "
-"browser page asking to GeoNode to authenticate. Approve the Claims and go "
-"back to QGis."
+"Save and click on :guilabel:`“Connect”`. QGis will redirect you on a browser"
+" page asking to GeoNode to authenticate. Approve the Claims and go back to "
+"QGis."
 msgstr ""
-"Guarda y haz clic en :guilabel:`“Conectar”`. QGis te redirigirá a una "
-"página del navegador pidiéndote que te autentiques en GeoNode. Acepta las "
+"Guarda y haz clic en :guilabel:`“Conectar”`. QGis te redirigirá a una página"
+" del navegador pidiéndote que te autentiques en GeoNode. Acepta las "
 "Reclamaciones y regresa a QGis."
 
 #: ../../usage/other_apps/qgis/index.rst:136 145c2dcae1eb4cd5b78561a7de80d880

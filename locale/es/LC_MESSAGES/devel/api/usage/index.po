@@ -904,5 +904,3 @@ msgstr ""
 msgid "List all resource links"
 msgstr "Listar todos los enlaces de recursos"
 
-#~ msgid "eee"
-#~ msgstr "eee"

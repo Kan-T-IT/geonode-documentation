@@ -2,27 +2,25 @@
 # Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# 
 # Translators:
 # Hernán Javier López, 2024
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: 2024-08-21 14:22-0300\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
 "Last-Translator: Hernán Javier López, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
-"1 : 2;\n"
 "Generated-By: Babel 2.13.1\n"
-"X-Generator: Poedit 3.4.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/managing_datasets/dataset_download.rst:5
 #: 4d84f24e1a6c44beb7ed6a61105f0963
@@ -32,11 +30,11 @@ msgstr "Descarga de conjuntos de datos"
 #: ../../usage/managing_datasets/dataset_download.rst:7
 #: 8aa76521c6fc4e988f0d5914817ab27d
 msgid ""
-"At the top of the *Dataset Menu* there is an :guilabel:`Download` link "
-"where it is possible to download:"
+"At the top of the *Dataset Menu* there is an :guilabel:`Download` link where"
+" it is possible to download:"
 msgstr ""
-"En la parte superior del *Menú Conjunto de Datos* hay un enlace :guilabel:"
-"`Descargar` donde es posible descargar:"
+"En la parte superior del *Menú Conjunto de Datos* hay un enlace "
+":guilabel:`Descargar` donde es posible descargar:"
 
 #: ../../usage/managing_datasets/dataset_download.rst:9
 #: ef20ae828f8340f3bb5c227d3e113875
@@ -59,8 +57,8 @@ msgid ""
 "Clicking the :guilabel:`ISO Metadata` or the :guilabel:`Dublin Core "
 "Metadata` exports the layer metadata in `xml` format."
 msgstr ""
-"Al hacer clic en :guilabel:`ISO Metadata` o :guilabel:`Dublin Core "
-"Metadata` se exportan los metadatos de la capa en formato `xml`."
+"Al hacer clic en :guilabel:`ISO Metadata` o :guilabel:`Dublin Core Metadata`"
+" se exportan los metadatos de la capa en formato `xml`."
 
 #: ../../usage/managing_datasets/dataset_download.rst:20
 #: 98056d905d5f46c28cc8d87c8e110387
@@ -99,7 +97,7 @@ msgid ""
 "file is ready"
 msgstr ""
 "Al hacer clic en Exportar, el archivo se prepara y se muestra una "
-"notificación cuando el archivo está listo"
+"notificación cuando el archivo está listo."
 
 #: ../../usage/managing_datasets/dataset_download.rst:36
 #: 8c6d86eda02f47e09967252e3bff6192
@@ -109,13 +107,13 @@ msgstr "*Listo para exportar*"
 #: ../../usage/managing_datasets/dataset_download.rst:38
 #: a15f963a48e741eaa849b5ad687cc6fb
 msgid ""
-"To download the file to your machine, click on the export dataset icon. "
-"This opens the prepared export files and you can save the files on your by "
+"To download the file to your machine, click on the export dataset icon. This"
+" opens the prepared export files and you can save the files on your by "
 "clicking on the save icon on each item."
 msgstr ""
 "Para descargar el archivo a tu máquina, haz clic en el icono de exportar "
-"conjunto de datos. Esto abre los archivos de exportación preparados y "
-"puedes guardarlos haciendo clic en el icono de guardar en cada elemento."
+"conjunto de datos. Esto abre los archivos de exportación preparados y puedes"
+" guardarlos haciendo clic en el icono de guardar en cada elemento."
 
 #: ../../usage/managing_datasets/dataset_download.rst:43
 #: 1fdf1383e2b84b5c961f251c5a8c6912
@@ -134,9 +132,9 @@ msgid ""
 "viewer of GeoNode allows you to print the current view with a customizable "
 "layout."
 msgstr ""
-"El visor de mapas basado en `MapStore <https://mapstore2.geo-solutions.it/"
-"mapstore/#/>`_ de GeoNode te permite imprimir la vista actual con un diseño "
-"personalizable."
+"El visor de mapas basado en `MapStore <https://mapstore2.geo-"
+"solutions.it/mapstore/#/>`_ de GeoNode te permite imprimir la vista actual "
+"con un diseño personalizable."
 
 #: ../../usage/managing_datasets/dataset_download.rst:53
 #: 3a997f7492c24b15813bc9d6aeb8a5f4

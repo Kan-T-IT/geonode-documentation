@@ -2,27 +2,25 @@
 # Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
 # Translators:
 # Hernán Javier López, 2024
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: 2024-08-21 14:24-0300\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
 "Last-Translator: Hernán Javier López, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
-"1 : 2;\n"
 "Generated-By: Babel 2.13.1\n"
-"X-Generator: Poedit 3.4.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../usage/managing_documents/document_info.rst:4
 #: 311b9a43777e4cdf869fa5d7059e2f6f
@@ -53,8 +51,8 @@ msgid ""
 "metadata also indicates the document owner, what are the topic categories "
 "the document belongs to and which regions are affected."
 msgstr ""
-"La pestaña **Información** está activa de forma predeterminada. Esta "
-"sección de pestaña muestra algunos metadatos del documento, como su título, "
+"La pestaña **Información** está activa de forma predeterminada. Esta sección"
+" de pestaña muestra algunos metadatos del documento, como su título, "
 "resumen, fecha de publicación, etc. Los metadatos también indican el "
 "propietario del documento, cuáles son las categorías de temas a las que "
 "pertenece el documento y qué regiones se ven afectadas."
@@ -81,8 +79,8 @@ msgid ""
 "or the *Center* in the clipboard which once pasted will be a WKT text."
 msgstr ""
 "Al hacer clic en los iconos de copiar, tendrás una copia de la Caja "
-"Delimitadora actual o del Centro en el portapapeles, que una vez pegada "
-"será un texto en formato WKT."
+"Delimitadora actual o del Centro en el portapapeles, que una vez pegada será"
+" un texto en formato WKT."
 
 #: ../../usage/managing_documents/document_info.rst:32
 #: b448dc44c4ab42518f40bb545f415397
@@ -117,8 +115,8 @@ msgstr "*Pestaña Recursos vinculados al documento*"
 #: d3a5d53e91b44047b72ee86ecdc81579
 msgid ""
 "When a resource is `linked from` the document the link is under the *Linked "
-"by* list while when a resource is `linked to` the document the link is "
-"under the *Used by* list"
+"by* list while when a resource is `linked to` the document the link is under"
+" the *Used by* list"
 msgstr ""
 "Cuando un recurso está \"vinculado desde\" el documento, el enlace se "
 "encuentra en la lista *Vinculado por*, mientras que cuando un recurso está "
@@ -151,8 +149,8 @@ msgid ""
 "Add document in your *Favorites* (see :ref:`editing-profile`), clicking on "
 "star icon."
 msgstr ""
-"Agregá el documento a tus *Favoritos* (ver :ref:`editing-profile`), "
-"haciendo clic en el icono de estrella."
+"Agregá el documento a tus *Favoritos* (ver :ref:`editing-profile`), haciendo"
+" clic en el icono de estrella."
 
 #: ../../usage/managing_documents/document_info.rst:56
 #: c49041eb7ac84d51a7175fade2b984d9
@@ -176,8 +174,8 @@ msgid ""
 "the overview panel. That page looks like the one shown in the picture below."
 msgstr ""
 "Puedes acceder a la página de detalles del documento haciendo clic en *Ver "
-"documento* en el panel de descripción general. Esa página se parece a la "
-"que se muestra en la imagen a continuación."
+"documento* en el panel de descripción general. Esa página se parece a la que"
+" se muestra en la imagen a continuación."
 
 #: ../../usage/managing_documents/document_info.rst:68
 #: 8a19339d791d44d8a1a8fb8924e4fc59
@@ -202,9 +200,9 @@ msgstr "Explorando las secciones del menú de detalles del documento"
 #: ../../usage/managing_documents/document_info.rst:75
 #: f4d3b8077f1d4f3586e9893be8a13cd6
 msgid ""
-"As soon as a document is opened, the **Info** panel is shown. It reports "
-"the document metadata such as its title, abstract, date of publication etc. "
-"The metadata also indicates the user who is responsible for uploading and "
+"As soon as a document is opened, the **Info** panel is shown. It reports the"
+" document metadata such as its title, abstract, date of publication etc. The"
+" metadata also indicates the user who is responsible for uploading and "
 "managing this content, as well as the group to which it is linked."
 msgstr ""
 "Tan pronto como se abre un documento, se muestra el panel **Información**. "
@@ -221,11 +219,11 @@ msgstr "*Información del documento*"
 #: ../../usage/managing_documents/document_info.rst:84
 #: 5f05af1af63a444a8939489d8717fe09
 msgid ""
-"Selecting *View Metadata* from the :guilabel:`View` button it is possible "
-"to visualize the metadata of the document"
+"Selecting *View Metadata* from the :guilabel:`View` button it is possible to"
+" visualize the metadata of the document"
 msgstr ""
 "Seleccionando *Ver Metadatos* desde el botón :guilabel:`Ver` es posible "
-"visualizar los metadatos del documento"
+"visualizar los metadatos del documento."
 
 #: ../../usage/managing_documents/document_info.rst:89
 #: c5ec90bfbf1e46eb935241d7e5e2bf12
@@ -252,8 +250,8 @@ msgid ""
 "If you want to download the document, click on the :guilabel:`Download` "
 "button and the document will be downloaded automatically."
 msgstr ""
-"Si desea descargar el documento, haga clic en el botón :guilabel:"
-"`Descargar` y el documento se descargará automáticamente."
+"Si desea descargar el documento, haga clic en el botón :guilabel:`Descargar`"
+" y el documento se descargará automáticamente."
 
 #: ../../usage/managing_documents/document_info.rst:103
 #: c5ec90bfbf1e46eb935241d7e5e2bf12

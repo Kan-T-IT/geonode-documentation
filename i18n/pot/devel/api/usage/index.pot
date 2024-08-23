@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"POT-Creation-Date: 2024-08-23 14:42-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,14 +42,14 @@ msgid "To obtain a single resource, a primary key is provided in the url. Eg ``G
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:16
-#: ../../devel/api/usage/index.rst:744
+#: ../../devel/api/usage/index.rst:743
 #: 7716eff12c514096931a67b994c59bf9
 #: 0a285f78aebf4ae0a9fdbed527508a9f
 msgid "Example Requests:"
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:18
-#: ../../devel/api/usage/index.rst:403
+#: ../../devel/api/usage/index.rst:402
 #: 55deea4190af4fa3877eaa1fdae14054
 #: 37b3453e843a4d42ae0d779e2934a3ae
 msgid "Listing"
@@ -76,7 +76,7 @@ msgid "A token can be used in place of Basic Auth by setting ``'Authorization': 
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:53
-#: ../../devel/api/usage/index.rst:340
+#: ../../devel/api/usage/index.rst:339
 #: 23d53ca568b34294a39bf40b97ad38a1
 #: d26253ff337c4f8d9381f21fdf6a4147
 msgid "Resource Download"
@@ -312,30 +312,30 @@ msgstr ""
 #: ../../devel/api/usage/index.rst:204
 #: ../../devel/api/usage/index.rst:227
 #: ../../devel/api/usage/index.rst:302
-#: ../../devel/api/usage/index.rst:348
-#: ../../devel/api/usage/index.rst:362
-#: ../../devel/api/usage/index.rst:377
-#: ../../devel/api/usage/index.rst:405
-#: ../../devel/api/usage/index.rst:423
-#: ../../devel/api/usage/index.rst:440
-#: ../../devel/api/usage/index.rst:464
-#: ../../devel/api/usage/index.rst:483
-#: ../../devel/api/usage/index.rst:505
-#: ../../devel/api/usage/index.rst:523
-#: ../../devel/api/usage/index.rst:543
-#: ../../devel/api/usage/index.rst:570
+#: ../../devel/api/usage/index.rst:347
+#: ../../devel/api/usage/index.rst:361
+#: ../../devel/api/usage/index.rst:376
+#: ../../devel/api/usage/index.rst:404
+#: ../../devel/api/usage/index.rst:422
+#: ../../devel/api/usage/index.rst:439
+#: ../../devel/api/usage/index.rst:463
+#: ../../devel/api/usage/index.rst:482
+#: ../../devel/api/usage/index.rst:504
+#: ../../devel/api/usage/index.rst:522
+#: ../../devel/api/usage/index.rst:542
+#: ../../devel/api/usage/index.rst:569
 #: f311afb6adef492b84c811eb4fc5ed1b
 #: f311afb6adef492b84c811eb4fc5ed1b
 #: f311afb6adef492b84c811eb4fc5ed1b
 #: f311afb6adef492b84c811eb4fc5ed1b
 #: f311afb6adef492b84c811eb4fc5ed1b
 #: f311afb6adef492b84c811eb4fc5ed1b
-#: 3b1fb0b4d063423bb992dcdb944d2580
-#: b31fbb8b8059482893b290b8b9756dfb
 #: f311afb6adef492b84c811eb4fc5ed1b
 #: f311afb6adef492b84c811eb4fc5ed1b
 #: f311afb6adef492b84c811eb4fc5ed1b
-#: 30c43c25e1c44a5998c8e13a2926e907
+#: f311afb6adef492b84c811eb4fc5ed1b
+#: f311afb6adef492b84c811eb4fc5ed1b
+#: f311afb6adef492b84c811eb4fc5ed1b
 #: f311afb6adef492b84c811eb4fc5ed1b
 #: f311afb6adef492b84c811eb4fc5ed1b
 #: f311afb6adef492b84c811eb4fc5ed1b
@@ -356,18 +356,18 @@ msgstr ""
 #: ../../devel/api/usage/index.rst:276
 #: ../../devel/api/usage/index.rst:304
 #: ../../devel/api/usage/index.rst:325
-#: ../../devel/api/usage/index.rst:350
-#: ../../devel/api/usage/index.rst:364
-#: ../../devel/api/usage/index.rst:407
-#: ../../devel/api/usage/index.rst:425
-#: ../../devel/api/usage/index.rst:442
-#: ../../devel/api/usage/index.rst:466
-#: ../../devel/api/usage/index.rst:485
-#: ../../devel/api/usage/index.rst:507
-#: ../../devel/api/usage/index.rst:525
-#: ../../devel/api/usage/index.rst:545
-#: ../../devel/api/usage/index.rst:572
-#: ../../devel/api/usage/index.rst:605
+#: ../../devel/api/usage/index.rst:349
+#: ../../devel/api/usage/index.rst:363
+#: ../../devel/api/usage/index.rst:406
+#: ../../devel/api/usage/index.rst:424
+#: ../../devel/api/usage/index.rst:441
+#: ../../devel/api/usage/index.rst:465
+#: ../../devel/api/usage/index.rst:484
+#: ../../devel/api/usage/index.rst:506
+#: ../../devel/api/usage/index.rst:524
+#: ../../devel/api/usage/index.rst:544
+#: ../../devel/api/usage/index.rst:571
+#: ../../devel/api/usage/index.rst:604
 #: 1725e209000d4b0fba893f5738a2ae7a
 #: 1725e209000d4b0fba893f5738a2ae7a
 #: 1725e209000d4b0fba893f5738a2ae7a
@@ -376,11 +376,11 @@ msgstr ""
 #: 1725e209000d4b0fba893f5738a2ae7a
 #: 1725e209000d4b0fba893f5738a2ae7a
 #: 1725e209000d4b0fba893f5738a2ae7a
-#: 568ad50cc7fb4fbcbdf3161a10d574f6
 #: 1725e209000d4b0fba893f5738a2ae7a
 #: 1725e209000d4b0fba893f5738a2ae7a
 #: 1725e209000d4b0fba893f5738a2ae7a
-#: 8f4311ea65cf4f689046edc43a3fac5f
+#: 1725e209000d4b0fba893f5738a2ae7a
+#: 1725e209000d4b0fba893f5738a2ae7a
 #: 1725e209000d4b0fba893f5738a2ae7a
 #: 1725e209000d4b0fba893f5738a2ae7a
 #: 1725e209000d4b0fba893f5738a2ae7a
@@ -401,7 +401,7 @@ msgid "The API supports the upload of datasets and documents."
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:176
-#: ../../devel/api/usage/index.rst:346
+#: ../../devel/api/usage/index.rst:345
 #: c0469352d5aa45f38e3b62b2c9d59cd0
 #: c0469352d5aa45f38e3b62b2c9d59cd0
 msgid "Datasets"
@@ -418,7 +418,7 @@ msgid "API: ``POST /api/v2/uploads/upload``"
 msgstr ""
 
 #: ../../devel/api/usage/index.rst:200
-#: ../../devel/api/usage/index.rst:360
+#: ../../devel/api/usage/index.rst:359
 #: f0759e1bfc6143be9fbb05a34ecd262b
 #: f0759e1bfc6143be9fbb05a34ecd262b
 msgid "Documents"
@@ -546,284 +546,279 @@ msgstr ""
 msgid "Status Code: ``204``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:337
-#: bee8419b62a24469869cc7f1ee00f982
-msgid "eee"
-msgstr ""
-
-#: ../../devel/api/usage/index.rst:342
+#: ../../devel/api/usage/index.rst:341
 #: c12205e0b15c46f69d66d726faffc377
 msgid "GeoNode offers a download option to resources of resource_type dataset and document. For datasets, the download option is available for only datasets with uploaded files."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:347
+#: ../../devel/api/usage/index.rst:346
 #: 9a9d34edcf364b13990cccd2ac6cbdf5
 msgid "API: ``GET /datasets/{resource.alternate}/dataset_download``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:361
+#: ../../devel/api/usage/index.rst:360
 #: 60f8b8c610544ad88536ff19acd3bc01
 msgid "API: ``GET /documents/{resource.pk}/download``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:374
+#: ../../devel/api/usage/index.rst:373
 #: 4b9c6d410e1d46a99a02be67efdf94b3
 msgid "Dataset Update Metadata"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:376
+#: ../../devel/api/usage/index.rst:375
 #: 7f24181e5635424290dc33a01e6e601a
 msgid "API: ``PATCH /api/v2/datasets/{id}``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:379
+#: ../../devel/api/usage/index.rst:378
 #: 6b78a3e508fd4f14a5aa5d27c3c8df16
 msgid "The following example changes the title and the license of a dataset."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:394
+#: ../../devel/api/usage/index.rst:393
 #: b162fa9bf70e44f4896f1709b9ff2edf
 msgid "`bbox_polygon` and `ll_bbox_polygon` are derived values which cannot be changed."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:397
+#: ../../devel/api/usage/index.rst:396
 #: ed607d6ec86042789cc631110a3c555f
 msgid "Users, Groups and Permissions"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:400
+#: ../../devel/api/usage/index.rst:399
 #: 1fefbfb334674f5493a3d696db4c106c
 msgid "Users"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:404
-#: ../../devel/api/usage/index.rst:439
+#: ../../devel/api/usage/index.rst:403
+#: ../../devel/api/usage/index.rst:438
 #: 3f2888df11a349e195b017c928208438
 #: 3f2888df11a349e195b017c928208438
 msgid "API: ``POST /api/v2/users``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:421
+#: ../../devel/api/usage/index.rst:420
 #: 059f49a92a5a49e5bd4deb6958d79eaf
 msgid "User detail"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:422
+#: ../../devel/api/usage/index.rst:421
 #: 0153eb1684724862adcf0a296d50bd48
 msgid "API: ``POST /api/v2/users/{pk}``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:438
+#: ../../devel/api/usage/index.rst:437
 #: f11c99c3f5d24200bb7272ac04b53f10
 msgid "Create a new user"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:462
+#: ../../devel/api/usage/index.rst:461
 #: 714a928e5dc346b094ebe797c8e8dd13
 msgid "Edit a User"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:463
+#: ../../devel/api/usage/index.rst:462
 #: 0153eb1684724862adcf0a296d50bd48
 msgid "API: ``PATCH /api/v2/users/{pk}``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:481
+#: ../../devel/api/usage/index.rst:480
 #: 70f0811fdd254c06bce07a1a8c517d57
 msgid "Delete a User"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:482
+#: ../../devel/api/usage/index.rst:481
 #: 0153eb1684724862adcf0a296d50bd48
 msgid "API: ``DELETE /api/v2/users/{pk}``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:499
+#: ../../devel/api/usage/index.rst:498
 #: 232080ff698e4740b746ccd15aebdfc1
 msgid "In this case the list of validation rules configured in :ref:`user-deletion-rules` are checked before the deletion is executed."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:503
+#: ../../devel/api/usage/index.rst:502
 #: 2a380d7b01f64086aadfc543e28856e0
 msgid "List user groups"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:504
+#: ../../devel/api/usage/index.rst:503
 #: 374e9b1d75e942dd9aac6bdb67dc1d41
 msgid "API: ``POST /api/v2/users/{pk}/groups``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:521
+#: ../../devel/api/usage/index.rst:520
 #: fb78f7ab70854b4b9c7e2cf2a1fecabf
 msgid "Transfer resources owned by a user to another"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:522
+#: ../../devel/api/usage/index.rst:521
 #: 374e9b1d75e942dd9aac6bdb67dc1d41
 msgid "API: ``POST /api/v2/users/{pk}/transfer_resources``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:537
+#: ../../devel/api/usage/index.rst:536
 #: 1c03ee57d1064865ae3fe316f6d398e5
 msgid "In this case the resources will be transfered to the user with id 1001, instead using the payload={\"owner\": \"DEFAULT\"} the resources will be transfered to the principal user"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:541
+#: ../../devel/api/usage/index.rst:540
 #: 71fd53f6fd86417da4cb96a06c8d0acd
 msgid "Remove user as a group manager"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:542
+#: ../../devel/api/usage/index.rst:541
 #: 374e9b1d75e942dd9aac6bdb67dc1d41
 msgid "API: ``POST /api/v2/users/{pk}/remove_from_group_manager``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:557
+#: ../../devel/api/usage/index.rst:556
 #: 56790263c40248aa8c57f007df43c5f6
 msgid "In this case the user shall be removed as a group manager from the following group ids, if the payload would be payload={\"groups\": \"ALL\"} the user will be removed as a group manager from all the groups its part of"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:565
+#: ../../devel/api/usage/index.rst:564
 #: dbb001fac94a4280ae00983479135c4f
 msgid "Groups"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:567
+#: ../../devel/api/usage/index.rst:566
 #: 104dd75927a640348096c55f503521ff
 msgid "In GeoNode, On listing groups, the api returns groups which have group profiles. Therefore for django groups which are not related to a group profile are not included in the response. However these can be accessed in the Django Administration panel."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:569
+#: ../../devel/api/usage/index.rst:568
 #: 0ce93ef1b4984133adb29d7e271ae68b
 msgid "API: ``POST /api/v2/groups``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:588
+#: ../../devel/api/usage/index.rst:587
 #: 6468f3549dff4857b6759c1f28913bae
 msgid "Permissions"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:589
+#: ../../devel/api/usage/index.rst:588
 #: 7c0cbb76a42a43a6a174fbc6eba65082
 msgid "Permissions in GeoNode are set per resource and per user or group. The following are general permissions that can be assigned:"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:591
+#: ../../devel/api/usage/index.rst:590
 #: 19d6d24853534735aa84113e71e1c460
 msgid "*View:* allows to view the resource. ``[view_resourcebase]``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:592
+#: ../../devel/api/usage/index.rst:591
 #: 91866105e1f7416a98c61c490965ae3b
 msgid "*Download:* allows to download the resource specifically datasets and documents. ``[ view_resourcebase, download_resourcebase]``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:593
+#: ../../devel/api/usage/index.rst:592
 #: 9aaf8a42f1954e00a264fa7af60257b4
 msgid "*Edit:* allows to change attributes, properties of the datasets features, styles and metadata for the specified resource. ``[view_resourcebase, download_resourcebase, change_resourcebase, change_dataset_style, change_dataset_data, change_resourcebase_metadata]``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:594
+#: ../../devel/api/usage/index.rst:593
 #: 4b77082765694910b78aa96f5b38f709
 msgid "*Manage:* allows to update, delete, change permissions, publish and unpublish the resource. ``[view_resourcebase, download_resourcebase, change_resourcebase, change_dataset_style, change_dataset_data, publish_resourcebase, delete_resourcebase, change_resourcebase_metadata, change_resourcebase_permissions]``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:597
+#: ../../devel/api/usage/index.rst:596
 #: 2b2bf40732e44177983328b896d23b70
 msgid "Obtaining permissions on a resource"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:599
+#: ../../devel/api/usage/index.rst:598
 #: 885e5b95cb934d0fa8488debae83a7f9
 msgid "On listing the resources or on resource detail API, GeoNode includes perms attribute to each resource with a list of permissions a user making the request has on the respective resource."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:601
+#: ../../devel/api/usage/index.rst:600
 #: 45e8f8369bee4776a19114f33ebfdd03
 msgid "GeoNode also provides an API to get an overview of permissions set on a resource. The response contains users and groups with permissions set on them. However this API returns ``200`` if a requesting user has ``manage`` permissions on the resource otherwise it will return ``403 (Forbidden)``."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:603
+#: ../../devel/api/usage/index.rst:602
 #: 1d390a3e86d348b5bffef0009aca21ac
 msgid "API: ``GET /api/v2/resources/1791/permissions``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:619
+#: ../../devel/api/usage/index.rst:618
 #: 50d0f865747446f0883d32769bd23d95
 msgid "Changing permissions on a resource"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:621
+#: ../../devel/api/usage/index.rst:620
 #: b3f689f3a61840948f8a925d79574afa
 msgid "Permissions are configured with a so called ``perms spec``, which is a JSON structured where permissions for single users and groups can be specified."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:623
+#: ../../devel/api/usage/index.rst:622
 #: c3ea6626f94d4ca7a50a6de6aebd485b
 msgid "The example below shows a perm specification for following rules:"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:625
+#: ../../devel/api/usage/index.rst:624
 #: 7da72b6f581e44c5aa791e37ff74d3fc
 msgid "user1 can ``edit``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:626
+#: ../../devel/api/usage/index.rst:625
 #: ff67f2e0033d4f52a07fbaa1a27354a8
 msgid "user2 can ``manage``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:627
+#: ../../devel/api/usage/index.rst:626
 #: 11c0c7dfc2cf400db2cb5b1f55d44266
 msgid "group1 can ``edit``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:628
+#: ../../devel/api/usage/index.rst:627
 #: 1c2eb9ff608e43fa96bf87e738b9031e
 msgid "anonymous users (public) can ``view``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:629
+#: ../../devel/api/usage/index.rst:628
 #: 11a4ec377b34425ab60822876448cdc8
 msgid "registered members can ``download``"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:631
+#: ../../devel/api/usage/index.rst:630
 #: ee313063ec5c4e038f1d0c894a7547f9
 msgid "NOTE: The id of the “anonymous” and “registered members” groups can be obtained from the permissions of the resource. They are not listed inside the groups API, since these are spceial internal groups"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:664
+#: ../../devel/api/usage/index.rst:663
 #: 9b4832be40e7488685704b05f41e50d6
 msgid "The perm spec is sent as JSON, with ``application/json Content-Type``, inside a ``PUT`` request."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:707
+#: ../../devel/api/usage/index.rst:706
 #: e877065b8bd54faab17d35fcd0a756b1
 msgid "This is an asynchrnous operation which returns a response similar to the following:"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:718
+#: ../../devel/api/usage/index.rst:717
 #: de6b7362b0b64f8f8f0b7691c4fc3999
 msgid "The ``status_url`` property returns the URL to track kthe progress of the request. Querying the URL a result similar to the following will be returned:"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:735
+#: ../../devel/api/usage/index.rst:734
 #: 449f520690f2477aba5c79e67fcd9662
 msgid "The operation will be completed once the ``status`` property is updated with the value ``finished``."
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:738
+#: ../../devel/api/usage/index.rst:737
 #: 224b401eeaee4fc9b87fabd0d50ca492
 msgid "Linked Resources Listing and Details"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:740
+#: ../../devel/api/usage/index.rst:739
 #: 08d64d1c7c394a27a3af85ebbdcc7d6b
 msgid "All available linked_resources  can be listed with API ``GET /api/v2/resources/{pk}/linked_resources``. where pk Resource base id"
 msgstr ""
 
-#: ../../devel/api/usage/index.rst:746
+#: ../../devel/api/usage/index.rst:745
 #: 3eff20e23c1a4690ab70a3060d8c7b13
 msgid "List all resource links"
 msgstr ""

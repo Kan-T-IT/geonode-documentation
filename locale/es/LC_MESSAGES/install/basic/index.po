@@ -2,27 +2,25 @@
 # Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
 # Translators:
 # Hernán Javier López, 2024
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: 2024-08-21 14:13-0300\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
 "Last-Translator: Hernán Javier López, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
-"1 : 2;\n"
 "Generated-By: Babel 2.13.1\n"
-"X-Generator: Poedit 3.4.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../install/basic/index.rst:5 d17f1a869c29479f861056c12495e28b
 msgid "GeoNode Basic Installation"
@@ -57,9 +55,9 @@ msgid ""
 "be also available at ``https://my_geonode.geonode.org/geoserver/``"
 msgstr ""
 "**Segundo paso**: Implementar :guilabel:`GeoNode en un servidor de "
-"producción`, ejecutándose como servicio ``https://my_geonode.geonode.org/"
-"``. :guilabel:`GeoServer` también estará disponible en ``https://my_geonode."
-"geonode.org/geoserver/``"
+"producción`, ejecutándose como servicio ``https://my_geonode.geonode.org/``."
+" :guilabel:`GeoServer` también estará disponible en "
+"``https://my_geonode.geonode.org/geoserver/``"
 
 #: ../../install/basic/index.rst:16 122b7e2168c64ec988b166635d69b159
 msgid "**Third Step**: Customize :guilabel:`.env` to match your needs"
@@ -69,8 +67,8 @@ msgstr ""
 
 #: ../../install/basic/index.rst:18 167a8712ed044f988fb3e62e09e8f4e9
 msgid ""
-"**Fourth Step**: Secure your production deployment; change the :guilabel:"
-"`admin` passwords and :guilabel:`OAUth2` keys"
+"**Fourth Step**: Secure your production deployment; change the "
+":guilabel:`admin` passwords and :guilabel:`OAUth2` keys"
 msgstr ""
 "**Cuarto paso**: Asegura tu implementación de producción; cambiar las "
 "contraseñas :guilabel:`admin` y las claves :guilabel:`OAUth2`"
@@ -93,8 +91,8 @@ msgstr "Crea una instancia de tu ``geonode-project``"
 
 #: ../../install/basic/index.rst:55 9f09b588004f48968bf636c5ea6fbbd4
 msgid ""
-"Let's say your project is named :guilabel:`my_geonode` perform the "
-"following steps:"
+"Let's say your project is named :guilabel:`my_geonode` perform the following"
+" steps:"
 msgstr ""
 "Digamos que tu proyecto se llama :guilabel:`my_geonode` realiza los "
 "siguientes pasos:"
@@ -106,15 +104,15 @@ msgstr "Prepara el archivo .env"
 #: ../../install/basic/index.rst:88 291720e526b94294a1f0331a668692d5
 msgid ""
 "GeoNode uses an ``.env`` where the environment variables required by Docker "
-"and GeoNode itself must be configured. A simple way to generate a basic ``."
-"env`` is using the ``create-envfile.py`` utility command. If run without "
+"and GeoNode itself must be configured. A simple way to generate a basic "
+"``.env`` is using the ``create-envfile.py`` utility command. If run without "
 "arguments it will generate a valid ``.env`` for a local deployment."
 msgstr ""
 "GeoNode utiliza un ``.env`` donde se deben configurar las variables de "
 "entorno requeridas por Docker y el propio GeoNode. Una forma sencilla de "
-"generar un ``.env`` básico es usar el comando de utilidad ``create-envfile."
-"py``. Si se ejecuta sin argumentos, generará un ``.env`` válido para una "
-"implementación local."
+"generar un ``.env`` básico es usar el comando de utilidad ``create-"
+"envfile.py``. Si se ejecuta sin argumentos, generará un ``.env`` válido para"
+" una implementación local."
 
 #: ../../install/basic/index.rst:96 cc8ef2bee72f4b29ade97fa9c10b7f66
 msgid "The command accepts the following arguments:"
@@ -122,7 +120,7 @@ msgstr "El comando acepta los siguientes argumentos:"
 
 #: ../../install/basic/index.rst:98 549dafa787cf404f9de6ef9f61901187
 msgid "`--https`: Enable SSL. It's disabled by default"
-msgstr "`--https`: Enable SSL. Está deshabilitado por defecto"
+msgstr "`--https`: Enable SSL. Está deshabilitado por defecto."
 
 #: ../../install/basic/index.rst:101 2ec65355502e46c1ab3d6a30b291ca11
 msgid "`--env_type`:"
@@ -134,15 +132,15 @@ msgid ""
 "requested to Letsencrypt's ACME server"
 msgstr ""
 "Cuando se establece en `prod`, `DEBUG` está deshabilitado y se solicita la "
-"creación de un `SSL` válido al servidor ACME de Letsencrypt"
+"creación de un `SSL` válido al servidor ACME de Letsencrypt."
 
 #: ../../install/basic/index.rst:101 2ff9baa2bb9f4e609b73ce3ed13d9555
 msgid ""
 "When set to `test`  `DEBUG` is disabled and a test `SSL` certificate is "
 "generated for local testing"
 msgstr ""
-"Cuando se establece en \"test\", \"DEBUG\" está deshabilitado y se genera "
-"un certificado de prueba \"SSL\" para pruebas locales"
+"Cuando se establece en \"test\", \"DEBUG\" está deshabilitado y se genera un"
+" certificado de prueba \"SSL\" para pruebas locales."
 
 #: ../../install/basic/index.rst:102 1c146d1fa8854da19ffb8b5cef462a54
 msgid ""
@@ -162,8 +160,8 @@ msgid ""
 "Letsencrypt uses email for issuing the SSL certificate"
 msgstr ""
 "`--email`: El correo electrónico del administrador. Tenga en cuenta que se "
-"requiere un correo electrónico real y configuraciones SMPT válidas si `--"
-"env_type` está configurado en `prod`. Letsencrypt utiliza el correo "
+"requiere un correo electrónico real y configuraciones SMPT válidas si "
+"`--env_type` está configurado en `prod`. Letsencrypt utiliza el correo "
 "electrónico para emitir el certificado SSL"
 
 #: ../../install/basic/index.rst:105 47916db3912b41f49f3ce63e34db36a6
@@ -176,8 +174,8 @@ msgstr ""
 
 #: ../../install/basic/index.rst:106 5c880b2268aa4440a32154d56f94c191
 msgid ""
-"`--geoserverpwd`: GeoNode's administrator password. A random value is set "
-"if left empty"
+"`--geoserverpwd`: GeoNode's administrator password. A random value is set if"
+" left empty"
 msgstr ""
 "`--geoserverpwd`: contraseña de administrador de GeoNode. Se establece un "
 "valor aleatorio si se deja vacío"
@@ -200,16 +198,16 @@ msgstr ""
 
 #: ../../install/basic/index.rst:109 4ffb8c80e25e44039c1b287f092c1fb2
 msgid ""
-"`--geodbpwd`: GeoNode data DB user role's password. A random value is set "
-"if left empty"
+"`--geodbpwd`: GeoNode data DB user role's password. A random value is set if"
+" left empty"
 msgstr ""
 "`--geodbpwd`: Contraseña del rol de usuario de la base de datos de datos "
 "GeoNode. Se establece un valor aleatorio si se deja vacío"
 
 #: ../../install/basic/index.rst:110 78773e4aa71d4b3d9160b36d20d58723
 msgid ""
-"`--clientid`: Client id of Geoserver's GeoNode Oauth2 client. A random "
-"value is set if left empty"
+"`--clientid`: Client id of Geoserver's GeoNode Oauth2 client. A random value"
+" is set if left empty"
 msgstr ""
 "`--clientid`: ID del cliente GeoNode Oauth2 de Geoserver. Se establece un "
 "valor aleatorio si se deja vacío"
@@ -228,8 +226,8 @@ msgstr "Construir y ejecutar"
 
 #: ../../install/basic/index.rst:122 34e8c6b9bd5b4db68838bb2cb23c02b8
 msgid ""
-"You can follow the containers startup by running the following commands "
-"from ``my_geonode`` root folder:"
+"You can follow the containers startup by running the following commands from"
+" ``my_geonode`` root folder:"
 msgstr ""
 "Puedes seguir el inicio de los contenedores ejecutando los siguientes "
 "comandos desde la carpeta raíz ``my_geonode``:"
@@ -249,7 +247,7 @@ msgstr "Conéctate a :guilabel:`http://localhost/`"
 
 #: ../../install/basic/index.rst:149 77eec03125114bfd9e7bb78455a428ad
 msgid "The startup typically takes some time, so be patient…"
-msgstr "El inicio suele tardar algún tiempo, así que ten paciencia…"
+msgstr "El inicio suele tardar algún tiempo, así que ten paciencia..."
 
 #: ../../install/basic/index.rst:151 866ac7b2feb14f47911a6d85c4b97a30
 msgid ""
@@ -286,16 +284,18 @@ msgstr "Segundo paso: implementar GeoNode en un servidor de producción"
 
 #: ../../install/basic/index.rst:176 8c993f7c671242cba14f64391ad33dbe
 msgid ""
-"In the case you would like to deploy to, let's say, :guilabel:`https://"
-"my_geonode.geonode.org/`, you will need to change ``.env`` as follows:"
+"In the case you would like to deploy to, let's say, "
+":guilabel:`https://my_geonode.geonode.org/`, you will need to change "
+"``.env`` as follows:"
 msgstr ""
-"En el caso de que desees implementar en, digamos, :guilabel:`https://"
-"my_geonode.geonode.org/`, deberás cambiar ``.env`` de la siguiente manera:"
+"En el caso de que desees implementar en, digamos, "
+":guilabel:`https://my_geonode.geonode.org/`, deberás cambiar ``.env`` de la "
+"siguiente manera:"
 
 #: ../../install/basic/index.rst:192 2a0a09d0a5674c59a5dd0511bcbb7388
 msgid ""
-"These variables are automatically set by the ``create-envfile.py`` script "
-"if the ``--https`` and ``--hostname`` variables are used."
+"These variables are automatically set by the ``create-envfile.py`` script if"
+" the ``--https`` and ``--hostname`` variables are used."
 msgstr ""
 "Estas variables son configuradas automáticamente por el script ``create-"
 "envfile.py`` si se utilizan las variables ``--https`` y ``--hostname``."
@@ -337,13 +337,13 @@ msgstr "Solución de problemas"
 
 #: ../../install/basic/index.rst:210 ec6fda316eae41de87c803ed567975a2
 msgid ""
-"If for some reason you are not able to reach the server on the :guilabel:"
-"`HTTPS` channel, please check the :guilabel:`NGINX` configuration files "
-"below:"
+"If for some reason you are not able to reach the server on the "
+":guilabel:`HTTPS` channel, please check the :guilabel:`NGINX` configuration "
+"files below:"
 msgstr ""
-"Si por alguna razón no puedes acceder al servidor en el canal :guilabel:"
-"`HTTPS`, verifica los archivos de configuración :guilabel:`NGINX` a "
-"continuación:"
+"Si por alguna razón no puedes acceder al servidor en el canal "
+":guilabel:`HTTPS`, verifica los archivos de configuración :guilabel:`NGINX` "
+"a continuación:"
 
 #: ../../install/basic/index.rst:212 8b0b1004dd20433d8e4fe6807aa58230
 msgid "Enter the :guilabel:`NGINX` container"
@@ -399,9 +399,9 @@ msgid ""
 "correctly created."
 msgstr ""
 "Puede resultar útil desactivar https para aislar el origen de los errores. "
-"Después de revertir los cambios relacionados con HTTPS en el archivo `."
-"env`, repite los pasos anteriores y asegúrate que el enlace ``nginx.http."
-"enabled.conf`` se haya creado correctamente."
+"Después de revertir los cambios relacionados con HTTPS en el archivo `.env`,"
+" repite los pasos anteriores y asegúrate que el enlace "
+"``nginx.http.enabled.conf`` se haya creado correctamente."
 
 #: ../../install/basic/index.rst:312 3a77b827148b44bea1c1c67c7f20488e
 msgid "Customize :guilabel:`.env` to match your needs"
@@ -409,8 +409,8 @@ msgstr "Personaliza :guilabel:`.env` para que se ajuste a tus necesidades"
 
 #: ../../install/basic/index.rst:314 9c824e0331d5499396e61d968607a937
 msgid ""
-"In the case you would like to modify the GeoNode behavior, always use the :"
-"guilabel:`.env` file in order to update the :guilabel:`settings`."
+"In the case you would like to modify the GeoNode behavior, always use the "
+":guilabel:`.env` file in order to update the :guilabel:`settings`."
 msgstr ""
 "En el caso de que desees modificar el comportamiento de GeoNode, utiliza "
 "siempre el archivo :guilabel:`.env` para actualizar :guilabel:`settings`."

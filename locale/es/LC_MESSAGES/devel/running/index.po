@@ -1,72 +1,89 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2021-06-03 17:10+0200\n"
+"PO-Revision-Date: 2024-07-19 20:53+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.9.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../devel/running/index.rst:2 55a4e56ba0b143c8ab96d281f09d58d9
+#: ../../devel/running/index.rst:2 53d1217e29884425a45bfe943b1b4428
 msgid "How to run GeoNode Core for development"
-msgstr ""
+msgstr "Cómo ejecutar GeoNode Core para el desarrollo"
 
-#: ../../devel/running/index.rst:5 d7e1b583711c4a1a8e8859742158ab67
+#: ../../devel/running/index.rst:5 0a8230725bc149f8989b60434dd696bb
 msgid ""
-"In order to start Geonode Core for development, you need to make sure "
-"that no Geonode instance is running first. This can be done by running "
-"the following commands:"
+"In order to start Geonode Core for development, you need to make sure that "
+"no Geonode instance is running first. This can be done by running the "
+"following commands:"
 msgstr ""
+"Para iniciar Geonode Core para el desarrollo, debes asegurarte que no se "
+"esté ejecutando ninguna instancia de Geonode. Esto se puede hacer ejecutando"
+" los siguientes comandos:"
 
-#: ../../devel/running/index.rst:15 d3960f4bed504d368a6d2fac7b5b2bea
+#: ../../devel/running/index.rst:15 6495eabe05394300948775d893f17fe4
 msgid "Then you need to start both geoserver and django services as follows:"
 msgstr ""
+"Luego debes iniciar los servicios geoserver y django de la siguiente manera:"
 
-#: ../../devel/running/index.rst:23 6da1ac317d72454cb7acdaec1685eaa6
+#: ../../devel/running/index.rst:23 3f3473b7dbfc43cea640430855a000fa
 msgid ""
-"Now you can visit your Geonode GUI by typing http://localhost:8000 into "
-"your browser window"
+"Now you can visit your Geonode GUI by typing http://localhost:8000 into your"
+" browser window"
 msgstr ""
+"Ahora puede visitar la GUI de Geonode escribiendo http://localhost:8000 en "
+"la ventana de su navegador"
 
-#: ../../devel/running/index.rst:28 98d7688941f842bca84908a135761c22
+#: ../../devel/running/index.rst:28 d301a38ced1c42fd8910344b4d65d6f3
 msgid "How to run GeoNode Project for development"
-msgstr ""
+msgstr "Cómo ejecutar el proyecto GeoNode para desarrollo"
 
-#: ../../devel/running/index.rst:31 bf8a10f7ccda45cf85733ad85ffc0948
+#: ../../devel/running/index.rst:31 3b812916175f41e98b6a8e0053d30d20
 msgid ""
-"In order to run a project for development, the following steps have to be"
-" followed:"
+"In order to run a project for development, the following steps have to be "
+"followed:"
 msgstr ""
+"Para ejecutar un proyecto de desarrollo se deben seguir los siguientes "
+"pasos:"
 
-#: ../../devel/running/index.rst:33 7bd001ce180341b8a44ed3168a0cff97
+#: ../../devel/running/index.rst:33 7aae75c547264d4b8ceac9725de0b727
 msgid ""
-"1- Make sure there is no running instance of Geonode first by running the"
-" following command:"
+"1- Make sure there is no running instance of Geonode first by running the "
+"following command:"
 msgstr ""
+"1- Asegúrate primero que no haya ninguna instancia de Geonode en ejecución "
+"ejecutando el siguiente comando:"
 
-#: ../../devel/running/index.rst:41 22f21236292d4c64988f5226af807f57
+#: ../../devel/running/index.rst:41 06fbe8c0fe394edbafa427c68a1c5823
 msgid "The above command will stop all services related to Geonode if running"
 msgstr ""
+"El comando anterior detendrá todos los servicios relacionados con Geonode si"
+" se ejecuta"
 
-#: ../../devel/running/index.rst:43 faa51909dfbc402eabbd1f64fc6a64d1
+#: ../../devel/running/index.rst:43 1d2c05ed1d744d69b0f3cdadba451ed2
 msgid "2- Start the servers by running paver start as follows:"
 msgstr ""
+"2- Inicia los servidores ejecutando paver start de la siguiente manera:"
 
-#: ../../devel/running/index.rst:49 4b4d09ee87f14e60b91f6b95853828e5
+#: ../../devel/running/index.rst:49 149320d86733401fa0555611bfe30b16
 msgid ""
-"Now you can visit your geonode project site by typing "
-"http://localhost:8000 into your browser window"
+"Now you can visit your geonode project site by typing http://localhost:8000 "
+"into your browser window"
 msgstr ""
-
+"Ahora puedes visitar el sitio de tu proyecto geonode escribiendo "
+"http://localhost:8000 en la ventana de tu navegador"

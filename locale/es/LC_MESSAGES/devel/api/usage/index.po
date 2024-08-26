@@ -577,7 +577,7 @@ msgid ""
 "with uploaded files."
 msgstr ""
 "GeoNode ofrece una opción de descarga para los recursos de tipo de recurso "
-"\"dataset\" y \"documento\". Para los conjuntos de datos, la opción de "
+"``dataset`` y ``documento``. Para los conjuntos de datos, la opción de "
 "descarga solo está disponible para aquellos que tienen archivos cargados."
 
 #: ../../devel/api/usage/index.rst:346 9a9d34edcf364b13990cccd2ac6cbdf5
@@ -904,3 +904,5 @@ msgstr ""
 msgid "List all resource links"
 msgstr "Listar todos los enlaces de recursos"
 
+#~ msgid "eee"
+#~ msgstr "eee"

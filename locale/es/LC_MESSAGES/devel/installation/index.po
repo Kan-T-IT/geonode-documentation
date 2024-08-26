@@ -1,227 +1,265 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Hernán Javier López, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GeoNode master\n"
+"Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-19 16:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
+"Last-Translator: Hernán Javier López, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../devel/installation/index.rst:2 a5f951588e2a482ab1c1fec666a405ed
 msgid "How to Install GeoNode-Core for development"
-msgstr ""
+msgstr "Cómo instalar GeoNode-Core para el desarrollo"
 
 #: ../../devel/installation/index.rst:5 2decf23005de447a930e87f5148f26e9
 msgid "Summary of installation"
-msgstr ""
+msgstr "Resumen de la instalación"
 
 #: ../../devel/installation/index.rst:7 a465a035eb754cc9ab7c6ab597d1a34d
 msgid ""
 "This section demonstrates a summarization of the steps to be followed in "
 "order to install GeoNode-Core for development using Ubuntu 18.04. The "
-"following steps will be customized to fit both GeoNode-Project and "
-"GeoNode-Core for development purpose."
+"following steps will be customized to fit both GeoNode-Project and GeoNode-"
+"Core for development purpose."
 msgstr ""
+"En esta sección se muestra un resumen de los pasos que se deben seguir para "
+"instalar GeoNode-Core para el desarrollo con Ubuntu 18.04. Los siguientes "
+"pasos se personalizarán para que se adapten tanto a GeoNode-Project como a "
+"GeoNode-Core para fines de desarrollo."
 
 #: ../../devel/installation/index.rst:10 33766193d1a948f09dcc2e2ed032f6cf
 msgid "The steps to be followed are:"
-msgstr ""
+msgstr "Los pasos a seguir son:"
 
 #: ../../devel/installation/index.rst:12 ../../devel/installation/index.rst:41
 #: a85f8476677e4790a2812d9ddaddffc8 bae1499981334f33abe0a72afc6d9c5f
 msgid "1- Install build tools and libraries"
-msgstr ""
+msgstr "1- Instalar herramientas de compilación y bibliotecas"
 
 #: ../../devel/installation/index.rst:14 ../../devel/installation/index.rst:49
 #: 8a10a064259f4c529dc560f364a405bd 91d44aa28b7045efa118ce2b96e77403
 msgid "2- Install dependencies and supporting tools"
-msgstr ""
+msgstr "2- Instalar dependencias y herramientas de soporte"
 
 #: ../../devel/installation/index.rst:16 f2c19e0df20041e5913e9550e440786d
 msgid "3- Setup Python virtual environment"
-msgstr ""
+msgstr "3- Configurar el entorno virtual de Python"
 
 #: ../../devel/installation/index.rst:18 8216182db0c14af283117459c20f3142
 msgid "4- Clone and install GeoNode from Github"
-msgstr ""
+msgstr "4- Clonar e instalar GeoNode desde Github"
 
 #: ../../devel/installation/index.rst:20 3d26e83e695d41df871ee255480ae662
 msgid "5- Install and start Geoserver"
-msgstr ""
+msgstr "5- Instalar e iniciar Geoserver"
 
 #: ../../devel/installation/index.rst:22 c1176c96a68e4d568bf049cfc800e697
 msgid "6- Start GeoNode"
-msgstr ""
+msgstr "6- Iniciar GeoNode"
 
 #: ../../devel/installation/index.rst:24 7e6abd6875fd48aeb27116a9e2fa736d
 msgid "The following commands/steps will be executed on your terminal"
-msgstr ""
+msgstr "Los siguientes comandos/pasos se ejecutarán en tu terminal"
 
 #: ../../devel/installation/index.rst:26 363dbcb0fdb44ec798a2231d200b2545
 msgid ""
 "If you have a running GeoNode service, you will need to stop it before "
 "starting the following steps. To stop GeoNode you will need to run:"
 msgstr ""
+"Si tienes un servicio GeoNode en ejecución, deberás detenerlo antes de "
+"comenzar con los siguientes pasos. Para detener GeoNode, deberás ejecutar:"
 
 #: ../../devel/installation/index.rst:34 55927c35250946d2b6a8e0c84164937e
 msgid "Install GeoNode-Core for development"
-msgstr ""
+msgstr "Instalar GeoNode-Core para el desarrollo"
 
 #: ../../devel/installation/index.rst:36 c0e4006121b742ba8f9a483b49c76eda
 msgid ""
-"GeoNode-Core installation is considered the most basic form of GeoNode. "
-"It doesn't require any external server to be installed and it can run "
-"locally against a file-system based Spatialite database."
+"GeoNode-Core installation is considered the most basic form of GeoNode. It "
+"doesn't require any external server to be installed and it can run locally "
+"against a file-system based Spatialite database."
 msgstr ""
+"La instalación de GeoNode-Core se considera la forma más básica de GeoNode. "
+"No requiere la instalación de ningún servidor externo y puede ejecutarse "
+"localmente en una base de datos Spatialite basada en un sistema de archivos."
 
 #: ../../devel/installation/index.rst:39 926486f3f94149c395e4c26c95187356
 msgid "Installation steps"
-msgstr ""
+msgstr "Pasos de instalación"
 
 #: ../../devel/installation/index.rst:43 ../../devel/installation/index.rst:53
 #: 6572b726664140f0b30512c6051560c3 917e8605cb0d4377840c600c61283920
-msgid "Those instructions might be outdated. Please refer to :ref:`install_dep`"
+msgid ""
+"Those instructions might be outdated. Please refer to :ref:`install_dep`"
 msgstr ""
+"Es posible que esas instrucciones no estén actualizadas. Consulta "
+":ref:`install_dep`"
 
 #: ../../devel/installation/index.rst:51 3003223f29874911ada3f8b7cdb496b6
 msgid "Install python native libraries and tools"
-msgstr ""
+msgstr "Instalar bibliotecas y herramientas nativas de Python"
 
 #: ../../devel/installation/index.rst:59 617bc9aeea074cc0a3a34ae779926572
 msgid "Install python virtual environment"
-msgstr ""
+msgstr "Instalar entorno virtual de python"
 
 #: ../../devel/installation/index.rst:61 1013becd6d2640cfaffe2cc6a1cbb572
-msgid "Those instructions might be outdated. Please refer to :ref:`install_venv`"
+msgid ""
+"Those instructions might be outdated. Please refer to :ref:`install_venv`"
 msgstr ""
+"Es posible que esas instrucciones no estén actualizadas. Consulta "
+":ref:`install_venv`"
 
 #: ../../devel/installation/index.rst:67 3c69b1a7a5fc4534819f8829afd07aa7
 msgid "Install postgresql and postgis"
-msgstr ""
+msgstr "Instalar postgresql y postgis"
 
 #: ../../devel/installation/index.rst:69 74998f5076504d2fa3b2b1b9ae391a37
 msgid ""
 "Those instructions might be outdated. Please refer to "
 ":ref:`configure_dbs_core`"
 msgstr ""
+"Es posible que esas instrucciones no estén actualizadas. Consulta "
+":ref:`configure_dbs_core`"
 
 #: ../../devel/installation/index.rst:75 93e52faf60754dd49d3ee60c1293975a
 msgid "Change postgres password expiry and set a password"
 msgstr ""
+"Cambiar la fecha de caducidad de la contraseña de Postgres y establecer una "
+"contraseña"
 
 #: ../../devel/installation/index.rst:82 8fcf67984d0c49798b5af80d334daccc
 msgid "Create geonode role and database"
-msgstr ""
+msgstr "Crear una función de GeoNode y una base de datos"
 
 #: ../../devel/installation/index.rst:100 1fcad09830594981a0c4761cbcaa5e81
 msgid "Edit PostgreSQL configuration file"
-msgstr ""
+msgstr "Editar el archivo de configuración de PostgreSQL"
 
 #: ../../devel/installation/index.rst:106 df9d0b4a02534437b000f223fae54b9d
 msgid "Scroll to the bottom of the file and edit this line"
-msgstr ""
+msgstr "Desplázate hasta la parte inferior del archivo y edita esta línea."
 
 #: ../../devel/installation/index.rst:113 3a3298c9fb0748a6aac2eaaa9aa79633
 msgid "To be as follows"
-msgstr ""
+msgstr "Para que quede de la siguiente manera"
 
 #: ../../devel/installation/index.rst:120 5f27ce4190a9410c84267bd7f1e57cac
 msgid "Then restart PostgreSQL to make the changes effective"
-msgstr ""
+msgstr "Luego reinicia PostgreSQL para que los cambios sean efectivos."
 
 #: ../../devel/installation/index.rst:126 3934cef5e2914c16b432b1f65e964e88
 msgid "Java dependencies"
-msgstr ""
+msgstr "Dependencias de Java"
 
 #: ../../devel/installation/index.rst:132 f308c5506ace41a7adaa704c7751df24
 msgid "Install supporting tools"
-msgstr ""
+msgstr "Instalar herramientas de soporte"
 
 #: ../../devel/installation/index.rst:138 eaf802589ee64dd9aca1b08520f0ccae
 msgid ""
-"3- Setup Python virtual environment (Here is where Geonode will be "
-"running)"
+"3- Setup Python virtual environment (Here is where Geonode will be running)"
 msgstr ""
+"3- Configurar el entorno virtual de Python (aquí es donde se ejecutará "
+"Geonode)"
 
 #: ../../devel/installation/index.rst:140 72908d6eb2ff4c4da71485d85eb1dfab
 msgid "Add the virtualenvwrapper to your new environment."
-msgstr ""
+msgstr "Agregue virtualenvwrapper a su nuevo entorno."
 
 #: ../../devel/installation/index.rst:142 8127189911dd46cc9a8515bc40de62f6
 msgid ""
 "Since we are using Ubuntu, you can add the following settings to your "
 ".bashrc file. Please note that the Ubuntu account here is called "
-"\"geonode\". So you will need to change it according to the name you "
-"picked."
+"\"geonode\". So you will need to change it according to the name you picked."
 msgstr ""
+"Dado que estamos usando Ubuntu, puedes agregar la siguiente configuración a "
+"tu archivo .bashrc. Ten en cuenta que la cuenta de Ubuntu aquí se llama "
+"\"geonode\". Por lo tanto, tendrás que cambiarla según el nombre que hayas "
+"elegido."
 
 #: ../../devel/installation/index.rst:154 66f9c386ae4a4c71896a7a63ac958837
 msgid "Set up the local virtual environment for Geonode"
-msgstr ""
+msgstr "Configurar el entorno virtual local para Geonode"
 
 #: ../../devel/installation/index.rst:173 498b79f3be344f2cab9bab8e361e4672
 msgid "4- Download/Clone GeoNode from Github"
-msgstr ""
+msgstr "4- Descargar/Clonar GeoNode desde Github"
 
 #: ../../devel/installation/index.rst:175 ce0dbec13f60485aa061e4bfed6aaeaf
 msgid ""
 "To download the latest geonode version from github, the command \"git "
 "clone\" is used"
 msgstr ""
+"Para descargar la última versión de geonode desde github, se utiliza el "
+"comando \"git clone\""
 
 #: ../../devel/installation/index.rst:177 3b6677020a20495ea0e7e82e5014435f
 msgid ""
-"If you are following the GeoNode training, skip the following command. "
-"You can find the cloned repository in /home/geonode/dev"
+"If you are following the GeoNode training, skip the following command. You "
+"can find the cloned repository in /home/geonode/dev"
 msgstr ""
+"Si estás siguiendo la capacitación de GeoNode, omite el siguiente comando. "
+"Puede encontrar el repositorio clonado en /home/geonode/dev"
 
 #: ../../devel/installation/index.rst:183 94770d602929494ca4fce4581aef6530
 msgid "Install Nodejs PPA and other tools required for static development"
 msgstr ""
+"Instalar Nodejs PPA y otras herramientas necesarias para el desarrollo "
+"estático"
 
 #: ../../devel/installation/index.rst:185 858f12371fcb459ebf7eb7f22fdb5e7d
 msgid "This is required for static development"
-msgstr ""
+msgstr "Esto es necesario para el desarrollo estático"
 
 #: ../../devel/installation/index.rst:187 c35d84a67c3e4df396dbeda7611ed38c
 msgid ""
-"If you are following GeoNode’s training, nodejs is already installed in "
-"the Virtual Machine skip the first three command and jump to cd "
+"If you are following GeoNode’s training, nodejs is already installed in the "
+"Virtual Machine skip the first three command and jump to cd "
 "geonode/geonode/static"
 msgstr ""
+"Si estás siguiendo el entrenamiento de GeoNode, Node.js ya está instalado en"
+" la máquina virtual. Omite los primeros tres comandos y ve directamente a cd"
+" geonode/geonode/static"
 
 #: ../../devel/installation/index.rst:195 77f63faa337541f4bff5dd5ddc29cb2e
 msgid ""
-"Every time you want to update the static files after making changes to "
-"the sources, go to geonode/static and run ‘grunt production’."
+"Every time you want to update the static files after making changes to the "
+"sources, go to geonode/static and run ‘grunt production’."
 msgstr ""
+"Cada vez que desees actualizar los archivos estáticos después de realizar "
+"cambios en las fuentes, ve a geonode/static y ejecuta ‘grunt production’."
 
 #: ../../devel/installation/index.rst:197 992e15abd0f146f0a54624aafa1e7035
 msgid ""
-"Starting from the following step, you have to make sure that you "
-"installed GDAL correctly according to the documentation page "
-":ref:`install_gdal`"
+"Starting from the following step, you have to make sure that you installed "
+"GDAL correctly according to the documentation page :ref:`install_gdal`"
 msgstr ""
+"A partir del siguiente paso, debes asegurarte de haber instalado GDAL "
+"correctamente según la página de documentación :ref:`install_gdal`"
 
 #: ../../devel/installation/index.rst:199 a6c4ba34ed964a3a8170ede6e0842f1d
 msgid "Install GeoNode in the new active local virtualenv"
-msgstr ""
+msgstr "Instalar GeoNode en el nuevo entorno virtual local activo"
 
 #: ../../devel/installation/index.rst:207 2e2ec3b227c94cdd818e955800e64ae6
 msgid "Create local_settings.py"
-msgstr ""
+msgstr "Crear local_settings.py"
 
 #: ../../devel/installation/index.rst:209 aec1b59fe8e5438ab4f40a0ed4ef7d8c
 msgid ""
@@ -229,165 +267,218 @@ msgid ""
 "/home/geonode/dev/geonode/geonode/local_settings.py.geoserver.sample and "
 "rename it to be local_settings.py"
 msgstr ""
+"Copia el archivo de muestra "
+"/home/geonode/dev/geonode/geonode/local_settings.py.geoserver.sample y "
+"cámbiale el nombre a local_settings.py"
 
 #: ../../devel/installation/index.rst:217 69f2d38c19b543e78051bd8f836010a3
 msgid ""
 "In the local_settings.py file, add the following line after the import "
 "statements:"
 msgstr ""
+"En el archivo local_settings.py, agrega la siguiente línea después de las "
+"declaraciones de importación:"
 
 #: ../../devel/installation/index.rst:223 0a0aae0b55a247be8b53ff90db465194
 msgid ""
-"In the DATABASES dictionary under the 'default' key, change only the "
-"values for the keys NAME, USER and PASSWORD to be as follows:"
+"In the DATABASES dictionary under the 'default' key, change only the values "
+"for the keys NAME, USER and PASSWORD to be as follows:"
 msgstr ""
+"En el diccionario DATABASES bajo la clave 'default', cambia únicamente los "
+"valores de las claves NAME, USER y PASSWORD para que queden como sigue:"
 
 #: ../../devel/installation/index.rst:240 46f59475f9ae4788b60ff1983327a6be
 msgid ""
 "In the DATABASES dictionary under the 'datastore' key, change only the "
 "values for the keys NAME, USER and PASSWORD to be as follows:"
 msgstr ""
+"En el diccionario DATABASES bajo la clave 'datastore', cambia únicamente los"
+" valores de las claves NAME, USER y PASSWORD para que sean como sigue:"
 
 #: ../../devel/installation/index.rst:259 b2d916f3298e48ae90d2a2459a540c54
 msgid ""
-"In the CATALOGUE dictionary under the 'default' key, uncomment the USER "
-"and PASSWORD keys to activate the credentials for GeoNetwork as follows:"
+"In the CATALOGUE dictionary under the 'default' key, uncomment the USER and "
+"PASSWORD keys to activate the credentials for GeoNetwork as follows:"
 msgstr ""
+"En el diccionario CATALOGUE, bajo la clave 'default', descomente las claves "
+"USER y PASSWORD para activar las credenciales para GeoNetwork de la "
+"siguiente manera:"
 
 #: ../../devel/installation/index.rst:284 d69e4501ccfd42baa2d941089d0347c3
 msgid "5- Install and Start Geoserver"
-msgstr ""
+msgstr "5- Instalar e iniciar Geoserver"
 
 #: ../../devel/installation/index.rst:286 df33318564b54c169f691914d066e9c2
 msgid ""
-"From the virtual environment, first you need to align the database "
-"structure using the following command :"
+"From the virtual environment, first you need to align the database structure"
+" using the following command :"
 msgstr ""
+"Desde el entorno virtual, primero debes alinear la estructura de la base de "
+"datos utilizando el siguiente comando:"
 
 #: ../../devel/installation/index.rst:293 2e682e33b959465083992b4ebbb9da20
 msgid ""
-"If the start fails because of an import error related to osgeo or "
-"libgeos, then please consult the `Install GDAL for Development "
+"If the start fails because of an import error related to osgeo or libgeos, "
+"then please consult the `Install GDAL for Development "
 "<https://training.geonode.geo-"
 "solutions.it/005_dev_workshop/004_devel_env/gdal_install.html>`_"
 msgstr ""
+"Si el inicio falla debido a un error de importación relacionado con osgeo o "
+"libgeos, consulte `Instalar GDAL para desarrollo "
+"<https://training.geonode.geo-"
+"solutions.it/005_dev_workshop/004_devel_env/gdal_install.html>`_"
 
 #: ../../devel/installation/index.rst:296 62ad35f7873844d9893c9c2ec30b6e19
 msgid "then setup GeoServer using the following command:"
-msgstr ""
+msgstr "Luego configura GeoServer usando el siguiente comando:"
 
 #: ../../devel/installation/index.rst:305 23912c79b18e424395642e7d6a743372
 msgid "6- Now we can start our geonode instance"
-msgstr ""
+msgstr "6- Ahora podemos iniciar nuestra instancia de GeoNode"
 
 #: ../../devel/installation/index.rst:307 0a3b75ada6134db8b48b707025d106e4
 msgid "Don’t forget to stop the GeoNode Production services if enabled"
 msgstr ""
+"No olvides detener los servicios de producción de GeoNode si están "
+"habilitados"
 
 #: ../../devel/installation/index.rst:318 dbcbdc5f35c549779443cb8646253fe2
 msgid ""
-"The starting process will take around 20 seconds (depends on your "
-"machine) and at the end it shows the following message:"
+"The starting process will take around 20 seconds (depends on your machine) "
+"and at the end it shows the following message:"
 msgstr ""
+"El proceso de inicio tardará unos 20 segundos (depende de tu máquina) y al "
+"finalizar muestra el siguiente mensaje:"
 
 #: ../../devel/installation/index.rst:322 f6d147e5bfda4ca3a6f267b107eefc46
 msgid ""
-"Now you can visit the geonode site by typing http://0.0.0.0:8000 into "
-"your browser window"
+"Now you can visit the geonode site by typing http://0.0.0.0:8000 into your "
+"browser window"
 msgstr ""
+"Ahora puedes visitar el sitio de geonode escribiendo http://0.0.0.0:8000 en "
+"la ventana de tu navegador"
 
 #: ../../devel/installation/index.rst:329 cf6e862711814886aeb1fdcffba650fb
 msgid "Install GeoNode-Project for development after installing GeoNode-Core"
 msgstr ""
+"Instalar GeoNode-Project para el desarrollo después de instalar GeoNode-Core"
 
 #: ../../devel/installation/index.rst:331 8d75a1f79c204a18a35fd8653956e75c
 msgid ""
-"Geonode-Project gives the user flexibility to customize the installation "
-"of the GeoNode. Geonode itself will be installed as a requirement of your"
-" project. Inside the project structure it is possible to extend, replace "
-"or modify all geonode components (e.g. css and other static files, "
-"templates, models..) and even register new django apps without touching "
-"the original Geonode code. In order to install GeoNode-Project, the "
-"following steps need to be executed alongside the previous GeoNode-Core "
-"installation steps."
+"Geonode-Project gives the user flexibility to customize the installation of "
+"the GeoNode. Geonode itself will be installed as a requirement of your "
+"project. Inside the project structure it is possible to extend, replace or "
+"modify all geonode components (e.g. css and other static files, templates, "
+"models..) and even register new django apps without touching the original "
+"Geonode code. In order to install GeoNode-Project, the following steps need "
+"to be executed alongside the previous GeoNode-Core installation steps."
 msgstr ""
+"Geonode-Project ofrece al usuario la flexibilidad de personalizar la "
+"instalación de GeoNode. Geonode se instalará como requisito de tu proyecto. "
+"Dentro de la estructura del proyecto es posible extender, reemplazar o "
+"modificar todos los componentes de Geonode (por ejemplo, CSS y otros "
+"archivos estáticos, plantillas, modelos...) e incluso registrar nuevas "
+"aplicaciones de Django sin tocar el código original de Geonode. Para "
+"instalar GeoNode-Project, se deben ejecutar los siguientes pasos junto con "
+"los pasos de instalación anteriores de GeoNode-Core."
 
 #: ../../devel/installation/index.rst:335 1e2f7b78b15040f698eeb1863a3a757c
 msgid ""
 "1- Use django-admin.py to create a project \"my_geonode\" from a GeoNode-"
 "Project template as follows:"
 msgstr ""
+"1- Utiliza django-admin.py para crear un proyecto \"my_geonode\" a partir de"
+" una plantilla GeoNode-Project de la siguiente manera:"
 
 #: ../../devel/installation/index.rst:337 8f0e6b6cbc56421c80e3e2a8cd32a66b
 msgid ""
 "Before running the following command, make sure that you are currently "
-"working on the virtual environment and just outside geonode directory. "
-"The command will create a new project called \"my_geonode\" which should "
-"be located at the level of geonode-core installation directory \"inside "
+"working on the virtual environment and just outside geonode directory. The "
+"command will create a new project called \"my_geonode\" which should be "
+"located at the level of geonode-core installation directory \"inside "
 "/home/geonode/dev\""
 msgstr ""
+"Antes de ejecutar el siguiente comando, asegúrate que estás trabajando "
+"actualmente en el entorno virtual y fuera del directorio geonode. El comando"
+" creará un nuevo proyecto llamado \"my_geonode\" que debería estar ubicado "
+"en el nivel del directorio de instalación de geonode-core \"inside "
+"/home/geonode/dev\""
 
 #: ../../devel/installation/index.rst:345 b1aecf291fdd4ea38af8beb3b6dae3d7
 msgid ""
-"Although the following command might show that the majority of "
-"requirements are already satisfied \"because GeoNode-Core was already "
-"installed\", it is recommended to still execute it as it might update or "
-"install any missing package."
+"Although the following command might show that the majority of requirements "
+"are already satisfied \"because GeoNode-Core was already installed\", it is "
+"recommended to still execute it as it might update or install any missing "
+"package."
 msgstr ""
+"Aunque el siguiente comando puede mostrar que la mayoría de los requisitos "
+"ya están satisfechos \"porque GeoNode-Core ya estaba instalado\", se "
+"recomienda ejecutarlo ya que podría actualizar o instalar cualquier paquete "
+"faltante."
 
 #: ../../devel/installation/index.rst:347 61ffe7fd734845b4b1ef8aa3d110a8bd
-msgid "2- Install all the required packages/tools for GeoNode-Project as follows:"
+msgid ""
+"2- Install all the required packages/tools for GeoNode-Project as follows:"
 msgstr ""
+"2- Instala todos los paquetes/herramientas necesarios para GeoNode-Project "
+"de la siguiente manera:"
 
 #: ../../devel/installation/index.rst:353 381c7fb94a874e0fbf5b5e58e2fafa8d
 msgid ""
 "As mentioned earlier, GeoNode will be installed as requirement for the "
 "GeoNode-Project in order to be able to extend it"
 msgstr ""
+"Como se mencionó anteriormente, GeoNode se instalará como requisito para el "
+"Proyecto GeoNode para poder extenderlo."
 
 #: ../../devel/installation/index.rst:357 2829e11b15dc4d7f8249fd026e55f14b
 msgid "Install GeoNode-Project directly from scratch"
-msgstr ""
+msgstr "Instalar GeoNode-Project directamente desde cero"
 
 #: ../../devel/installation/index.rst:359 1ffa022dd42545aa955f4e26ae3960d2
 msgid ""
 "If you didn't install GeoNode-Core earlier and you wanted to install "
 "GeoNode-Project directly, please follow these steps"
 msgstr ""
+"Si no instaló GeoNode-Core anteriormente y deseas instalar GeoNode-Project "
+"directamente, sigue estos pasos"
 
 #: ../../devel/installation/index.rst:361 431c0d870b8f4368b1e442c5b2dba2bb
 msgid "1- Create a virtual environment as follows:"
-msgstr ""
+msgstr "1- Crea un entorno virtual de la siguiente manera:"
 
 #: ../../devel/installation/index.rst:378 3b010931499b40a79caef54c4d0e00f1
 msgid "2- Clone the geonode-project repo from Github"
-msgstr ""
+msgstr "2- Clona el repositorio geonode-project desde Github"
 
 #: ../../devel/installation/index.rst:385 fd4e0cce7b7340ff9b2afbc368e7b995
 msgid "3- Install Django framework as follows"
-msgstr ""
+msgstr "3- Instala el framework Django de la siguiente manera"
 
 #: ../../devel/installation/index.rst:391 81fc4ef9b8444e7ebc2b25409580dc4f
 msgid ""
 "4- Use django-admin.py to create a project \"my_geonode\" from a GeoNode-"
 "Project template as follows:"
 msgstr ""
+"4- Utiliza django-admin.py para crear un proyecto \"my_geonode\" a partir de"
+" una plantilla GeoNode-Project de la siguiente manera:"
 
 #: ../../devel/installation/index.rst:397 011769b9d1b84352823450ff47825340
 msgid ""
 "5- Install all the requirements for the GeoNode-Project and install the "
 "GeoNode-Project using pip"
 msgstr ""
+"5- Instala todos los requisitos para el GeoNode-Project e instala el "
+"GeoNode-Project usando pip"
 
 #: ../../devel/installation/index.rst:405 c147d5da171b4998b5daf70add80af32
 msgid "6- Install GDAL Utilities for Python"
-msgstr ""
+msgstr "6- Instala utilidades GDAL para Python"
 
 #: ../../devel/installation/index.rst:411 673e17dc1481404fbe5a5ce5ccdfc1c8
 msgid "7- Install GeoServer and Tomcat using paver"
-msgstr ""
+msgstr "7- Instala GeoServer y Tomcat usando paver"
 
 #: ../../devel/installation/index.rst:421 e0dc118b8fcb48a0aa07afda41aa4ae3
 msgid "8- Visit http://localhost:8000/"
-msgstr ""
-
+msgstr "8- Visita http://localhost:8000/"

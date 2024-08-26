@@ -334,7 +334,6 @@ Example:
     }
     response = requests.request("DELETE", url, headers=headers)
 
-
 Resource Download
 -----------------
 
@@ -497,7 +496,6 @@ Example:
 
 In this case the list of validation rules configured in :ref:`user-deletion-rules` are checked before the deletion is executed.
 
-
 List user groups
 """"""""""""""""
 - API: ``POST /api/v2/users/{pk}/groups``
@@ -514,7 +512,6 @@ Example:
         'Authorization': 'Basic dXNlcjpwYXNzd29yZA=='
     }
     response = requests.request("GET", url, headers=headers)
-
 
 Transfer resources owned by a user to another
 """""""""""""""""""""""""""""""""""""""""""""
@@ -556,13 +553,8 @@ Example:
 In this case the user shall be removed as a group manager from the following group ids, 
 if the payload would be payload={"groups": "ALL"} the user will be removed as a group manager from all the groups its part of
 
-
-
-
-
 Groups
 ^^^^^^
-
 In GeoNode, On listing groups, the api returns groups which have group profiles. Therefore for django groups which are not related to a group profile are not included in the response. However these can be accessed in the Django Administration panel.
 
 - API: ``POST /api/v2/groups``
@@ -594,7 +586,6 @@ Permissions in GeoNode are set per resource and per user or group. The following
 
 Obtaining permissions on a resource
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 On listing the resources or on resource detail API, GeoNode includes perms attribute to each resource with a list of permissions a user making the request has on the respective resource.
 
 GeoNode also provides an API to get an overview of permissions set on a resource. The response contains users and groups with permissions set on them. However this API returns ``200`` if a requesting user has ``manage`` permissions on the resource otherwise it will return ``403 (Forbidden)``.
@@ -616,7 +607,6 @@ Example:
 
 Changing permissions on a resource
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 Permissions are configured with a so called ``perms spec``, which is a JSON structured where permissions for single users and groups can be specified.
 
 The example below shows a perm specification for following rules:

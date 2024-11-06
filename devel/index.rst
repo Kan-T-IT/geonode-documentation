@@ -6,7 +6,7 @@ GeoNode API
 
     api/V2/index
     api/usage/index
-    api/linked_resources/index
+    api/metadata/index
 
 How to Develop
 ==============

@@ -1,6 +1,6 @@
-===========
+==================
 API usage examples
-===========
+==================
 
 | In this section, we are going to demostrate how GeoNode API can be utilized/integrated with other applications using Python.
 
@@ -56,7 +56,7 @@ The download URL for a resource can be obtained from ``resource.download_url``. 
 Additional export formats for datasets are available through the UI. At the moment the API doesn’t expose them.
 
 Resource Links
----------------
+--------------
 
 From the resource detail response, URls and links to services can be obtained from the ``resource.links[]`` array value.
 The purpose of each link is defined by its ``link_type``. The “name” also can specify additional information about the linked resource. 
@@ -67,14 +67,14 @@ Metadata
 Links to each metadata format can be obtained from links with ``link_type = "metadata"``
 
 OGC services
-^^^^^^^^
+^^^^^^^^^^^^
 
 OGC requests can be built by taking:
 the OGC base url from  links from ``resource.links[]`` with ``"link_type"= ("OGC:WMS | OGC:WFS | OGC:WCS)``
 the OGC service layername obtained from the ``resource.alternate`` property 
 
 Embedding
-^^^^^^^^
+^^^^^^^^^
 A resource can be embedded inside a third party website. The “embed view” of a resource is suitable to be placed inside an iframe.
 The URL for the embedded view can be obtained from the ``resource.embed_url`` property.
 
@@ -145,7 +145,7 @@ Examples:
 
 
 Dataset specific resources
------------------------------
+--------------------------
 Get the metadata of uploaded datasets with:
     - API: ``GET /api/v2/datasets/{id}``
     - Status Code: ``200``
@@ -171,7 +171,7 @@ Resource Upload
 The API supports the upload of datasets and documents.
 
 Datasets
-""""""""""
+""""""""
 The dataset upload form accepts file formats of ESRI Shapefile, GeoTIFF, Comma Separated Value (CSV), Zip Archive, XML Metadata File, and Styled Layer Descriptor (SLD).
 For a successful upload, the form requires base_file, dbf_file, shx_file, and prj_file. The xml_file, and Sld_file are optional.
 
@@ -195,7 +195,7 @@ Example:
     response = requests.request("POST", url, headers=headers, files=files)
 
 Documents
-""""""""""
+"""""""""
 Documents can be uploaded as form data.
 
 - API: ``POST /api/v2/documents``
@@ -283,16 +283,16 @@ Example:
     response = requests.request("GET", url, headers=headers)
 
 Overwriting a dataset
-^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 Uploading a resource will create by default a new dataset. This behaviour can be changed by setting the ``overwrite_existing_layer`` parameter to ``True``. 
 In this case the upload procedure will overwrite a resource whose name matches with the new one.
 
 Skip existing dataset
-^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 If the parameter ``skip_existing_layers`` is set to true ``True`` the uplad procedure will ignore files whose name matched with already existing resources.
 
 Upload of a metadata file
-^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 A complete metadata file conforming to ISO-19115 can be uploaded for a dataset.
 
 - API: ``PUT /api/v2/datasets/{dataset_id}/metadata``
@@ -368,7 +368,7 @@ Example:
     response = requests.request("GET", url)
 
 Dataset Update Metadata 
------------------------------
+-----------------------
 
 - API: ``PATCH /api/v2/datasets/{id}``
 - Status Code: ``200``
@@ -397,7 +397,7 @@ Users
 ^^^^^
 
 Listing
-""""""""""
+"""""""
 - API: ``POST /api/v2/users``
 - Status Code: ``200``
 
@@ -415,7 +415,7 @@ Example:
 
  
 User detail
-""""""""""
+"""""""""""
 - API: ``POST /api/v2/users/{pk}``
 - Status Code: ``200``
 
@@ -432,7 +432,7 @@ Example:
     response = requests.request("GET", url, headers=headers)
 
 Create a new user
-""""""""""
+"""""""""""""""""
 - API: ``POST /api/v2/users``
 - Status Code: ``200``
 
@@ -456,7 +456,7 @@ Example:
 
 
 Edit a User
-""""""""""
+"""""""""""
 - API: ``PATCH /api/v2/users/{pk}``
 - Status Code: ``200``
 
@@ -475,7 +475,7 @@ Example:
 
 
 Delete a User
-""""""""""
+"""""""""""""
 - API: ``DELETE /api/v2/users/{pk}``
 - Status Code: ``200``
 
@@ -497,7 +497,7 @@ In this case the list of validation rules configured in :ref:`user-deletion-rule
 
 
 List user groups
-""""""""""
+""""""""""""""""
 - API: ``POST /api/v2/users/{pk}/groups``
 - Status Code: ``200``
 
@@ -515,7 +515,7 @@ Example:
 
 
 Transfer resources owned by a user to another
-""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""
 - API: ``POST /api/v2/users/{pk}/transfer_resources``
 - Status Code: ``200``
 
@@ -535,7 +535,7 @@ In this case the resources will be transfered to the user with id 1001,
 instead using the payload={"owner": "DEFAULT"} the resources will be transfered to the principal user
 
 Remove user as a group manager
-""""""""""
+""""""""""""""""""""""""""""""
 - API: ``POST /api/v2/users/{pk}/remove_from_group_manager``
 - Status Code: ``200``
 

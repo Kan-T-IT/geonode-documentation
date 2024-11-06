@@ -331,7 +331,6 @@ Example:
     }
     response = requests.request("DELETE", url, headers=headers)
 
-eee
 
 Resource Download
 -----------------

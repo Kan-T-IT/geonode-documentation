@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../usage/download_handlers/index.rst:4 881716ff57a542e3bb2d9075719c2447
+msgid "Download Handlers"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:6 d9d0d7394a6f45ad9d9a13adc05bdba9
+msgid ""
+"With GeoNode 4.2.x has been introduced the concept of Download Handler "
+"and ofc GeoNode provides a default implementation of it which process the"
+" download via WPS"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:8 024dbe409f304183b91b572c260aacc5
+msgid ""
+"Follow an example of how to create a custom download handler and to "
+"replace the default one or add an additional one."
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:12 792c3e91033e457e9828ea91f2d01de6
+msgid "Settings"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:15 a40aa134f148432a81c108695c5dea17
+msgid "DEFAULT_DATASET_DOWNLOAD_HANDLER"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:17 55f9fd93fa7449e484b734108aa66b99
+msgid "Default: ``geonode.layers.download_handler.DatasetDownloadHandler``"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:19 7fb125f335ae464a8c6f20ad2d893f53
+msgid "path to the download handler location"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:22 13df69eeced74cb2b0a5d256708b0a48
+msgid "DATASET_DOWNLOAD_HANDLERS"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:24 4f1dfe5e46f64423bcd6ac25518cb2a7
+msgid "Default: ``[]``"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:26 d6d46adb540842a1921ecbbf72de64d1
+msgid "List of paths of the additional download handlers"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:30 de8a92968173432798f65a4032906224
+msgid "CODE"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:33 b3ef4dae60a248e28599321a2525db5b
+msgid ""
+"The default download handler is placed under the `geonode.layers` "
+"[package](https://github.com/GeoNode/geonode/blob/master/geonode/layers/download_handler.py)"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:35 a1f81d186ebe4cf68b0c7702070933bf
+msgid "Follow an example of an basic class for define the download handler:"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:37 c055eaf3a4ba4f6fa8cc3447c0611824
+msgid "```python"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:62 cf6c209c2a8546509b446ba248530807
+msgid "class DatasetDownloadHandler:"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:41 566f7a0af4af4d08b56864ac302a5a70
+msgid "def __str__(self):"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:41 7286cb4332744ecfa7bbe374dafe686c
+msgid "return f\"{self.__module__}.{self.__class__.__name__}\""
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:44 1e58051adbd047dd9a098d99d8b30f20
+msgid "def __repr__(self):"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:44 9b984896a36b47d9851ffeae027d2f6c
+msgid "return self.__str__()"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:49 c2ceb93c21564befa19888f34bcf7c7e
+msgid "def __init__(self, request, resource_name) -> None:"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:47 b87109ad1fe74b3f989e8d2a50d22831
+msgid ""
+"self.request = request self.resource_name = resource_name self._resource "
+"= None"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:56 13635029326d4724b2a9d4c3e30c5236
+msgid "def get_download_response(self):"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:52 5e8532f060d4465593a0e27da9b80e43
+msgid ""
+"\"\"\" Main method used, this method should return the response object "
+"\"\"\" return response @property"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:62 37a275fce3b64fd3a8ff939d7ceeb75f
+msgid "def download_url(self):"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:59 17e4a736279e49fba91fe557d43c2a48
+msgid ""
+"\"\"\" Used by the API, it should return the URL where the resource can "
+"be downloaded from \"\"\" return reverse(\"dataset_download\", "
+"args=[resource.alternate])"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:64 62769bff5b964a2380414cc45260e450
+msgid "```"
+msgstr ""
+
+#: ../../usage/download_handlers/index.rst:67 cfaafc66c0a44e09897c4b389f1aeb8b
+msgid ""
+"If you prefer to inherit from the already existing one, the response is "
+"generated in the `process_dowload` method"
+msgstr ""
+

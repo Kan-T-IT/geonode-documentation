@@ -8,51 +8,51 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-10 11:11+0200\n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.1\n"
 
-#: ../../usage/data/finding_data.rst:4 1305aa4d3c5f4a3c841dac9d08bc7b9c
+#: ../../usage/data/finding_data.rst:4 ff4be589e6b64381a5cfbca2877dbd7a
 msgid "Finding Data"
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:6 bbad2282d0b24bea9bf1a1ba68ab4944
+#: ../../usage/data/finding_data.rst:6 a88367e9a89c45c6b88c19093cea6c71
 msgid ""
 "This section will guide you to navigate GeoNode to find datasets, maps "
 "and documents and other resource types by using different routes, filters"
 " and search functions."
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:7 66612048dd5c436fa3e81ef61de18512
+#: ../../usage/data/finding_data.rst:7 b7414f7db6c94961b498ec9e4b4df78c
 msgid "On every page you can find some quick search tool."
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:9 7880882027784c1f914035833757083d
+#: ../../usage/data/finding_data.rst:9 dbbabb73eb2e46ecb0d43a383a1a8b08
 msgid ""
 "The *Search* box in the navigation bar (see the picture below) let you "
-"type a text and find all the data which have to deal with that text."
+"type a text and find all the resource which have to deal with that text."
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:14 3c73bacaed164426a553a35a049c5c7a
+#: ../../usage/data/finding_data.rst:14 eef4a9cbf5f84fed9379c1374cfa7288
 msgid "*Search tool in GeoNode welcome page*"
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:16 7524944d55f347e1bba612052650f139
+#: ../../usage/data/finding_data.rst:16 c3da5047bfa943b195b5a06b34240791
 msgid ""
 "When you trigger a search you are brought to the *Search* page which "
 "shows you the search result through all data types."
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:21 13a0cec6a6e546ce91d149147853a56f
+#: ../../usage/data/finding_data.rst:21 07aea948c48a46459ab0e63b1f31a5fd
 msgid "*The Search page*"
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:23 40e19912b69b47e696dd532714c6a2bf
+#: ../../usage/data/finding_data.rst:23 b362fb19de1e420b8552978899ced133
 msgid ""
 "This page contains a wealth of options for customizing a search for "
 "various information on GeoNode. This search form allows for much more "
@@ -60,13 +60,14 @@ msgid ""
 " every page."
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:24 c1811f34274648139c5c256e801de085
+#: ../../usage/data/finding_data.rst:24 99bf8549acc44adab8378e8e5818ae45
 msgid ""
 "It is possible to search and filter data by Text, Types, Categories, "
-"Keywords, Owners, Regions or Extent."
+"Keywords, Owners, Regions, Group, Limitations on public access, Date and "
+"Extent."
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:26 6f13abb4971c4f53a12cf5e88127b07c
+#: ../../usage/data/finding_data.rst:26 21d08699bb784d9d91a28fb9f1d47985
 msgid ""
 "Try to set some filter and see how the resulting data list changes "
 "accordingly. An interesting type of filter is *EXTENT*: you can apply a "
@@ -74,19 +75,19 @@ msgid ""
 "picture below."
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:31 d53bd3cae7e242099db8809cf21f7045
+#: ../../usage/data/finding_data.rst:31 ca9801c3508d4a9f986625210edbc7f8
 msgid "*Search filter by EXTENT*"
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:33 97be9ea686104bcaa876eafbcbe6a7cd
+#: ../../usage/data/finding_data.rst:33 9d1076aede9b4b4483bf6691f3737452
 msgid "Data can be ordered by Most recent, Less recent, Name and Popularity."
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:42 3baf0111fcb6416885d237dec3be43e4
+#: ../../usage/data/finding_data.rst:42 d00353c1a20b45469976d7443d9c6b75
 msgid "*Ordering Data*"
 msgstr ""
 
-#: ../../usage/data/finding_data.rst:45 734f5f5ac1da40dd988f83b443a3a323
+#: ../../usage/data/finding_data.rst:45 75e8fc5a900f46969325c54a2949db93
 msgid "For *Users* see :ref:`user-info`."
 msgstr ""
 
@@ -283,5 +284,19 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "*Maps filtered by regions*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The *Search* box in the navigation "
+#~ "bar (see the picture below) let "
+#~ "you type a text and find all "
+#~ "the data which have to deal with"
+#~ " that text."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It is possible to search and "
+#~ "filter data by Text, Types, Categories,"
+#~ " Keywords, Owners, Regions or Extent."
 #~ msgstr ""
 

@@ -1,0 +1,232 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:4
+#: bdbcd054591a4ab498027d609314678d
+msgid "Other Menu Tools"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:11
+#: 3b874ed5c4ec4ac3a45c99dd2fdc8f9a
+msgid "At the top of the *Map* and on the *SideBar* of the map there are more menu items which we are are going to explain in this section."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:14
+#: f7558467544f48a094314ed6f86a7657
+msgid "Add dataset"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:16
+#: b259146f9cb0483088340ac9c31a666b
+msgid "All the datasets available in GeoNode, both uploaded and remote, can be loaded on the map through the *Catalog*. Click on the :guilabel:`Add dataset` option of the *Menu* to take a look at the catalog panel."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:22
+#: dc5031016f51430e936cbff63c5218ec
+msgid "*The Datasets Catalog*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:24
+#: 8198bd946a594ea88cac8af6c17a073d
+msgid "You can navigate through datasets and look at their *Thumbnail* images, *Title*, *Description* and *Abstract*. Click on a dataset to load it into the map, it will be also visible in the :ref:`toc`."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:28
+#: 0fe7303b3c404e9cbe724b631d176bc6
+msgid "Saving a map"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:30
+#: 09b308d3c21c4d59ba14099ac927e9b1
+msgid "Once all the customizations have been carried out, you can *Save* your map by clicking on the :guilabel:`Save` option under the :guilabel:`Resources` options of the *Menu*."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:32
+#: a1f1adc1d6ba4962bca64f408bccc3e0
+msgid "|You could create a new map from the existing view by clicking :guilabel:`Save As..`. | A new popup window will open."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:38
+#: 938c3db139dd4d5f8691186c682aa4f0
+msgid "*Saving as Map option*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:40
+#: 127f0a0b60ad42ed8f11e30ab788fe79
+msgid "The current map title is filled by default, You can change it to the prefered naming then click on :guilabel:`Save`. The page will reload and your map should be visible in the :ref:`finding-data` list."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:43
+#: 6af2c5bcde714f8abe66906f74f3ca79
+msgid "Printing a map"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:50
+#: b685a95289e443f3bcd23a1cd28e2462
+msgid "The `MapStore <https://mapstore2.geo-solutions.it/mapstore/#/>`_ based map viewer of GeoNode allows you to print the current view with a customizable layout."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:52
+#: 9ff85d76a1e34954a93d554b53a3fb1b
+msgid "Click the |print_button| button from the *SideBar*, the **Printing Window** will open."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:45
+#: 9314e1892ca34116b6baad0cf24cca8b
+msgid "print_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:57
+#: 06337378b4f542e4881d521c41838d00
+msgid "*The Printing Window*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:59
+#: 7503d0610b48464d919b2bd006032aa3
+msgid "From this window you can:"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:61
+#: c7f4969524d444899df6659f9caac2f9
+msgid "enter *Title* and *Description*;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:62
+#: c8a05c880f684395bac72bbbceed1c08
+msgid "choose the *Resolution* in dpi;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:63
+#: 0772d3476dcc4d7aade931e9a91d22cf
+msgid "select the format"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:64
+#: cddacda3e9044e3dafd937a1f538c210
+msgid "select the coordinate"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:65
+#: 7c533a92803a4ceb8433666fef100243
+msgid "add the scale"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:66
+#: 0ea0ed87857946c0980eef1138a29d36
+msgid "add grid with label"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:67
+#: 317678d415484f1fbfc0826c456b289f
+msgid "customize the *Layout*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:69
+#: 3927a23cde8f41a5a17cc836a8747625
+msgid "the *Sheet size* (A3, A4);"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:70
+#: 10d4d7168d7e4f15a28026b62eae5d78
+msgid "if include the legend or not;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:71
+#: 6bd5bd0ebac04392afe6738d90098cbd
+msgid "if to put the legend in a separate page;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:72
+#: cb6cd14683e24231be49e128a26d72c8
+msgid "the page *Orientation* (Landscape or Portrait);"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:74
+#: 9cd599f3571c481b996b67b0eac60a56
+msgid "customize the *Legend*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:76
+#: 3ec59a52ab284a8f93c353015c7454c8
+msgid "the *Label Font*;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:77
+#: 041e9a8815ed410a9ec0b56980d306b1
+msgid "the *Font Size*;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:78
+#: b3fcf6c384994172837157efc0c7583b
+msgid "the *Font Emphasis* (bold, italic);"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:79
+#: 74136e2ac7ff4b84b872b5f9d68a9e70
+msgid "if *Force Labels*;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:80
+#: 1be9f5a104b742cfbcf9688459c25f08
+msgid "if use *Anti Aliasing Font*;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:81
+#: 43c94946a8c249619c6934431d7d74fc
+msgid "the *Icon Size*;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:82
+#: d0d4b21b142f4dd3845e28e2e9ebdf47
+msgid "the *Legend Resolution* in dpi."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:84
+#: 6a4d5c0a77154894b9733ec5c874dc9a
+msgid "To print the view click on :guilabel:`Print`."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:87
+#: 6f590d1c30ff4d269d34c93c2445a7df
+msgid "Performing Measurements"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:94
+#: 61e96457e0ea4d1c98438610b599efae
+msgid "Click on the |measure_button| button from the *SideBar* to perform a measurement. As you can see in the picture below, this tool allows you to measure *Distances*, *Areas* and the *Bearing* of lines."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:89
+#: ee17e3afbcd04a6c97c06e367706ce44
+msgid "measure_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:100
+#: fb240f438bd2440c921f9b5cc1bcc62e
+msgid "*The Measure Tool*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:102
+#: 93d2c2922d474ee68a0e318b6df11b68
+msgid "To perform a measure draw on the map the geometry you are interested in, the result will be displayed on the left of the unit of measure select menu (this tool allows you to change the unit of measure also)."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/options_menu.rst:107
+#: b031079923244e3ba22ec500e78d2691
+msgid "*Measuring Areas*"
+msgstr ""

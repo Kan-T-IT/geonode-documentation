@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:5 17c5dbad7a864af8b72f9ac5bbf3c23a
+msgid "Upgrade Process from GeoNode 3.x to 4.x"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:7 4feeb18af8894788a6909c8a9f027691
+msgid ""
+"The purpose of this document is to detail the process that we will "
+"implement to upgrade GeoNode from version 3.x to version 4.x. This "
+"document is proposed to ensure that the upgrade process is efficient and "
+"understandable for everyone. It is important to note that this guide is "
+"specifically for a GeoNode installation running on Docker."
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:9 1691fd71e18d4d40a13ef3c154c37024
+msgid ""
+"The objective of this document is for everyone to understand the "
+"processes and steps necessary to carry out the migration."
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:11 1dce17fc0d2c4a488555fa834b894aef
+msgid "Table of Contents"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:13 f3c40d538c7a4dbc8e459f293060a2c1
+msgid "Migration Procedure"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:14
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:74 3fda993973554a61992d88b0987e4a91
+#: d2b4ad42450f46c6a1dfb167462c328a
+msgid "Possible Issues"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:17 6a4f39dcfdc84b1282f713729183b602
+msgid "Version Migration Procedure"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:20 cc7404e9a06242a78dd9648cbfbee66e
+msgid "1. Download the New Version"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:22 8035a5d7c52f4cd681cc6736317af40d
+msgid ""
+"With the following command, we will download the new version of GeoNode "
+"from the official source or the corresponding repository:"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:28 a1a4bb17522841908b3d29e200d58d3f
+msgid ""
+"**Note:** Replace <branch-or-tag> with the appropriate branch or tag for "
+"the version you wish to install."
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:30 2c89caf673e046ad92b058e477cc196e
+msgid ""
+"It is recommended to do this in a separate directory to keep the previous"
+" version intact in case of need."
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:32 e3369efdadb64933ae7b908c31df94c8
+msgid "Directory of the previous version:"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:38 66b5533019b1400185be6812692cc690
+msgid "Directory of the new version:"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:45 8ad52a7e4bd14ab09e5aa91cb6e55354
+msgid "2. Stop the Current GeoNode"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:47 318efef9e0d34f4c9ca1fdfa8dc3d6f7
+msgid ""
+"Run the following command in the directory where the current GeoNode is "
+"deployed to stop the associated Docker containers:"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:54 16bf24bd4ae444c5ba381b01669e91f9
+msgid "3. Modify the GeoNode .env File"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:56 f40db9d6cbc74bea8e3cad61db7891c0
+msgid "Open the ``.env`` file of the new GeoNode in a text editor:"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:62 be42367da16a497d80079bcb81bf556c
+msgid ""
+"Adjust the environment variables to match the configuration of the "
+"previous GeoNode version. This may include variables related to the "
+"database, URLs, ports, etc."
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:65 a4bf7377c06042c89d303381087f7b2b
+msgid "4. Start the GeoNode Containers"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:67 419dd0b9146341a19b9185aa359c149b
+msgid ""
+"Once you have made the necessary changes to the ``.env`` file, run the "
+"following command to start the GeoNode containers in the new version:"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:76 d98a3b09d7384f8cacd98f2237385bf0
+msgid ""
+"The version upgrade of GeoNode also involves changes in some of its "
+"components, which can generate various issues. Below, we list some common"
+" problems and their possible solutions:"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:79 fa8423ea8d0e49a99a71004f3ac7fd05
+msgid "PostgreSQL Container in Constant Restart"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:81
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:96 0c7d7dc75d1b4b0da4498079f4ce45bb
+#: 7b54f661835b473ba8606577037241b6
+msgid "**Logs:**"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:89 b6911222fb4a49c68f58a0b52243fff7
+msgid ""
+"**Cause:** The PostgreSQL version of the original GeoNode was lower than "
+"the current one."
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:91 a0ef1ff490c74ac69b4da50bdf114f5f
+msgid ""
+"**Solution:** Downgrade the PostgreSQL version to match the previously "
+"installed version in the GeoNode ``docker-compose.yml`` file."
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:94 1d2d1518c9a84e7892a549398f4d819a
+msgid "Nginx Container in Constant Restart"
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:104
+#: 10456c8ae7b74432a6b79049f647d8c4
+msgid ""
+"**Cause:** Nginx is having issues replacing the port variables from the "
+"``nginx.conf.envsubst`` file."
+msgstr ""
+
+#: ../../admin/upgrade/3.x-to-4.x/index.rst:106
+#: 0e463deeba214260a992209fa70ea3fa
+msgid ""
+"**Solution:** Manually replace those variables with the corresponding "
+"ports once in the ``nginx.conf.envsubst`` file. After this, Nginx should "
+"work correctly and replace the variables normally in the future."
+msgstr ""
+

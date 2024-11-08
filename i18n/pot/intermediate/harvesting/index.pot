@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -236,8 +236,8 @@ msgstr ""
 msgid "In order to be harvested by the :ref:`harvesting scheduler <harvesting-scheduler-label>`, a harvestable resource must have its ``should_be_harvested`` attribute set to ``True``. This attribute can be set manually by the user or it can be set automatically by the harvester worker, in case the corresponding harvester is configured with ``harvest_new_resources_by_default = True``"
 msgstr ""
 
-#: ../../intermediate/harvesting/index.rst:145
 #: ../../intermediate/harvesting/index.rst:141
+#: ../../intermediate/harvesting/index.rst:145
 #: f6fac17c6c1d4fe69f5e2000420f841a
 #: 516b7b88e93847ea8d8a3fddd7072076
 msgid "harvesting session"

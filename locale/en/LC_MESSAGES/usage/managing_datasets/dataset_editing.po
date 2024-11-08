@@ -8,69 +8,64 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 10:00+0200\n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.1\n"
 
 #: ../../usage/managing_datasets/dataset_editing.rst:4
-#: 1a90969e4fdb44f0a5f30acadc185506
+#: cf6ed031e5f3458293d7991fb17520f9
 msgid "Dataset Editing"
 msgstr ""
 
 #: ../../usage/managing_datasets/dataset_editing.rst:6
-#: 5bf4777a4b8547efa52da32e249bec40
+#: ad48513639404b75bea2c798509e5588
 msgid ""
 "The :guilabel:`Edit` link in the menu of the *Dataset Page*  opens a list"
 " of options like ones shown in the picture below."
 msgstr ""
 
 #: ../../usage/managing_datasets/dataset_editing.rst:11
-#: db8c993a3e6b4d16b0a4b85933834178
+#: c68f763fc11a4941b9d3c81834be5ac8
 msgid "*Dataset Editing Link*"
 msgstr ""
 
 #: ../../usage/managing_datasets/dataset_editing.rst:13
-#: 7db8f789683e4733acb4f5f9d205ddbf
+#: a9bd755c7d4d4ca5b9c77bb322f53576
 msgid "In that options list, you can see three options listed as:"
 msgstr ""
 
 #: ../../usage/managing_datasets/dataset_editing.rst:15
-#: 1fd55c86ee2e4b808bc3a127ce6d6fd6
-msgid "*Edit Info*"
-msgstr ""
-
-#: ../../usage/managing_datasets/dataset_editing.rst:16
-#: 1fd55c86ee2e4b808bc3a127ce6d6fd6
+#: 8cfa61929f4e496ab3871b7fef23f4f2
 msgid "*Edit Data*"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:17
-#: c232fad0c42f4d58846938ecfe893a90
+#: ../../usage/managing_datasets/dataset_editing.rst:16
+#: 66203eaf73b345cebde53d2f25e832a9
 msgid "*Edit Styles*"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:18
-#: fde7c7acd7ca49e89d35a2ee1a561fb2
+#: ../../usage/managing_datasets/dataset_editing.rst:17
+#: b165f89ee8d645599cc55ac75f4f3291
 msgid "*Edit Metadata*"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:19
-#: c232fad0c42f4d58846938ecfe893a90
+#: ../../usage/managing_datasets/dataset_editing.rst:18
+#: cbe57831bae04bc7b35907286231ff77
 msgid "*Upload Style*"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:20
-#: fde7c7acd7ca49e89d35a2ee1a561fb2
+#: ../../usage/managing_datasets/dataset_editing.rst:19
+#: b165f89ee8d645599cc55ac75f4f3291
 msgid "*Upload Metadata*"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:23
-#: e50f6c5c164a4c469b35df5107b6e764
+#: ../../usage/managing_datasets/dataset_editing.rst:22
+#: bd17b1fb40bb4119b1603a4f832db351
 msgid ""
 "In this section you will learn how to edit a *Dataset*, and its data. See"
 " :ref:`dataset-metadata` to learn how to explore the dataset *Metadata*, "
@@ -78,25 +73,25 @@ msgid ""
 "section, see :ref:`dataset-style`."
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:28
-#: e84ee3fa96b04b73a08ac302361be93c
+#: ../../usage/managing_datasets/dataset_editing.rst:27
+#: 40e4620c8470437d8eab42997464df58
 msgid "Editing the Dataset Data"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:30
-#: ea2319eb069c4d119db2bbd252ad575b
+#: ../../usage/managing_datasets/dataset_editing.rst:29
+#: 3d2aeaa8716e4247b2abd965b2376e69
 msgid ""
 "The :guilabel:`Edit data` link of the *Dataset Editing* options opens the"
 " *Dataset* within a *Map*."
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:35
-#: 6601183c5d6f415cb5d5a58765b9058a
+#: ../../usage/managing_datasets/dataset_editing.rst:34
+#: 23957e8098ed4a22bd7bb2717c6e048b
 msgid "*Editing the Dataset Data*"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:37
-#: 6f61b204d0284735abf0d5ef18338e4e
+#: ../../usage/managing_datasets/dataset_editing.rst:36
+#: b7432a8eded44f9db5ce2478e370a933
 msgid ""
 "The *Attribute Table* panel of the *Dataset* will automatically appear at"
 " the bottom of the *Map*. In that panel all the features are listed. For "
@@ -106,35 +101,35 @@ msgid ""
 "attribute."
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:39
-#: c4900b8d346443e4901bdadc27e27761
+#: ../../usage/managing_datasets/dataset_editing.rst:38
+#: b8ae12dfe38f4b808fcaf92fa6344509
 msgid "magnifying_glass_icon"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:44
-#: e9993a767f7149d28699b81f604a8c99
+#: ../../usage/managing_datasets/dataset_editing.rst:43
+#: 253c99f35e7d4b078f39e284dfb8e6ff
 msgid ""
 "Click the *Edit Mode* |edit_mode_button| button to start an editing "
 "session."
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:46
-#: 1b09f28f2f4f49358e9195c92e6b3986
+#: ../../usage/managing_datasets/dataset_editing.rst:45
+#: 2de347dab0b74824a3ffbd4d10da9d36
 msgid "edit_mode_button"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:51
-#: f894d0d74eee434ab04d2219075309f8
+#: ../../usage/managing_datasets/dataset_editing.rst:50
+#: dde5b8754e0e42f5a4e42bb8b8c9a4d7
 msgid "Now you can:"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:53
-#: efc9e95527ff4b45a7189a52a9cf5a94
+#: ../../usage/managing_datasets/dataset_editing.rst:52
+#: 05c65d8c8fd944fb942441061c3bcf25
 msgid "*Add new Features*"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:55
-#: 33691152f68e4f859b6d9c1ee9e781e7
+#: ../../usage/managing_datasets/dataset_editing.rst:54
+#: 85616bdbc1f34eea8f28d7098a1d6e8c
 msgid ""
 "Through the *Add New Feature* button |add_new_feature_button| it is "
 "possible to set up a new feature for your dataset. Fill the attributes "
@@ -144,96 +139,96 @@ msgid ""
 "|save_changes_button| to save it."
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:59
-#: 6408d2a0fb6a42e4b4ef5976f344e3c8
+#: ../../usage/managing_datasets/dataset_editing.rst:58
+#: 84e6e4120764471c946fa75df0637caa
 msgid "add_new_feature_button"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:64
-#: 1d5e22ce30054f13b83af6df1d512f58
+#: ../../usage/managing_datasets/dataset_editing.rst:63
+#: 3f372eb0dc65463eb63b1d724e64f538 ab4d6357060f49fe8fe14965d19cfb0d
 msgid "save_changes_button"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:69
-#: 1f4e8fd08e36451d8ac6351d9046b1c3
+#: ../../usage/managing_datasets/dataset_editing.rst:68
+#: 3a6666a1209348148fb392b94c4ed264
 msgid "add_shape_to_geometry_button"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:74
-#: c4c2e6bf804b4cb6b13b68de62030835
+#: ../../usage/managing_datasets/dataset_editing.rst:73
+#: 2b562b427f1b49159378555f6d6e8da7
 msgid ""
 "When your new feature has a multi-vertex shape you have to double-click "
 "the last vertex to finish the drawing."
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:79
-#: 196a9657e7b9434caadb4eb07f9a6f0b
+#: ../../usage/managing_datasets/dataset_editing.rst:78
+#: a96e06af04e946a291beee612a687eec
 msgid "*Create New Feature*"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:81
-#: c32603ab297b412ebe29d6802eab0f31
+#: ../../usage/managing_datasets/dataset_editing.rst:80
+#: cbe57831bae04bc7b35907286231ff77
 msgid "*Delete Features*"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:83
-#: 276166416ee64c5fb2e7e8e0f2be05c3
+#: ../../usage/managing_datasets/dataset_editing.rst:82
+#: 6f3a011a1d7a4ff7a52a5432a4a3a6b8
 msgid ""
 "If you want to delete a feature you have to select it on the *Attribute "
 "Table* and click on |delete_feature_button|."
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:85
-#: 45c8066e2dfa440c9d95e27f9a1a17dc
+#: ../../usage/managing_datasets/dataset_editing.rst:84
+#: ccf5cac9365f41c2b1623c85a9dfb6d1
 msgid "delete_feature_button"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:90
-#: 5e301dbe4a354dae9bf3cf42c49d2cb0
+#: ../../usage/managing_datasets/dataset_editing.rst:89
+#: b44c8ab408824663bed52e0841843017
 msgid "*Change the Feature Shape*"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:92
-#: 0edc5fa2c0c34f35b56582eede291ef9
+#: ../../usage/managing_datasets/dataset_editing.rst:91
+#: d4004fd4463248aeb2fd6baf78506513
 msgid ""
 "You can edit the shape of an existing geometry dragging its vertices with"
 " the mouse. A blue circle lets you know what vertex you are moving."
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:94
-#: 5ebe603d429448f9b02ec6686242d501
+#: ../../usage/managing_datasets/dataset_editing.rst:93
+#: b2a67b4166374bf2b7506982e27725e4
 msgid ""
 "Features can have *multipart shapes*. You can add parts to the shape when"
 " editing it."
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:96
-#: 0249ae067e824e9a930fd02d8ac501c9
+#: ../../usage/managing_datasets/dataset_editing.rst:95
+#: 21a67b929a124caa9cf362b911c76fd2
 msgid "*Change the Feature Attributes*"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:98
-#: 6d2cf8233b014ff7aa1c752e53f15c67
+#: ../../usage/managing_datasets/dataset_editing.rst:97
+#: eeec313c5d944aa4b0435d127da9d928
 msgid ""
 "When you are in *Edit Mode* you can also edit the attributes values "
 "changing them directly in the corresponding text fields. You can achieve "
 "this by going into the edit mode and double click in the values."
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:100
-#: 9b8b71015c1d4fbbb1df77d24adae2c9
+#: ../../usage/managing_datasets/dataset_editing.rst:99
+#: 0c50283bd8034b83bace5d59255703fd
 msgid ""
 "Once you have finished you can end the *Editing Session* by clicking on "
 "the |end_editing_session_button|."
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:102
-#: 3bb3c53fce7640e0bd677830e7c9f9f8
+#: ../../usage/managing_datasets/dataset_editing.rst:101
+#: adb66597c5fe448dabe92f30943fc08a
 msgid "end_editing_session_button"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_editing.rst:107
-#: 3ad6f8adcbf94463a59d8f34fa27c214
+#: ../../usage/managing_datasets/dataset_editing.rst:106
+#: 3dee3609364441baa1bc1953073a79aa
 msgid ""
 "By default the GeoNode map viewer is `MapStore <https://mapstore2.geo-"
 "solutions.it/mapstore/#/>`_ based, see the `MapStore Documentation "
@@ -248,5 +243,8 @@ msgstr ""
 #~ "`MapStore Documentation "
 #~ "<https://mapstore2.readthedocs.io/en/latest/>`_ for "
 #~ "further information."
+#~ msgstr ""
+
+#~ msgid "*Edit Info*"
 #~ msgstr ""
 

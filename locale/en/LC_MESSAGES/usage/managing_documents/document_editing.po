@@ -8,22 +8,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 10:00+0200\n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.1\n"
 
 #: ../../usage/managing_documents/document_editing.rst:4
-#: fd001a9f48da42beae9986bd8594c0e8
+#: 16ea57536d534263ad505c2ca496de38
 msgid "Document Editing"
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:6
-#: 5926eb8a2c7f4fe894c8e0b3422075ac
+#: c1a4831807104b259a89b716239f3d61
 msgid ""
 "The :ref:`document-info` page makes available useful menu for document "
 "editing. Click on the :guilabel:`Edit` link then :guilabel:`Edit "
@@ -31,12 +31,12 @@ msgid ""
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:9
-#: 362e69e0f2d44fcb9802744da3a29e12
+#: 1f19c6225f2d44f086715e59fc97e8ab
 msgid "Setting the Document Thumbnail"
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:11
-#: 462b21235db0498a9ac61cf92a7c3173
+#: a34be5a2d0044e20a81b2f6658408c23
 msgid ""
 "From the *Metadata Form*, it is possible to *Set the Thumbnail* of the "
 "document. Click on :guilabel:`Choose file` to open the *Thumbnail "
@@ -47,27 +47,27 @@ msgid ""
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:16
-#: cf8b481566b84e4592b13f4f58bba745
+#: d30720e266f349b592bedcc7e75c1d55
 msgid "*Upload Document's Thumbnail*"
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:18
-#: 7cbaaa1d44d04741b3800300e19b8e57
+#: 68c8c39a75c445478ebaf8105a422085
 msgid "If no errors occur, the new selected thumbnail will be shown."
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:23
-#: 0ec79b07ca724a3ab8706a26f1ad13b2
+#: fa13adf52b624efea39e31bb028c5245
 msgid "*Uploading success*"
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:26
-#: 498aac7dc110437c957ab0230d0e97b9
+#: b6cda43843c347fcbc737b8a329fd46e
 msgid "Editing the Document Metadata"
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:28
-#: a79408c8b49b41aaa671ee7d5db9d75f
+#: fe66686e8d3948a5b24a90adf2fbcd6e
 msgid ""
 "You can edit the metadata of your document as described in the :ref"
 ":`document-metadata` section or by using THe *Advanced Metadata* option "
@@ -75,7 +75,7 @@ msgid ""
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:33
-#: 40bfd3a3d1eb48828b1d0134cafef919
+#: 2210e13fee064113b4324f873be9610d
 msgid ""
 "|The :guilabel:`Advanced Metadata` button takes you to a big form where "
 "all the available metadata of the document can be edited. | Some "
@@ -84,12 +84,12 @@ msgid ""
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:39
-#: 9d6b4c2b3e3049c19f86d1fd21af6f85
+#: e8cdb57771014832b459192f76ec8eaa
 msgid "*Editing Metadata*"
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:41
-#: 1e26e16010b84e978e71c6a1e2dfe32a
+#: dbb23ce2338b4a5c8243fbc1a39649a1
 msgid ""
 "In the example shown in the picture above, the information inside the red"
 " rectangles have been changed. To save the changes click on "
@@ -97,61 +97,87 @@ msgid ""
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:44
-#: 8d610b75b7084bc4b46520e203d23f80
+#: edca46ab505e49da84a272e6cef227ec
 msgid "Editing the Document Info"
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:46
-#: 84525d256b664621b779ba2e28ab10c2
+#: cb2204026c2a47aaacd155bdc7735224
 msgid ""
 "You can edit the information of your document by clicking on the "
-":guilabel:`Edit` link, then :guilabel:`Edit Info`."
+":guilabel:`Info` button."
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:48
-#: a0f4116b5162455ea46a7e4df2addcf6
+#: 3f41b96af3e045a9a245000a7e6f43b1
 msgid ""
 "From the Info panel, it is possible to upload the **Thumbnail** of the "
 "document."
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:53
-#: ddf5de30032749bb849e86cbae09b690
+#: 2ccbbf28bbb24760a8bee044e8ab1103
 msgid "*Upload Thumbnail*"
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:55
-#: b8eeabdceab24b2887c73411fd66e1f9
+#: 26e71691460e4fb38c585484a4564a7d
 msgid ""
 "If you want this document in your **Favorites** (see :ref:`editing-"
 "profile`), click on the start icon."
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:60
-#: 09383b8192ac40769396ab86cca48472
+#: 926773e844f54270b41923e11720185b
 msgid "*Favorite document*"
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:62
-#: 2ba4ac61d330492babdc22b5f4a79646
+#: 273a2327de3d4a428a3c365c1a2fb848
 msgid ""
 "You can directly **Download** the document and **Share** the document url"
 " by clicking the buttons on the top-right of the panel."
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:67
-#: 25328d3ddc9146db967a179d188e769a
+#: 114766ff062e477d86fa08d96974ae99
 msgid "*Share and Download document*"
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:69
-#: d8ad8aac506340ff84bf183380bdc47a
+#: dfddd72292664583b9d0798f434802a3
 msgid "By clicking the document **Title**, you can change it."
 msgstr ""
 
 #: ../../usage/managing_documents/document_editing.rst:74
-#: ce811d2f085448f6a9e13a7a11652270
+#: ../../usage/managing_documents/document_editing.rst:81
+#: ../../usage/managing_documents/document_editing.rst:89
+#: 16cc91deca934774ba6baa20f63254ea a40106a5093846d2b31891e7169abd01
+#: fb52964db2a248faa30b9ec464a09831
 msgid "*Document Title*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:76
+#: 4a1c170f5ff343c6b434932cc146e8f4
+msgid ""
+"From the :guilabel:`Locations` tab, you can manage the spacial extent of "
+"the document."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:84
+#: efb39194e41947a4bcf83f42ca19334d
+msgid ""
+"Here numerical fields and a map show the spatial extent (WGS 84) for the "
+"document and you can edit it by Shift+click and drag to draw the new "
+"extent on the map and change its location by clicking the marker and "
+"drag."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:91
+#: 857ed3c3cded4ea890b6da7390be9fd3
+msgid ""
+"The *Location* tab is also available for :ref:`dashboard` and "
+":ref:`geostory`"
 msgstr ""
 
 #~ msgid ""
@@ -239,5 +265,12 @@ msgstr ""
 #~ " the *Title* or the *Category* the"
 #~ " document belongs to, some others are"
 #~ " optional."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can edit the information of "
+#~ "your document by clicking on the "
+#~ ":guilabel:`Edit` link, then :guilabel:`Edit "
+#~ "Info`."
 #~ msgstr ""
 

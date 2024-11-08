@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,7 +56,7 @@ msgstr ""
 msgid "After installing 'poedit', you should be able to double click on the '.po' file to open it. Poedit’s interface should look similar to the one shown in the picture below:"
 msgstr ""
 
-#: ../../contribute/translation/index.rst:None
+#: ../../contribute/translation/index.rst:-1
 #: 1ed1641ac70e41ac8332edd13170a4bb
 msgid "Poedit interface"
 msgstr ""
@@ -71,8 +71,7 @@ msgstr ""
 msgid "From the 'poedit' menu 'View', make sure that 'Entries with Errors first' is checked:"
 msgstr ""
 
-#: ../../contribute/translation/index.rst:None
-#: ../../contribute/translation/index.rst:None
+#: ../../contribute/translation/index.rst:-1
 #: 68667da4fdd74f18803feadfa1eb81b3
 #: 9a8502d7e1b44af8ae1ee4f8fec87074
 msgid "Validate translation"
@@ -88,7 +87,7 @@ msgstr ""
 msgid "'Poedit' will place translations which may require additional consideration on top of the list. A warning mark means that the interpretation might be not entirely consistent with the original phrase. This is not necessarily an error, just a warning asking the user to double check."
 msgstr ""
 
-#: ../../contribute/translation/index.rst:None
+#: ../../contribute/translation/index.rst:-1
 #: c552408500b84ecb916d67418368850e
 msgid "Poedit warning"
 msgstr ""
@@ -103,7 +102,7 @@ msgstr ""
 msgid "During translation pay special attention to the button saying 'needs work'. In case this button is checked, the phrase will be marked as 'fuzzy' and ignored in GeoNode."
 msgstr ""
 
-#: ../../contribute/translation/index.rst:None
+#: ../../contribute/translation/index.rst:-1
 #: 65343ce1693a4412bfff1dc98c685189
 msgid "phrase needs work"
 msgstr ""
@@ -123,7 +122,7 @@ msgstr ""
 msgid "As a last step we compile the file. Compiling the translation means to create a binary \".mo\" file out of the edited \".po\" file. To do so, click on \"Compile to MO\""
 msgstr ""
 
-#: ../../contribute/translation/index.rst:None
+#: ../../contribute/translation/index.rst:-1
 #: 33cd50f3730046639a4d7ff703c5b233
 msgid "save and compile"
 msgstr ""
@@ -148,7 +147,7 @@ msgstr ""
 msgid "Click on \"Upload Files\""
 msgstr ""
 
-#: ../../contribute/translation/index.rst:None
+#: ../../contribute/translation/index.rst:-1
 #: 9c3467f7566f4461a6a1584eff7316d9
 msgid "upload files"
 msgstr ""
@@ -158,8 +157,7 @@ msgstr ""
 msgid "Drag the updated files into the Upload form, and write a title/description of the changes"
 msgstr ""
 
-#: ../../contribute/translation/index.rst:None
-#: ../../contribute/translation/index.rst:None
+#: ../../contribute/translation/index.rst:-1
 #: 9ca6306bdd3a44399eb902d609933622
 #: 4b41ce97128f451ca1e50bac66f2408b
 msgid "drag files"

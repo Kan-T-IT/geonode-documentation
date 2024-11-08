@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,12 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../intermediate/index.rst:30
-#: ../../intermediate/index.rst:28
-#: ../../intermediate/index.rst:30
+#: ../../intermediate/index.rst:20
+#: ../../intermediate/index.rst:22
 #: 
 #: 2bdece1d097a479380b9b6a14045eea2
-#: 6d905faca6b3452fbc83f80eefe05201
 msgid "GeoNode Backup and Restore"
 msgstr ""
 
@@ -33,9 +31,4 @@ msgstr ""
 #: ../../intermediate/index.rst:12
 #: b117c22e4ea442089a8d7f26f93ce493
 msgid "Harvesting resources from remote services"
-msgstr ""
-
-#: ../../intermediate/index.rst:20
-#: b2b6f3609a3c4638841d87a76acd729f
-msgid "Monitoring"
 msgstr ""

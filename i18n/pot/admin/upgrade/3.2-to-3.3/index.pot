@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:4
+#: 2e6e257e59f64bbc8d15386a30cd33de
+msgid "Upgrade from 3.2.x / 3.3.x"
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:6
+#: 6d1ca9bce9574edabf580fc080d81a40
+msgid "Upgrade the dependencies"
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:7
+#: b8fe4a3806ae41b1b213a0817b877444
+msgid "Perform the ``migrations`` management command; in case some attribute is conflicting, remove it manually from the DB"
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:8
+#: b864a26574b740efbd9cc3975cc6dda2
+msgid "Proform the ``collectstatic`` management command"
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:11
+#: 436238404ff74d53af3348d56ae21355
+msgid "Upgrade the instance dependencies"
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:13
+#: 279cadf64132416d92144ab048ec1fcc
+msgid "Check the :ref:`install_dep` and :ref:`install_venv` sections in order to upgrade your Python environment."
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:15
+#: 578daa03aa084d629cb384dd2898d502
+msgid "Also, make sure the code is ``Python 3.8`` compatible and that you switched and aligned the **source code** and the **requirements.txt** to the ``master`` branch."
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:17
+#: 7c3b4f1be0214c2cba765e62d2d35222
+msgid "This must be done manually and with particular attention."
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:36
+#: 66acaabeac92400e99d77a0c183d5d8a
+msgid "Run GeoNode migrations"
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:38
+#: 95bfa2d9f580456e8fab51ada95ebc25
+msgid "Activate your GeoNode virtualenv and set the env vars:"
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:45
+#: 0ae57b2072884bbcad947a1eef46f0cb
+msgid "Here are the variables to export - update them to your environment settings:"
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:60
+#: ca11880ad1a648d8b4850038c232d50e
+msgid "Apply migrations and apply basic fixtures:"
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:68
+#: 055b51dffd2045729b5d31fb1a028cc9
+msgid "Incase of an error of :guilabel:`django.db.utils.ProgrammingError: column \"colum-name\" of relation \"table-name\" already exists` on running migrations, you can backup the field data with the following steps."
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:82
+#: cb49373df4324900b3268af750ce0747
+msgid "Run migration then:"
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:97
+#: 40175d73726243009b67468b8170edf1
+msgid "Create superuser"
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:99
+#: f3ee1afbd08f4260b827f4a1be1bf140
+msgid "To create a superuser you should drop the following constraints (they can be re-enabled if needed):"
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:111
+#: b863f4dec01a4f37b33aa78c406db977
+msgid "Update Templates"
+msgstr ""
+
+#: ../../admin/upgrade/3.2-to-3.3/index.rst:113
+#: 163d564256974302b155654c6a88aae1
+msgid "Update available templates to use {% load static %} instead of {% load staticfiles %}"
+msgstr ""

@@ -8,22 +8,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 10:00+0200\n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.1\n"
 
 #: ../../usage/managing_maps/creating_maps.rst:4
-#: 54dfe6ac2b9546758491f989b7947738
+#: 2dda2bd1340c40bf826bcf05b08b2522
 msgid "Creating Maps"
 msgstr ""
 
 #: ../../usage/managing_maps/creating_maps.rst:6
-#: 806b1b63fc5e4be19ee899a9a1242c83
+#: da31e30aff7b407c9666c5864922e812
 msgid ""
 "In this section, we’ll create a *Map* using some uploaded datasets, "
 "combine them with some other datasets from remote web services, and then "
@@ -31,48 +31,60 @@ msgid ""
 msgstr ""
 
 #: ../../usage/managing_maps/creating_maps.rst:8
-#: cf92aa6d38a742ca820c7f96fa96249b
+#: a50ca925b3d343b3bb91d0d25b28a5bb
 msgid "In order to create new maps you can use:"
 msgstr ""
 
 #: ../../usage/managing_maps/creating_maps.rst:10
-#: a43a8445c8854cc79efdbbd40629a4ec
+#: 28adbfc89cf6488ea56e54cbcc3f5e5d
 msgid ""
-"The :guilabel:`Create map` listed after clicking the :guilabel:`Create "
-"new` link on the menu above the resources list page."
+"The :guilabel:`Create map` listed after clicking the :guilabel:`Add "
+"Resource` button on the *All Resources* list page."
 msgstr ""
 
 #: ../../usage/managing_maps/creating_maps.rst:15
-#: 101b8968bd434138bd7de0761b0e4c4e
-msgid "*The Create Map link*"
+#: 4bcc714239bb4e3b896b9b0dad72a17b
+msgid "*The Create Map from All Resources page*"
 msgstr ""
 
 #: ../../usage/managing_maps/creating_maps.rst:17
-#: 93b2864b9c254b3eadcc4e08ec4da858
+#: 28adbfc89cf6488ea56e54cbcc3f5e5d
+msgid ""
+"The :guilabel:`New` button after clicking the :guilabel:`Maps` button on "
+"the menu bar."
+msgstr ""
+
+#: ../../usage/managing_maps/creating_maps.rst:22
+#: 4bcc714239bb4e3b896b9b0dad72a17b
+msgid "*The Create Map from Maps page*"
+msgstr ""
+
+#: ../../usage/managing_maps/creating_maps.rst:24
+#: b51e12b2e6474d23b9f9f337b320f400
 msgid ""
 "The :guilabel:`Create map` link in the *Dataset Page* (it creates a map "
 "using a specific dataset)"
 msgstr ""
 
-#: ../../usage/managing_maps/creating_maps.rst:22
-#: 13d0e4ca9344488f81d4620da689d56e
-msgid "*The Create map link from dataset*"
+#: ../../usage/managing_maps/creating_maps.rst:29
+#: 4bcc714239bb4e3b896b9b0dad72a17b
+msgid "*The Create map from dataset*"
 msgstr ""
 
-#: ../../usage/managing_maps/creating_maps.rst:24
-#: cbaccdc373a74f4d856a97d7bada6747
+#: ../../usage/managing_maps/creating_maps.rst:31
+#: b54cbc3308474703b53557f61c182535
 msgid ""
 "The new *Map* will open in a *Map Viewer* like the one in the picture "
 "below."
 msgstr ""
 
-#: ../../usage/managing_maps/creating_maps.rst:29
-#: c473ae3fd55d4e5c9764b6140d207dcb
+#: ../../usage/managing_maps/creating_maps.rst:36
+#: 34d82debb44a44e5bbfb6a1277e609bc
 msgid "*The Map Viewer*"
 msgstr ""
 
-#: ../../usage/managing_maps/creating_maps.rst:31
-#: 511cc9edb2f04aa7acc90f0b47a38f08
+#: ../../usage/managing_maps/creating_maps.rst:38
+#: 39ee5d79f4224949b0680640da794aa5
 msgid ""
 "Using the :guilabel:`Add dataset` link, you can add a layer by clicking "
 "on one of the layers listed in the catalog. In the upper left corner the "
@@ -85,39 +97,40 @@ msgid ""
 "datasets extents ( |zoom_to_dataset_extent_button| ) and to manage their "
 "properties ( |dataset_settings_button| ). Once the map datasets have been"
 " settled it is possible to save the *Map* by clicking on the "
-":guilabel:`Save as` link in the map toolbar."
+":guilabel:`Save as` under the :guilabel:`Resources` link in the map "
+"toolbar."
 msgstr ""
 
-#: ../../usage/managing_maps/creating_maps.rst:43
-#: 1a46c363aa0b40de88ee63e3e368b7c0 8e27f1a26b3e4dafa28b523e6a504298
+#: ../../usage/managing_maps/creating_maps.rst:50
+#: 22434ef41a954d1d8fdf28a2e6bb0869
 msgid "show_button"
 msgstr ""
 
-#: ../../usage/managing_maps/creating_maps.rst:48
-#: 78e8ad94a8a8412680861828c9304b3a 7e9fa578095940388de0fe303978e05a
+#: ../../usage/managing_maps/creating_maps.rst:55
+#: f9529b256abd42df9b9fbcd0d31673a7
 msgid "hide_button"
 msgstr ""
 
-#: ../../usage/managing_maps/creating_maps.rst:53
-#: 665dafda0fff4f0eb6194bb1dcbc09ca 9dd4f501c2b845659905995f477f8178
+#: ../../usage/managing_maps/creating_maps.rst:60
+#: d9d06a01e21d4529916724e530f65101
 msgid "zoom_to_dataset_extent_button"
 msgstr ""
 
-#: ../../usage/managing_maps/creating_maps.rst:58
-#: 860a189273f94c6497ba276024ef34cc c3b2a02932744955a22a87d447d711fa
+#: ../../usage/managing_maps/creating_maps.rst:65
+#: 6e022a687010435a99f4893a127808d3
 msgid "dataset_settings_button"
 msgstr ""
 
-#: ../../usage/managing_maps/creating_maps.rst:38
-#: b97366cc8fa74621abb67c6c9243125b
+#: ../../usage/managing_maps/creating_maps.rst:45
+#: b4c188126b644a56961b7a8f403394a7
 msgid ""
 "If you followed the steps above, you have just created your first *Map*. "
 "Now you should see it in the *Explore Maps* page, see :ref:`map-info` for"
 " further details."
 msgstr ""
 
-#: ../../usage/managing_maps/creating_maps.rst:41
-#: 8ab6ada82efe40e28e8ec0858a5f31cb
+#: ../../usage/managing_maps/creating_maps.rst:48
+#: 8387a2fe6f214b40b03033ffd29de930
 msgid ""
 "We will take a closer look at the *Map Viewer* tools in the :ref"
 ":`exploring-maps` section."
@@ -237,5 +250,45 @@ msgstr ""
 #~ "settled it is possible to save the"
 #~ " *Map* by clicking on |burger_menu_button|"
 #~ " and choosing :guilabel:`Save as`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The :guilabel:`Create map` listed after "
+#~ "clicking the :guilabel:`Create new` link "
+#~ "on the menu above the resources "
+#~ "list page."
+#~ msgstr ""
+
+#~ msgid "*The Create Map link*"
+#~ msgstr ""
+
+#~ msgid "*The Create map link from dataset*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Using the :guilabel:`Add dataset` link, "
+#~ "you can add a layer by clicking"
+#~ " on one of the layers listed in"
+#~ " the catalog. In the upper left "
+#~ "corner the *TOC button* button opens "
+#~ "the :ref:`toc` of the *Map*. It "
+#~ "allows to manage all the datasets "
+#~ "associated with the map and to add"
+#~ " new ones from the :guilabel:`Add "
+#~ "dataset`. The *TOC* component makes "
+#~ "possible to manage datasets overlap on"
+#~ " the map by shifting their relative"
+#~ " positions in the list (drag and "
+#~ "drop them up or down in the "
+#~ "list). It also allows to hide/show "
+#~ "datasets ( |show_button| and |hide_button| "
+#~ "), to zoom to datasets extents ("
+#~ " |zoom_to_dataset_extent_button| ) and to "
+#~ "manage their properties ( "
+#~ "|dataset_settings_button| ). Once the map "
+#~ "datasets have been settled it is "
+#~ "possible to save the *Map* by "
+#~ "clicking on the :guilabel:`Save as` link"
+#~ " in the map toolbar."
 #~ msgstr ""
 

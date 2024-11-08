@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,56 +27,146 @@ msgid "From the *Documents Search Page* (see :ref:`finding-data`) you can select
 msgstr ""
 
 #: ../../usage/managing_documents/document_info.rst:11
+#: 1ca09a8bd3024e72bd792e22cdacabd4
+msgid "The information panel reports:"
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:13
+#: f4d3b8077f1d4f3586e9893be8a13cd6
+msgid "The **Info** tab is active by default. This tab section shows some document metadata such as its title, the abstract, date of publication etc. The metadata also indicates the document owner, what are the topic categories the document belongs to and which regions are affected."
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:18
+#: b2be1d2b679143dea6b7434ecab730fa
+msgid "*Document Information tab*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:20
+#: 0c53174ac10543f19d55c1ed77475b55
+msgid "The **Location** tab shows the spacial extent of the document."
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:25
+#: b2be1d2b679143dea6b7434ecab730fa
+msgid "*Document Location tab*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:27
+#: 5cab3263904146aa9f506d2a1290c9b8
+msgid "By clicking on the copy icons you have a copy of the current *Bounding Box* or the *Center* in the clipboard which once pasted will be a WKT text."
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:32
+#: bd81b57157ed4268a8f7b47c7865aa45
+msgid "*Bounding Box and Center*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:34
+#: 47efd64660a94e94b3772ae63be8a826
+msgid "From the :ref:`document-info` the *Location* tab is in read only mode, to edit it see the :ref:`document-editing`"
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:36
+#: 3dceab7861fc4a9dae2bec2f6e37542c
+msgid "The *Linked Resources* tab shows the resources, that can be *Datasets*, *Maps*, *GeoStories* and *Dashboards*, linked to the document."
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:41
+#: b2be1d2b679143dea6b7434ecab730fa
+msgid "*Document Linked Resources tab*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:43
+#: 3792e21e2b124942b7b14aa39197c0e9
+msgid "When a resource is `linked from` the document the link is under the *Linked by* list while when a resource is `linked to` the document the link is under the *Used by* list"
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:45
+#: 3401f4e8e3ef402e8f293a9b2239a62f
+msgid "From the :ref:`document_metadata` it is possible edit the document *Linked Resources*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:47
+#: 2aea39fd247b4874b545ec9a6c34eb1a
+msgid "From the right toolbar on the **Info** panel it is possible:"
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:52
+#: b2be1d2b679143dea6b7434ecab730fa
+msgid "*Document Info toolbar*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:54
+#: ce907e88fbbc4473afcf708514468b53
+msgid "Add document in your *Favorites* (see :ref:`editing-profile`), clicking on star icon."
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:56
+#: f27e119513634573b793a20ae1a719ba
+msgid "Directly *Download* the document oh `ShapeFile` format"
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:58
+#: 43fbe2ff3ee44a29b23dcd286b4e05bc
+msgid "*Share* the document url"
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:60
+#: 8dc320f8efce4b9489dc66220ea53d97
+msgid "Change the document *Title* by clicking on it"
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:62
 #: 9f9f4a729fe944ca85f2ddb3120b5a66
 msgid "You can access the document details page by clicking on *View document* in the overview panel. That page looks like the one shown in the picture below."
 msgstr ""
 
-#: ../../usage/managing_documents/document_info.rst:17
-#: b2be1d2b679143dea6b7434ecab730fa
-msgid "*Document Information page*"
+#: ../../usage/managing_documents/document_info.rst:68
+#: 8a19339d791d44d8a1a8fb8924e4fc59
+msgid "*Document page*"
 msgstr ""
 
-#: ../../usage/managing_documents/document_info.rst:19
+#: ../../usage/managing_documents/document_info.rst:70
 #: 3a44bb93e1464dc5883f1bdcba65cd20
 msgid "On the page of a document, the resource is either directly displayed on the page or accessible by clicking on the link provided under the title."
 msgstr ""
 
-#: ../../usage/managing_documents/document_info.rst:22
+#: ../../usage/managing_documents/document_info.rst:73
 #: 386d0270df7a4ead92e47ab1e751888a
 msgid "Exploring the Document detail menu Sections"
 msgstr ""
 
-#: ../../usage/managing_documents/document_info.rst:24
+#: ../../usage/managing_documents/document_info.rst:75
 #: f4d3b8077f1d4f3586e9893be8a13cd6
-msgid "The **Info link** section shows the document metadata such as its title, abstract, date of publication etc. The metadata also indicates the user who is responsible for uploading and managing this content, as well as the group to which it is linked."
+msgid "As soon as a document is opened, the **Info** panel is shown. It reports the document metadata such as its title, abstract, date of publication etc. The metadata also indicates the user who is responsible for uploading and managing this content, as well as the group to which it is linked."
 msgstr ""
 
-#: ../../usage/managing_documents/document_info.rst:29
-#: c36e0337e8be406388e1082be6c77b97
-msgid "The **Share link** provides the document link to share."
+#: ../../usage/managing_documents/document_info.rst:83
+#: b32c372fdf5041e188b5ba9b97e1a71e
+msgid "Selecting *View Metadata* from the :guilabel:`View` button it is possible to visualize the metadata of the document"
 msgstr ""
 
-#: ../../usage/managing_documents/document_info.rst:34
+#: ../../usage/managing_documents/document_info.rst:88
+#: c5ec90bfbf1e46eb935241d7e5e2bf12
+msgid "*Document Metadata*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:90
+#: ce5479c1da1b46fca32e58cd6e73da73
+msgid "Under the :guilabel:`Resource` button, it is possible to select the *Share* option to provides the document link to share."
+msgstr ""
+
+#: ../../usage/managing_documents/document_info.rst:95
 #: 8a19339d791d44d8a1a8fb8924e4fc59
 msgid "*Document Sharing*"
 msgstr ""
 
-#: ../../usage/managing_documents/document_info.rst:36
+#: ../../usage/managing_documents/document_info.rst:97
 #: 70e5b715371c490f8645f9dd4a77e240
-msgid "If you want to download the document, click on the *Download* link in the menu and the document will be downloaded automatically."
+msgid "If you want to download the document, click on the :guilabel:`Download` button and the document will be downloaded automatically."
 msgstr ""
 
-#: ../../usage/managing_documents/document_info.rst:41
+#: ../../usage/managing_documents/document_info.rst:102
 #: c5ec90bfbf1e46eb935241d7e5e2bf12
 msgid "*Document Metadata download*"
-msgstr ""
-
-#: ../../usage/managing_documents/document_info.rst:43
-#: ce907e88fbbc4473afcf708514468b53
-msgid "If you want this document in your *Favorites* (see :ref:`editing-profile`), click the **Info link** and click on the start icon."
-msgstr ""
-
-#: ../../usage/managing_documents/document_info.rst:48
-#: 43fbe2ff3ee44a29b23dcd286b4e05bc
-msgid "*Favorite document*"
 msgstr ""

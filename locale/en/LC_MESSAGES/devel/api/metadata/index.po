@@ -1,0 +1,277 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../devel/api/metadata/index.rst:3 00535670e6ec41a6aec401f5ad8035a9
+msgid "Metadata Development via API v2"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:6 333a672a8d874cca87728d06655ecb43
+msgid "Objective"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:8 a735334cf769497bad100e02c8c16541
+msgid ""
+"The following project emerged from the need to address the issues "
+"presented by GeoNode's API v2 for editing a resource's metadata. "
+"Originally, API v2 includes the `PUT` and `PATCH` methods for editing "
+"certain metadata. However, attempts to edit these often result in "
+"uninformative and irrelevant error messages, necessitating backend "
+"intervention with tools to uncover the true causes of these issues; based"
+" on these, an action plan was devised to address them. Additionally, it "
+"was necessary to develop new *endpoints* and handlers from scratch to "
+"enable editing of metadata that previously could not be modified via API "
+"v2. This work is also fundamental for integration with the new metadata "
+"editing *frontend* developed by the KAN team, which will communicate with"
+" the *backend* via this API."
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:15 48ccbc252d094115bbda3637af761a72
+msgid ""
+"[Metadata `keywords` and "
+"`tkeywords`](https://redmine.kan.com.ar/issues/8138#note-11)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:17 8f3567fc1e4449d7b9aabfa26317d546
+msgid ""
+"To enable the setting of `keywords`, the `save()` method of the general "
+"resource serializer (`ResourceBaseSerializer`) was first edited to check "
+"if the `keywords` or `tkeywords` keys are present in the request and "
+"whether they are empty (occurs when attempting to delete existing ones "
+"and leave them as `null`). If these variables are present and empty, they"
+" are cleared for that instance. If they are not empty, the respective "
+"handlers are called to check for existence and create any necessary "
+"entries:"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:37 c3cf0c1f6ea64bdd8265554ec16bc5d3
+msgid ""
+"Next, it was necessary to add a handler in the model for cases where a "
+"list is provided. We extract the `name` of the `keyword`, which is the "
+"value of interest."
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:47 a239631368254bf3833e1eacffc0ed8c
+msgid ""
+"Finally, we check if the `keyword` is already assigned to the resource, "
+"and if not, it is created:"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:73 f3b66fabd7084cc390b24cdf4ee6b866
+msgid ""
+"[**VIEW "
+"COMMIT**](https://git.kan.com.ar/kan/geoexpressportal/geonode/-/commit/f7f41b2dbe3eccfa5b6c7ef42e48920e80aa3f54)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:76 98447653fa184a47bb0e8ca3ade5a812
+msgid "[Metadata `regions`](https://redmine.kan.com.ar/issues/8138#note-12)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:78 4991a521c4704cdfbedce86d2d81a73e
+msgid ""
+"To enable editing of the `regions` metadata, it was necessary to set this"
+" parameter as editable in the endpoint serializer "
+"(`ResourceBaseSerializer`) by setting the parameter `read_only=False`.\\ "
+"Additionally, the `save` method of this serializer had to be modified to "
+"first verify if the resource previously had `regions`. If so, the "
+"existing regions are cleared, and the new ones are set."
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:92 ebf690ed2dc64af1aefcbd8f61286cc1
+msgid ""
+"[**SEE "
+"COMMIT**](https://git.kan.com.ar/kan/geoexpressportal/geonode/-/commit/ad76fe068037ebe4d7aa55f0da5cb2c4b4f9caae)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:95 0118ff887376456cafa0cb4dcf27facb
+msgid "[Metadata `is_approved`](https://redmine.kan.com.ar/issues/8138#note-13)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:97 7cf747b1f55c4ebe99005a27fff307f2
+msgid ""
+"To enable editing of the `is_approved` metadata, it was necessary to set "
+"this parameter as editable in the endpoint serializer "
+"(`ResourceBaseSerializer`) by setting the parameter `read_only=False`."
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:103 d98ab1573bd7499388a58fa5037bfc84
+msgid ""
+"[**SEE "
+"COMMIT**](https://git.kan.com.ar/kan/geoexpressportal/geonode/-/commit/994c1b4314c4540d01343c4f78df054927d63696)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:106 b54db76855be4428af07f0e6a983ebf5
+msgid ""
+"[Metadata "
+"`linked_resources`](https://redmine.kan.com.ar/issues/8373#note-5)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:108 8a74e1f1acb34aeab31a46c388262174
+msgid ""
+"To enable editing of resources related to another resource via API v2, a "
+"handler was developed to allow this operation.\\ The corresponding view "
+"was modified by adding a new handler for the `PATCH` method. This "
+"metadata can be modified by accessing the URL: "
+"`{base_url}/api/v2/resources/{resource_id}/linked_resources`.\\ First, "
+"the object is extracted, and it is verified if it is an integer or a "
+"list; if it is another type, an exception is raised. If valid, the "
+"`update_linked_resources` method is called, passing the object."
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:151 80bafe38b4274c9a840b48243ca8b4b7
+msgid ""
+"In the serializer, a method named `update_linked_resources` was created, "
+"which removes all resources associated with the resource in question that"
+" are not in the list (or *int*) passed as a parameter. This list (or "
+"*int*) is first traversed to obtain the IDs of the records corresponding "
+"to that association, or if no association exists, it will be created."
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:153 e63c9e5b222b4b95a51c4f99b722a6be
+msgid ""
+"[**SEE "
+"COMMIT**](https://git.kan.com.ar/kan/geoexpressportal/geonode/-/commit/a27b0e004f2d4986afeee8a865cd44dd71656188)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:156 97e5ff25f9ca4ef8a618d20caacca6b9
+msgid "[Metadata `is_published`](https://redmine.kan.com.ar/issues/8387#note-3)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:158 a227351efc4444ec80de2ac9a15f8641
+msgid ""
+"To enable the editing of the `is_published` metadata, it was necessary to"
+" set this parameter as editable from the endpoint serializer "
+"(`ResourceBaseSerializer`), setting the parameter `read_only=False`."
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:164 07f8487af3d14e1e8af08ad667520c73
+msgid ""
+"[**SEE "
+"COMMIT**](https://git.kan.com.ar/kan/geoexpressportal/geonode/-/commit/c8496e0c0f6f14bf11cde7bdb832c12e969c84e1)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:167 8f31a7b02dee4233a821fde9d1905305
+msgid "[Metadata `owner`](https://redmine.kan.com.ar/issues/8374#note-4)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:169 e2c0dbafedb64bddbe42e38d54c7af67
+msgid ""
+"To enable the editing of the `owner` metadata, it was necessary to set "
+"this parameter as editable from the endpoint serializer "
+"(`ResourceBaseSerializer`), setting the parameter `read_only=False`."
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:175 db4186e8d1a445fca6ec7d2943a1552c
+msgid ""
+"[**SEE "
+"COMMIT**](https://git.kan.com.ar/kan/geoexpressportal/geonode/-/commit/4b8bdf65d0b24e5c9e4e1adb9107cb59714a9dd9)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:178 9bbadfd25a84445ba8317e784dc0e873
+msgid ""
+"[Metadata "
+"`metadata_uploaded_preserve`](https://redmine.kan.com.ar/issues/8388#note-2)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:180 00da77c60bb54939ba601178d0b3d8da
+msgid ""
+"To enable the editing of the `metadata_uploaded_preserve` metadata, it "
+"was necessary to declare this field in the serializer and set it as a "
+"supported field.\\ It was also added to the `extra_kwargs` dictionary and"
+" set as *not required*."
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:207 02011911cd8c4e02806a2d865483adae
+msgid ""
+"[**SEE "
+"COMMIT**](https://git.kan.com.ar/kan/geoexpressportal/geonode/-/commit/3bcabccf975ca9ea57df4b0f9c6ff5d2c2d7f652)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:210 337536fefb40469fb0d45d48bf0f77b7
+msgid ""
+"[Metadata "
+"`use_featureinfo_custom_template`](https://redmine.kan.com.ar/issues/8388#note-2)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:212 5fed2eedd1fc49baa3d6cad7e80860e0
+msgid ""
+"To enable the editing of the `use_featureinfo_custom_template` metadata, "
+"it was necessary to declare this field in the layer serializer "
+"(DatasetSerializer) and set it as a supported field."
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:229 5da91787082d400c96d97df130b0c778
+msgid ""
+"[**SEE "
+"COMMIT**](https://git.kan.com.ar/kan/geoexpressportal/geonode/-/commit/757014688f59fbafc70a65abdaa8d1c608de5a52)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:232 fe7a5977f10e4363a3ba3220c505a197
+msgid ""
+"[Setting Nulls in Metadata `doi`, `temporal_extent_start`, "
+"`temporal_extent_end`, `edition`, `maintenance_frequency`, and "
+"`spatial_representation_type`](https://redmine.kan.com.ar/issues/8528#note-5)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:234 218e707f13dc48c88f35bb6a521bed69
+msgid ""
+"Although it was possible to edit the named metadata via API v2, they "
+"would fail when trying to set them to null values. To fix this, the "
+"parameters `allow_null=True` and in some cases `allow_blank=True` had to "
+"be set in the field definitions within the general resource serializer "
+"(`ResourceBaseSerializer`)."
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:247 a00518c11884467b9a6aeb598ac7a831
+msgid ""
+"[**SEE "
+"COMMIT**](https://git.kan.com.ar/kan/geoexpressportal/geonode/-/commit/20c652d7ecf816c7e5f932a75731f24c2979cfe3)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:250 b58ff622dfda44f0b0e7fa84ecf25824
+msgid "[Metadata `attribute_set`](https://redmine.kan.com.ar/issues/8383#note-13)"
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:252 f58b0770e95c4ab5b38a3bf5a330f1a0
+msgid ""
+"New functionality was developed to create and/or update (in the same "
+"request) the attribute_set of a layer (Attributes model) via API v2 with "
+"the PATCH method. The way to access this new endpoint is: "
+"`{base_url}/api/v2/datasets/{dataset_id}/attribute_set`.\\ Using the GET "
+"method, the API will respond with the attributes that the layer already "
+"has.\\ To achieve this, the original ViewSet was overridden by adding "
+"handlers for the `GET` and `PATCH` methods."
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:278 027b12b0304b4080a3ae25dc7a329a19
+msgid ""
+"Additionally, a new method called `update_or_create` was created in the "
+"attribute serializer (`AttributeSerializer`). Based on the layer and "
+"attribute(s) passed to it, it will check if the `attribute` already "
+"exists, in which case it will overwrite the rest of its parameters. "
+"Otherwise, it will assign them to the relevant layer."
+msgstr ""
+
+#: ../../devel/api/metadata/index.rst:300 ba43a9bcca084fa6be60a08f07f44249
+msgid ""
+"[**SEE "
+"COMMIT**](https://git.kan.com.ar/kan/geoexpressportal/geonode/-/commit/6a7b0a60eea5d049491d97f88b4f85491094f5e1)"
+msgstr ""
+

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,17 +42,13 @@ msgid "**GeoNode** (Security Backend):"
 msgstr ""
 
 #: ../../advanced/components/index.rst:13
-#: ../../advanced/components/index.rst:77
 #: 728414b220d144cd87dec372058158e5
-#: 0178bb8d2efa4248aa0b7980f007b44c
-msgid "DJango Authentication"
+msgid "Django Authentication"
 msgstr ""
 
 #: ../../advanced/components/index.rst:15
-#: ../../advanced/components/index.rst:253
 #: 8149d57a1626411cb8fd4ad5b3766382
-#: d9b36cd4b02d4a919dbb5ac56b1be018
-msgid "DJango OAuth Toolkit Setup and Configuration"
+msgid "Django OAuth Toolkit Setup and Configuration"
 msgstr ""
 
 #: ../../advanced/components/index.rst:17
@@ -181,6 +177,11 @@ msgstr ""
 #: ../../advanced/components/index.rst:74
 #: 5d9272a4760c43659e77b5bfad5e0d07
 msgid "GeoNode Security Backend"
+msgstr ""
+
+#: ../../advanced/components/index.rst:77
+#: 0178bb8d2efa4248aa0b7980f007b44c
+msgid "DJango Authentication"
 msgstr ""
 
 #: ../../advanced/components/index.rst:79
@@ -534,6 +535,11 @@ msgstr ""
 #: ../../advanced/components/index.rst:250
 #: 1164885ebe524e74b281a20a82a56359
 msgid "Let's now see in details how the single pieces are configured and how they can be configured."
+msgstr ""
+
+#: ../../advanced/components/index.rst:253
+#: d9b36cd4b02d4a919dbb5ac56b1be018
+msgid "DJango OAuth Toolkit Setup and Configuration"
 msgstr ""
 
 #: ../../advanced/components/index.rst:255

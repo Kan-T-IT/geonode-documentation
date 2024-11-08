@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-11-08 11:04-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,55 +23,110 @@ msgstr ""
 
 #: ../../usage/managing_datasets/dataset_info.rst:6
 #: 4f985f78eea0492980860ec600aa4270
-msgid "In this section you will learn more about datasets. In the :ref:`finding-data` section we explain how to find datasets, now we want to go more in depth showing you how to explore detailed information about that."
+msgid "From the *Dataset Search Page* (see :ref:`finding-data`) you can select the dataset you are interested in and click on its name to see an overview about it."
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_info.rst:7
-#: 7c54deb688c6421599ac9361b362fe57
-msgid "From the resource list page, filter with datasets, click on the dataset you are interested in. The overview page will be shown on the right, Then click on *View dataset*, The dataset detail page will open."
+#: ../../usage/managing_datasets/dataset_info.rst:11
+#: 36972f459029417fb08986c192d557e2
+msgid "The information panel reports:"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_info.rst:9
-#: 0c0aa73fdeda4e248413adb33befaa80
-msgid "The Dataset page has a menu which helps us to view and update dataset attributes."
-msgstr ""
-
-#: ../../usage/managing_datasets/dataset_info.rst:14
-#: d58688ab9a16410eac53607cd349b625
-msgid "*Dataset Menu*"
-msgstr ""
-
-#: ../../usage/managing_datasets/dataset_info.rst:17
-#: 2c244f0cf4b6475287c79f03341e79ea
-msgid "Dataset Info"
-msgstr ""
-
-#: ../../usage/managing_datasets/dataset_info.rst:18
-#: 01d4aba0d33e4c8bac316e8fb0135049
-msgid "When you click the *Info* link in the menu, a new page will be opened on right."
-msgstr ""
-
-#: ../../usage/managing_datasets/dataset_info.rst:20
+#: ../../usage/managing_datasets/dataset_info.rst:13
 #: c4f0e149c5a34bcfa34b5097bace3002
 msgid "The *Info* tab is active by default. This tab section shows some dataset metadata such as its title, the abstract, date of publication etc. The metadata also indicates the dataset owner, what are the topic categories the dataset belongs to and which regions are affected."
 msgstr ""
 
+#: ../../usage/managing_datasets/dataset_info.rst:18
+#: f082c5d732a8428faa410dff71dd8c8d
+msgid "*Dataset Info tab*"
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_info.rst:20
+#: ab746c5d87e84199a92a0187f8c5dc93
+msgid "The *Location* tab shows the spacial extent of the dataset."
+msgstr ""
+
 #: ../../usage/managing_datasets/dataset_info.rst:25
 #: f082c5d732a8428faa410dff71dd8c8d
-msgid "*Dataset Infor tab*"
+msgid "*Dataset Location tab*"
 msgstr ""
 
 #: ../../usage/managing_datasets/dataset_info.rst:27
+#: fb1f74fc9bbd4ea088ae6e1354e0a5cb
+msgid "By clicking on the copy icons you have a copy of the current *Bounding Box* or the *Center* in the clipboard which once pasted will be a WKT text."
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_info.rst:32
+#: d9b529dbd9ae4d76938deb6a055f6427
+msgid "*Bounding Box and Center*"
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_info.rst:34
 #: e1d7d1ea045c4d7d9eddffee6347c8f2
 msgid "The *Attributes* tab shows the data structure behind the dataset. All the attributes are listed and for each of them some statistics (e.g. the range of values) are estimated (if possible)."
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_info.rst:32
+#: ../../usage/managing_datasets/dataset_info.rst:39
 #: a11a6992a7b1429ebf5f509f8146fee5
 msgid "*Dataset Attributes tab*"
 msgstr ""
 
-#: ../../usage/managing_datasets/dataset_info.rst:34
+#: ../../usage/managing_datasets/dataset_info.rst:41
+#: 031c94a5ec49414baa77b36ede71ed02
+msgid "The *Linked Resources* tab shows the resources, that can be *Documents*, *Maps*, *GeoStories* and *Dashboards*, linked to the dataset."
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_info.rst:46
+#: 43c7e7cf43914a45aa468fb0b6f21b98
+msgid "*Dataset Linked Resources tab*"
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_info.rst:48
+#: 8a1ec2238c74488db187317cbe796e07
+msgid "When a resource is `linked from` the dataset the link is shown under the *Linked by* list while when a resource is `linked to` the dataset the link is shown under the *Used by* list"
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_info.rst:50
+#: c4a78014f42048e49865232f420fa8ee
+msgid "From the right toolbar on the **Info** panel it is possible:"
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_info.rst:55
+#: f082c5d732a8428faa410dff71dd8c8d
+msgid "*Dataset Info toolbar*"
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_info.rst:57
 #: 1e8898151ba84fe9ac3bc04fd045d5bd
-msgid "If you want this dataset in your *Favorites* (see :ref:`editing-profile`), You can click on star icon near the datset name."
+msgid "Add dataset in your *Favorites* (see :ref:`editing-profile`), clicking on star icon."
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_info.rst:59
+#: 50a1c568114b4c1996fb7540267c5573
+msgid "Directly *Download* the dataset oh `ShapeFile` format"
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_info.rst:61
+#: 75d7f15d8b6c455c88e2194543490f2e
+msgid "*Share* the dataset url"
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_info.rst:63
+#: 39e10fb1959e4188b9c685157ab22bf5
+msgid "Copy the *WMS Capabilities url*"
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_info.rst:65
+#: 0207268e0111414bae8a41726e5264f5
+msgid "Change the dataset *Title* by clicking on it"
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_info.rst:67
+#: e22f2c68bb774b7a92b66edd0a92e697
+msgid "You can access the dataset details page by clicking on *View dataset* in the overview panel. That page looks like the one shown in the picture below."
+msgstr ""
+
+#: ../../usage/managing_datasets/dataset_info.rst:73
+#: d58688ab9a16410eac53607cd349b625
+msgid "*Dataset page*"
 msgstr ""

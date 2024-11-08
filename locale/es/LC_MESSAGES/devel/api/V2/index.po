@@ -2,27 +2,25 @@
 # Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
 # Translators:
 # Hernán Javier López, 2024
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 3.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-10 11:11+0200\n"
-"PO-Revision-Date: 2024-08-23 15:33-0300\n"
+"PO-Revision-Date: 2024-07-19 20:54+0000\n"
 "Last-Translator: Hernán Javier López, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/kantit/teams/125753/es/)\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
-"1 : 2;\n"
 "Generated-By: Babel 2.12.1\n"
-"X-Generator: Poedit 3.4.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../devel/api/V2/index.rst:4 72316819f1da4520b9d030c2efe494e9
 msgid "API v2 - Schema"
@@ -277,7 +275,7 @@ msgstr "Un valor entero único que identifica esta categoría de tema."
 #: 4d272bba5d10421298c5fdb40815f738 5bd7b863c11a477cac218833e12a9f68
 #: 5d016fb67aa34b6d85e659e7fbaf7cd7
 msgid "API endpoint that allows layers to be viewed or edited."
-msgstr "Punto de acceso API que permite ver o editar capas."
+msgstr "Punto de acceso API que permite ver o editar capas. "
 
 #: ../../<openapi>:1 23fc5eb5e56f44caa249a620f3272b76
 #: 2a89caa4619647f78fe2f2dd89edad01 9f12befa4bde403281045dd99156e5f4
@@ -346,7 +344,7 @@ msgid ""
 "true (or 1): records will be fetched and then updated in a transaction loop"
 msgstr ""
 "true (o 1): los registros serán obtenidos y luego actualizados en un bucle "
-"de transacción"
+"de transacción."
 
 #: ../../<openapi>:1 203da81dda024e428ff9d2f835b5c907
 #: 7ce9b14e2e4345c39c19e8a21390e86f 84e004e3c713410d92db1afca0cd6814
@@ -354,7 +352,7 @@ msgstr ""
 #: d25ee2d5fa7748f2b1b93fbde8b9c8e3 ead122376a774974b53f8b3e4ab0a868
 msgid "The `Model.save` method will be called and model signals will run"
 msgstr ""
-"Se llamará al método `Model.save` y se ejecutarán las señales del modelo"
+"Se llamará al método `Model.save` y se ejecutarán las señales del modelo."
 
 #: ../../<openapi>:1 2211c7f61a28455a9c1dd0f390d87cf6
 #: 3d415a5f8d58471fbe8d567a449ae790 701f1e01686c4ff097f11820346dae80
@@ -364,21 +362,21 @@ msgid ""
 "This can be slow if there are too many signals or many records in the query"
 msgstr ""
 "Esto puede ser lento si hay demasiadas señales o muchos registros en la "
-"consulta"
+"consulta."
 
 #: ../../<openapi>:1 1fc0434e62c941e58ae2b34862bc2e14
 #: 227a3bb6c780499eae9c364ea98f1134 2d206b1f25d44902a3a1368986390e9e
 #: 2ff52cac94934eccbc25222da8ad1830 386d45ce47ca4c6f9d983517ad7efc31
 #: 786ca7eb04ba4289bdd3e302cb6f76c9 d6c4bd7082ed4e9388ece3269a0dd79b
 msgid "This is considered the more safe and default behavior"
-msgstr "Este se considera el comportamiento más seguro y predeterminado"
+msgstr "Este se considera el comportamiento más seguro y predeterminado."
 
 #: ../../<openapi>:1 58bbe634447f476090a2912106a493fc
 #: 610d586a2809462c910f46fe3c6091f9 662c4dc7a9074d60890273a882797d43
 #: 7bfd8cd2d7044374be22bc87c6a3329b a76bb345fe7c4dea923e041336a5284d
 #: cb7b531a2ee04e92b8fdb2664c79b9e3 eb3889a26b4d4c08b82ea6c98fad0d41
 msgid "query: records will be updated in a single query"
-msgstr "query: los registros se actualizarán en una sola consulta"
+msgstr "query: los registros se actualizarán en una sola consulta."
 
 #: ../../<openapi>:1 2c3f22d36ecd4d6fad46a2e481f8a8cd
 #: 2ed57fc563de450cbc79d62488bc360f 6b3f5858e5114ab1a9fc88672780ba18
@@ -388,7 +386,7 @@ msgid ""
 "The `QuerySet.update` method will be called and model signals will not run"
 msgstr ""
 "Se llamará al método `QuerySet.update` y no se ejecutarán las señales del "
-"modelo"
+"modelo."
 
 #: ../../<openapi>:1 047d887152a9469c9d61395ae3c0849a
 #: 58f72f8a6eb5498587fd05ee51b61e43 59231d3ea04848ecae77f79eaff17071
@@ -399,23 +397,23 @@ msgid ""
 "signals"
 msgstr ""
 "Esto será rápido, pero puede romper las restricciones de datos que son "
-"controladas por señales"
+"controladas por señales."
 
 #: ../../<openapi>:1 0f140575229247e1827d7f86d358587d
 #: 1795ad06816645dc9006435e4e4ccf26 3a0423f80c994ab1ae771e52959b5f88
 #: 5995faafa78b4830813cb832f42f5d7e b2389564a4e64da298e17883ba2f8301
 #: c168eb006ba14fda823be7c49d00ddd5 fdb259b7e8fb4ee89f38719521be23b6
 msgid "This is considered unsafe but useful in certain situations"
-msgstr "Esto se considera inseguro, pero útil en ciertas situaciones"
+msgstr "Esto se considera inseguro, pero útil en ciertas situaciones."
 
 #: ../../<openapi>:1 1f5cfa287f9d444e93001fb656b45f7c
 #: 395e27bf2f484645861eeceec4098ad9 49bc57bfb50740d59a6badfb7e916b20
 #: 884e97f5a7824b5385ecf7545e310e11 8fdc3bc0060940a684bcabbdda2f05ff
 #: ab8dd82641e84e2f9156fb3bfb81e2c0 cf29add2e3514b1f990117593e7b942f
 msgid ""
-"The server's successful response to a patch-all request will NOT include "
-"any individual records. Instead, the response content will contain a \"meta"
-"\" object with an \"updated\" count of updated records."
+"The server's successful response to a patch-all request will NOT include any"
+" individual records. Instead, the response content will contain a \"meta\" "
+"object with an \"updated\" count of updated records."
 msgstr ""
 "La respuesta exitosa del servidor a una solicitud patch-all NO incluirá "
 "ningún registro individual. En su lugar, el contenido de la respuesta "
@@ -570,9 +568,9 @@ msgstr ""
 #: 857973053fdc46199af91824ec01e051 c3cad696800641fbb58b45cd4e17a6de
 #: f6747d1ab9e9476582eca40862624ddb
 msgid ""
-"This method gets mapped to `/<resource>/<pk>/<field_name>/` by "
-"DynamicRouter for all DynamicRelationField fields. Generally, this method "
-"probably shouldn't be overridden."
+"This method gets mapped to `/<resource>/<pk>/<field_name>/` by DynamicRouter"
+" for all DynamicRelationField fields. Generally, this method probably "
+"shouldn't be overridden."
 msgstr ""
 "Este método se asigna a `/<resource>/<pk>/<field_name>/` por DynamicRouter "
 "para todos los campos DynamicRelationField. En general, este método "
@@ -603,8 +601,8 @@ msgstr ""
 #: ../../<openapi>:1 249eacf24c9b467cb7886479a99a90c9
 msgid "API endpoint allowing to retrieve maps using the dataset."
 msgstr ""
-"Punto de acceso de la API que permite recuperar mapas utilizando el "
-"conjunto de datos."
+"Punto de acceso de la API que permite recuperar mapas utilizando el conjunto"
+" de datos."
 
 #: ../../<openapi>:1 e462b36ff7524545a8845f17f1238411
 msgid ""
@@ -679,8 +677,8 @@ msgstr ""
 #: 8591453c45ab4854987a2c03a5ee5fc4 cf08d023f77b4c1b86b1dfe998cf28b3
 #: e6645f279e104474922d8e7de7eecffa
 msgid ""
-"The data can be represented by the serializer name (single or plural "
-"forms), dict or list."
+"The data can be represented by the serializer name (single or plural forms),"
+" dict or list."
 msgstr ""
 "Los datos se pueden representar mediante el nombre del serializador (forma "
 "simple o plural), diccionario o lista."
@@ -821,8 +819,8 @@ msgstr ""
 #: ../../<openapi>:1 e7f0820cdb414badb3f1356f6700cfbb
 msgid "API endpoint allowing to retrieve the Group specific resources."
 msgstr ""
-"Punto de acceso de la API que permite recuperar los recursos específicos "
-"del grupo."
+"Punto de acceso de la API que permite recuperar los recursos específicos del"
+" grupo."
 
 #: ../../<openapi>:1 05416b1b377a4254ae2ed0095f2ae24f
 #: 163a914abf9e43ebb733658fe40b2bea 56830e78ac424966be7e03fc9dd562c6
@@ -846,8 +844,8 @@ msgstr "Atributos:"
 #: 68e82129bb6c449a8c9dfcd7f875a006 819cf60e413545eebe3da0d5ce8aa74a
 #: 9138ad4423a04afd982aaf998972675b d3a42110b2044aab913b44cbddb0c3ad
 msgid ""
-"features: A list of features supported by the viewset. meta: Extra data "
-"that is added to the response by the DynamicRenderer."
+"features: A list of features supported by the viewset. meta: Extra data that"
+" is added to the response by the DynamicRenderer."
 msgstr ""
 "características: una lista de características admitidas por el conjunto de "
 "vistas. meta: datos adicionales que DynamicRenderer agrega a la respuesta."
@@ -1011,8 +1009,8 @@ msgstr "Un valor entero único que identifica esta región."
 #: ../../<openapi>:1 d04559a980fc445baddae79b62374cde
 msgid "Main dispatcher endpoint to follow an API request status progress"
 msgstr ""
-"Punto de acceso del despachador principal para seguir el progreso del "
-"estado de una solicitud de API"
+"Punto de acceso del despachador principal para seguir el progreso del estado"
+" de una solicitud de API"
 
 #: ../../<openapi>:1 3fbdb3a5e84d45b1b5ea74784073d76b
 msgid "GET input: <str: execution id>"
@@ -1048,8 +1046,8 @@ msgid ""
 "Instructs the Async dispatcher to execute a 'COPY' operation over a valid "
 "'uuid'."
 msgstr ""
-"Indica al despachador Async que ejecute una operación 'COPY' sobre un "
-"'uuid' válido."
+"Indica al despachador Async que ejecute una operación 'COPY' sobre un 'uuid'"
+" válido."
 
 #: ../../<openapi>:1 0640cb8d697a4fbfae89a95a4198fc4a
 msgid ""
@@ -1083,7 +1081,7 @@ msgstr ""
 #: 6d410a16342641819f0c3478912ddf3f 83388824e466492287d91fe89320da9d
 #: 95f11c72cb3f4dd09d63184edb41fb65 e7658fb6d4a2416587b07ea729d55fa8
 msgid "the mapping looks like: ``` {"
-msgstr "el mapeo se ve así: ``` {"
+msgstr "El mapeo se ve así: ``` {"
 
 #: ../../<openapi>:1 4fd35fdea8704442afd511ecd0ed8723
 #: 5f7f7a54d7d942a79be96e8519cfa53b 8ddf08dee6124bdea23450c41e2839e2
@@ -1141,8 +1139,8 @@ msgstr ""
 msgid ""
 "API endpoint allowing to set the thumbnail url for an existing dataset."
 msgstr ""
-"Punto de acceso de la API que permite establecer la URL de miniatura para "
-"un conjunto de datos existente."
+"Punto de acceso de la API que permite establecer la URL de miniatura para un"
+" conjunto de datos existente."
 
 #: ../../<openapi>:1 9559769a8aff490e9e21206c2ccbf5d6
 msgid "API endpoint allowing to retrieve the approved Resources."
@@ -1250,7 +1248,7 @@ msgstr ""
 
 #: ../../<openapi>:1 c97a6367ab184b43bbeacbc6e4fa9988
 msgid "the form params look like: ```"
-msgstr "los parámetros del formulario se ven así: ```"
+msgstr "Los parámetros del formulario se ven así: ```"
 
 #: ../../<openapi>:1 44276ced12ab4eda97932e84c9632a6b
 msgid ""

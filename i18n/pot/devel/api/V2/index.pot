@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-19 16:32-0300\n"
+"POT-Creation-Date: 2024-11-08 11:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "OpenAPI 3.0 Schema"
 msgstr ""
 
-#: ../../<openapi>:0
+#: ../../devel/api/V2/index.rst:0
 #: 41400dfa9b734e88bd7a7df28b49e637
 #: 787f545e10f54c1ca69c227621e0e4b2
 #: 50848da461294b7d844557f08853a50d
@@ -191,7 +191,7 @@ msgstr ""
 msgid "API endpoint that lists categories."
 msgstr ""
 
-#: ../../<openapi>:0
+#: ../../devel/api/V2/index.rst:0
 #: f47c0147cc2d421cbf511ba6ea111f58
 #: 5098e040a1f4401a92cff444a94ca850
 #: 56f2b8aba38f41ce98cfae6b53b32e44
@@ -379,7 +379,7 @@ msgstr ""
 msgid "A search term."
 msgstr ""
 
-#: ../../<openapi>:0
+#: ../../devel/api/V2/index.rst:0
 #: ffa8c06cb5e44d4ca8bf33d2549107a2
 #: 5913625b7d004fd099a639d04b637e48
 #: 0f349c83c91b4565b106f83efa07e912
